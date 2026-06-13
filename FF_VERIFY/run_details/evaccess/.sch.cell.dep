@@ -1,0 +1,5 @@
+NAND { }
+NOT { }
+DA { }
+pulse { NOT NAND }
+Pulse_FF { DA pulse }

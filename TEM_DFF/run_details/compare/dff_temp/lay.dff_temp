@@ -1,0 +1,47 @@
+{NETLIST dff_temp
+{VERSION 1 0 0}
+
+{CELL dff_temp
+    {PORT Q_N gnd! vdd! Q clk1 D clk2 }
+    {INST M4=N {PROP n="N" x=10.405 y=-6.605 Length=0.2 Width=0.36 }
+	{PIN clk1=GATE N_23=SRC gnd!=DRN }}
+    {INST M11=P {PROP n="P" x=8.405 y=-4.400 Length=0.2 Width=1.44 }
+	{PIN clk2=GATE N_15=SRC N_10=DRN }}
+    {INST M18=P {PROP n="P" x=11.405 y=-4.400 Length=0.2 Width=1.44 }
+	{PIN N_26=GATE Q=SRC vdd!=DRN }}
+    {INST M3=N {PROP n="N" x=6.405 y=-6.605 Length=0.2 Width=0.36 }
+	{PIN N_10=GATE N_11=SRC gnd!=DRN }}
+    {INST M10=N {PROP n="N" x=13.405 y=-6.605 Length=0.2 Width=0.36 }
+	{PIN N_23=GATE Q_N=SRC N_26=DRN }}
+    {INST M17=P {PROP n="P" x=9.405 y=-4.400 Length=0.2 Width=1.44 }
+	{PIN N_23=GATE N_26=SRC N_11=DRN }}
+    {INST M2=N {PROP n="N" x=7.405 y=-6.605 Length=0.2 Width=0.36 }
+	{PIN N_11=GATE N_15=SRC gnd!=DRN }}
+    {INST M9=N {PROP n="N" x=12.405 y=-6.605 Length=0.2 Width=0.36 }
+	{PIN Q=GATE Q_N=SRC gnd!=DRN }}
+    {INST M16=P {PROP n="P" x=5.405 y=-4.400 Length=0.2 Width=1.44 }
+	{PIN N_2=GATE N_10=SRC D=DRN }}
+    {INST M1=N {PROP n="N" x=8.405 y=-6.605 Length=0.2 Width=0.36 }
+	{PIN N_2=GATE N_15=SRC N_10=DRN }}
+    {INST M8=N {PROP n="N" x=11.405 y=-6.605 Length=0.2 Width=0.36 }
+	{PIN N_26=GATE Q=SRC gnd!=DRN }}
+    {INST M15=P {PROP n="P" x=4.505 y=-4.400 Length=0.2 Width=1.44 }
+	{PIN clk2=GATE N_2=SRC vdd!=DRN }}
+    {INST M7=N {PROP n="N" x=9.405 y=-6.605 Length=0.2 Width=0.36 }
+	{PIN clk1=GATE N_26=SRC N_11=DRN }}
+    {INST M14=P {PROP n="P" x=10.405 y=-4.400 Length=0.2 Width=1.44 }
+	{PIN clk1=GATE N_23=SRC vdd!=DRN }}
+    {INST M6=N {PROP n="N" x=5.405 y=-6.605 Length=0.2 Width=0.36 }
+	{PIN clk2=GATE N_10=SRC D=DRN }}
+    {INST M13=P {PROP n="P" x=6.405 y=-4.400 Length=0.2 Width=1.44 }
+	{PIN N_10=GATE N_11=SRC vdd!=DRN }}
+    {INST M20=P {PROP n="P" x=13.405 y=-4.400 Length=0.2 Width=1.44 }
+	{PIN clk1=GATE Q_N=SRC N_26=DRN }}
+    {INST M5=N {PROP n="N" x=4.505 y=-6.605 Length=0.2 Width=0.36 }
+	{PIN clk2=GATE N_2=SRC gnd!=DRN }}
+    {INST M12=P {PROP n="P" x=7.405 y=-4.400 Length=0.2 Width=1.44 }
+	{PIN N_11=GATE N_15=SRC vdd!=DRN }}
+    {INST M19=P {PROP n="P" x=12.405 y=-4.400 Length=0.2 Width=1.44 }
+	{PIN Q=GATE Q_N=SRC vdd!=DRN }}
+}
+}

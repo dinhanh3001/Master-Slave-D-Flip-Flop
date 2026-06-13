@@ -1,0 +1,11 @@
+dff_nonoverlap Level=0 Count=1
+
+
+		CELL STATISTICS
+
+
+TOP CELL = dff_nonoverlap
+	Ports                =	7
+
+CELL = dff_nonoverlap
+	Flat Placements      =	0

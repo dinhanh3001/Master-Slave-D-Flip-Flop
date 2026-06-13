@@ -1,0 +1,8 @@
+Pulse_FF
+	Cell Level Device Counts
+		NMOS[N] = 11
+		PMOS[P] = 10
+
+********  DEVICE EXTRACTION STATS    TOPBLOCK = Pulse_FF  *******
+		NMOS[N] = 11
+		PMOS[P] = 10

@@ -1,0 +1,2 @@
+#!/bin/sh
+cd /home/itsupport/Desktop/DOAN/D_FF_NON_VERIFY; unset TCLLIBPATH; unset TCL_LIBRARY; exec-oa22.04.hercules hercules_oa -f openaccess -i D_FF -b dff_nonoverlap -p . -O gdsii -o dff_nonoverlap_result.gds -s /home/itsupport/Desktop/DOAN/synopsys_custom/dff_nonoverlap.hercules.lvs/dff_nonoverlap.custom_compiler.sp -sf CDL -stb dff_nonoverlap /home/itsupport/Desktop/DOAN/D_FF_NON_VERIFY/reference_lvs.lvs.evx > /home/itsupport/Desktop/DOAN/D_FF_NON_VERIFY/stdout.lvs.log 2>&1

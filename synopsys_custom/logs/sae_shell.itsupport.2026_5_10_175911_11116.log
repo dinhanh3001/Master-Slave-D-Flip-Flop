@@ -1,0 +1,29 @@
+[17:59:13.13] /m Information: License 'SAE' checked out. (LICENSE-003)
+[17:59:14.57] /o sae_shell Version Custom Compiler N-2017.12-SP1-2
+              /c Build  (OPT) compiled on Wed May 16 15:20:56 2018 for RHEL64 6.6
+              /c Execution time: Sun May 10 17:59:11 2026
+              /c Host: localhost.localdomain
+              /c 
+              /c Copyright © 2004-2018 Synopsys, Inc.
+              /c This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, or distribution of this software is strictly prohibited.
+              /c 
+              /c 
+[17:59:14.63] /w Warning: Preference 'leActiveLPP' is deprecated and scheduled for removal in a future release with no replacement. For migration assistance, see the Custom Compiler Tcl Reference Manual. (PREFERENCE-058)
+[17:59:14.63] /o 	#######################################
+[17:59:14.63] /o 	PDK Library Name	: reference90RF
+[17:59:14.63] /o 	PDK Version		: 2.0
+[17:59:14.63] /o 	PDK Release Date	: 25-March-2010 
+[17:59:14.63] /o 	#######################################
+[17:59:14.63] /o 
+[17:59:14.64] /i ::sa::_backgroundSaeShell::signalProcessReady 1778410750
+[17:59:14.64] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::processReady 4
+[18:00:45.00] /i ::sa::_backgroundSaeShell::runScript /home/itsupport/simulation/D_FF,dff_nonoverlap_testbench,config/history_1/simulation/default/HSPICE/parametric/.bg_measurement_script.tcl sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession0 testbenchName default resultsDir /home/itsupport/simulation/D_FF,dff_nonoverlap_testbench,config/history_1/simulation/default/HSPICE/parametric/results testSuiteDir /home/itsupport/simulation/D_FF,dff_nonoverlap_testbench,config/history_1/simulation/default/HSPICE/parametric databaseName /home/itsupport/simulation/D_FF,dff_nonoverlap_testbench,config/history_1/simulation/default/HSPICE/parametric/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[18:00:46.05] /m Information: Started sharing "Custom WaveView" license. (WAVEFORM-110)
+[18:00:46.56] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::scriptFinished 1.5 {} sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession0 testbenchName default resultsDir /home/itsupport/simulation/D_FF,dff_nonoverlap_testbench,config/history_1/simulation/default/HSPICE/parametric/results testSuiteDir /home/itsupport/simulation/D_FF,dff_nonoverlap_testbench,config/history_1/simulation/default/HSPICE/parametric databaseName /home/itsupport/simulation/D_FF,dff_nonoverlap_testbench,config/history_1/simulation/default/HSPICE/parametric/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[18:00:46.56] /o false
+[18:02:22.10] /i ::sa::_backgroundSaeShell::runScript /home/itsupport/simulation/D_FF,dff_nonoverlap_testbench,config/history_1/simulation/default/HSPICE/parametric/.bg_measurement_script.tcl sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession0 testbenchName default resultsDir /home/itsupport/simulation/D_FF,dff_nonoverlap_testbench,config/history_1/simulation/default/HSPICE/parametric/results testSuiteDir /home/itsupport/simulation/D_FF,dff_nonoverlap_testbench,config/history_1/simulation/default/HSPICE/parametric databaseName /home/itsupport/simulation/D_FF,dff_nonoverlap_testbench,config/history_1/simulation/default/HSPICE/parametric/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[18:02:23.01] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::scriptFinished 0.9 {} sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession0 testbenchName default resultsDir /home/itsupport/simulation/D_FF,dff_nonoverlap_testbench,config/history_1/simulation/default/HSPICE/parametric/results testSuiteDir /home/itsupport/simulation/D_FF,dff_nonoverlap_testbench,config/history_1/simulation/default/HSPICE/parametric databaseName /home/itsupport/simulation/D_FF,dff_nonoverlap_testbench,config/history_1/simulation/default/HSPICE/parametric/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[18:02:23.01] /o false
+[18:03:15.15] /i ::wf::viewerExited
+[18:03:20.40] /i ::sa::_backgroundSaeShell::exit
+[18:03:20.40] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::childFormallyExiting

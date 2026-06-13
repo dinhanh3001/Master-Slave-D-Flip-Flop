@@ -1,0 +1,2 @@
+#!/bin/sh
+cd /home/itsupport/Desktop/DOAN/NOT_VERIFY; unset TCLLIBPATH; unset TCL_LIBRARY; exec-oa22.04.hercules hercules_oa -f openaccess -i DOAN -b NOT -p . -O gdsii -o NOT_result.gds -s /home/itsupport/Desktop/DOAN/synopsys_custom/NOT.hercules.lvs/NOT.custom_compiler.sp -sf CDL -stb NOT /home/itsupport/Desktop/DOAN/NOT_VERIFY/reference_lvs.lvs.evx > /home/itsupport/Desktop/DOAN/NOT_VERIFY/stdout.lvs.log 2>&1

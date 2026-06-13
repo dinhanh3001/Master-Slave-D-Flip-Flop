@@ -1,0 +1,1278 @@
+[22:43:17.31] /r giWindowId 0
+[22:43:17.31] /r giWindowGeometry 600x300
+[22:43:17.32] /o 
+              /c                                 Custom Compiler 
+              /c 
+              /c               Version N-2017.12-SP1-2 for linux64 - May 16, 2018 
+              /c 
+              /c                     Copyright (c) 2004 - 2018 Synopsys, Inc.
+              /c    This software and the associated documentation are proprietary to Synopsys,
+              /c  Inc. This software may only be used in accordance with the terms and conditions
+              /c  of a written license agreement with Synopsys, Inc. All other use, reproduction,
+              /c             or distribution of this software is strictly prohibited.
+              /c 
+              /c Build  (OPT) Config 4182185 compiled on Wed May 16 15:20:56 2018 for RHEL64 6.6
+              /c Invocation: /usr/synopsys/customcompiler/N-2017.12-SP1-2/linux64/platform/bin/cdesigner
+              /c Execution time: Sun Apr 19 22:43:13 2026
+              /c Host: localhost.localdomain
+              /c Working directory: /home/itsupport/Desktop/DOAN
+              /c 
+[22:43:20.51] /r giShowFrameTabs true
+[22:43:20.51] /r giWindowId 1
+[22:43:20.52] /r giWindowGeometry 1040x800
+[22:43:30.03] /# gi::pressButton {/scroll/scrollArea/scrollAreaInnerWidget/applications/dmLibraryManager} -in [gi::getWindows 1]
+[22:43:30.04] /# 
+[22:43:30.04] /i dm::openLibraryManager
+[22:43:30.04] /r giWindowId 2
+[22:43:30.04] /r giWindowGeometry 660x600+50+78
+[22:43:30.08] /o oa:0x1e2eedd0
+[22:43:30.17] /i gi::setSectionSizes {libs} -values {249} -in [gi::getWindows 2]
+[22:43:31.74] /i db::setAttr maximized -of [gi::getFrames 1] -value true
+[22:43:32.07] /i db::setAttr geometry -of [gi::getFrames 1] -value 1910x876+5+56
+[22:43:33.10] /i gi::setCurrentIndex {libs} -index {DOAN} -in [gi::getWindows 2]
+[22:43:33.12] /i gi::setItemSelection {libs} -index {DOAN} -in [gi::getWindows 2]
+[22:43:34.88] /i gi::setCurrentIndex {cells} -index {DA} -in [gi::getWindows 2]
+[22:43:34.88] /i gi::setItemSelection {cells} -index {DA} -in [gi::getWindows 2]
+[22:43:35.77] /i gi::setCurrentIndex {cells} -index {test_latch} -in [gi::getWindows 2]
+[22:43:35.77] /i gi::setItemSelection {cells} -index {test_latch} -in [gi::getWindows 2]
+[22:43:36.52] /i gi::setCurrentIndex {views} -index {schematic} -in [gi::getWindows 2]
+[22:43:36.53] /i gi::setItemSelection {views} -index {schematic} -in [gi::getWindows 2]
+[22:43:36.74] /i gi::executeAction dmOpen -in [gi::getWindows 2]
+[22:43:36.78] /w Warning: Preference 'leActiveLPP' is deprecated and scheduled for removal in a future release with no replacement. For migration assistance, see the Custom Compiler Tcl Reference Manual. (PREFERENCE-058)
+[22:43:36.78] /o 	#######################################
+[22:43:36.78] /o 	PDK Library Name	: reference90RF
+[22:43:36.78] /o 	PDK Version		: 2.0
+[22:43:36.78] /o 	PDK Release Date	: 25-March-2010 
+[22:43:36.78] /o 	#######################################
+[22:43:36.78] /o 
+[22:43:36.79] /m Information: License 'Schematic' checked out. (LICENSE-003)
+[22:43:36.90] /r giWindowId 3
+[22:43:36.90] /r giWindowGeometry 1632x818
+[22:43:37.09] /o "DOAN/test_latch/schematic" design does not need checking
+[22:43:39.24] /i gi::setActiveWindow 2
+[22:43:39.24] /i gi::setActiveWindow 2 -raise true
+[22:43:40.29] /i gi::setCurrentIndex {cells} -index {DA} -in [gi::getWindows 2]
+[22:43:40.29] /i gi::setItemSelection {cells} -index {DA} -in [gi::getWindows 2]
+[22:43:41.61] /i gi::setCurrentIndex {views} -index {schematic} -in [gi::getWindows 2]
+[22:43:41.62] /i gi::setItemSelection {views} -index {schematic} -in [gi::getWindows 2]
+[22:43:41.77] /i gi::executeAction dmOpen -in [gi::getWindows 2]
+[22:43:41.82] /r giWindowId 4
+[22:43:41.83] /r giWindowGeometry 1632x818
+[22:43:42.00] /o "DOAN/DA/schematic" design does not need checking
+[22:43:43.21] /# gi::executeAction deSelectActive -in [gi::getWindows 4]
+[22:43:43.21] /i de::deselectAllLogic -context [db::getNext [de::getContexts -window 4]]
+[22:43:46.42] /i gi::setActiveWindow 3
+[22:43:46.42] /i gi::setActiveWindow 3 -raise true
+[22:43:49.53] /# gi::executeAction seShowConsoleForWindow -in [gi::getWindows 3]
+[22:43:49.53] /i sa::showConsole -context [db::getNext [de::getContexts -window 3]]
+[22:43:51.86] /m Information: License 'SAE' checked out. (LICENSE-003)
+[22:43:51.90] /r giWindowId 5
+[22:43:51.90] /r giWindowGeometry 600x500
+[22:43:52.01] /o oa:0x23e300f0
+[22:43:52.09] /m Information: Launching Background sae_shell Server Process "cd /home/itsupport/Desktop/DOAN && sae_shell -log sae_shell_session0_job1 -libDefFile /home/itsupport/Desktop/DOAN/lib.defs"
+[22:43:54.23] /i gi::executeAction menuPreShow -in [gi::getWindows 5]
+[22:43:54.23] /r giMenuAccess db::getNext [gi::getMenus saConsoleSetupMenu -from [gi::getWindows 5]]
+[22:43:55.36] /# gi::executeAction saEditModels -in [gi::getWindows 5]
+[22:43:55.36] /i sa::showModelFiles -parent 5
+[22:43:55.42] /i gi::setActiveDialog [gi::getDialogs {saModelFilesSetup} -parent [gi::getWindows 5]]
+[22:43:55.73] /i db::setAttr geometry -of [gi::getDialogs {saModelFilesSetup} -parent [gi::getWindows 5]] -value 760x500+728+185
+[22:43:56.66] /m Information: Received ready-for-commands signal from background job 'sae_shell_session0_job1' after 4 seconds.
+[22:43:57.08] /i gi::setCurrentIndex {modelFilesTable} -index {0,1} -in [gi::getDialogs {saModelFilesSetup} -parent [gi::getWindows 5]]
+[22:44:06.10] /r giFileDialog accept PDK/hspice/reference_models.inc
+[22:44:06.10] /i gi::setField {modelFilesTable} -index {0,1} -value {/home/itsupport/Desktop/DOAN/PDK/hspice/reference_models.inc} -in [gi::getDialogs {saModelFilesSetup} -parent [gi::getWindows 5]]
+[22:44:06.11] /i gi::setField {modelFilesTable} -index {0,1} -value {/home/itsupport/Desktop/DOAN/PDK/hspice/reference_models.inc} -in [gi::getDialogs {saModelFilesSetup} -parent [gi::getWindows 5]]
+[22:44:07.90] /i gi::pressButton {ok} -in [gi::getDialogs {saModelFilesSetup} -parent [gi::getWindows 5]]
+[22:44:11.16] /i gi::executeAction menuPreShow -in [gi::getWindows 5]
+[22:44:11.16] /r giMenuAccess db::getNext [gi::getMenus saConsoleSetupMenu -from [gi::getWindows 5]]
+[22:44:11.98] /# gi::executeAction saShowEditAnalyses -in [gi::getWindows 5]
+[22:44:11.98] /i sa::showEditAnalyses -parent 5 -analysisName "" 
+[22:44:12.09] /o oa:0x2419e230
+[22:44:12.15] /i gi::setActiveDialog [gi::getDialogs {saEditAnalysesDialogXsaeSession0} -parent [gi::getWindows 5]]
+[22:44:12.45] /i db::setAttr geometry -of [gi::getDialogs {saEditAnalysesDialogXsaeSession0} -parent [gi::getWindows 5]] -value 633x680+762+257
+[22:44:18.63] /i gi::setField {/analysesGroups/tabGeneral/anaPane/step} -value {100p} -in [gi::getDialogs {saEditAnalysesDialogXsaeSession0} -parent [gi::getWindows 5]]
+[22:44:22.94] /i gi::setField {/analysesGroups/tabGeneral/anaPane/stop} -value {40n} -in [gi::getDialogs {saEditAnalysesDialogXsaeSession0} -parent [gi::getWindows 5]]
+[22:44:22.94] /i gi::pressButton {/ok} -in [gi::getDialogs {saEditAnalysesDialogXsaeSession0} -parent [gi::getWindows 5]]
+[22:44:24.87] /i gi::executeAction menuPreShow -in [gi::getWindows 5]
+[22:44:24.87] /r giMenuAccess db::getNext [gi::getMenus saConsoleOutputsMenu -from [gi::getWindows 5]]
+[22:44:26.16] /# gi::executeAction saSelectInDesign -in [gi::getWindows 5]
+[22:44:26.16] /i sa::selectOutputs -window 5
+[22:44:28.72] /# gi::executeAction deAddPoint -in [gi::getWindows 3]
+[22:44:28.72] /i de::addPoint {4.175 2.60625} -context [db::getNext [de::getContexts -window 3]]
+[22:44:30.33] /# gi::executeAction deAddPoint -in [gi::getWindows 3]
+[22:44:30.33] /i de::addPoint {4.2125 2.3} -context [db::getNext [de::getContexts -window 3]]
+[22:44:31.75] /# gi::executeAction deAddPoint -in [gi::getWindows 3]
+[22:44:31.75] /i de::addPoint {5.39375 2.6} -context [db::getNext [de::getContexts -window 3]]
+[22:44:33.79] /# gi::executeAction deAddPoint -in [gi::getWindows 3]
+[22:44:33.79] /i de::addPoint {5.4375 2.18125} -context [db::getNext [de::getContexts -window 3]]
+[22:44:36.49] /i gi::setActiveWindow 5
+[22:44:36.49] /i gi::setActiveWindow 5 -raise true
+[22:44:37.78] /i gi::executeAction menuPreShow -in [gi::getWindows 5]
+[22:44:37.78] /r giMenuAccess db::getNext [gi::getMenus saConsoleSimMenu -from [gi::getWindows 5]]
+[22:44:38.55] /# gi::executeAction saNetlistAndRun -in [gi::getWindows 5]
+[22:44:38.55] /i isa::netlistAndRun -testbench [sa::findActiveTestbench -window 5] -mode overwrite
+[22:44:38.57] /r giWindowId 6
+[22:44:38.58] /r giWindowGeometry 800x600
+[22:44:38.64] /m Information: "Starting incremental netlisting for design "DOAN/test_latch/schematic"..." (NETLISTING-010)
+[22:44:38.66] /o No Design Integrity rule violations found in "DOAN/test_latch/schematic"
+[22:44:38.72] /m Information: "Netlisting design "DOAN/test_latch/schematic" finished successfully." (NETLISTING-012)
+[22:44:38.73] /m Information: "Composing simulator input file for design "DOAN/test_latch/schematic"..."
+[22:44:38.77] /m Information: "Simulator input file composed successfully for design "DOAN/test_latch/schematic""
+[22:44:38.97] /m Information: "Starting HSPICE simulation for design: DOAN/test_latch/schematic"
+[22:44:38.97] /# gi::collapse {jobMonitorTable} -index {0.0,0} -in [gi::getWindows 6]
+[22:44:39.02] /o 1
+[22:44:39.67] /m Information: "Simulation completed successfully for design: DOAN/test_latch/schematic "
+[22:44:39.87] /m Information: Launching Background sae_shell Server Process "cd /home/itsupport/Desktop/DOAN && sae_shell -log sae_shell_session0_job2 -libDefFile /home/itsupport/Desktop/DOAN/lib.defs"
+[22:44:39.88] /m Information: "Evaluating and plotting outputs..."
+[22:44:41.02] /m Information: Started sharing "Custom WaveView" license. (WAVEFORM-110)
+[22:44:41.05] /m Information: Launching Waveform Viewer "cd /home/itsupport/simulation/DOAN,test_latch,schematic/history_1/simulation/default/HSPICE/nominal/results &&  wv -k -cdesigner -spxkey /usr/synopsys/customcompiler/N-2017.12-SP1-2/auxx/waveform/sae.spxkey -spxrc /tmp/sae_spxrc_qcIZZp -unique_string 43848c7d0ea448dd69aa7f613a217c24125e8d2b0833b894ed40d2f5efbf27a2fb0c0fc5bd619066f1648d4beeb4486ac0ec6d94df3f6df4 -lic_type 1    > /home/itsupport/simulation/DOAN,test_latch,schematic/history_1/simulation/default/HSPICE/nominal/results/viewer.log 2>&1"
+[22:44:41.05] /i gi::collapse {jobMonitorTable} -index {0.0,0} -in [gi::getWindows 6]
+[22:44:41.39] /m Information: Measurement calculations completed for testbench: default in 1s
+[22:44:42.52] /j ::wf::WaveView::plotSuccess WaveView_1 {} {_6daf520_void_pp _6dfb540_void_pp} 
+[22:44:42.54] /j ::wf::WaveView::plotSuccess WaveView_1 {} {_6daf520_void_pp _6dfb608_void_pp} 
+[22:44:42.89] /j ::wf::WaveView::plotSuccess WaveView_1 {} {_6daf520_void_pp _6dfb6d0_void_pp} 
+[22:44:42.90] /j ::wf::WaveView::plotSuccess WaveView_1 {} {_6daf520_void_pp _6dfb798_void_pp} 
+[22:44:43.38] /m Information: Received ready-for-commands signal from background job 'sae_shell_session0_job2' after 4 seconds.
+[22:46:30.96] /i gi::setActiveWindow 3
+[22:46:30.96] /i gi::setActiveWindow 3 -raise true
+[22:46:31.79] /i gi::setActiveWindow 4
+[22:46:31.79] /i gi::setActiveWindow 4 -raise true
+[22:47:38.26] /# gi::executeAction deSelectActive -in [gi::getWindows 4]
+[22:47:38.26] /i de::deselectAll [db::getNext [de::getContexts -window 4]]
+[22:47:38.26] /i de::select [de::getActiveFigure [gi::getWindows 4] -point {6.325 2.48125} -index 0 -intent none]
+[22:47:38.26] /o oa:0x24a73da0
+[22:47:39.10] /# gi::executeAction deSelectActive -in [gi::getWindows 4]
+[22:47:39.10] /i de::deselectAll [db::getNext [de::getContexts -window 4]]
+[22:47:39.10] /i de::select [de::getActiveFigure [gi::getWindows 4] -point {6.0375 2.625} -index 0 -intent none]
+[22:47:39.10] /o oa:0x253fd670
+[22:47:40.60] /i gi::executeAction sePropertyEditorToggle -in [gi::getWindows 4]
+[22:47:40.60] /# db::setAttr shown -of [gi::getAssistants dePropertyEditor -from [gi::getWindows 4]] -value true
+[22:47:42.56] /i gi::setItemSelection {parameters} -index {l,all} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 4]]
+[22:47:42.57] /i gi::setCurrentIndex {parameters} -index {l,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 4]]
+[22:47:44.71] /i gi::setField {parameters} -value {0.18u} -index {l,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 4]]
+[22:47:44.71] /i gi::executeAction dePropertyEditorApplyChanges -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 4]]
+[22:47:49.83] /i db::setAttr shown -of [gi::getAssistants dePropertyEditor -from [gi::getWindows 4]] -value false
+[22:47:51.74] /# gi::executeAction seSchCheckAndSave -in [gi::getWindows 4]
+[22:47:51.74] /i ise::check
+[22:47:51.75] /m Information: 
+              /c Cross view checking for DOAN/DA/symbol with DOAN/DA/schematic
+              /c No violations found. (DE_EDIT-007)
+[22:47:51.75] /m Information: 
+[22:47:51.75] /o Checking "DOAN/DA/schematic"
+[22:47:51.75] /o No rule violations found in "DOAN/DA/schematic"
+[22:47:51.75] /m Information: Checking process is completed: marking the design violations
+[22:47:51.77] /m Information: Marking of designs is completed
+[22:47:51.77] /o true
+[22:47:55.78] /i gi::setActiveWindow 3
+[22:47:55.78] /i gi::setActiveWindow 3 -raise true
+[22:47:56.73] /i gi::setActiveWindow 5
+[22:47:56.73] /i gi::setActiveWindow 5 -raise true
+[22:47:57.90] /i gi::executeAction menuPreShow -in [gi::getWindows 5]
+[22:47:57.90] /r giMenuAccess db::getNext [gi::getMenus saConsoleSimMenu -from [gi::getWindows 5]]
+[22:47:58.60] /# gi::executeAction saNetlistAndRun -in [gi::getWindows 5]
+[22:47:58.60] /i isa::netlistAndRun -testbench [sa::findActiveTestbench -window 5] -mode overwrite
+[22:47:58.64] /m Information: "Starting incremental netlisting for design "DOAN/test_latch/schematic"..." (NETLISTING-010)
+[22:47:58.66] /o No Design Integrity rule violations found in "DOAN/test_latch/schematic"
+[22:47:58.69] /m Information: "DOAN DA schematic" renetlisted. (NETLISTING-056)
+[22:47:58.70] /m Information: "Netlisting design "DOAN/test_latch/schematic" finished successfully." (NETLISTING-012)
+[22:47:58.70] /m Information: "Composing simulator input file for design "DOAN/test_latch/schematic"..."
+[22:47:58.73] /m Information: "Simulator input file composed successfully for design "DOAN/test_latch/schematic""
+[22:47:58.96] /m Information: "Starting HSPICE simulation for design: DOAN/test_latch/schematic"
+[22:47:58.96] /# gi::collapse {jobMonitorTable} -index {0.0.0.0,0} -in [gi::getWindows 6]
+[22:47:59.00] /o 1
+[22:47:59.37] /m Information: "Simulation completed successfully for design: DOAN/test_latch/schematic "
+[22:47:59.57] /m Information: "Evaluating and plotting outputs..."
+[22:47:59.65] /j ::wf::WaveView::plotSuccess WaveView_1 {} {_739ce20_void_pp _6dfb860_void_pp} 
+[22:47:59.69] /j ::wf::WaveView::plotSuccess WaveView_1 {} {_739ce20_void_pp _6dfb540_void_pp} 
+[22:47:59.73] /j ::wf::WaveView::plotSuccess WaveView_1 {} {_739ce20_void_pp _6dfb608_void_pp} 
+[22:47:59.77] /j ::wf::WaveView::plotSuccess WaveView_1 {} {_739ce20_void_pp _6dfb6d0_void_pp} 
+[22:47:59.86] /m Information: Measurement calculations completed for testbench: default in 0s
+[22:48:27.94] /i gi::setActiveWindow 3
+[22:48:27.94] /i gi::setActiveWindow 3 -raise true
+[22:48:29.91] /i gi::setActiveWindow 4
+[22:48:29.91] /i gi::setActiveWindow 4 -raise true
+[22:48:32.43] /# gi::executeAction deSelectActive -in [gi::getWindows 4]
+[22:48:32.43] /i de::deselectAll [db::getNext [de::getContexts -window 4]]
+[22:48:32.43] /i de::deselectAllLogic -context [db::getNext [de::getContexts -window 4]]
+[22:48:41.50] /# gi::executeAction deSelectActive -in [gi::getWindows 4]
+[22:48:41.50] /i de::deselectAll [db::getNext [de::getContexts -window 4]]
+[22:48:41.50] /i de::select [de::getActiveFigure [gi::getWindows 4] -point {6.125 2.675} -index 0 -intent none]
+[22:48:41.50] /o oa:0x24bab780
+[22:48:47.27] /i gi::executeAction sePropertyEditorToggle -in [gi::getWindows 4]
+[22:48:47.27] /# db::setAttr shown -of [gi::getAssistants dePropertyEditor -from [gi::getWindows 4]] -value true
+[22:48:48.70] /i gi::setItemSelection {parameters} -index {w,all} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 4]]
+[22:48:48.71] /i gi::setCurrentIndex {parameters} -index {w,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 4]]
+[22:48:54.24] /i gi::setField {parameters} -value {0.24u} -index {w,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 4]]
+[22:48:54.24] /i gi::executeAction dePropertyEditorApplyChanges -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 4]]
+[22:48:58.60] /# gi::executeAction seSchCheckAndSave -in [gi::getWindows 4]
+[22:48:58.60] /i ise::check
+[22:48:58.60] /m Information: 
+              /c Cross view checking for DOAN/DA/symbol with DOAN/DA/schematic
+              /c No violations found. (DE_EDIT-007)
+[22:48:58.60] /m Information: 
+[22:48:58.60] /o Checking "DOAN/DA/schematic"
+[22:48:58.60] /o No rule violations found in "DOAN/DA/schematic"
+[22:48:58.60] /m Information: Checking process is completed: marking the design violations
+[22:48:58.62] /m Information: Marking of designs is completed
+[22:48:58.62] /o true
+[22:49:01.50] /i gi::setActiveWindow 5
+[22:49:01.50] /i gi::setActiveWindow 5 -raise true
+[22:49:02.47] /i gi::executeAction menuPreShow -in [gi::getWindows 5]
+[22:49:02.47] /r giMenuAccess db::getNext [gi::getMenus saConsoleSimMenu -from [gi::getWindows 5]]
+[22:49:03.34] /# gi::executeAction saNetlistAndRun -in [gi::getWindows 5]
+[22:49:03.34] /i isa::netlistAndRun -testbench [sa::findActiveTestbench -window 5] -mode overwrite
+[22:49:03.40] /m Information: "Starting incremental netlisting for design "DOAN/test_latch/schematic"..." (NETLISTING-010)
+[22:49:03.41] /o No Design Integrity rule violations found in "DOAN/test_latch/schematic"
+[22:49:03.44] /m Information: "DOAN DA schematic" renetlisted. (NETLISTING-056)
+[22:49:03.45] /m Information: "Netlisting design "DOAN/test_latch/schematic" finished successfully." (NETLISTING-012)
+[22:49:03.46] /m Information: "Composing simulator input file for design "DOAN/test_latch/schematic"..."
+[22:49:03.49] /m Information: "Simulator input file composed successfully for design "DOAN/test_latch/schematic""
+[22:49:03.65] /m Information: "Starting HSPICE simulation for design: DOAN/test_latch/schematic"
+[22:49:03.65] /# gi::collapse {jobMonitorTable} -index {0.0.0.0,0} -in [gi::getWindows 6]
+[22:49:03.68] /o 1
+[22:49:04.06] /m Information: "Simulation completed successfully for design: DOAN/test_latch/schematic "
+[22:49:04.25] /m Information: "Evaluating and plotting outputs..."
+[22:49:04.33] /j ::wf::WaveView::plotSuccess WaveView_1 {} {_6da5510_void_pp _6dfb798_void_pp} 
+[22:49:04.39] /j ::wf::WaveView::plotSuccess WaveView_1 {} {_6da5510_void_pp _6dfb860_void_pp} 
+[22:49:04.45] /j ::wf::WaveView::plotSuccess WaveView_1 {} {_6da5510_void_pp _6dfb540_void_pp} 
+[22:49:04.49] /j ::wf::WaveView::plotSuccess WaveView_1 {} {_6da5510_void_pp _6dfb608_void_pp} 
+[22:49:04.56] /m Information: Measurement calculations completed for testbench: default in 0s
+[22:50:03.59] /i gi::setActiveWindow 4
+[22:50:03.59] /i gi::setActiveWindow 4 -raise true
+[22:50:04.89] /# gi::executeAction deSelectActive -in [gi::getWindows 4]
+[22:50:04.89] /i de::deselectAll [db::getNext [de::getContexts -window 4]]
+[22:50:04.89] /i de::deselectAllLogic -context [db::getNext [de::getContexts -window 4]]
+[22:50:12.39] /# gi::executeAction deSelectActive -in [gi::getWindows 4]
+[22:50:12.39] /i de::deselectAll [db::getNext [de::getContexts -window 4]]
+[22:50:12.39] /i de::select [de::getActiveFigure [gi::getWindows 4] -point {6.3375 2.69375} -index 0 -intent none]
+[22:50:12.39] /o oa:0x24c6c7f0
+[22:50:14.48] /# gi::executeAction deSelectActive -in [gi::getWindows 4]
+[22:50:14.48] /i de::deselectAll [db::getNext [de::getContexts -window 4]]
+[22:50:14.49] /i de::select [de::getActiveFigure [gi::getWindows 4] -point {6.1 2.64375} -index 0 -intent none]
+[22:50:14.49] /o oa:0x2537d000
+[22:50:15.75] /i gi::setItemSelection {parameters} -index {w,all} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 4]]
+[22:50:15.76] /i gi::setCurrentIndex {parameters} -index {w,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 4]]
+[22:50:20.57] /i gi::setField {parameters} -value {0.36u} -index {w,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 4]]
+[22:50:20.57] /i gi::executeAction dePropertyEditorApplyChanges -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 4]]
+[22:50:22.08] /# gi::executeAction deSelectActive -in [gi::getWindows 4]
+[22:50:22.08] /i de::deselectAll [db::getNext [de::getContexts -window 4]]
+[22:50:22.08] /i de::deselectAllLogic -context [db::getNext [de::getContexts -window 4]]
+[22:50:23.28] /# gi::executeAction deSelectActive -in [gi::getWindows 4]
+[22:50:23.28] /i de::deselectAll [db::getNext [de::getContexts -window 4]]
+[22:50:23.28] /i de::select [de::getActiveFigure [gi::getWindows 4] -point {6.03125 1.70625} -index 0 -intent none]
+[22:50:23.28] /o oa:0x25336ae0
+[22:50:24.17] /# gi::executeAction deSelectActive -in [gi::getWindows 4]
+[22:50:24.17] /i de::deselectAll [db::getNext [de::getContexts -window 4]]
+[22:50:24.17] /i de::select [de::getActiveFigure [gi::getWindows 4] -point {6.36875 1.8} -index 0 -intent none]
+[22:50:24.17] /o oa:0x1f0cc0c0
+[22:50:25.46] /# gi::executeAction deSelectActive -in [gi::getWindows 4]
+[22:50:25.46] /i de::deselectAll [db::getNext [de::getContexts -window 4]]
+[22:50:25.46] /i de::select [de::getActiveFigure [gi::getWindows 4] -point {5.95 1.70625} -index 0 -intent none]
+[22:50:25.46] /o oa:0x1c499240
+[22:50:27.31] /i gi::setItemSelection {parameters} -index {w,all} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 4]]
+[22:50:27.32] /i gi::setCurrentIndex {parameters} -index {w,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 4]]
+[22:50:32.10] /i gi::setField {parameters} -value {0.72u} -index {w,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 4]]
+[22:50:32.10] /i gi::executeAction dePropertyEditorApplyChanges -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 4]]
+[22:50:33.72] /# gi::executeAction deSelectActive -in [gi::getWindows 4]
+[22:50:33.72] /i de::deselectAll [db::getNext [de::getContexts -window 4]]
+[22:50:33.72] /i de::deselectAllLogic -context [db::getNext [de::getContexts -window 4]]
+[22:50:35.69] /# gi::executeAction seSchCheckAndSave -in [gi::getWindows 4]
+[22:50:35.69] /i ise::check
+[22:50:35.70] /m Information: 
+              /c Cross view checking for DOAN/DA/symbol with DOAN/DA/schematic
+              /c No violations found. (DE_EDIT-007)
+[22:50:35.70] /m Information: 
+[22:50:35.70] /o Checking "DOAN/DA/schematic"
+[22:50:35.70] /o No rule violations found in "DOAN/DA/schematic"
+[22:50:35.70] /m Information: Checking process is completed: marking the design violations
+[22:50:35.72] /m Information: Marking of designs is completed
+[22:50:35.72] /o true
+[22:50:36.98] /i gi::setActiveWindow 5
+[22:50:36.98] /i gi::setActiveWindow 5 -raise true
+[22:50:38.21] /i gi::executeAction menuPreShow -in [gi::getWindows 5]
+[22:50:38.21] /r giMenuAccess db::getNext [gi::getMenus saConsoleSimMenu -from [gi::getWindows 5]]
+[22:50:39.05] /# gi::executeAction saNetlistAndRun -in [gi::getWindows 5]
+[22:50:39.05] /i isa::netlistAndRun -testbench [sa::findActiveTestbench -window 5] -mode overwrite
+[22:50:39.12] /m Information: "Starting incremental netlisting for design "DOAN/test_latch/schematic"..." (NETLISTING-010)
+[22:50:39.14] /o No Design Integrity rule violations found in "DOAN/test_latch/schematic"
+[22:50:39.17] /m Information: "DOAN DA schematic" renetlisted. (NETLISTING-056)
+[22:50:39.18] /m Information: "Netlisting design "DOAN/test_latch/schematic" finished successfully." (NETLISTING-012)
+[22:50:39.19] /m Information: "Composing simulator input file for design "DOAN/test_latch/schematic"..."
+[22:50:39.22] /m Information: "Simulator input file composed successfully for design "DOAN/test_latch/schematic""
+[22:50:39.40] /m Information: "Starting HSPICE simulation for design: DOAN/test_latch/schematic"
+[22:50:39.40] /# gi::collapse {jobMonitorTable} -index {0.0.0.0,0} -in [gi::getWindows 6]
+[22:50:39.44] /o 1
+[22:50:39.86] /m Information: "Simulation completed successfully for design: DOAN/test_latch/schematic "
+[22:50:40.03] /m Information: "Evaluating and plotting outputs..."
+[22:50:40.11] /j ::wf::WaveView::plotSuccess WaveView_1 {} {_732e770_void_pp _6dfb6d0_void_pp} 
+[22:50:40.19] /j ::wf::WaveView::plotSuccess WaveView_1 {} {_732e770_void_pp _6dfb798_void_pp} 
+[22:50:40.26] /j ::wf::WaveView::plotSuccess WaveView_1 {} {_732e770_void_pp _6dfb860_void_pp} 
+[22:50:40.31] /j ::wf::WaveView::plotSuccess WaveView_1 {} {_732e770_void_pp _6dfb540_void_pp} 
+[22:50:40.36] /m Information: Measurement calculations completed for testbench: default in 0s
+[22:52:01.48] /i gi::setActiveWindow 4
+[22:52:01.48] /i gi::setActiveWindow 4 -raise true
+[22:52:03.22] /# gi::executeAction deSelectActive -in [gi::getWindows 4]
+[22:52:03.22] /i de::deselectAllLogic -context [db::getNext [de::getContexts -window 4]]
+[22:52:04.21] /# gi::executeAction deSelectActive -in [gi::getWindows 4]
+[22:52:04.21] /i de::deselectAll [db::getNext [de::getContexts -window 4]]
+[22:52:04.21] /i de::select [de::getActiveFigure [gi::getWindows 4] -point {6.075 1.76875} -index 0 -intent none]
+[22:52:04.21] /o oa:0x24eacd50
+[22:52:06.52] /i gi::setItemSelection {parameters} -index {w,all} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 4]]
+[22:52:06.52] /i gi::setCurrentIndex {parameters} -index {w,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 4]]
+[22:52:10.25] /i gi::setField {parameters} -value {0.36u} -index {w,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 4]]
+[22:52:10.25] /i gi::executeAction dePropertyEditorApplyChanges -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 4]]
+[22:52:11.96] /# gi::executeAction deSelectActive -in [gi::getWindows 4]
+[22:52:11.96] /i de::deselectAll [db::getNext [de::getContexts -window 4]]
+[22:52:11.96] /i de::deselectAllLogic -context [db::getNext [de::getContexts -window 4]]
+[22:52:15.63] /# gi::executeAction seSchCheckAndSave -in [gi::getWindows 4]
+[22:52:15.63] /i ise::check
+[22:52:15.64] /m Information: 
+              /c Cross view checking for DOAN/DA/symbol with DOAN/DA/schematic
+              /c No violations found. (DE_EDIT-007)
+[22:52:15.64] /m Information: 
+[22:52:15.64] /o Checking "DOAN/DA/schematic"
+[22:52:15.64] /o No rule violations found in "DOAN/DA/schematic"
+[22:52:15.64] /m Information: Checking process is completed: marking the design violations
+[22:52:15.66] /m Information: Marking of designs is completed
+[22:52:15.66] /o true
+[22:52:17.40] /i gi::setActiveWindow 5
+[22:52:17.40] /i gi::setActiveWindow 5 -raise true
+[22:52:19.56] /i gi::executeAction menuPreShow -in [gi::getWindows 5]
+[22:52:19.56] /r giMenuAccess db::getNext [gi::getMenus saConsoleSimMenu -from [gi::getWindows 5]]
+[22:52:20.24] /# gi::executeAction saNetlistAndRun -in [gi::getWindows 5]
+[22:52:20.24] /i isa::netlistAndRun -testbench [sa::findActiveTestbench -window 5] -mode overwrite
+[22:52:20.30] /m Information: "Starting incremental netlisting for design "DOAN/test_latch/schematic"..." (NETLISTING-010)
+[22:52:20.31] /o No Design Integrity rule violations found in "DOAN/test_latch/schematic"
+[22:52:20.35] /m Information: "DOAN DA schematic" renetlisted. (NETLISTING-056)
+[22:52:20.36] /m Information: "Netlisting design "DOAN/test_latch/schematic" finished successfully." (NETLISTING-012)
+[22:52:20.37] /m Information: "Composing simulator input file for design "DOAN/test_latch/schematic"..."
+[22:52:20.40] /m Information: "Simulator input file composed successfully for design "DOAN/test_latch/schematic""
+[22:52:20.56] /m Information: "Starting HSPICE simulation for design: DOAN/test_latch/schematic"
+[22:52:20.57] /# gi::collapse {jobMonitorTable} -index {0.0.0.0,0} -in [gi::getWindows 6]
+[22:52:20.60] /o 1
+[22:52:20.96] /m Information: "Simulation completed successfully for design: DOAN/test_latch/schematic "
+[22:52:21.15] /m Information: "Evaluating and plotting outputs..."
+[22:52:21.23] /j ::wf::WaveView::plotSuccess WaveView_1 {} {_6e0fcf0_void_pp _6dfb608_void_pp} 
+[22:52:21.27] /j ::wf::WaveView::plotSuccess WaveView_1 {} {_6e0fcf0_void_pp _6dfb6d0_void_pp} 
+[22:52:21.32] /j ::wf::WaveView::plotSuccess WaveView_1 {} {_6e0fcf0_void_pp _6dfb798_void_pp} 
+[22:52:21.38] /j ::wf::WaveView::plotSuccess WaveView_1 {} {_6e0fcf0_void_pp _6dfb860_void_pp} 
+[22:52:21.56] /m Information: Measurement calculations completed for testbench: default in 0s
+[22:53:21.27] /i gi::setActiveWindow 3
+[22:53:21.28] /i gi::setActiveWindow 3 -raise true
+[22:53:22.78] /i gi::setActiveWindow 4
+[22:53:22.78] /i gi::setActiveWindow 4 -raise true
+[22:53:24.08] /# gi::executeAction deSelectActive -in [gi::getWindows 4]
+[22:53:24.08] /i de::deselectAllLogic -context [db::getNext [de::getContexts -window 4]]
+[22:54:46.74] /# gi::executeAction deSelectActive -in [gi::getWindows 4]
+[22:54:46.74] /i de::deselectAll [db::getNext [de::getContexts -window 4]]
+[22:54:46.74] /i de::select [de::getActiveFigure [gi::getWindows 4] -point {6.025 2.56875} -index 0 -intent none]
+[22:54:46.74] /o oa:0x23d58e20
+[22:54:49.17] /i gi::setItemSelection {parameters} -index {l,all} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 4]]
+[22:54:49.17] /i gi::setCurrentIndex {parameters} -index {l,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 4]]
+[22:54:52.98] /i gi::setField {parameters} -value {0.12u} -index {l,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 4]]
+[22:54:52.98] /i gi::executeAction dePropertyEditorApplyChanges -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 4]]
+[22:54:55.51] /# gi::executeAction deSelectActive -in [gi::getWindows 4]
+[22:54:55.51] /i de::deselectAll [db::getNext [de::getContexts -window 4]]
+[22:54:55.51] /i de::select [de::getActiveFigure [gi::getWindows 4] -point {6.0875 1.6375} -index 0 -intent none]
+[22:54:55.51] /o oa:0x24c05690
+[22:54:57.42] /i gi::setItemSelection {parameters} -index {l,all} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 4]]
+[22:54:57.42] /i gi::setCurrentIndex {parameters} -index {l,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 4]]
+[22:54:59.07] /i gi::setField {parameters} -value {0.12u} -index {l,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 4]]
+[22:54:59.07] /i gi::executeAction dePropertyEditorApplyChanges -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 4]]
+[22:55:01.46] /# gi::executeAction seSchCheckAndSave -in [gi::getWindows 4]
+[22:55:01.46] /i ise::check
+[22:55:01.47] /m Information: 
+              /c Cross view checking for DOAN/DA/symbol with DOAN/DA/schematic
+              /c No violations found. (DE_EDIT-007)
+[22:55:01.47] /m Information: 
+[22:55:01.47] /o Checking "DOAN/DA/schematic"
+[22:55:01.47] /o No rule violations found in "DOAN/DA/schematic"
+[22:55:01.47] /m Information: Checking process is completed: marking the design violations
+[22:55:01.49] /m Information: Marking of designs is completed
+[22:55:01.49] /o true
+[22:55:02.82] /# gi::executeAction deSelectActive -in [gi::getWindows 4]
+[22:55:02.82] /i de::deselectAll [db::getNext [de::getContexts -window 4]]
+[22:55:02.82] /i de::select [de::getActiveFigure [gi::getWindows 4] -point {7.23125 2.53125} -index 0 -intent none]
+[22:55:02.82] /o oa:0x24dfd7a0
+[22:55:05.06] /# gi::executeAction deSelectActive -in [gi::getWindows 4]
+[22:55:05.06] /i de::deselectAll [db::getNext [de::getContexts -window 4]]
+[22:55:05.06] /i de::select [de::getActiveFigure [gi::getWindows 4] -point {7.5 2.46875} -index 0 -intent none]
+[22:55:05.06] /o oa:0x24c6ed30
+[22:55:06.19] /# gi::executeAction deSelectActive -in [gi::getWindows 4]
+[22:55:06.19] /i de::deselectAll [db::getNext [de::getContexts -window 4]]
+[22:55:06.19] /i de::select [de::getActiveFigure [gi::getWindows 4] -point {7.18125 2.575} -index 0 -intent none]
+[22:55:06.19] /o oa:0x24ab90d0
+[22:55:07.43] /i gi::setItemSelection {parameters} -index {l,all} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 4]]
+[22:55:07.43] /i gi::setCurrentIndex {parameters} -index {l,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 4]]
+[22:55:09.29] /i gi::setField {parameters} -value {0.12u} -index {l,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 4]]
+[22:55:09.29] /i gi::executeAction dePropertyEditorApplyChanges -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 4]]
+[22:55:10.91] /# gi::executeAction deSelectActive -in [gi::getWindows 4]
+[22:55:10.91] /i de::deselectAll [db::getNext [de::getContexts -window 4]]
+[22:55:10.91] /i de::select [de::getActiveFigure [gi::getWindows 4] -point {7.25625 1.6875} -index 0 -intent none]
+[22:55:10.91] /o oa:0x24afeaa0
+[22:55:12.27] /i gi::setItemSelection {parameters} -index {l,all} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 4]]
+[22:55:12.27] /i gi::setCurrentIndex {parameters} -index {l,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 4]]
+[22:55:14.19] /i gi::setField {parameters} -value {0.12u} -index {l,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 4]]
+[22:55:14.19] /i gi::executeAction dePropertyEditorApplyChanges -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 4]]
+[22:55:16.09] /# gi::executeAction deSelectActive -in [gi::getWindows 4]
+[22:55:16.09] /i de::deselectAll [db::getNext [de::getContexts -window 4]]
+[22:55:16.09] /i de::deselectAllLogic -context [db::getNext [de::getContexts -window 4]]
+[22:55:17.76] /# gi::executeAction seSchCheckAndSave -in [gi::getWindows 4]
+[22:55:17.76] /i ise::check
+[22:55:17.76] /m Information: 
+              /c Cross view checking for DOAN/DA/symbol with DOAN/DA/schematic
+              /c No violations found. (DE_EDIT-007)
+[22:55:17.76] /m Information: 
+[22:55:17.76] /o Checking "DOAN/DA/schematic"
+[22:55:17.77] /o No rule violations found in "DOAN/DA/schematic"
+[22:55:17.77] /m Information: Checking process is completed: marking the design violations
+[22:55:17.78] /m Information: Marking of designs is completed
+[22:55:17.78] /o true
+[22:55:19.54] /i gi::setActiveWindow 5
+[22:55:19.54] /i gi::setActiveWindow 5 -raise true
+[22:55:20.72] /i gi::executeAction menuPreShow -in [gi::getWindows 5]
+[22:55:20.72] /r giMenuAccess db::getNext [gi::getMenus saConsoleSimMenu -from [gi::getWindows 5]]
+[22:55:21.50] /# gi::executeAction saNetlistAndRun -in [gi::getWindows 5]
+[22:55:21.50] /i isa::netlistAndRun -testbench [sa::findActiveTestbench -window 5] -mode overwrite
+[22:55:21.59] /m Information: "Starting incremental netlisting for design "DOAN/test_latch/schematic"..." (NETLISTING-010)
+[22:55:21.60] /o No Design Integrity rule violations found in "DOAN/test_latch/schematic"
+[22:55:21.63] /m Information: "DOAN DA schematic" renetlisted. (NETLISTING-056)
+[22:55:21.65] /m Information: "Netlisting design "DOAN/test_latch/schematic" finished successfully." (NETLISTING-012)
+[22:55:21.65] /m Information: "Composing simulator input file for design "DOAN/test_latch/schematic"..."
+[22:55:21.68] /m Information: "Simulator input file composed successfully for design "DOAN/test_latch/schematic""
+[22:55:21.87] /m Information: "Starting HSPICE simulation for design: DOAN/test_latch/schematic"
+[22:55:21.87] /# gi::collapse {jobMonitorTable} -index {0.0.0.0,0} -in [gi::getWindows 6]
+[22:55:21.90] /o 1
+[22:55:22.27] /m Information: "Simulation completed successfully for design: DOAN/test_latch/schematic "
+[22:55:22.47] /m Information: "Evaluating and plotting outputs..."
+[22:55:22.55] /j ::wf::WaveView::plotSuccess WaveView_1 {} {_78a9460_void_pp _6dfb540_void_pp} 
+[22:55:22.65] /j ::wf::WaveView::plotSuccess WaveView_1 {} {_78a9460_void_pp _6dfb608_void_pp} 
+[22:55:22.69] /j ::wf::WaveView::plotSuccess WaveView_1 {} {_78a9460_void_pp _6dfb6d0_void_pp} 
+[22:55:22.76] /j ::wf::WaveView::plotSuccess WaveView_1 {} {_78a9460_void_pp _6dfb798_void_pp} 
+[22:55:22.86] /m Information: Measurement calculations completed for testbench: default in 0s
+[22:56:42.41] /i gi::setActiveWindow 3
+[22:56:42.41] /i gi::setActiveWindow 3 -raise true
+[22:56:44.20] /i gi::setActiveWindow 4
+[22:56:44.20] /i gi::setActiveWindow 4 -raise true
+[22:56:47.56] /# gi::executeAction deSelectActive -in [gi::getWindows 4]
+[22:56:47.56] /i de::deselectAll [db::getNext [de::getContexts -window 4]]
+[22:56:47.56] /i de::select [de::getActiveFigure [gi::getWindows 4] -point {6.04375 2.625} -index 0 -intent none]
+[22:56:47.56] /o oa:0x1d3a4700
+[22:56:48.48] /# gi::executeAction deSelectActive -in [gi::getWindows 4]
+[22:56:48.48] /i de::deselectAll [db::getNext [de::getContexts -window 4]]
+[22:56:48.48] /i de::select [de::getActiveFigure [gi::getWindows 4] -point {6.3625 2.65} -index 0 -intent none]
+[22:56:48.48] /o oa:0x252f9f00
+[22:56:49.41] /# gi::executeAction deSelectActive -in [gi::getWindows 4]
+[22:56:49.41] /i de::deselectAll [db::getNext [de::getContexts -window 4]]
+[22:56:49.41] /i de::select [de::getActiveFigure [gi::getWindows 4] -point {6.01875 2.6} -index 0 -intent none]
+[22:56:49.41] /o oa:0x24c21590
+[22:56:50.89] /i gi::setItemSelection {parameters} -index {w,all} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 4]]
+[22:56:50.89] /i gi::setCurrentIndex {parameters} -index {w,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 4]]
+[22:56:54.73] /i gi::setField {parameters} -value {0.24u} -index {w,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 4]]
+[22:56:54.73] /i gi::executeAction dePropertyEditorApplyChanges -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 4]]
+[22:56:56.75] /# gi::executeAction seSchCheckAndSave -in [gi::getWindows 4]
+[22:56:56.75] /i ise::check
+[22:56:56.75] /m Information: 
+              /c Cross view checking for DOAN/DA/symbol with DOAN/DA/schematic
+              /c No violations found. (DE_EDIT-007)
+[22:56:56.75] /m Information: 
+[22:56:56.75] /o Checking "DOAN/DA/schematic"
+[22:56:56.76] /o No rule violations found in "DOAN/DA/schematic"
+[22:56:56.76] /m Information: Checking process is completed: marking the design violations
+[22:56:56.77] /m Information: Marking of designs is completed
+[22:56:56.77] /o true
+[22:56:58.46] /i gi::setActiveWindow 3
+[22:56:58.46] /i gi::setActiveWindow 3 -raise true
+[22:56:59.20] /i gi::setActiveWindow 5
+[22:56:59.20] /i gi::setActiveWindow 5 -raise true
+[22:57:00.27] /i gi::executeAction menuPreShow -in [gi::getWindows 5]
+[22:57:00.27] /r giMenuAccess db::getNext [gi::getMenus saConsoleSimMenu -from [gi::getWindows 5]]
+[22:57:00.94] /# gi::executeAction saNetlistAndRun -in [gi::getWindows 5]
+[22:57:00.94] /i isa::netlistAndRun -testbench [sa::findActiveTestbench -window 5] -mode overwrite
+[22:57:01.00] /m Information: "Starting incremental netlisting for design "DOAN/test_latch/schematic"..." (NETLISTING-010)
+[22:57:01.02] /o No Design Integrity rule violations found in "DOAN/test_latch/schematic"
+[22:57:01.05] /m Information: "DOAN DA schematic" renetlisted. (NETLISTING-056)
+[22:57:01.06] /m Information: "Netlisting design "DOAN/test_latch/schematic" finished successfully." (NETLISTING-012)
+[22:57:01.07] /m Information: "Composing simulator input file for design "DOAN/test_latch/schematic"..."
+[22:57:01.09] /m Information: "Simulator input file composed successfully for design "DOAN/test_latch/schematic""
+[22:57:01.26] /m Information: "Starting HSPICE simulation for design: DOAN/test_latch/schematic"
+[22:57:01.27] /# gi::collapse {jobMonitorTable} -index {0.0.0.0,0} -in [gi::getWindows 6]
+[22:57:01.31] /o 1
+[22:57:01.66] /m Information: "Simulation completed successfully for design: DOAN/test_latch/schematic "
+[22:57:01.86] /m Information: "Evaluating and plotting outputs..."
+[22:57:01.94] /j ::wf::WaveView::plotSuccess WaveView_1 {} {_6da5510_void_pp _6dfb860_void_pp} 
+[22:57:02.01] /j ::wf::WaveView::plotSuccess WaveView_1 {} {_6da5510_void_pp _6dfb540_void_pp} 
+[22:57:02.09] /j ::wf::WaveView::plotSuccess WaveView_1 {} {_6da5510_void_pp _6dfb608_void_pp} 
+[22:57:02.16] /j ::wf::WaveView::plotSuccess WaveView_1 {} {_6da5510_void_pp _6dfb6d0_void_pp} 
+[22:57:02.26] /m Information: Measurement calculations completed for testbench: default in 0s
+[22:57:49.42] /i gi::setActiveWindow 3
+[22:57:49.42] /i gi::setActiveWindow 3 -raise true
+[22:57:50.78] /i gi::setActiveWindow 4
+[22:57:50.78] /i gi::setActiveWindow 4 -raise true
+[22:57:51.78] /# gi::executeAction deSelectActive -in [gi::getWindows 4]
+[22:57:51.78] /i de::deselectAll [db::getNext [de::getContexts -window 4]]
+[22:57:51.78] /i de::deselectAllLogic -context [db::getNext [de::getContexts -window 4]]
+[22:57:52.95] /# gi::executeAction deSelectActive -in [gi::getWindows 4]
+[22:57:52.95] /i de::deselectAll [db::getNext [de::getContexts -window 4]]
+[22:57:52.95] /i de::select [de::getActiveFigure [gi::getWindows 4] -point {6.0625 2.64375} -index 0 -intent none]
+[22:57:52.95] /o oa:0x2518e6f0
+[22:57:54.46] /i gi::setItemSelection {parameters} -index {w,all} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 4]]
+[22:57:54.47] /i gi::setCurrentIndex {parameters} -index {w,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 4]]
+[22:57:58.32] /i gi::setField {parameters} -value {0.36u} -index {w,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 4]]
+[22:57:58.32] /i gi::executeAction dePropertyEditorApplyChanges -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 4]]
+[22:58:01.96] /# gi::executeAction seSchCheckAndSave -in [gi::getWindows 4]
+[22:58:01.96] /i ise::check
+[22:58:01.97] /m Information: 
+              /c Cross view checking for DOAN/DA/symbol with DOAN/DA/schematic
+              /c No violations found. (DE_EDIT-007)
+[22:58:01.97] /m Information: 
+[22:58:01.97] /o Checking "DOAN/DA/schematic"
+[22:58:01.97] /o No rule violations found in "DOAN/DA/schematic"
+[22:58:01.97] /m Information: Checking process is completed: marking the design violations
+[22:58:01.99] /m Information: Marking of designs is completed
+[22:58:01.99] /o true
+[22:58:09.81] /i gi::setActiveWindow 5
+[22:58:09.81] /i gi::setActiveWindow 5 -raise true
+[22:58:11.18] /i gi::executeAction menuPreShow -in [gi::getWindows 5]
+[22:58:11.18] /r giMenuAccess db::getNext [gi::getMenus saConsoleSimMenu -from [gi::getWindows 5]]
+[22:58:11.99] /# gi::executeAction saNetlistAndRun -in [gi::getWindows 5]
+[22:58:11.99] /i isa::netlistAndRun -testbench [sa::findActiveTestbench -window 5] -mode overwrite
+[22:58:12.04] /m Information: "Starting incremental netlisting for design "DOAN/test_latch/schematic"..." (NETLISTING-010)
+[22:58:12.05] /o No Design Integrity rule violations found in "DOAN/test_latch/schematic"
+[22:58:12.08] /m Information: "DOAN DA schematic" renetlisted. (NETLISTING-056)
+[22:58:12.09] /m Information: "Netlisting design "DOAN/test_latch/schematic" finished successfully." (NETLISTING-012)
+[22:58:12.10] /m Information: "Composing simulator input file for design "DOAN/test_latch/schematic"..."
+[22:58:12.13] /m Information: "Simulator input file composed successfully for design "DOAN/test_latch/schematic""
+[22:58:12.30] /m Information: "Starting HSPICE simulation for design: DOAN/test_latch/schematic"
+[22:58:12.30] /# gi::collapse {jobMonitorTable} -index {0.0.0.0,0} -in [gi::getWindows 6]
+[22:58:12.32] /o 1
+[22:58:12.76] /m Information: "Simulation completed successfully for design: DOAN/test_latch/schematic "
+[22:58:12.93] /m Information: "Evaluating and plotting outputs..."
+[22:58:13.02] /j ::wf::WaveView::plotSuccess WaveView_1 {} {_78f4910_void_pp _6dfb798_void_pp} 
+[22:58:13.12] /j ::wf::WaveView::plotSuccess WaveView_1 {} {_78f4910_void_pp _6dfb860_void_pp} 
+[22:58:13.17] /j ::wf::WaveView::plotSuccess WaveView_1 {} {_78f4910_void_pp _6dfb540_void_pp} 
+[22:58:13.25] /j ::wf::WaveView::plotSuccess WaveView_1 {} {_78f4910_void_pp _6dfb608_void_pp} 
+[22:58:13.36] /m Information: Measurement calculations completed for testbench: default in 0s
+[23:01:03.12] /i gi::setActiveWindow 3
+[23:01:03.12] /i gi::setActiveWindow 3 -raise true
+[23:01:04.35] /i gi::setActiveWindow 4
+[23:01:04.35] /i gi::setActiveWindow 4 -raise true
+[23:03:18.65] /m Information: Stopped sharing "Custom WaveView" license. (WAVEFORM-111)
+[23:03:39.53] /i gi::setActiveWindow 3
+[23:03:39.53] /i gi::setActiveWindow 3 -raise true
+[23:03:41.13] /i gi::setActiveWindow 5
+[23:03:41.13] /i gi::setActiveWindow 5 -raise true
+[23:03:42.25] /i gi::setActiveWindow 6
+[23:03:42.25] /i gi::setActiveWindow 6 -raise true
+[23:03:43.14] /i gi::setActiveWindow 5
+[23:03:43.14] /i gi::setActiveWindow 5 -raise true
+[23:03:58.68] /i gi::setActiveWindow 4
+[23:03:58.68] /i gi::setActiveWindow 4 -raise true
+[23:04:00.09] /# gi::executeAction deSelectActive -in [gi::getWindows 4]
+[23:04:00.09] /i de::deselectAll [db::getNext [de::getContexts -window 4]]
+[23:04:00.09] /i de::deselectAllLogic -context [db::getNext [de::getContexts -window 4]]
+[23:04:14.28] /# gi::executeAction deSelectActive -in [gi::getWindows 4]
+[23:04:14.28] /i de::deselectAll [db::getNext [de::getContexts -window 4]]
+[23:04:14.28] /i de::select [de::getActiveFigure [gi::getWindows 4] -point {4.65 2.4625} -index 0 -intent none]
+[23:04:14.28] /o oa:0x25962120
+[23:04:15.99] /i gi::setItemSelection {parameters} -index {l,all} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 4]]
+[23:04:15.99] /i gi::setCurrentIndex {parameters} -index {l,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 4]]
+[23:04:17.96] /i gi::setField {parameters} -value {0.12u} -index {l,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 4]]
+[23:04:17.96] /i gi::executeAction dePropertyEditorApplyChanges -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 4]]
+[23:04:19.84] /# gi::executeAction deSelectActive -in [gi::getWindows 4]
+[23:04:19.84] /i de::deselectAll [db::getNext [de::getContexts -window 4]]
+[23:04:19.84] /i de::select [de::getActiveFigure [gi::getWindows 4] -point {4.7 1.5875} -index 0 -intent none]
+[23:04:19.84] /o oa:0x259747f0
+[23:04:21.63] /i gi::setItemSelection {parameters} -index {l,all} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 4]]
+[23:04:21.63] /i gi::setCurrentIndex {parameters} -index {l,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 4]]
+[23:04:25.13] /i gi::setField {parameters} -value {0.12u} -index {l,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 4]]
+[23:04:25.13] /i gi::executeAction dePropertyEditorApplyChanges -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 4]]
+[23:04:27.12] /# gi::executeAction deSelectActive -in [gi::getWindows 4]
+[23:04:27.12] /i de::deselectAll [db::getNext [de::getContexts -window 4]]
+[23:04:27.12] /i de::select [de::getActiveFigure [gi::getWindows 4] -point {3.29375 2.1625} -index 0 -intent none]
+[23:04:27.12] /o oa:0x1d281f00
+[23:04:29.01] /i gi::setItemSelection {parameters} -index {l,all} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 4]]
+[23:04:29.01] /i gi::setCurrentIndex {parameters} -index {l,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 4]]
+[23:04:30.93] /i gi::setField {parameters} -value {0.12u} -index {l,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 4]]
+[23:04:30.93] /i gi::executeAction dePropertyEditorApplyChanges -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 4]]
+[23:04:33.64] /# gi::executeAction deSelectActive -in [gi::getWindows 4]
+[23:04:33.64] /i de::deselectAll [db::getNext [de::getContexts -window 4]]
+[23:04:33.64] /i de::select [de::getActiveFigure [gi::getWindows 4] -point {3.2875 1.3375} -index 0 -intent none]
+[23:04:33.64] /o oa:0x24b05a20
+[23:04:36.10] /i gi::setItemSelection {parameters} -index {l,all} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 4]]
+[23:04:36.10] /i gi::setCurrentIndex {parameters} -index {l,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 4]]
+[23:04:37.96] /i gi::setField {parameters} -value {0.12u} -index {l,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 4]]
+[23:04:37.96] /i gi::executeAction dePropertyEditorApplyChanges -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 4]]
+[23:04:39.76] /# gi::executeAction deSelectActive -in [gi::getWindows 4]
+[23:04:39.76] /i de::deselectAll [db::getNext [de::getContexts -window 4]]
+[23:04:39.76] /i de::select [de::getActiveFigure [gi::getWindows 4] -point {3.3 3.05} -index 0 -intent none]
+[23:04:39.76] /o oa:0x23f9f9a0
+[23:04:40.89] /# gi::executeAction deSelectActive -in [gi::getWindows 4]
+[23:04:40.89] /i de::deselectAll [db::getNext [de::getContexts -window 4]]
+[23:04:40.89] /i de::select [de::getActiveFigure [gi::getWindows 4] -point {3.56875 2.85625} -index 0 -intent none]
+[23:04:40.89] /o oa:0x253939e0
+[23:04:42.30] /# gi::executeAction deSelectActive -in [gi::getWindows 4]
+[23:04:42.30] /i de::deselectAll [db::getNext [de::getContexts -window 4]]
+[23:04:42.30] /i de::select [de::getActiveFigure [gi::getWindows 4] -point {3.26875 2.99375} -index 0 -intent none]
+[23:04:42.30] /o oa:0x24c52b70
+[23:04:44.00] /i gi::setItemSelection {parameters} -index {w,all} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 4]]
+[23:04:44.01] /i gi::setCurrentIndex {parameters} -index {w,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 4]]
+[23:04:45.44] /i gi::setItemSelection {parameters} -index {l,all} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 4]]
+[23:04:45.44] /i gi::setCurrentIndex {parameters} -index {l,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 4]]
+[23:04:49.41] /i gi::setField {parameters} -value {0.12u} -index {l,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 4]]
+[23:04:49.41] /i gi::executeAction dePropertyEditorApplyChanges -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 4]]
+[23:04:51.96] /# gi::executeAction seSchCheckAndSave -in [gi::getWindows 4]
+[23:04:51.96] /i ise::check
+[23:04:51.97] /m Information: 
+              /c Cross view checking for DOAN/DA/symbol with DOAN/DA/schematic
+              /c No violations found. (DE_EDIT-007)
+[23:04:51.97] /m Information: 
+[23:04:51.97] /o Checking "DOAN/DA/schematic"
+[23:04:51.97] /o No rule violations found in "DOAN/DA/schematic"
+[23:04:51.97] /m Information: Checking process is completed: marking the design violations
+[23:04:51.99] /m Information: Marking of designs is completed
+[23:04:51.99] /o true
+[23:04:54.59] /i gi::setActiveWindow 3
+[23:04:54.59] /i gi::setActiveWindow 3 -raise true
+[23:04:57.29] /i gi::setActiveWindow 5
+[23:04:57.29] /i gi::setActiveWindow 5 -raise true
+[23:04:58.41] /i gi::setActiveWindow 3
+[23:04:58.41] /i gi::setActiveWindow 3 -raise true
+[23:04:59.67] /i gi::setActiveWindow 5
+[23:04:59.67] /i gi::setActiveWindow 5 -raise true
+[23:05:00.62] /i gi::executeAction menuPreShow -in [gi::getWindows 5]
+[23:05:00.62] /r giMenuAccess db::getNext [gi::getMenus saConsoleSimMenu -from [gi::getWindows 5]]
+[23:05:01.24] /# gi::executeAction saNetlistAndRun -in [gi::getWindows 5]
+[23:05:01.24] /i isa::netlistAndRun -testbench [sa::findActiveTestbench -window 5] -mode overwrite
+[23:05:01.29] /m Information: "Starting incremental netlisting for design "DOAN/test_latch/schematic"..." (NETLISTING-010)
+[23:05:01.32] /o No Design Integrity rule violations found in "DOAN/test_latch/schematic"
+[23:05:01.36] /m Information: "DOAN DA schematic" renetlisted. (NETLISTING-056)
+[23:05:01.37] /m Information: "Netlisting design "DOAN/test_latch/schematic" finished successfully." (NETLISTING-012)
+[23:05:01.38] /m Information: "Composing simulator input file for design "DOAN/test_latch/schematic"..."
+[23:05:01.40] /m Information: "Simulator input file composed successfully for design "DOAN/test_latch/schematic""
+[23:05:01.59] /m Information: "Starting HSPICE simulation for design: DOAN/test_latch/schematic"
+[23:05:01.59] /# gi::collapse {jobMonitorTable} -index {0.0.0.0,0} -in [gi::getWindows 6]
+[23:05:01.61] /o 1
+[23:05:01.96] /m Information: "Simulation completed successfully for design: DOAN/test_latch/schematic "
+[23:05:02.15] /m Information: "Evaluating and plotting outputs..."
+[23:05:02.16] /m Information: Started sharing "Custom WaveView" license. (WAVEFORM-110)
+[23:05:02.25] /j ::wf::WaveView::plotSuccess WaveView_1 {} {_732a9c0_void_pp _6dfb6d0_void_pp} 
+[23:05:02.33] /j ::wf::WaveView::plotSuccess WaveView_1 {} {_732a9c0_void_pp _6dfb798_void_pp} 
+[23:05:02.45] /j ::wf::WaveView::plotSuccess WaveView_1 {} {_732a9c0_void_pp _6dfb860_void_pp} 
+[23:05:02.50] /j ::wf::WaveView::plotSuccess WaveView_1 {} {_732a9c0_void_pp _6dfb540_void_pp} 
+[23:05:02.56] /m Information: Measurement calculations completed for testbench: default in 0s
+[23:05:40.42] /i gi::setActiveWindow 3
+[23:05:40.43] /i gi::setActiveWindow 3 -raise true
+[23:05:41.44] /i gi::setActiveWindow 5
+[23:05:41.44] /i gi::setActiveWindow 5 -raise true
+[23:05:42.63] /i gi::setActiveWindow 4
+[23:05:42.63] /i gi::setActiveWindow 4 -raise true
+[23:05:44.33] /# gi::executeAction deSelectActive -in [gi::getWindows 4]
+[23:05:44.33] /i de::cycleActiveFigure [gi::getWindows 4] -direction next
+[23:05:44.33] /o oa:0x1803caf0
+[23:05:46.25] /i gi::setItemSelection {parameters} -index {l,all} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 4]]
+[23:05:46.25] /i gi::setCurrentIndex {parameters} -index {l,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 4]]
+[23:05:49.47] /i gi::setField {parameters} -value {0.18u} -index {l,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 4]]
+[23:05:49.47] /i gi::executeAction dePropertyEditorApplyChanges -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 4]]
+[23:05:51.43] /# gi::executeAction deSelectActive -in [gi::getWindows 4]
+[23:05:51.43] /i de::deselectAll [db::getNext [de::getContexts -window 4]]
+[23:05:51.43] /i de::select [de::getActiveFigure [gi::getWindows 4] -point {3.2375 2.125} -index 0 -intent none]
+[23:05:51.43] /o oa:0x24e31ff0
+[23:05:53.16] /i gi::setItemSelection {parameters} -index {l,all} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 4]]
+[23:05:53.16] /i gi::setCurrentIndex {parameters} -index {l,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 4]]
+[23:05:54.88] /i gi::setField {parameters} -value {0.18u} -index {l,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 4]]
+[23:05:54.88] /i gi::executeAction dePropertyEditorApplyChanges -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 4]]
+[23:05:56.66] /# gi::executeAction deSelectActive -in [gi::getWindows 4]
+[23:05:56.66] /i de::deselectAll [db::getNext [de::getContexts -window 4]]
+[23:05:56.66] /i de::select [de::getActiveFigure [gi::getWindows 4] -point {3.23125 1.2875} -index 0 -intent none]
+[23:05:56.66] /o oa:0x2424d040
+[23:05:58.83] /i gi::setItemSelection {parameters} -index {l,all} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 4]]
+[23:05:58.83] /i gi::setCurrentIndex {parameters} -index {l,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 4]]
+[23:06:00.34] /i gi::setField {parameters} -value {0.18u} -index {l,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 4]]
+[23:06:00.34] /i gi::executeAction dePropertyEditorApplyChanges -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 4]]
+[23:06:02.37] /# gi::executeAction deSelectActive -in [gi::getWindows 4]
+[23:06:02.37] /i de::deselectAll [db::getNext [de::getContexts -window 4]]
+[23:06:02.37] /i de::select [de::getActiveFigure [gi::getWindows 4] -point {4.74375 2.6375} -index 0 -intent none]
+[23:06:02.37] /o oa:0x1f622610
+[23:06:04.96] /i gi::setItemSelection {parameters} -index {l,all} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 4]]
+[23:06:04.96] /i gi::setCurrentIndex {parameters} -index {l,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 4]]
+[23:06:06.88] /i gi::setField {parameters} -value {0.18u} -index {l,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 4]]
+[23:06:06.88] /i gi::executeAction dePropertyEditorApplyChanges -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 4]]
+[23:06:08.97] /# gi::executeAction deSelectActive -in [gi::getWindows 4]
+[23:06:08.97] /i de::deselectAll [db::getNext [de::getContexts -window 4]]
+[23:06:08.97] /i de::deselectAllLogic -context [db::getNext [de::getContexts -window 4]]
+[23:06:10.17] /# gi::executeAction deSelectActive -in [gi::getWindows 4]
+[23:06:10.17] /i de::deselectAll [db::getNext [de::getContexts -window 4]]
+[23:06:10.17] /i de::select [de::getActiveFigure [gi::getWindows 4] -point {4.7375 1.5875} -index 0 -intent none]
+[23:06:10.17] /o oa:0x1f4d1c60
+[23:06:11.99] /i gi::setItemSelection {parameters} -index {l,all} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 4]]
+[23:06:11.99] /i gi::setCurrentIndex {parameters} -index {l,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 4]]
+[23:06:13.73] /i gi::setField {parameters} -value {0.18u} -index {l,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 4]]
+[23:06:13.73] /i gi::executeAction dePropertyEditorApplyChanges -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 4]]
+[23:06:15.10] /# gi::executeAction deSelectActive -in [gi::getWindows 4]
+[23:06:15.11] /i de::deselectAll [db::getNext [de::getContexts -window 4]]
+[23:06:15.11] /i de::deselectAllLogic -context [db::getNext [de::getContexts -window 4]]
+[23:06:22.63] /# gi::executeAction seSchCheckAndSave -in [gi::getWindows 4]
+[23:06:22.63] /i ise::check
+[23:06:22.64] /m Information: 
+              /c Cross view checking for DOAN/DA/symbol with DOAN/DA/schematic
+              /c No violations found. (DE_EDIT-007)
+[23:06:22.64] /m Information: 
+[23:06:22.64] /o Checking "DOAN/DA/schematic"
+[23:06:22.64] /o No rule violations found in "DOAN/DA/schematic"
+[23:06:22.64] /m Information: Checking process is completed: marking the design violations
+[23:06:22.66] /m Information: Marking of designs is completed
+[23:06:22.66] /o true
+[23:08:10.24] /i gi::setActiveWindow 5
+[23:08:10.24] /i gi::setActiveWindow 5 -raise true
+[23:08:12.48] /i gi::setActiveWindow 4
+[23:08:12.48] /i gi::setActiveWindow 4 -raise true
+[23:08:16.40] /# gi::executeAction seSchCheckAndSave -in [gi::getWindows 4]
+[23:08:16.40] /i ise::check
+[23:08:16.41] /m Information: 
+              /c Cross view checking for DOAN/DA/symbol with DOAN/DA/schematic
+              /c No violations found. (DE_EDIT-007)
+[23:08:16.41] /m Information: 
+[23:08:16.41] /o Checking "DOAN/DA/schematic"
+[23:08:16.41] /o No rule violations found in "DOAN/DA/schematic"
+[23:08:16.41] /m Information: Checking process is completed: marking the design violations
+[23:08:16.43] /m Information: Marking of designs is completed
+[23:08:16.43] /o true
+[23:08:17.64] /i gi::setActiveWindow 5
+[23:08:17.64] /i gi::setActiveWindow 5 -raise true
+[23:08:18.91] /i gi::executeAction menuPreShow -in [gi::getWindows 5]
+[23:08:18.91] /r giMenuAccess db::getNext [gi::getMenus saConsoleSimMenu -from [gi::getWindows 5]]
+[23:08:19.68] /# gi::executeAction saNetlistAndRun -in [gi::getWindows 5]
+[23:08:19.68] /i isa::netlistAndRun -testbench [sa::findActiveTestbench -window 5] -mode overwrite
+[23:08:19.73] /m Information: "Starting incremental netlisting for design "DOAN/test_latch/schematic"..." (NETLISTING-010)
+[23:08:19.74] /o No Design Integrity rule violations found in "DOAN/test_latch/schematic"
+[23:08:19.77] /m Information: "DOAN DA schematic" renetlisted. (NETLISTING-056)
+[23:08:19.78] /m Information: "Netlisting design "DOAN/test_latch/schematic" finished successfully." (NETLISTING-012)
+[23:08:19.79] /m Information: "Composing simulator input file for design "DOAN/test_latch/schematic"..."
+[23:08:19.82] /m Information: "Simulator input file composed successfully for design "DOAN/test_latch/schematic""
+[23:08:20.01] /m Information: "Starting HSPICE simulation for design: DOAN/test_latch/schematic"
+[23:08:20.01] /# gi::collapse {jobMonitorTable} -index {0.0.0.0,0} -in [gi::getWindows 6]
+[23:08:20.02] /o 1
+[23:08:20.47] /m Information: "Simulation completed successfully for design: DOAN/test_latch/schematic "
+[23:08:20.65] /m Information: "Evaluating and plotting outputs..."
+[23:08:20.75] /j ::wf::WaveView::plotSuccess WaveView_1 {} {_7443b30_void_pp _6dfb608_void_pp} 
+[23:08:20.83] /j ::wf::WaveView::plotSuccess WaveView_1 {} {_7443b30_void_pp _6dfb6d0_void_pp} 
+[23:08:20.86] /j ::wf::WaveView::plotSuccess WaveView_1 {} {_7443b30_void_pp _6dfb798_void_pp} 
+[23:08:20.94] /j ::wf::WaveView::plotSuccess WaveView_1 {} {_7443b30_void_pp _6dfb860_void_pp} 
+[23:08:20.96] /m Information: Measurement calculations completed for testbench: default in 0s
+[23:09:12.20] /i gi::setActiveWindow 3
+[23:09:12.20] /i gi::setActiveWindow 3 -raise true
+[23:09:13.39] /i gi::setActiveWindow 5
+[23:09:13.39] /i gi::setActiveWindow 5 -raise true
+[23:09:14.40] /i gi::setActiveWindow 4
+[23:09:14.40] /i gi::setActiveWindow 4 -raise true
+[23:09:15.79] /# gi::executeAction deSelectActive -in [gi::getWindows 4]
+[23:09:15.79] /i de::deselectAllLogic -context [db::getNext [de::getContexts -window 4]]
+[23:09:16.46] /# gi::executeAction deSelectActive -in [gi::getWindows 4]
+[23:09:16.46] /i de::deselectAll [db::getNext [de::getContexts -window 4]]
+[23:09:16.46] /i de::select [de::getActiveFigure [gi::getWindows 4] -point {7.15625 2.66875} -index 0 -intent none]
+[23:09:16.46] /o oa:0x24f075c0
+[23:09:18.08] /i gi::setItemSelection {parameters} -index {l,all} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 4]]
+[23:09:18.08] /i gi::setCurrentIndex {parameters} -index {l,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 4]]
+[23:09:19.86] /i gi::setField {parameters} -value {0.18u} -index {l,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 4]]
+[23:09:19.86] /i gi::executeAction dePropertyEditorApplyChanges -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 4]]
+[23:09:24.06] /# gi::executeAction deSelectActive -in [gi::getWindows 4]
+[23:09:24.06] /i de::deselectAll [db::getNext [de::getContexts -window 4]]
+[23:09:24.06] /i de::select [de::getActiveFigure [gi::getWindows 4] -point {7.2 1.65625} -index 0 -intent none]
+[23:09:24.06] /o oa:0x253c55c0
+[23:09:25.72] /i gi::setItemSelection {parameters} -index {l,all} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 4]]
+[23:09:25.72] /i gi::setCurrentIndex {parameters} -index {l,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 4]]
+[23:09:32.12] /i gi::setField {parameters} -value {0.18u} -index {l,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 4]]
+[23:09:32.12] /i gi::executeAction dePropertyEditorApplyChanges -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 4]]
+[23:09:33.87] /# gi::executeAction deSelectActive -in [gi::getWindows 4]
+[23:09:33.87] /i de::deselectAll [db::getNext [de::getContexts -window 4]]
+[23:09:33.87] /i de::deselectAllLogic -context [db::getNext [de::getContexts -window 4]]
+[23:09:43.98] /i gi::setActiveWindow 5
+[23:09:43.98] /i gi::setActiveWindow 5 -raise true
+[23:09:45.53] /i gi::setActiveWindow 4
+[23:09:45.53] /i gi::setActiveWindow 4 -raise true
+[23:09:46.55] /# gi::executeAction seSchCheckAndSave -in [gi::getWindows 4]
+[23:09:46.55] /i ise::check
+[23:09:46.55] /m Information: 
+              /c Cross view checking for DOAN/DA/symbol with DOAN/DA/schematic
+              /c No violations found. (DE_EDIT-007)
+[23:09:46.55] /m Information: 
+[23:09:46.55] /o Checking "DOAN/DA/schematic"
+[23:09:46.56] /o No rule violations found in "DOAN/DA/schematic"
+[23:09:46.56] /m Information: Checking process is completed: marking the design violations
+[23:09:46.57] /m Information: Marking of designs is completed
+[23:09:46.57] /o true
+[23:09:47.48] /i gi::setActiveWindow 5
+[23:09:47.48] /i gi::setActiveWindow 5 -raise true
+[23:09:48.78] /i gi::executeAction menuPreShow -in [gi::getWindows 5]
+[23:09:48.78] /r giMenuAccess db::getNext [gi::getMenus saConsoleSimMenu -from [gi::getWindows 5]]
+[23:09:50.40] /# gi::executeAction saNetlistAndRun -in [gi::getWindows 5]
+[23:09:50.40] /i isa::netlistAndRun -testbench [sa::findActiveTestbench -window 5] -mode overwrite
+[23:09:50.44] /m Information: "Starting incremental netlisting for design "DOAN/test_latch/schematic"..." (NETLISTING-010)
+[23:09:50.47] /o No Design Integrity rule violations found in "DOAN/test_latch/schematic"
+[23:09:50.50] /m Information: "DOAN DA schematic" renetlisted. (NETLISTING-056)
+[23:09:50.51] /m Information: "Netlisting design "DOAN/test_latch/schematic" finished successfully." (NETLISTING-012)
+[23:09:50.51] /m Information: "Composing simulator input file for design "DOAN/test_latch/schematic"..."
+[23:09:50.54] /m Information: "Simulator input file composed successfully for design "DOAN/test_latch/schematic""
+[23:09:50.73] /m Information: "Starting HSPICE simulation for design: DOAN/test_latch/schematic"
+[23:09:50.74] /# gi::collapse {jobMonitorTable} -index {0.0.0.0,0} -in [gi::getWindows 6]
+[23:09:50.75] /o 1
+[23:09:51.18] /m Information: "Simulation completed successfully for design: DOAN/test_latch/schematic "
+[23:09:51.38] /m Information: "Evaluating and plotting outputs..."
+[23:09:51.50] /j ::wf::WaveView::plotSuccess WaveView_1 {} {_78f4910_void_pp _6dfb540_void_pp} 
+[23:09:51.58] /j ::wf::WaveView::plotSuccess WaveView_1 {} {_78f4910_void_pp _6dfb608_void_pp} 
+[23:09:51.62] /j ::wf::WaveView::plotSuccess WaveView_1 {} {_78f4910_void_pp _6dfb6d0_void_pp} 
+[23:09:51.66] /j ::wf::WaveView::plotSuccess WaveView_1 {} {_78f4910_void_pp _6dfb798_void_pp} 
+[23:09:51.78] /m Information: Measurement calculations completed for testbench: default in 0s
+[23:10:12.20] /i gi::setActiveWindow 4
+[23:10:12.20] /i gi::setActiveWindow 4 -raise true
+[23:10:13.89] /# gi::executeAction deSelectActive -in [gi::getWindows 4]
+[23:10:13.89] /i de::deselectAll [db::getNext [de::getContexts -window 4]]
+[23:10:13.89] /i de::select [de::getActiveFigure [gi::getWindows 4] -point {7.225 2.4625} -index 0 -intent none]
+[23:10:13.89] /o oa:0x24d0b830
+[23:10:15.53] /i gi::setItemSelection {parameters} -index {l,all} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 4]]
+[23:10:15.53] /i gi::setCurrentIndex {parameters} -index {l,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 4]]
+[23:10:18.05] /i gi::setField {parameters} -value {0.12u} -index {l,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 4]]
+[23:10:18.05] /i gi::executeAction dePropertyEditorApplyChanges -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 4]]
+[23:10:19.49] /# gi::executeAction deSelectActive -in [gi::getWindows 4]
+[23:10:19.49] /i de::deselectAll [db::getNext [de::getContexts -window 4]]
+[23:10:19.49] /i de::deselectAllLogic -context [db::getNext [de::getContexts -window 4]]
+[23:10:20.39] /# gi::executeAction deSelectActive -in [gi::getWindows 4]
+[23:10:20.39] /i de::deselectAll [db::getNext [de::getContexts -window 4]]
+[23:10:20.39] /i de::select [de::getActiveFigure [gi::getWindows 4] -point {7.25 1.68125} -index 0 -intent none]
+[23:10:20.39] /o oa:0x1fe4fdd0
+[23:10:21.67] /i gi::setItemSelection {parameters} -index {l,all} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 4]]
+[23:10:21.68] /i gi::setCurrentIndex {parameters} -index {l,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 4]]
+[23:10:30.36] /i gi::setField {parameters} -value {0.12u} -index {l,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 4]]
+[23:10:30.36] /i gi::executeAction dePropertyEditorApplyChanges -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 4]]
+[23:10:34.19] /i gi::setItemSelection {parameters} -index {w,all} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 4]]
+[23:10:34.19] /i gi::setCurrentIndex {parameters} -index {w,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 4]]
+[23:10:38.48] /i gi::setField {parameters} -value {0.48u} -index {w,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 4]]
+[23:10:38.48] /i gi::executeAction dePropertyEditorApplyChanges -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 4]]
+[23:10:39.66] /# gi::executeAction deSelectActive -in [gi::getWindows 4]
+[23:10:39.66] /i de::deselectAll [db::getNext [de::getContexts -window 4]]
+[23:10:39.66] /i de::deselectAllLogic -context [db::getNext [de::getContexts -window 4]]
+[23:10:41.13] /# gi::executeAction deSelectActive -in [gi::getWindows 4]
+[23:10:41.13] /i de::deselectAll [db::getNext [de::getContexts -window 4]]
+[23:10:41.13] /i de::select [de::getActiveFigure [gi::getWindows 4] -point {7.2 2.6} -index 0 -intent none]
+[23:10:41.13] /o oa:0x24dd8f40
+[23:10:51.55] /# gi::executeAction deSelectActive -in [gi::getWindows 4]
+[23:10:51.55] /i de::cycleActiveFigure [gi::getWindows 4] -direction next
+[23:10:51.55] /o oa:0x1cf90da0
+[23:10:53.78] /i gi::setItemSelection {parameters} -index {w,all} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 4]]
+[23:10:53.78] /i gi::setCurrentIndex {parameters} -index {w,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 4]]
+[23:10:56.09] /i gi::setField {parameters} -value {1.2u} -index {w,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 4]]
+[23:10:56.09] /i gi::executeAction dePropertyEditorApplyChanges -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 4]]
+[23:10:58.70] /# gi::executeAction seSchCheckAndSave -in [gi::getWindows 4]
+[23:10:58.70] /i ise::check
+[23:10:58.70] /m Information: 
+              /c Cross view checking for DOAN/DA/symbol with DOAN/DA/schematic
+              /c No violations found. (DE_EDIT-007)
+[23:10:58.70] /m Information: 
+[23:10:58.70] /o Checking "DOAN/DA/schematic"
+[23:10:58.70] /o No rule violations found in "DOAN/DA/schematic"
+[23:10:58.70] /m Information: Checking process is completed: marking the design violations
+[23:10:58.72] /m Information: Marking of designs is completed
+[23:10:58.72] /o true
+[23:11:00.19] /i gi::setActiveWindow 5
+[23:11:00.19] /i gi::setActiveWindow 5 -raise true
+[23:11:01.23] /i gi::executeAction menuPreShow -in [gi::getWindows 5]
+[23:11:01.23] /r giMenuAccess db::getNext [gi::getMenus saConsoleSimMenu -from [gi::getWindows 5]]
+[23:11:01.50] /i gi::executeAction menuPreShow -in [gi::getWindows 5]
+[23:11:01.50] /r giMenuAccess db::getNext [gi::getMenus saResultsMenu -from [gi::getWindows 5]]
+[23:11:02.01] /i gi::executeAction menuPreShow -in [gi::getWindows 5]
+[23:11:02.01] /r giMenuAccess db::getNext [gi::getMenus saConsoleSimMenu -from [gi::getWindows 5]]
+[23:11:02.77] /# gi::executeAction saNetlistAndRun -in [gi::getWindows 5]
+[23:11:02.77] /i isa::netlistAndRun -testbench [sa::findActiveTestbench -window 5] -mode overwrite
+[23:11:02.81] /m Information: "Starting incremental netlisting for design "DOAN/test_latch/schematic"..." (NETLISTING-010)
+[23:11:02.82] /o No Design Integrity rule violations found in "DOAN/test_latch/schematic"
+[23:11:02.85] /m Information: "DOAN DA schematic" renetlisted. (NETLISTING-056)
+[23:11:02.86] /m Information: "Netlisting design "DOAN/test_latch/schematic" finished successfully." (NETLISTING-012)
+[23:11:02.87] /m Information: "Composing simulator input file for design "DOAN/test_latch/schematic"..."
+[23:11:02.90] /m Information: "Simulator input file composed successfully for design "DOAN/test_latch/schematic""
+[23:11:03.06] /m Information: "Starting HSPICE simulation for design: DOAN/test_latch/schematic"
+[23:11:03.06] /# gi::collapse {jobMonitorTable} -index {0.0.0.0,0} -in [gi::getWindows 6]
+[23:11:03.08] /o 1
+[23:11:03.48] /m Information: "Simulation completed successfully for design: DOAN/test_latch/schematic "
+[23:11:03.69] /m Information: "Evaluating and plotting outputs..."
+[23:11:03.79] /j ::wf::WaveView::plotSuccess WaveView_1 {} {_78b18a0_void_pp _6dfb860_void_pp} 
+[23:11:03.88] /j ::wf::WaveView::plotSuccess WaveView_1 {} {_78b18a0_void_pp _6dfb540_void_pp} 
+[23:11:03.96] /j ::wf::WaveView::plotSuccess WaveView_1 {} {_78b18a0_void_pp _6dfb608_void_pp} 
+[23:11:04.03] /j ::wf::WaveView::plotSuccess WaveView_1 {} {_78b18a0_void_pp _6dfb6d0_void_pp} 
+[23:11:04.09] /m Information: Measurement calculations completed for testbench: default in 1s
+[23:12:04.51] /i gi::setActiveWindow 4
+[23:12:04.51] /i gi::setActiveWindow 4 -raise true
+[23:12:23.81] /i gi::setItemSelection {parameters} -index {w,all} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 4]]
+[23:12:23.81] /i gi::setCurrentIndex {parameters} -index {w,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 4]]
+[23:12:27.79] /i gi::setField {parameters} -value {1.08u} -index {w,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 4]]
+[23:12:27.79] /i gi::executeAction dePropertyEditorApplyChanges -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 4]]
+[23:12:29.60] /# gi::executeAction deSelectActive -in [gi::getWindows 4]
+[23:12:29.60] /i de::deselectAll [db::getNext [de::getContexts -window 4]]
+[23:12:29.60] /i de::select [de::getActiveFigure [gi::getWindows 4] -point {7.24375 1.8} -index 0 -intent none]
+[23:12:29.60] /o oa:0x25e05130
+[23:12:32.96] /i gi::setItemSelection {parameters} -index {w,all} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 4]]
+[23:12:32.96] /i gi::setCurrentIndex {parameters} -index {w,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 4]]
+[23:12:36.73] /i gi::setField {parameters} -value {0.36u} -index {w,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 4]]
+[23:12:36.73] /i gi::executeAction dePropertyEditorApplyChanges -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 4]]
+[23:12:39.28] /# gi::executeAction seSchCheckAndSave -in [gi::getWindows 4]
+[23:12:39.28] /i ise::check
+[23:12:39.29] /m Information: 
+              /c Cross view checking for DOAN/DA/symbol with DOAN/DA/schematic
+              /c No violations found. (DE_EDIT-007)
+[23:12:39.29] /m Information: 
+[23:12:39.29] /o Checking "DOAN/DA/schematic"
+[23:12:39.29] /o No rule violations found in "DOAN/DA/schematic"
+[23:12:39.29] /m Information: Checking process is completed: marking the design violations
+[23:12:39.31] /m Information: Marking of designs is completed
+[23:12:39.31] /o true
+[23:12:41.49] /i gi::setActiveWindow 5
+[23:12:41.49] /i gi::setActiveWindow 5 -raise true
+[23:12:42.56] /i gi::executeAction menuPreShow -in [gi::getWindows 5]
+[23:12:42.56] /r giMenuAccess db::getNext [gi::getMenus saConsoleSimMenu -from [gi::getWindows 5]]
+[23:12:43.34] /# gi::executeAction saNetlistAndRun -in [gi::getWindows 5]
+[23:12:43.34] /i isa::netlistAndRun -testbench [sa::findActiveTestbench -window 5] -mode overwrite
+[23:12:43.42] /m Information: "Starting incremental netlisting for design "DOAN/test_latch/schematic"..." (NETLISTING-010)
+[23:12:43.44] /o No Design Integrity rule violations found in "DOAN/test_latch/schematic"
+[23:12:43.47] /m Information: "DOAN DA schematic" renetlisted. (NETLISTING-056)
+[23:12:43.49] /m Information: "Netlisting design "DOAN/test_latch/schematic" finished successfully." (NETLISTING-012)
+[23:12:43.50] /m Information: "Composing simulator input file for design "DOAN/test_latch/schematic"..."
+[23:12:43.53] /m Information: "Simulator input file composed successfully for design "DOAN/test_latch/schematic""
+[23:12:43.71] /m Information: "Starting HSPICE simulation for design: DOAN/test_latch/schematic"
+[23:12:43.71] /# gi::collapse {jobMonitorTable} -index {0.0.0.0,0} -in [gi::getWindows 6]
+[23:12:43.73] /o 1
+[23:12:44.16] /m Information: "Simulation completed successfully for design: DOAN/test_latch/schematic "
+[23:12:44.38] /m Information: "Evaluating and plotting outputs..."
+[23:12:44.47] /j ::wf::WaveView::plotSuccess WaveView_1 {} {_738d110_void_pp _6dfb798_void_pp} 
+[23:12:44.55] /j ::wf::WaveView::plotSuccess WaveView_1 {} {_738d110_void_pp _6dfb860_void_pp} 
+[23:12:44.63] /j ::wf::WaveView::plotSuccess WaveView_1 {} {_738d110_void_pp _6dfb540_void_pp} 
+[23:12:44.69] /j ::wf::WaveView::plotSuccess WaveView_1 {} {_738d110_void_pp _6dfb608_void_pp} 
+[23:12:44.77] /m Information: Measurement calculations completed for testbench: default in 0s
+[23:14:39.67] /m Information: Waveform viewer exited normally.
+[23:14:40.69] /i gi::setActiveWindow 3
+[23:14:40.69] /i gi::setActiveWindow 3 -raise true
+[23:14:42.20] /i gi::setActiveWindow 4
+[23:14:42.20] /i gi::setActiveWindow 4 -raise true
+[23:14:43.67] /# gi::executeAction deSelectActive -in [gi::getWindows 4]
+[23:14:43.67] /i de::deselectAll [db::getNext [de::getContexts -window 4]]
+[23:14:43.67] /i de::deselectAllLogic -context [db::getNext [de::getContexts -window 4]]
+[23:14:47.84] /# gi::executeAction deFitEdit -in [gi::getWindows 4]
+[23:14:47.84] /i de::fit -window 4 -fitEdit true
+[23:14:47.84] /o {1.425 0.38125} {9.14375 3.99375}
+[23:17:49.65] /m Information: Stopped sharing "Custom WaveView" license. (WAVEFORM-111)
+[23:18:58.30] /# gi::executeAction deSelectActive -in [gi::getWindows 4]
+[23:18:58.30] /i de::deselectAllLogic -context [db::getNext [de::getContexts -window 4]]
+[23:18:59.90] /# gi::executeAction seDelete -in [gi::getWindows 4]
+[23:18:59.90] /i ise::delete
+[23:19:01.82] /# gi::executeAction deAddPoint -in [gi::getWindows 4]
+[23:19:01.82] /i de::addPoint {6.60625 2.05} -context [db::getNext [de::getContexts -window 4]]
+[23:19:05.60] /# gi::executeAction deAbortCommand -in [gi::getWindows 4]
+[23:19:05.60] /i de::abortCommand -context [db::getNext [de::getContexts -window 4]]
+[23:19:06.97] /# gi::executeAction seButton1DragStart -in [gi::getWindows 4]
+[23:19:06.97] /i ise::stretch -object [de::getActiveFigure [gi::getWindows 4] -point {8.425 2.025} -index 0 -intent none] -point {8.4375 2}
+[23:19:08.37] /# gi::executeAction deEndDrag -in [gi::getWindows 4]
+[23:19:08.37] /i de::endDrag {7.7125 0.65} -context [db::getNext [de::getContexts -window 4]]
+[23:19:09.99] /i gi::executeAction deCanvasDragSelect -in [gi::getWindows 4]
+[23:19:09.99] /r deCanvasDragStart 6.71875 3.625
+[23:19:12.26] /# gi::executeAction deCanvasDragEnd -in [gi::getWindows 4]
+[23:19:12.26] /i gi::executeAction deCanvasDragEnd -in [gi::getWindows 4]
+[23:19:12.26] /r deCanvasDragEnd 8.01875 0.9125
+[23:19:15.66] /# gi::executeAction seCopy -in [gi::getWindows 4]
+[23:19:15.66] /i ise::copy
+[23:19:16.56] /# gi::executeAction deAddPoint -in [gi::getWindows 4]
+[23:19:16.56] /i de::addPoint {7.80625 1.9625} -context [db::getNext [de::getContexts -window 4]]
+[23:19:21.58] /# gi::executeAction deFitEdit -in [gi::getWindows 4]
+[23:19:21.58] /i de::fit -window 4 -fitEdit true
+[23:19:21.58] /o {1.425 0.38125} {9.1375 3.99375}
+[23:19:26.31] /# gi::executeAction deAddPoint -in [gi::getWindows 4]
+[23:19:26.31] /i de::addPoint {9.10625 1.9375} -context [db::getNext [de::getContexts -window 4]]
+[23:19:27.47] /# gi::executeAction deFitEdit -in [gi::getWindows 4]
+[23:19:27.47] /i de::fit -window 4 -fitEdit true
+[23:19:27.47] /o {1.49375 0.30625} {9.525 4.06875}
+[23:19:29.74] /# gi::executeAction seButton1DragStart -in [gi::getWindows 4]
+[23:19:29.74] /i ise::stretch -object [de::getActiveFigure [gi::getWindows 4] -point {8.4125 2.23125} -index 0 -intent none] -point {8.4375 2.25}
+[23:19:34.25] /# gi::executeAction deEndDrag -in [gi::getWindows 4]
+[23:19:34.25] /i de::endDrag {9.3375 2.25625} -context [db::getNext [de::getContexts -window 4]]
+[23:19:35.28] /# gi::executeAction deSelectActive -in [gi::getWindows 4]
+[23:19:35.28] /i de::deselectAll [db::getNext [de::getContexts -window 4]]
+[23:19:35.28] /i de::deselectAllLogic -context [db::getNext [de::getContexts -window 4]]
+[23:19:40.10] /# gi::executeAction seSchCreateWire -in [gi::getWindows 4]
+[23:19:40.10] /i ise::createWire
+[23:19:41.86] /# gi::executeAction deAddPoint -in [gi::getWindows 4]
+[23:19:41.86] /i de::addPoint {8.65 3.375} -context [db::getNext [de::getContexts -window 4]]
+[23:19:41.97] /i de::setCursor -point {8.5625 3.375 }
+[23:19:41.98] /i de::setCursor -point {8.5625 3.4375 }
+[23:19:42.00] /i de::setCursor -point {8.5 3.4375 }
+[23:19:43.34] /# gi::executeAction deAddPoint -in [gi::getWindows 4]
+[23:19:43.34] /i de::addPoint {7.31875 3.38125} -context [db::getNext [de::getContexts -window 4]]
+[23:19:45.55] /# gi::executeAction deAddPoint -in [gi::getWindows 4]
+[23:19:45.55] /i de::addPoint {8.59375 1.14375} -context [db::getNext [de::getContexts -window 4]]
+[23:19:47.32] /# gi::executeAction deAddPoint -in [gi::getWindows 4]
+[23:19:47.32] /i de::addPoint {7.31875 1.14375} -context [db::getNext [de::getContexts -window 4]]
+[23:20:00.26] /# gi::executeAction deStartDrag -in [gi::getWindows 4]
+[23:20:00.26] /i de::startDrag {7.65 0.6625} -context [db::getNext [de::getContexts -window 4]]
+[23:20:01.89] /# gi::executeAction deEndDrag -in [gi::getWindows 4]
+[23:20:01.89] /i de::endDrag {8.775 0.91875} -context [db::getNext [de::getContexts -window 4]]
+[23:20:01.92] /# gi::executeAction deAbortCommand -in [gi::getWindows 4]
+[23:20:01.92] /i de::abortCommand -context [db::getNext [de::getContexts -window 4]]
+[23:20:03.69] /i gi::executeAction deCanvasDragCancel -in [gi::getWindows 4]
+[23:20:05.07] /# gi::executeAction deUndo -in [gi::getWindows 4]
+[23:20:05.07] /i de::undoTransaction -design [db::getAttr editDesign -of [db::getNext [de::getContexts -window 4]]]
+[23:20:07.52] /i gi::executeAction deCanvasDragCancel -in [gi::getWindows 4]
+[23:20:08.01] /# gi::executeAction deSelectActive -in [gi::getWindows 4]
+[23:20:08.01] /i de::deselectAll [db::getNext [de::getContexts -window 4]]
+[23:20:08.01] /i de::select [de::getActiveFigure [gi::getWindows 4] -point {7.7 0.6625} -index 0 -intent none]
+[23:20:08.01] /o oa:0x24168c70
+[23:20:08.66] /# gi::executeAction seButton1DragStart -in [gi::getWindows 4]
+[23:20:08.66] /i ise::stretch -point {7.6875 0.6875}
+[23:20:14.14] /# gi::executeAction deEndDrag -in [gi::getWindows 4]
+[23:20:14.14] /i de::endDrag {9.33125 2.05625} -context [db::getNext [de::getContexts -window 4]]
+[23:20:16.40] /# gi::executeAction seSchCreateWire -in [gi::getWindows 4]
+[23:20:16.41] /i ise::createWire
+[23:20:18.57] /# gi::executeAction deAddPoint -in [gi::getWindows 4]
+[23:20:18.57] /i de::addPoint {8.3125 2.125} -context [db::getNext [de::getContexts -window 4]]
+[23:20:19.10] /i de::setCursor -point {8.25 2.125 }
+[23:20:26.27] /# gi::executeAction deAddPoint -in [gi::getWindows 4]
+[23:20:26.27] /i de::addPoint {7.3125 2.10625} -context [db::getNext [de::getContexts -window 4]]
+[23:20:28.96] /# gi::executeAction deAddPoint -in [gi::getWindows 4]
+[23:20:28.96] /i de::addPoint {9.3 2.04375} -context [db::getNext [de::getContexts -window 4]]
+[23:20:30.36] /# gi::executeAction deAddPoint -in [gi::getWindows 4]
+[23:20:30.36] /i de::addPoint {8.61875 2.075} -context [db::getNext [de::getContexts -window 4]]
+[23:20:31.97] /# gi::executeAction seSchCheckAndSave -in [gi::getWindows 4]
+[23:20:31.97] /i ise::check
+[23:20:31.98] /m Information: 
+              /c Cross view checking for DOAN/DA/symbol with DOAN/DA/schematic
+              /c No violations found. (DE_EDIT-007)
+[23:20:31.98] /m Information: 
+[23:20:31.98] /o Checking "DOAN/DA/schematic"
+[23:20:31.98] /o No rule violations found in "DOAN/DA/schematic"
+[23:20:31.98] /m Information: Checking process is completed: marking the design violations
+[23:20:32.01] /m Information: Marking of designs is completed
+[23:20:32.01] /o true
+[23:20:34.15] /i gi::setActiveWindow 5
+[23:20:34.15] /i gi::setActiveWindow 5 -raise true
+[23:20:35.22] /i gi::executeAction menuPreShow -in [gi::getWindows 5]
+[23:20:35.22] /r giMenuAccess db::getNext [gi::getMenus saConsoleSimMenu -from [gi::getWindows 5]]
+[23:20:35.91] /# gi::executeAction saNetlistAndRun -in [gi::getWindows 5]
+[23:20:35.91] /i isa::netlistAndRun -testbench [sa::findActiveTestbench -window 5] -mode overwrite
+[23:20:35.99] /m Information: "Starting incremental netlisting for design "DOAN/test_latch/schematic"..." (NETLISTING-010)
+[23:20:36.01] /o No Design Integrity rule violations found in "DOAN/test_latch/schematic"
+[23:20:36.05] /m Information: "DOAN DA schematic" renetlisted. (NETLISTING-056)
+[23:20:36.05] /m Information: "Netlisting design "DOAN/test_latch/schematic" finished successfully." (NETLISTING-012)
+[23:20:36.06] /m Information: "Composing simulator input file for design "DOAN/test_latch/schematic"..."
+[23:20:36.09] /m Information: "Simulator input file composed successfully for design "DOAN/test_latch/schematic""
+[23:20:36.27] /m Information: "Starting HSPICE simulation for design: DOAN/test_latch/schematic"
+[23:20:36.28] /# gi::collapse {jobMonitorTable} -index {0.0.0.0,0} -in [gi::getWindows 6]
+[23:20:36.29] /o 1
+[23:20:36.76] /m Information: "Simulation completed successfully for design: DOAN/test_latch/schematic "
+[23:20:36.94] /m Information: "Evaluating and plotting outputs..."
+[23:20:36.94] /m Information: Started sharing "Custom WaveView" license. (WAVEFORM-110)
+[23:20:36.96] /m Information: Launching Waveform Viewer "cd /home/itsupport/simulation/DOAN,test_latch,schematic/history_1/simulation/default/HSPICE/nominal/results &&  wv -k -cdesigner -spxkey /usr/synopsys/customcompiler/N-2017.12-SP1-2/auxx/waveform/sae.spxkey -spxrc /tmp/sae_spxrc_hrdAca -unique_string 43848c7d0ea448dd69aa7f613a217c24125e8d2b0833b894ed40d2f5efbf27a2fb0c0fc5bd619066c076ee8ea4250cfd28b752b133077f7c -lic_type 1    > /home/itsupport/simulation/DOAN,test_latch,schematic/history_1/simulation/default/HSPICE/nominal/results/viewer.log 2>&1"
+[23:20:36.96] /i gi::collapse {jobMonitorTable} -index {0.0,0} -in [gi::getWindows 6]
+[23:20:37.26] /m Information: Measurement calculations completed for testbench: default in 0s
+[23:20:37.72] /j ::wf::WaveView::plotSuccess WaveView_2 {} {_76604b0_void_pp _76ad520_void_pp} 
+[23:20:37.75] /j ::wf::WaveView::plotSuccess WaveView_2 {} {_76604b0_void_pp _76ad5e8_void_pp} 
+[23:20:37.78] /j ::wf::WaveView::plotSuccess WaveView_2 {} {_76604b0_void_pp _76ad6b0_void_pp} 
+[23:20:37.83] /j ::wf::WaveView::plotSuccess WaveView_2 {} {_76604b0_void_pp _76ad778_void_pp} 
+[23:22:22.96] /m Information: Waveform viewer exited normally.
+[23:22:24.01] /i gi::setActiveWindow 3
+[23:22:24.01] /i gi::setActiveWindow 3 -raise true
+[23:22:25.30] /i gi::setActiveWindow 4
+[23:22:25.30] /i gi::setActiveWindow 4 -raise true
+[23:22:28.16] /# gi::executeAction seDelete -in [gi::getWindows 4]
+[23:22:28.16] /i ise::delete
+[23:22:30.29] /# gi::executeAction deUndo -in [gi::getWindows 4]
+[23:22:30.29] /i de::undoTransaction -design [db::getAttr editDesign -of [db::getNext [de::getContexts -window 4]]]
+[23:22:31.24] /i gi::executeAction deCanvasDragCancel -in [gi::getWindows 4]
+[23:22:31.96] /# gi::executeAction deSelectActive -in [gi::getWindows 4]
+[23:22:31.96] /i de::deselectAll [db::getNext [de::getContexts -window 4]]
+[23:22:31.96] /i de::deselectAllLogic -context [db::getNext [de::getContexts -window 4]]
+[23:22:33.36] /# gi::executeAction seDelete -in [gi::getWindows 4]
+[23:22:33.36] /i ise::delete
+[23:22:35.12] /# gi::executeAction deAddPoint -in [gi::getWindows 4]
+[23:22:35.12] /i de::addPoint {7.84375 2.10625} -context [db::getNext [de::getContexts -window 4]]
+[23:22:35.85] /# gi::executeAction deAbortCommand -in [gi::getWindows 4]
+[23:22:35.85] /i de::abortCommand -context [db::getNext [de::getContexts -window 4]]
+[23:22:38.33] /# gi::executeAction seSchCreateWire -in [gi::getWindows 4]
+[23:22:38.33] /i ise::createWire
+[23:22:41.20] /# gi::executeAction deAddPoint -in [gi::getWindows 4]
+[23:22:41.20] /i de::addPoint {8.31875 2.08125} -context [db::getNext [de::getContexts -window 4]]
+[23:22:41.33] /i de::setCursor -point {8.25 2.0625 }
+[23:22:46.95] /# gi::executeAction deAbortCommand -in [gi::getWindows 4]
+[23:22:46.95] /i de::abortCommand -context [db::getNext [de::getContexts -window 4]]
+[23:22:48.29] /# gi::executeAction deSelectActive -in [gi::getWindows 4]
+[23:22:48.29] /i de::deselectAll [db::getNext [de::getContexts -window 4]]
+[23:22:48.29] /i de::select [de::getActiveFigure [gi::getWindows 4] -point {7.0125 2.10625} -index 0 -intent none]
+[23:22:48.29] /o oa:0x25978bd0
+[23:22:50.21] /# gi::executeAction seSchCreateWire -in [gi::getWindows 4]
+[23:22:50.21] /i ise::createWire
+[23:22:51.66] /# gi::executeAction deAddPoint -in [gi::getWindows 4]
+[23:22:51.66] /i de::addPoint {7 2.11875} -context [db::getNext [de::getContexts -window 4]]
+[23:22:51.75] /i de::setCursor -point {7.0625 2.125 }
+[23:22:53.81] /# gi::executeAction deAddPoint -in [gi::getWindows 4]
+[23:22:53.81] /i de::addPoint {8.31875 2.1125} -context [db::getNext [de::getContexts -window 4]]
+[23:22:57.15] /# gi::executeAction seSchCheckAndSave -in [gi::getWindows 4]
+[23:22:57.15] /i ise::check
+[23:22:57.16] /m Information: 
+              /c Cross view checking for DOAN/DA/symbol with DOAN/DA/schematic
+              /c No violations found. (DE_EDIT-007)
+[23:22:57.16] /m Information: 
+[23:22:57.16] /o Checking "DOAN/DA/schematic"
+[23:22:57.16] /o 	[warning] Solder on Crossing Wires
+[23:22:57.16] /o 		Solder dot on crossing wires
+[23:22:57.16] /o 0 Error(s),1 Warning(s),0 Message(s) found   in "DOAN/DA/schematic"
+[23:22:57.16] /m Information: Checking process is completed: marking the design violations
+[23:22:57.18] /m Information: Marking of designs is completed
+[23:22:57.18] /o true
+[23:23:00.49] /i gi::setActiveWindow 5
+[23:23:00.49] /i gi::setActiveWindow 5 -raise true
+[23:23:02.17] /i gi::executeAction menuPreShow -in [gi::getWindows 5]
+[23:23:02.17] /r giMenuAccess db::getNext [gi::getMenus saConsoleSimMenu -from [gi::getWindows 5]]
+[23:23:03.32] /# gi::executeAction saNetlistAndRun -in [gi::getWindows 5]
+[23:23:03.32] /i isa::netlistAndRun -testbench [sa::findActiveTestbench -window 5] -mode overwrite
+[23:23:03.40] /m Information: "Starting incremental netlisting for design "DOAN/test_latch/schematic"..." (NETLISTING-010)
+[23:23:03.41] /o No Design Integrity rule violations found in "DOAN/test_latch/schematic"
+[23:23:03.45] /m Information: "DOAN DA schematic" renetlisted. (NETLISTING-056)
+[23:23:03.45] /m Information: "Netlisting design "DOAN/test_latch/schematic" finished successfully." (NETLISTING-012)
+[23:23:03.46] /m Information: "Composing simulator input file for design "DOAN/test_latch/schematic"..."
+[23:23:03.49] /m Information: "Simulator input file composed successfully for design "DOAN/test_latch/schematic""
+[23:23:03.67] /m Information: "Starting HSPICE simulation for design: DOAN/test_latch/schematic"
+[23:23:03.68] /# gi::collapse {jobMonitorTable} -index {0.0.0.0,0} -in [gi::getWindows 6]
+[23:23:03.70] /o 1
+[23:23:04.06] /m Information: "Simulation completed successfully for design: DOAN/test_latch/schematic "
+[23:23:04.27] /m Information: "Evaluating and plotting outputs..."
+[23:23:04.28] /m Information: Launching Waveform Viewer "cd /home/itsupport/simulation/DOAN,test_latch,schematic/history_1/simulation/default/HSPICE/nominal/results &&  wv -k -cdesigner -spxkey /usr/synopsys/customcompiler/N-2017.12-SP1-2/auxx/waveform/sae.spxkey -spxrc /tmp/sae_spxrc_9JWeBR -unique_string 43848c7d0ea448dd69aa7f613a217c24125e8d2b0833b894ed40d2f5efbf27a2fb0c0fc5bd6190664d90f665756031475bb9c5db32dbe98b -lic_type 1    > /home/itsupport/simulation/DOAN,test_latch,schematic/history_1/simulation/default/HSPICE/nominal/results/viewer.log 2>&1"
+[23:23:04.28] /i gi::collapse {jobMonitorTable} -index {0.0,0} -in [gi::getWindows 6]
+[23:23:04.57] /m Information: Measurement calculations completed for testbench: default in 0s
+[23:23:04.98] /j ::wf::WaveView::plotSuccess WaveView_3 {} {_648cc40_void_pp _64db8e0_void_pp} 
+[23:23:05.00] /j ::wf::WaveView::plotSuccess WaveView_3 {} {_648cc40_void_pp _64db9a8_void_pp} 
+[23:23:05.05] /j ::wf::WaveView::plotSuccess WaveView_3 {} {_648cc40_void_pp _64dba70_void_pp} 
+[23:23:05.09] /j ::wf::WaveView::plotSuccess WaveView_3 {} {_648cc40_void_pp _64dbb38_void_pp} 
+[23:23:37.08] /m Information: Waveform viewer exited normally.
+[23:23:48.51] /i gi::setActiveWindow 4
+[23:23:48.51] /i gi::setActiveWindow 4 -raise true
+[23:23:58.56] /# gi::executeAction seDelete -in [gi::getWindows 4]
+[23:23:58.56] /i ise::delete
+[23:24:01.64] /# gi::executeAction deAddPoint -in [gi::getWindows 4]
+[23:24:01.64] /i de::addPoint {7.46875 2.10625} -context [db::getNext [de::getContexts -window 4]]
+[23:24:22.60] /# gi::executeAction deAbortCommand -in [gi::getWindows 4]
+[23:24:22.60] /i de::abortCommand -context [db::getNext [de::getContexts -window 4]]
+[23:24:28.16] /# gi::executeAction seDelete -in [gi::getWindows 4]
+[23:24:28.16] /i ise::delete
+[23:24:33.63] /# gi::executeAction deAbortCommand -in [gi::getWindows 4]
+[23:24:33.63] /i de::abortCommand -context [db::getNext [de::getContexts -window 4]]
+[23:24:35.71] /# gi::executeAction deSelectActive -in [gi::getWindows 4]
+[23:24:35.71] /i de::deselectAll [db::getNext [de::getContexts -window 4]]
+[23:24:35.71] /i de::deselectAllLogic -context [db::getNext [de::getContexts -window 4]]
+[23:24:36.54] /# gi::executeAction deUndo -in [gi::getWindows 4]
+[23:24:36.54] /i de::undoTransaction -design [db::getAttr editDesign -of [db::getNext [de::getContexts -window 4]]]
+[23:24:36.98] /# gi::executeAction deUndo -in [gi::getWindows 4]
+[23:24:36.98] /i de::undoTransaction -design [db::getAttr editDesign -of [db::getNext [de::getContexts -window 4]]]
+[23:24:37.21] /# gi::executeAction deUndo -in [gi::getWindows 4]
+[23:24:37.21] /i de::undoTransaction -design [db::getAttr editDesign -of [db::getNext [de::getContexts -window 4]]]
+[23:24:37.45] /# gi::executeAction deUndo -in [gi::getWindows 4]
+[23:24:37.45] /i de::undoTransaction -design [db::getAttr editDesign -of [db::getNext [de::getContexts -window 4]]]
+[23:24:37.66] /# gi::executeAction deUndo -in [gi::getWindows 4]
+[23:24:37.66] /i de::undoTransaction -design [db::getAttr editDesign -of [db::getNext [de::getContexts -window 4]]]
+[23:24:37.88] /# gi::executeAction deUndo -in [gi::getWindows 4]
+[23:24:37.88] /i de::undoTransaction -design [db::getAttr editDesign -of [db::getNext [de::getContexts -window 4]]]
+[23:24:38.06] /# gi::executeAction deUndo -in [gi::getWindows 4]
+[23:24:38.06] /i de::undoTransaction -design [db::getAttr editDesign -of [db::getNext [de::getContexts -window 4]]]
+[23:24:38.28] /# gi::executeAction deUndo -in [gi::getWindows 4]
+[23:24:38.28] /i de::undoTransaction -design [db::getAttr editDesign -of [db::getNext [de::getContexts -window 4]]]
+[23:24:38.46] /# gi::executeAction deUndo -in [gi::getWindows 4]
+[23:24:38.46] /i de::undoTransaction -design [db::getAttr editDesign -of [db::getNext [de::getContexts -window 4]]]
+[23:24:38.68] /# gi::executeAction deUndo -in [gi::getWindows 4]
+[23:24:38.68] /i de::undoTransaction -design [db::getAttr editDesign -of [db::getNext [de::getContexts -window 4]]]
+[23:24:39.04] /# gi::executeAction deUndo -in [gi::getWindows 4]
+[23:24:39.04] /i de::undoTransaction -design [db::getAttr editDesign -of [db::getNext [de::getContexts -window 4]]]
+[23:24:39.40] /# gi::executeAction deUndo -in [gi::getWindows 4]
+[23:24:39.40] /i de::undoTransaction -design [db::getAttr editDesign -of [db::getNext [de::getContexts -window 4]]]
+[23:24:40.89] /# gi::executeAction deUndo -in [gi::getWindows 4]
+[23:24:40.89] /i de::undoTransaction -design [db::getAttr editDesign -of [db::getNext [de::getContexts -window 4]]]
+[23:24:41.51] /# gi::executeAction deUndo -in [gi::getWindows 4]
+[23:24:41.51] /i de::undoTransaction -design [db::getAttr editDesign -of [db::getNext [de::getContexts -window 4]]]
+[23:24:45.12] /# gi::executeAction seSchCheckAndSave -in [gi::getWindows 4]
+[23:24:45.12] /i ise::check
+[23:24:45.13] /m Information: 
+              /c Cross view checking for DOAN/DA/symbol with DOAN/DA/schematic
+              /c No violations found. (DE_EDIT-007)
+[23:24:45.13] /m Information: 
+[23:24:45.13] /o Checking "DOAN/DA/schematic"
+[23:24:45.13] /o No rule violations found in "DOAN/DA/schematic"
+[23:24:45.13] /m Information: Checking process is completed: marking the design violations
+[23:24:45.15] /m Information: Marking of designs is completed
+[23:24:45.15] /o true
+[23:25:34.03] /i gi::setActiveWindow 5
+[23:25:34.03] /i gi::setActiveWindow 5 -raise true
+[23:25:34.96] /i gi::executeAction menuPreShow -in [gi::getWindows 5]
+[23:25:34.96] /r giMenuAccess db::getNext [gi::getMenus saConsoleSimMenu -from [gi::getWindows 5]]
+[23:25:35.53] /# gi::executeAction saNetlistAndRun -in [gi::getWindows 5]
+[23:25:35.53] /i isa::netlistAndRun -testbench [sa::findActiveTestbench -window 5] -mode overwrite
+[23:25:35.61] /m Information: "Starting incremental netlisting for design "DOAN/test_latch/schematic"..." (NETLISTING-010)
+[23:25:35.63] /o No Design Integrity rule violations found in "DOAN/test_latch/schematic"
+[23:25:35.66] /m Information: "DOAN DA schematic" renetlisted. (NETLISTING-056)
+[23:25:35.68] /m Information: "Netlisting design "DOAN/test_latch/schematic" finished successfully." (NETLISTING-012)
+[23:25:35.68] /m Information: "Composing simulator input file for design "DOAN/test_latch/schematic"..."
+[23:25:35.71] /m Information: "Simulator input file composed successfully for design "DOAN/test_latch/schematic""
+[23:25:35.90] /m Information: "Starting HSPICE simulation for design: DOAN/test_latch/schematic"
+[23:25:35.90] /# gi::collapse {jobMonitorTable} -index {0.0.0.0,0} -in [gi::getWindows 6]
+[23:25:35.92] /o 1
+[23:25:36.36] /m Information: "Simulation completed successfully for design: DOAN/test_latch/schematic "
+[23:25:36.55] /m Information: "Evaluating and plotting outputs..."
+[23:25:36.57] /m Information: Launching Waveform Viewer "cd /home/itsupport/simulation/DOAN,test_latch,schematic/history_1/simulation/default/HSPICE/nominal/results &&  wv -k -cdesigner -spxkey /usr/synopsys/customcompiler/N-2017.12-SP1-2/auxx/waveform/sae.spxkey -spxrc /tmp/sae_spxrc_eoc62S -unique_string 43848c7d0ea448dd69aa7f613a217c24125e8d2b0833b894ed40d2f5efbf27a2fb0c0fc5bd6190669ca87b61830fa92628b752b133077f7c -lic_type 1    > /home/itsupport/simulation/DOAN,test_latch,schematic/history_1/simulation/default/HSPICE/nominal/results/viewer.log 2>&1"
+[23:25:36.57] /i gi::collapse {jobMonitorTable} -index {0.0,0} -in [gi::getWindows 6]
+[23:25:36.86] /m Information: Measurement calculations completed for testbench: default in 0s
+[23:25:37.33] /j ::wf::WaveView::plotSuccess WaveView_4 {} {_6ca2c30_void_pp _6cef540_void_pp} 
+[23:25:37.36] /j ::wf::WaveView::plotSuccess WaveView_4 {} {_6ca2c30_void_pp _6cef608_void_pp} 
+[23:25:37.38] /j ::wf::WaveView::plotSuccess WaveView_4 {} {_6ca2c30_void_pp _6cef6d0_void_pp} 
+[23:25:37.40] /j ::wf::WaveView::plotSuccess WaveView_4 {} {_6ca2c30_void_pp _6cef798_void_pp} 
+[23:25:59.36] /m Information: Waveform viewer exited normally.
+[23:26:00.29] /i gi::setActiveWindow 5
+[23:26:00.29] /i gi::setActiveWindow 5 -raise true
+[23:26:01.08] /i gi::setActiveWindow 3
+[23:26:01.08] /i gi::setActiveWindow 3 -raise true
+[23:26:02.07] /i gi::setActiveWindow 4
+[23:26:02.07] /i gi::setActiveWindow 4 -raise true
+[23:26:03.31] /# gi::executeAction deSelectActive -in [gi::getWindows 4]
+[23:26:03.31] /i de::deselectAllLogic -context [db::getNext [de::getContexts -window 4]]
+[23:26:04.17] /# gi::executeAction deCanvasZoomInAtPoint -in [gi::getWindows 4]
+[23:26:04.17] /i de::zoom -window [gi::getWindows 4] -factor 2.0 -center {7.0125 2.3}
+[23:26:04.17] /o {4.25 1.30625} {8.26875 3.18125}
+[23:26:04.29] /# gi::executeAction deCanvasZoomInAtPoint -in [gi::getWindows 4]
+[23:26:04.29] /i de::zoom -window [gi::getWindows 4] -factor 2.0 -center {7.0125 2.3}
+[23:26:04.29] /o {5.63125 1.8} {7.64375 2.74375}
+[23:26:04.89] /# gi::executeAction deCanvasZoomOutAtPoint -in [gi::getWindows 4]
+[23:26:04.89] /i de::zoom -window [gi::getWindows 4] -factor 0.5 -center {7.0125 2.3}
+[23:26:04.89] /o {4.25 1.30625} {8.26875 3.18125}
+[23:26:05.06] /# gi::executeAction deCanvasZoomOutAtPoint -in [gi::getWindows 4]
+[23:26:05.06] /i de::zoom -window [gi::getWindows 4] -factor 0.5 -center {6.95625 2.30625}
+[23:26:05.06] /o {1.55 0.3} {9.58125 4.0625}
+[23:26:06.10] /# gi::executeAction deCanvasZoomInAtPoint -in [gi::getWindows 4]
+[23:26:06.10] /i de::zoom -window [gi::getWindows 4] -factor 2.0 -center {4.6125 2.7875}
+[23:26:06.10] /o {3.08125 1.54375} {7.1 3.425}
+[23:26:07.41] /# gi::executeAction deCanvasZoomOutAtPoint -in [gi::getWindows 4]
+[23:26:07.41] /i de::zoom -window [gi::getWindows 4] -factor 0.5 -center {4.975 2.85625}
+[23:26:07.42] /o {1.1875 0.23125} {9.21875 3.99375}
+[23:26:37.11] /r giDialog gi::setActiveDialog [gi::getDialogs {giCloseFrame}]
+[23:26:37.38] /r giDialog db::setAttr geometry -of [gi::getDialogs {giCloseFrame}] -value 299x108+811+447
+[23:26:38.60] /r giDialog gi::pressButton {giCloseTabsButton} -in [gi::getDialogs {giCloseFrame}]
+[23:26:38.61] /i exit
+[23:26:38.68] /r giDialog gi::setActiveDialog [gi::getDialogs {deExitDialog}]
+[23:26:38.94] /r giDialog db::setAttr geometry -of [gi::getDialogs {deExitDialog}] -value 419x181+741+352
+[23:26:40.66] /r giDialog gi::pressButton {ok} -in [gi::getDialogs {deExitDialog}]
+[23:26:40.69] /i gi::setActiveWindow 3
+[23:26:40.69] /i gi::setActiveWindow 3 -raise true
+[23:26:40.82] /i gi::setActiveWindow 5
+[23:26:40.82] /i gi::setActiveWindow 5 -raise true
+[23:26:40.94] /r giDialog gi::setActiveDialog [gi::getDialogs {giPrompt} -parent [gi::getWindows 5]]
+[23:26:41.22] /r giDialog db::setAttr geometry -of [gi::getDialogs {giPrompt} -parent [gi::getWindows 5]] -value 292x82+814+460
+[23:26:42.62] /r giDialog gi::pressButton {discard} -in [gi::getDialogs {giPrompt} -parent [gi::getWindows 5]]
+[23:26:42.63] /i gi::setActiveWindow 6
+[23:26:42.63] /i gi::setActiveWindow 6 -raise true
+[23:26:42.65] /m Information: License 'SAE' checked in. (LICENSE-004)
+[23:26:42.68] /i gi::setActiveWindow 2
+[23:26:42.68] /i gi::setActiveWindow 2 -raise true
+[23:26:42.69] /i gi::setActiveWindow 1
+[23:26:42.69] /i gi::setActiveWindow 1 -raise true
+[23:26:42.84] /o Shutdown time: Sun Apr 19 23:26:42 2026
+[23:26:42.84] /o Elapsed session real time: 43.43 minutes
+[23:26:42.84] /o Session terminated. Log is at /home/itsupport/Desktop/DOAN/synopsys_custom/logs/ccompiler.itsupport.2026_4_19_224313_3242.log

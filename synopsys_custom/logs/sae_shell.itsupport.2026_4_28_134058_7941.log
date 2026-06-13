@@ -1,0 +1,21 @@
+[13:41:00.05] /m Information: License 'SAE' checked out. (LICENSE-003)
+[13:41:01.32] /o sae_shell Version Custom Compiler N-2017.12-SP1-2
+              /c Build  (OPT) compiled on Wed May 16 15:20:56 2018 for RHEL64 6.6
+              /c Execution time: Tue Apr 28 13:40:58 2026
+              /c Host: localhost.localdomain
+              /c 
+              /c Copyright © 2004-2018 Synopsys, Inc.
+              /c This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, or distribution of this software is strictly prohibited.
+              /c 
+              /c 
+[13:41:01.37] /w Warning: Preference 'leActiveLPP' is deprecated and scheduled for removal in a future release with no replacement. For migration assistance, see the Custom Compiler Tcl Reference Manual. (PREFERENCE-058)
+[13:41:01.37] /o 	#######################################
+[13:41:01.37] /o 	PDK Library Name	: reference90RF
+[13:41:01.37] /o 	PDK Version		: 2.0
+[13:41:01.37] /o 	PDK Release Date	: 25-March-2010 
+[13:41:01.37] /o 	#######################################
+[13:41:01.37] /o 
+[13:41:01.38] /i ::sa::_backgroundSaeShell::signalProcessReady 1777358457
+[13:41:01.38] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::processReady 4
+[13:44:34.83] /i ::sa::_backgroundSaeShell::exit
+[13:44:34.84] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::childFormallyExiting

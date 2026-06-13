@@ -1,0 +1,25 @@
+{NETLIST DA
+{VERSION 1 0 0}
+
+{CELL DA
+    {PORT Q_N vdd! gnd! Q C D }
+    {INST M7=P {PROP n="P" x=2.005 y=-0.770 Length=0.2 Width=1.44 }
+	{PIN D=GATE vdd!=SRC N_5=DRN }}
+    {INST M6=P {PROP n="P" x=7.035 y=-0.755 Length=0.2 Width=1.44 }
+	{PIN Q_N=GATE Q=SRC vdd!=DRN }}
+    {INST M5=N {PROP n="N" x=2.905 y=-3.200 Length=0.2 Width=0.36 }
+	{PIN N_2=GATE N_4=SRC gnd!=DRN }}
+    {INST M4=N {PROP n="N" x=2.455 y=-3.200 Length=0.2 Width=0.36 }
+	{PIN D=GATE gnd!=SRC N_2=DRN }}
+    {INST M3=N {PROP n="N" x=2.005 y=-3.200 Length=0.2 Width=0.36 }
+	{PIN C=GATE N_5=SRC N_2=DRN }}
+    {INST M2=N {PROP n="N" x=7.035 y=-3.185 Length=0.2 Width=0.36 }
+	{PIN Q_N=GATE Q=SRC gnd!=DRN }}
+    {INST M9=P {PROP n="P" x=5.360 y=-0.755 Length=0.2 Width=1.44 }
+	{PIN N_4=GATE Q_N=SRC vdd!=DRN }}
+    {INST M1=N {PROP n="N" x=5.360 y=-3.185 Length=0.2 Width=0.36 }
+	{PIN N_4=GATE Q_N=SRC gnd!=DRN }}
+    {INST M8=P {PROP n="P" x=3.685 y=-0.770 Length=0.2 Width=1.44 }
+	{PIN N_5=GATE N_4=SRC vdd!=DRN }}
+}
+}

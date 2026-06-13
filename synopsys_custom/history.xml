@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!-- created by Custom Compiler (TM), build #, on Tue May 12 21:57:13 2026
+-->
+<synopsysFile name="synopsysRecentFiles" version="1.1">
+        <recentFiles>
+                <file cell="d_ff" mode="write" file="schematic" application="seSchematic" view="schematic" library="D_FF"/>
+                <file cell="dff_nonoverlap" mode="write" file="maskLayout" application="leLayout" view="starrc" library="D_FF"/>
+                <file cell="dff_nonoverlap" mode="write" file="maskLayout" application="leLayout" view="layout" library="D_FF"/>
+                <file cell="dff_nonoverlap" mode="write" file="schematic" application="seSchematic" view="schematic" library="D_FF"/>
+                <file cell="dff_nonoverlap_testbench_clock_skew" mode="write" file="config.xml" application="" view="config" library="D_FF"/>
+        </recentFiles>
+</synopsysFile>

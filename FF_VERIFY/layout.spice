@@ -1,0 +1,33 @@
+* SPICE INPUT		Thu Apr 30 23:11:44 2026	Pulse_FF
+* EV_NETLIST Version AMD.64 Release B-2008.09.SP5.26005 2012/07/14
+*
+*The following line needed for Star-CR:
+*CRU_OPT (KEEP_ELEMENTS "^[CR]D")
+*
+*The following line needed for CDL:
+*.BIPOLAR
+
+* Top of hierarchy  cell=Pulse_FF
+.subckt Pulse_FF clk_in gnd! vdd! D Q_N Q
+M_XI1/MM9 gnd! Q_N Q ln_N_271 N  l=0.200u w=0.360u
+M_XI1/MM7 gnd! XI1/net29 Q_N ln_N_271 N  l=0.200u w=0.360u
+M_XI1/MM2 gnd! XI1/net12 XI1/net29 ln_N_271 N  l=0.200u w=0.360u
+M_XI1/MM0 XI1/net12 D gnd! ln_N_271 N  l=0.200u w=0.360u
+M_XI1/MM1 XI1/net12 net6 XI1/net19 ln_N_271 N  l=0.200u w=0.360u
+M_XI0/XI17/MM11 gnd! XI0/net44 XI0/XI17/net2 ln_N_271 N  l=0.200u w=0.720u
+M_XI0/XI17/MM10 XI0/XI17/net2 clk_in XI0/net45 ln_N_271 N  l=0.200u w=0.720u
+M_XI0/XI18/MM0 gnd! XI0/net45 net6 ln_N_271 N  l=0.200u w=0.480u
+M_XI0/XI16/MM0 gnd! XI0/net38 XI0/net44 ln_N_271 N  l=0.200u w=0.480u
+M_XI0/XI15/MM0 gnd! XI0/net36 XI0/net38 ln_N_271 N  l=0.200u w=0.480u
+M_XI0/XI14/MM0 gnd! clk_in XI0/net36 ln_N_271 N  l=0.200u w=0.480u
+M_XI1/MM8 vdd! XI1/net29 Q_N ln_N_275 P  l=0.200u w=1.440u
+M_XI1/MM3 vdd! XI1/net19 XI1/net29 ln_N_275 P  l=0.200u w=1.440u
+M_XI1/MM4 XI1/net19 D vdd! ln_N_275 P  l=0.200u w=1.440u
+M_XI1/MM10 vdd! Q_N Q ln_N_275 P  l=0.200u w=1.440u
+M_XI0/XI17/MM9 vdd! XI0/net44 XI0/net45 ln_N_274 P  l=0.200u w=1.800u
+M_XI0/XI17/MM8 XI0/net45 clk_in vdd! ln_N_274 P  l=0.200u w=1.800u
+M_XI0/XI18/MM1 vdd! XI0/net45 net6 ln_N_274 P  l=0.200u w=1.920u
+M_XI0/XI16/MM1 vdd! XI0/net38 XI0/net44 ln_N_274 P  l=0.200u w=1.920u
+M_XI0/XI15/MM1 vdd! XI0/net36 XI0/net38 ln_N_274 P  l=0.200u w=1.920u
+M_XI0/XI14/MM1 vdd! clk_in XI0/net36 ln_N_274 P  l=0.200u w=1.920u
+.ends Pulse_FF

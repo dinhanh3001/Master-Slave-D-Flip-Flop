@@ -1,0 +1,11 @@
+dff_temp Level=0 Count=1
+
+
+		CELL STATISTICS
+
+
+TOP CELL = dff_temp
+	Ports                =	7
+
+CELL = dff_temp
+	Flat Placements      =	0

@@ -1,0 +1,8 @@
+dff_nonoverlap
+	Cell Level Device Counts
+		NMOS[N] = 10
+		PMOS[P] = 10
+
+********  DEVICE EXTRACTION STATS    TOPBLOCK = dff_nonoverlap  *******
+		NMOS[N] = 10
+		PMOS[P] = 10

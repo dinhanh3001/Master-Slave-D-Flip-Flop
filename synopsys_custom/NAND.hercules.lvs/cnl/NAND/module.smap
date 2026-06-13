@@ -1,0 +1,39 @@
+<module name="vsl: DOAN NAND schematic vl: auCdl schematic symbol">
+<scope name="Instance">
+<forward>
+<mapping src="M11" dst="MM11"/>
+<mapping src="M9" dst="MM9"/>
+<mapping src="M10" dst="MM10"/>
+<mapping src="M8" dst="MM8"/>
+</forward>
+<reverse>
+<mapping src="MM11" dst="M11"/>
+<mapping src="MM9" dst="M9"/>
+<mapping src="MM10" dst="M10"/>
+<mapping src="MM8" dst="M8"/>
+</reverse>
+</scope>
+<scope name="Net">
+<forward/>
+<reverse/>
+</scope>
+<scope name="Terminal">
+<forward>
+<mapping src="&lt;unmappedTermOrder>" dst="A B Y"/>
+<mapping src="&lt;termOrder>" dst="A B Y"/>
+</forward>
+<reverse>
+<mapping src="A B Y" dst="&lt;unmappedTermOrder>"/>
+</reverse>
+</scope>
+<master_instances>
+<instance_header master="n_4t">
+<instance name="M10"/>
+<instance name="M11"/>
+</instance_header>
+<instance_header master="p_4t">
+<instance name="M8"/>
+<instance name="M9"/>
+</instance_header>
+</master_instances>
+</module>

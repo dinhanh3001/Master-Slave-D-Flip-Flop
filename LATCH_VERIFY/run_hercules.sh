@@ -1,0 +1,2 @@
+#!/bin/sh
+cd /home/itsupport/Desktop/DOAN/LATCH_VERIFY; unset TCLLIBPATH; unset TCL_LIBRARY; exec-oa22.04.hercules hercules_oa -f openaccess -i DOAN -b DA -p . -O gdsii -o DA_result.gds -s /home/itsupport/Desktop/DOAN/synopsys_custom/DA.hercules.lvs/DA.custom_compiler.sp -sf CDL -stb DA /home/itsupport/Desktop/DOAN/LATCH_VERIFY/reference_lvs.lvs.evx > /home/itsupport/Desktop/DOAN/LATCH_VERIFY/stdout.lvs.log 2>&1

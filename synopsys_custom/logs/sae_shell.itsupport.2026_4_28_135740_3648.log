@@ -1,0 +1,40 @@
+[13:57:41.45] /m Information: License 'SAE' checked out. (LICENSE-003)
+[13:57:42.67] /o sae_shell Version Custom Compiler N-2017.12-SP1-2
+              /c Build  (OPT) compiled on Wed May 16 15:20:56 2018 for RHEL64 6.6
+              /c Execution time: Tue Apr 28 13:57:40 2026
+              /c Host: localhost.localdomain
+              /c 
+              /c Copyright © 2004-2018 Synopsys, Inc.
+              /c This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, or distribution of this software is strictly prohibited.
+              /c 
+              /c 
+[13:57:42.68] /w Warning: Preference 'leActiveLPP' is deprecated and scheduled for removal in a future release with no replacement. For migration assistance, see the Custom Compiler Tcl Reference Manual. (PREFERENCE-058)
+[13:57:42.68] /o 	#######################################
+[13:57:42.68] /o 	PDK Library Name	: reference90RF
+[13:57:42.68] /o 	PDK Version		: 2.0
+[13:57:42.68] /o 	PDK Release Date	: 25-March-2010 
+[13:57:42.68] /o 	#######################################
+[13:57:42.68] /o 
+[13:57:42.69] /i ::sa::_backgroundSaeShell::signalProcessReady 1777359460
+[13:57:42.69] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::processReady 2
+[13:59:09.01] /i ::sa::_backgroundSaeShell::runScript /home/itsupport/simulation/DOAN,Test_Pulse_FF,config/history_1/simulation/default/HSPICE/parametric/.bg_measurement_script.tcl sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession1 testbenchName default resultsDir /home/itsupport/simulation/DOAN,Test_Pulse_FF,config/history_1/simulation/default/HSPICE/parametric/results testSuiteDir /home/itsupport/simulation/DOAN,Test_Pulse_FF,config/history_1/simulation/default/HSPICE/parametric databaseName /home/itsupport/simulation/DOAN,Test_Pulse_FF,config/history_1/simulation/default/HSPICE/parametric/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[13:59:10.33] /m Information: Started sharing "Custom WaveView" license. (WAVEFORM-110)
+[13:59:10.91] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::scriptFinished 1.8 {} sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession1 testbenchName default resultsDir /home/itsupport/simulation/DOAN,Test_Pulse_FF,config/history_1/simulation/default/HSPICE/parametric/results testSuiteDir /home/itsupport/simulation/DOAN,Test_Pulse_FF,config/history_1/simulation/default/HSPICE/parametric databaseName /home/itsupport/simulation/DOAN,Test_Pulse_FF,config/history_1/simulation/default/HSPICE/parametric/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[13:59:10.91] /o false
+[14:00:37.14] /i ::sa::_backgroundSaeShell::runScript /home/itsupport/simulation/DOAN,Test_Pulse_FF,config/history_1/simulation/default/HSPICE/parametric/.bg_measurement_script.tcl sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession1 testbenchName default resultsDir /home/itsupport/simulation/DOAN,Test_Pulse_FF,config/history_1/simulation/default/HSPICE/parametric/results testSuiteDir /home/itsupport/simulation/DOAN,Test_Pulse_FF,config/history_1/simulation/default/HSPICE/parametric databaseName /home/itsupport/simulation/DOAN,Test_Pulse_FF,config/history_1/simulation/default/HSPICE/parametric/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[14:00:37.81] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::scriptFinished 0.6 {} sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession1 testbenchName default resultsDir /home/itsupport/simulation/DOAN,Test_Pulse_FF,config/history_1/simulation/default/HSPICE/parametric/results testSuiteDir /home/itsupport/simulation/DOAN,Test_Pulse_FF,config/history_1/simulation/default/HSPICE/parametric databaseName /home/itsupport/simulation/DOAN,Test_Pulse_FF,config/history_1/simulation/default/HSPICE/parametric/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[14:00:37.81] /o false
+[14:05:38.72] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[14:05:38.82] /i ::sa::_backgroundSaeShell::parentRunning
+[14:05:38.82] /o 1777359938
+[14:05:41.92] /m Information: Stopped sharing "Custom WaveView" license. (WAVEFORM-111)
+[14:08:50.39] /i ::sa::_backgroundSaeShell::runScript /home/itsupport/simulation/DOAN,Test_Pulse_FF,config/history_1/simulation/default/HSPICE/parametric/.bg_measurement_script.tcl sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession1 testbenchName default resultsDir /home/itsupport/simulation/DOAN,Test_Pulse_FF,config/history_1/simulation/default/HSPICE/parametric/results testSuiteDir /home/itsupport/simulation/DOAN,Test_Pulse_FF,config/history_1/simulation/default/HSPICE/parametric databaseName /home/itsupport/simulation/DOAN,Test_Pulse_FF,config/history_1/simulation/default/HSPICE/parametric/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[14:08:50.62] /m Information: Started sharing "Custom WaveView" license. (WAVEFORM-110)
+[14:08:50.77] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::scriptFinished 0.3 {} sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession1 testbenchName default resultsDir /home/itsupport/simulation/DOAN,Test_Pulse_FF,config/history_1/simulation/default/HSPICE/parametric/results testSuiteDir /home/itsupport/simulation/DOAN,Test_Pulse_FF,config/history_1/simulation/default/HSPICE/parametric databaseName /home/itsupport/simulation/DOAN,Test_Pulse_FF,config/history_1/simulation/default/HSPICE/parametric/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[14:08:50.77] /o false
+[14:13:51.74] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[14:13:51.87] /i ::sa::_backgroundSaeShell::parentRunning
+[14:13:51.87] /o 1777360431
+[14:13:55.91] /m Information: Stopped sharing "Custom WaveView" license. (WAVEFORM-111)
+[14:14:48.91] /i ::sa::_backgroundSaeShell::exit
+[14:14:48.91] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::childFormallyExiting

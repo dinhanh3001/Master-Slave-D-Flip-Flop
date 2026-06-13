@@ -1,0 +1,188 @@
+*** dff_temp		Sun May 10 17:46:45 2026
+
+PRE_TREE
+
+
+
+		DESIGN STATISTICS DEFINITIONS
+		______ __________ ______________.
+
+Hierarchical levels       The number of levels in the design.
+Unique Cells              The number of unique cells in the design.
+Hierarchical placements   The total number of placements (srefs and arefs)
+			  at each level in the design.
+Total Design placements   The total number of placements (srefs and arefs)
+			  in the design.
+Exploded references       The total number of exploded references in the
+			   design.
+Exploded placements       The total number of exploded placements in the
+			   design.
+Total Data count          The total number of all polygons, paths, 
+			  vectors, and rectangles in the design.
+Sref Placements           The total number of cell references in the design.
+Arefs                     The total number of array references in the design.
+Aref Placements           The total number of references in each array
+			  reference in the design.
+Data                      The number of data primitives in each cell
+			  of the design.
+Text                      The number of text primitives in each cell of the design.
+
+
+*********************************************************************************
+
+
+		DESIGN STATISTICS FOR "dff_temp".
+		______ __________ ___ ___________.
+
+	Hierarchical levels	=         2
+	Unique cells		=         5
+	Hierarchical placements	=        64
+	Total design placements	=        64
+	Exploded references	=         0
+	Exploded placements	=         0
+	Total data count	=       628
+	SREF placements		=        64
+	AREFS			=         0
+	AREF placements		=         0
+	DATA 			=       161
+	TEXT			=         7
+
+
+*********************************************************************************
+
+		HIERARCHICAL TREE FOR BLOCK "dff_temp".
+
+
+							     TOTAL SREF AREF
+ dff_temp                                     Level=0  Count=   1    1    0 
+  n_4t                                        Level=1  Count=  10   10    0 
+  p_4t                                        Level=1  Count=  10   10    0 
+  via12                                       Level=1  Count=  31   31    0 
+  via12.0                                     Level=1  Count=  12   12    0 
+
+
+*********************************************************************************
+
+
+		CELL STATISTICS
+
+
+CELL = dff_temp
+	Cell Status		= USED
+	OPENACCESS Library	= D_FF
+	OPENACCESS Cell Extents (LL,UR)	= (3.945, -7.975) (13.955, -2.220)
+	Cell Area		= 57.61
+	Hierarchical Placements	=        1
+	Flat Placements		=        1
+	SREFS			=       63	
+	AREFS			=        0	
+	AREF placements		=        0
+	Exploded references	=        0
+	Exploded placements	=        0
+	DATA			=      117
+	TEXT			=        7
+	Via			=        0
+   Layer Usage of Original Cell:
+ Name          Layer:Dtype Data/Text  Layer Extents (LL,UR)              Lyr Area
+ ---------------  -------  --------   ---------------------------------  --------
+ POLS              3:0       22/0    (4.41, -7.10) (13.51, -3.37)      1.39
+ CONTS             7:0       22/0    (4.46, -7.03) (13.45, -3.44)      0.18
+ M1S               8:0       47/0    (4.23, -7.98) (13.68, -2.22)      6.32
+ M1PIN             9:0        5/0    (4.46, -6.12) (12.69, -5.13)      0.07
+ M2S              10:0       19/0    (3.95, -7.98) (13.95, -2.22)     18.99
+ M2PIN            11:0        2/0    (7.81, -7.88) (8.98, -2.40)      0.78
+ M1S               9:0        0/5    (4.46, -6.12) (12.59, -5.28) 
+ M2S              11:0        0/2    (7.81, -7.88) (8.04, -2.79) 
+
+CELL = p_4t
+	Cell Status		= USED
+	OPENACCESS Library	= reference90RF
+	OPENACCESS Cell Extents (LL,UR)	= (-0.450, -0.230) (0.650, 1.670)
+	Cell Area		= 2.09
+	Hierarchical Placements	=       10
+	Flat Placements		=       10
+	SREFS			=        0	
+	AREFS			=        0	
+	AREF placements		=        0
+	Exploded references	=        0
+	Exploded placements	=        0
+	DATA			=       25
+	TEXT			=        0
+	Via			=        0
+   Layer Usage of Original Cell:
+ Name          Layer:Dtype Data/Text  Layer Extents (LL,UR)              Lyr Area
+ ---------------  -------  --------   ---------------------------------  --------
+ NWELL             1:0        1/0    (-0.45, -0.23) (0.65, 1.67)      2.09
+ DIFN              2:0        3/0    (-0.22, 0.00) (0.42, 1.44)      0.92
+ POLS              3:0        4/0    (0.00, -0.13) (0.20, 1.57)      0.63
+ PPS               4:0        1/0    (-0.35, -0.13) (0.55, 1.57)      1.53
+ CONTS             7:0       14/0    (-0.17, 0.10) (0.37, 1.33)      0.11
+ M1S               8:0        2/0    (-0.18, 0.07) (0.38, 1.38)      0.26
+
+CELL = n_4t
+	Cell Status		= USED
+	OPENACCESS Library	= reference90RF
+	OPENACCESS Cell Extents (LL,UR)	= (-0.350, -0.130) (0.550, 0.490)
+	Cell Area		= 0.56
+	Hierarchical Placements	=       10
+	Flat Placements		=       10
+	SREFS			=        0	
+	AREFS			=        0	
+	AREF placements		=        0
+	Exploded references	=        0
+	Exploded placements	=        0
+	DATA			=       12
+	TEXT			=        0
+	Via			=        0
+   Layer Usage of Original Cell:
+ Name          Layer:Dtype Data/Text  Layer Extents (LL,UR)              Lyr Area
+ ---------------  -------  --------   ---------------------------------  --------
+ DIFN              2:0        3/0    (-0.22, 0.00) (0.42, 0.36)      0.23
+ POLS              3:0        4/0    (0.00, -0.13) (0.20, 0.49)      0.20
+ NPS               5:0        1/0    (-0.35, -0.13) (0.55, 0.49)      0.56
+ CONTS             7:0        2/0    (-0.17, 0.14) (0.37, 0.23)      0.02
+ M1S               8:0        2/0    (-0.18, 0.10) (0.38, 0.27)      0.03
+
+CELL = via12
+	Cell Status		= USED
+	OPENACCESS Library	= D_FF
+	OPENACCESS Cell Extents (LL,UR)	= (-0.105, -0.105) (0.105, 0.105)
+	Cell Area		= 0.04
+	Hierarchical Placements	=       31
+	Flat Placements		=       31
+	SREFS			=        0	
+	AREFS			=        0	
+	AREF placements		=        0
+	Exploded references	=        0
+	Exploded placements	=        0
+	DATA			=        3
+	TEXT			=        0
+	Via			=        1
+   Layer Usage of Original Cell:
+ Name          Layer:Dtype Data/Text  Layer Extents (LL,UR)              Lyr Area
+ ---------------  -------  --------   ---------------------------------  --------
+ M1S               8:0        1/0    (-0.07, -0.10) (0.07, 0.10)      0.03
+ M2S              10:0        1/0    (-0.10, -0.07) (0.10, 0.07)      0.03
+ V1S              16:0        1/0    (-0.07, -0.07) (0.07, 0.07)      0.02
+
+CELL = via12.0
+	Cell Status		= USED
+	OPENACCESS Library	= D_FF
+	OPENACCESS Cell Extents (LL,UR)	= (-0.105, -0.245) (0.105, 0.245)
+	Cell Area		= 0.10
+	Hierarchical Placements	=       12
+	Flat Placements		=       12
+	SREFS			=        0	
+	AREFS			=        0	
+	AREF placements		=        0
+	Exploded references	=        0
+	Exploded placements	=        0
+	DATA			=        4
+	TEXT			=        0
+	Via			=        1
+   Layer Usage of Original Cell:
+ Name          Layer:Dtype Data/Text  Layer Extents (LL,UR)              Lyr Area
+ ---------------  -------  --------   ---------------------------------  --------
+ M1S               8:0        1/0    (-0.07, -0.24) (0.07, 0.24)      0.07
+ M2S              10:0        1/0    (-0.10, -0.21) (0.10, 0.21)      0.09
+ V1S              16:0        2/0    (-0.07, -0.21) (0.07, 0.21)      0.03

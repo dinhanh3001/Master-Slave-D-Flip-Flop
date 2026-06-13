@@ -1,0 +1,16 @@
+* SPICE INPUT		Mon Apr 27 23:45:58 2026	NAND
+* EV_NETLIST Version AMD.64 Release B-2008.09.SP5.26005 2012/07/14
+*
+*The following line needed for Star-CR:
+*CRU_OPT (KEEP_ELEMENTS "^[CR]D")
+*
+*The following line needed for CDL:
+*.BIPOLAR
+
+* Top of hierarchy  cell=NAND
+.subckt NAND gnd! vdd! Y A B
+M_MM11 gnd! B net2 ln_N_45 N  l=0.200u w=0.720u
+M_MM10 net2 A Y ln_N_45 N  l=0.200u w=0.720u
+M_MM9 vdd! B Y ln_N_48 P  l=0.200u w=1.800u
+M_MM8 Y A vdd! ln_N_48 P  l=0.200u w=1.800u
+.ends NAND

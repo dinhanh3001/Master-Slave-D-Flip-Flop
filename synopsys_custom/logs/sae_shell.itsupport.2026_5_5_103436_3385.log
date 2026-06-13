@@ -1,0 +1,60 @@
+[10:34:37.62] /m Information: License 'SAE' checked out. (LICENSE-003)
+[10:34:38.78] /o sae_shell Version Custom Compiler N-2017.12-SP1-2
+              /c Build  (OPT) compiled on Wed May 16 15:20:56 2018 for RHEL64 6.6
+              /c Execution time: Tue May  5 10:34:36 2026
+              /c Host: localhost.localdomain
+              /c 
+              /c Copyright © 2004-2018 Synopsys, Inc.
+              /c This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, or distribution of this software is strictly prohibited.
+              /c 
+              /c 
+[10:34:38.83] /w Warning: Preference 'leActiveLPP' is deprecated and scheduled for removal in a future release with no replacement. For migration assistance, see the Custom Compiler Tcl Reference Manual. (PREFERENCE-058)
+[10:34:38.84] /o 	#######################################
+[10:34:38.84] /o 	PDK Library Name	: reference90RF
+[10:34:38.84] /o 	PDK Version		: 2.0
+[10:34:38.84] /o 	PDK Release Date	: 25-March-2010 
+[10:34:38.84] /o 	#######################################
+[10:34:38.84] /o 
+[10:34:38.85] /e Error: "Simulation failed for design: D_FF/tranmision_test/schematic "
+[10:34:38.96] /i ::sa::_backgroundSaeShell::signalProcessReady 1777952075
+[10:34:38.96] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::processReady 3
+[10:35:15.47] /i ::sa::_backgroundSaeShell::runScript /home/itsupport/simulation/D_FF,tranmision_test,schematic/history_1/simulation/default/HSPICE/nominal/.bg_measurement_script.tcl sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession1 testbenchName default resultsDir /home/itsupport/simulation/D_FF,tranmision_test,schematic/history_1/simulation/default/HSPICE/nominal/results testSuiteDir /home/itsupport/simulation/D_FF,tranmision_test,schematic/history_1/simulation/default/HSPICE/nominal databaseName /home/itsupport/simulation/D_FF,tranmision_test,schematic/history_1/simulation/default/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[10:35:16.05] /m Information: Started sharing "Custom WaveView" license. (WAVEFORM-110)
+[10:35:16.16] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::scriptFinished 0.6 {} sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession1 testbenchName default resultsDir /home/itsupport/simulation/D_FF,tranmision_test,schematic/history_1/simulation/default/HSPICE/nominal/results testSuiteDir /home/itsupport/simulation/D_FF,tranmision_test,schematic/history_1/simulation/default/HSPICE/nominal databaseName /home/itsupport/simulation/D_FF,tranmision_test,schematic/history_1/simulation/default/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[10:35:16.16] /o false
+[10:40:17.98] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[10:40:17.99] /i ::sa::_backgroundSaeShell::parentRunning
+[10:40:17.99] /o 1777952417
+[10:40:20.88] /m Information: Stopped sharing "Custom WaveView" license. (WAVEFORM-111)
+[10:45:18.98] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[10:45:19.08] /i ::sa::_backgroundSaeShell::parentRunning
+[10:45:19.08] /o 1777952719
+[10:47:35.11] /i ::sa::_backgroundSaeShell::runScript /home/itsupport/simulation/D_FF,tranmision_test,schematic/history_1/simulation/default/HSPICE/nominal/.bg_measurement_script.tcl sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession1 testbenchName default resultsDir /home/itsupport/simulation/D_FF,tranmision_test,schematic/history_1/simulation/default/HSPICE/nominal/results testSuiteDir /home/itsupport/simulation/D_FF,tranmision_test,schematic/history_1/simulation/default/HSPICE/nominal databaseName /home/itsupport/simulation/D_FF,tranmision_test,schematic/history_1/simulation/default/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[10:47:35.35] /m Information: Started sharing "Custom WaveView" license. (WAVEFORM-110)
+[10:47:35.48] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::scriptFinished 0.3 {} sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession1 testbenchName default resultsDir /home/itsupport/simulation/D_FF,tranmision_test,schematic/history_1/simulation/default/HSPICE/nominal/results testSuiteDir /home/itsupport/simulation/D_FF,tranmision_test,schematic/history_1/simulation/default/HSPICE/nominal databaseName /home/itsupport/simulation/D_FF,tranmision_test,schematic/history_1/simulation/default/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[10:47:35.48] /o false
+[10:48:33.49] /i ::wf::viewerExited
+[10:52:37.00] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[10:52:37.09] /i ::sa::_backgroundSaeShell::parentRunning
+[10:52:37.09] /o 1777953157
+[10:52:39.88] /m Information: Stopped sharing "Custom WaveView" license. (WAVEFORM-111)
+[10:57:38.01] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[10:57:38.08] /i ::sa::_backgroundSaeShell::parentRunning
+[10:57:38.08] /o 1777953458
+[11:02:39.01] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[11:02:39.09] /i ::sa::_backgroundSaeShell::parentRunning
+[11:02:39.09] /o 1777953759
+[11:07:40.01] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[11:07:40.08] /i ::sa::_backgroundSaeShell::parentRunning
+[11:07:40.08] /o 1777954060
+[11:12:41.02] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[11:12:41.08] /i ::sa::_backgroundSaeShell::parentRunning
+[11:12:41.08] /o 1777954361
+[11:17:42.03] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[11:17:42.10] /i ::sa::_backgroundSaeShell::parentRunning
+[11:17:42.10] /o 1777954662
+[11:22:43.04] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[11:22:43.08] /i ::sa::_backgroundSaeShell::parentRunning
+[11:22:43.08] /o 1777954963
+[11:22:55.95] /i ::sa::_backgroundSaeShell::exit
+[11:22:55.95] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::childFormallyExiting

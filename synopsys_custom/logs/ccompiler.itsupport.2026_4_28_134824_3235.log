@@ -1,0 +1,2379 @@
+[13:48:26.33] /r giWindowId 0
+[13:48:26.33] /r giWindowGeometry 600x300
+[13:48:26.33] /o 
+              /c                                 Custom Compiler 
+              /c 
+              /c               Version N-2017.12-SP1-2 for linux64 - May 16, 2018 
+              /c 
+              /c                     Copyright (c) 2004 - 2018 Synopsys, Inc.
+              /c    This software and the associated documentation are proprietary to Synopsys,
+              /c  Inc. This software may only be used in accordance with the terms and conditions
+              /c  of a written license agreement with Synopsys, Inc. All other use, reproduction,
+              /c             or distribution of this software is strictly prohibited.
+              /c 
+              /c Build  (OPT) Config 4182185 compiled on Wed May 16 15:20:56 2018 for RHEL64 6.6
+              /c Invocation: /usr/synopsys/customcompiler/N-2017.12-SP1-2/linux64/platform/bin/cdesigner
+              /c Execution time: Tue Apr 28 13:48:24 2026
+              /c Host: localhost.localdomain
+              /c Working directory: /home/itsupport/Desktop/DOAN
+              /c 
+[13:48:28.14] /r giShowFrameTabs true
+[13:48:28.14] /r giWindowId 1
+[13:48:28.15] /r giWindowGeometry 1040x800
+[13:48:30.82] /# gi::pressButton {/scroll/scrollArea/scrollAreaInnerWidget/applications/dmLibraryManager} -in [gi::getWindows 1]
+[13:48:30.82] /# 
+[13:48:30.82] /i dm::openLibraryManager
+[13:48:30.82] /r giWindowId 2
+[13:48:30.82] /r giWindowGeometry 660x600+50+78
+[13:48:30.85] /o oa:0x1dc7d410
+[13:48:32.07] /i gi::setCurrentIndex {libs} -index {DOAN} -in [gi::getWindows 2]
+[13:48:32.08] /i gi::setItemSelection {libs} -index {DOAN} -in [gi::getWindows 2]
+[13:48:33.42] /i gi::setCurrentIndex {cells} -index {Pulse_FF} -in [gi::getWindows 2]
+[13:48:33.42] /i gi::setItemSelection {cells} -index {Pulse_FF} -in [gi::getWindows 2]
+[13:48:35.90] /i gi::setCurrentIndex {cells} -index {Test_Pulse_FF} -in [gi::getWindows 2]
+[13:48:35.91] /i gi::setItemSelection {cells} -index {Test_Pulse_FF} -in [gi::getWindows 2]
+[13:48:36.93] /i gi::setCurrentIndex {views} -index {config} -in [gi::getWindows 2]
+[13:48:36.93] /i gi::setItemSelection {views} -index {config} -in [gi::getWindows 2]
+[13:48:37.12] /i gi::executeAction dmOpen -in [gi::getWindows 2]
+[13:48:37.13] /w Warning: Preference 'leActiveLPP' is deprecated and scheduled for removal in a future release with no replacement. For migration assistance, see the Custom Compiler Tcl Reference Manual. (PREFERENCE-058)
+[13:48:37.13] /o 	#######################################
+[13:48:37.13] /o 	PDK Library Name	: reference90RF
+[13:48:37.13] /o 	PDK Version		: 2.0
+[13:48:37.13] /o 	PDK Release Date	: 25-March-2010 
+[13:48:37.13] /o 	#######################################
+[13:48:37.13] /o 
+[13:48:37.14] /m Information: License 'Schematic' checked out. (LICENSE-003)
+[13:48:37.20] /r giWindowId 3
+[13:48:37.20] /r giWindowGeometry 1632x818
+[13:48:37.36] /m Information: 
+[13:48:37.36] /o Checking "DOAN/Test_Pulse_FF/schematic"
+[13:48:37.36] /o No rule violations found in "DOAN/Test_Pulse_FF/schematic"
+[13:48:37.36] /m Information: Checking process is completed: marking the design violations
+[13:48:37.36] /m Information: Marking of designs is completed
+[13:48:38.54] /i db::setAttr maximized -of [gi::getFrames 1] -value true
+[13:48:38.84] /i db::setAttr geometry -of [gi::getFrames 1] -value 1910x876+5+56
+[13:48:39.89] /# gi::executeAction deSelectActive -in [gi::getWindows 3]
+[13:48:39.89] /i de::deselectAll [db::getNext [de::getContexts -window 3]]
+[13:48:39.89] /i de::select [de::getActiveFigure [gi::getWindows 3] -point {6.6125 6.2875} -index 0 -intent none]
+[13:48:39.89] /o oa:0x1ef74810
+[13:48:40.10] /# gi::executeAction deDescend -in [gi::getWindows 3]
+[13:48:40.10] /i ide::descend 3 -inPlace false -promptView false -readOnly auto
+[13:48:40.10] /m Information: License 'Basic' checked out. (LICENSE-003)
+[13:48:40.10] /m Information: License 'Schematic' checked in. (LICENSE-004)
+[13:48:40.11] /r giWindowId 4
+[13:48:40.11] /r giWindowGeometry 1632x818
+[13:48:40.29] /# Navigating to DOAN/Pulse_FF/starrc (I8)
+[13:48:40.44] /# de::setActiveLPP [de::getLPPs "exclude blockage" -from [db::getAttr editDesign -of [de::getContexts -window 4]]]
+[13:48:40.64] /# gi::setItemSelection {sets} -index {Valid} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 4]]
+[13:48:40.86] /i db::setAttr dockSize -of [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 4]] -value 200x701
+[13:48:43.61] /# gi::executeAction deSelectActive -in [gi::getWindows 4]
+[13:48:43.61] /i de::deselectAllLogic -context [db::getNext [de::getContexts -window 4]]
+[13:48:44.44] /# gi::executeAction deCanvasZoomOutAtPoint -in [gi::getWindows 4]
+[13:48:44.44] /i de::zoom -window [gi::getWindows 4] -factor 0.5 -center {19.318 -5.128}
+[13:48:44.44] /o {8.824 -14.423} {44.398 0.591}
+[13:48:44.93] /# gi::executeAction deCanvasZoomInAtPoint -in [gi::getWindows 4]
+[13:48:44.93] /i de::zoom -window [gi::getWindows 4] -factor 2.0 -center {19.576 -5.256}
+[13:48:44.93] /o {14.2 -9.839} {31.987 -2.333}
+[13:48:44.98] /# gi::executeAction deCanvasZoomInAtPoint -in [gi::getWindows 4]
+[13:48:44.98] /i de::zoom -window [gi::getWindows 4] -factor 2.0 -center {19.576 -5.256}
+[13:48:44.98] /o {16.888 -7.548} {25.781 -3.794}
+[13:48:45.52] /# gi::executeAction deCanvasZoomOutAtPoint -in [gi::getWindows 4]
+[13:48:45.52] /i de::zoom -window [gi::getWindows 4] -factor 0.5 -center {19.549 -5.235}
+[13:48:45.52] /o {14.227 -9.86} {32.014 -2.354}
+[13:48:47.47] /i gi::setActiveWindow 3
+[13:48:47.47] /i gi::setActiveWindow 3 -raise true
+[13:48:48.52] /i gi::setActiveWindow 4
+[13:48:48.52] /i gi::setActiveWindow 4 -raise true
+[13:48:51.38] /# gi::executeAction deCanvasZoomInAtPoint -in [gi::getWindows 4]
+[13:48:51.38] /i de::zoom -window [gi::getWindows 4] -factor 2.0 -center {21.445 -4.249}
+[13:48:51.38] /o {17.836 -7.055} {26.729 -3.301}
+[13:48:51.43] /# gi::executeAction deCanvasZoomInAtPoint -in [gi::getWindows 4]
+[13:48:51.43] /i de::zoom -window [gi::getWindows 4] -factor 2.0 -center {21.445 -4.254}
+[13:48:51.43] /o {19.641 -5.654} {24.087 -3.778}
+[13:48:52.38] /# gi::executeAction deCanvasZoomOutAtPoint -in [gi::getWindows 4]
+[13:48:52.38] /i de::zoom -window [gi::getWindows 4] -factor 0.5 -center {21.63 -4.059}
+[13:48:52.38] /o {17.651 -7.25} {26.544 -3.496}
+[13:48:52.44] /# gi::executeAction deCanvasZoomOutAtPoint -in [gi::getWindows 4]
+[13:48:52.44] /i de::zoom -window [gi::getWindows 4] -factor 0.5 -center {21.581 -4.048}
+[13:48:52.44] /o {13.721 -10.451} {31.508 -2.945}
+[13:48:52.50] /# gi::executeAction deCanvasZoomOutAtPoint -in [gi::getWindows 4]
+[13:48:52.50] /i de::zoom -window [gi::getWindows 4] -factor 0.5 -center {21.581 -4.048}
+[13:48:52.50] /o {5.861 -16.855} {41.435 -1.841}
+[13:48:53.38] /# gi::executeAction deCanvasZoomInAtPoint -in [gi::getWindows 4]
+[13:48:53.38] /i de::zoom -window [gi::getWindows 4] -factor 2.0 -center {16.762 -3.662}
+[13:48:53.38] /o {11.312 -10.258} {29.098 -2.752}
+[13:48:53.45] /# gi::executeAction deCanvasZoomInAtPoint -in [gi::getWindows 4]
+[13:48:53.45] /i de::zoom -window [gi::getWindows 4] -factor 2.0 -center {16.762 -3.651}
+[13:48:53.45] /o {14.037 -6.955} {22.93 -3.201}
+[13:48:54.05] /# gi::executeAction deCanvasZoomOutAtPoint -in [gi::getWindows 4]
+[13:48:54.05] /i de::zoom -window [gi::getWindows 4] -factor 0.5 -center {16.896 -3.581}
+[13:48:54.05] /o {11.178 -10.328} {28.964 -2.822}
+[13:48:54.13] /# gi::executeAction deCanvasZoomOutAtPoint -in [gi::getWindows 4]
+[13:48:54.13] /i de::zoom -window [gi::getWindows 4] -factor 0.5 -center {16.939 -3.582}
+[13:48:54.13] /o {5.416 -17.075} {40.99 -2.061}
+[13:48:55.85] /i gi::setActiveWindow 3
+[13:48:55.85] /i gi::setActiveWindow 3 -raise true
+[13:48:57.44] /# gi::executeAction deCanvasZoomInAtPoint -in [gi::getWindows 3]
+[13:48:57.44] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {3.275 7.1375}
+[13:48:57.44] /o {3.0625 5.28125} {8.125 7.275}
+[13:48:57.93] /# gi::executeAction deCanvasZoomOutAtPoint -in [gi::getWindows 3]
+[13:48:57.93] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {3.2625 7.1375}
+[13:48:57.93] /o {2.8625 3.425} {12.99375 7.4125}
+[13:49:00.78] /# gi::executeAction seShowConsoleForWindow -in [gi::getWindows 3]
+[13:49:00.78] /i sa::showConsole -context [db::getNext [de::getContexts -window 3]]
+[13:49:02.65] /m Information: License 'SAE' checked out. (LICENSE-003)
+[13:49:02.67] /r giWindowId 5
+[13:49:02.68] /r giWindowGeometry 600x500
+[13:49:02.79] /o oa:0x23ce0c80
+[13:49:02.83] /m Information: Launching Background sae_shell Server Process "cd /home/itsupport/Desktop/DOAN && sae_shell -log sae_shell_session0_job1 -libDefFile /home/itsupport/Desktop/DOAN/lib.defs"
+[13:49:05.66] /i gi::pressButton {ConsoleToggleButton} -in [db::getAttr statusbar -of [gi::getWindows 5]]
+[13:49:06.19] /m Information: Received ready-for-commands signal from background job 'sae_shell_session0_job1' after 4 seconds.
+[13:49:15.68] /i gi::pressButton {ConsoleToggleButton} -in [db::getAttr statusbar -of [gi::getWindows 5]]
+[13:49:17.05] /i gi::executeAction menuPreShow -in [gi::getWindows 5]
+[13:49:17.05] /r giMenuAccess db::getNext [gi::getMenus saConsoleSessionMenu -from [gi::getWindows 5]]
+[13:49:17.93] /i gi::executeAction menuPreShow -in [gi::getWindows 5]
+[13:49:17.93] /r giMenuAccess db::getNext [gi::getMenus saConsoleSetupMenu -from [gi::getWindows 5]]
+[13:49:18.86] /# gi::executeAction saEditModels -in [gi::getWindows 5]
+[13:49:18.86] /i sa::showModelFiles -parent 5
+[13:49:18.91] /i gi::setActiveDialog [gi::getDialogs {saModelFilesSetup} -parent [gi::getWindows 5]]
+[13:49:19.21] /i db::setAttr geometry -of [gi::getDialogs {saModelFilesSetup} -parent [gi::getWindows 5]] -value 760x500+728+185
+[13:49:19.87] /i gi::setCurrentIndex {modelFilesTable} -index {0,1} -in [gi::getDialogs {saModelFilesSetup} -parent [gi::getWindows 5]]
+[13:49:25.09] /r giFileDialog accept PDK/hspice/reference_models.inc
+[13:49:25.09] /i gi::setField {modelFilesTable} -index {0,1} -value {/home/itsupport/Desktop/DOAN/PDK/hspice/reference_models.inc} -in [gi::getDialogs {saModelFilesSetup} -parent [gi::getWindows 5]]
+[13:49:25.09] /i gi::setField {modelFilesTable} -index {0,1} -value {/home/itsupport/Desktop/DOAN/PDK/hspice/reference_models.inc} -in [gi::getDialogs {saModelFilesSetup} -parent [gi::getWindows 5]]
+[13:49:26.46] /i gi::pressButton {ok} -in [gi::getDialogs {saModelFilesSetup} -parent [gi::getWindows 5]]
+[13:49:27.47] /i gi::executeAction menuPreShow -in [gi::getWindows 5]
+[13:49:27.47] /r giMenuAccess db::getNext [gi::getMenus saConsoleSetupMenu -from [gi::getWindows 5]]
+[13:49:28.89] /# gi::executeAction saShowEditAnalyses -in [gi::getWindows 5]
+[13:49:28.89] /i sa::showEditAnalyses -parent 5 -analysisName "" 
+[13:49:28.99] /o oa:0x24283d60
+[13:49:29.05] /i gi::setActiveDialog [gi::getDialogs {saEditAnalysesDialogXsaeSession0} -parent [gi::getWindows 5]]
+[13:49:29.32] /i db::setAttr geometry -of [gi::getDialogs {saEditAnalysesDialogXsaeSession0} -parent [gi::getWindows 5]] -value 633x680+762+257
+[13:49:33.53] /i gi::setField {/analysesGroups/tabGeneral/anaPane/step} -value {100p} -in [gi::getDialogs {saEditAnalysesDialogXsaeSession0} -parent [gi::getWindows 5]]
+[13:49:35.33] /i gi::setField {/analysesGroups/tabGeneral/anaPane/stop} -value {20n} -in [gi::getDialogs {saEditAnalysesDialogXsaeSession0} -parent [gi::getWindows 5]]
+[13:49:35.33] /i gi::pressButton {/ok} -in [gi::getDialogs {saEditAnalysesDialogXsaeSession0} -parent [gi::getWindows 5]]
+[13:49:39.50] /i gi::executeAction menuPreShow -in [gi::getWindows 5]
+[13:49:39.50] /r giMenuAccess db::getNext [gi::getMenus saConsoleSetupMenu -from [gi::getWindows 5]]
+[13:49:40.02] /i gi::executeAction menuPreShow -in [gi::getWindows 5]
+[13:49:40.02] /r giMenuAccess db::getNext [gi::getMenus saVariablesMenu -from [gi::getWindows 5]]
+[13:49:40.55] /i gi::executeAction menuPreShow -in [gi::getWindows 5]
+[13:49:40.55] /r giMenuAccess db::getNext [gi::getMenus saConsoleOutputsMenu -from [gi::getWindows 5]]
+[13:49:41.01] /i gi::executeAction menuPreShow -in [gi::getWindows 5]
+[13:49:41.01] /r giMenuAccess db::getNext [gi::getMenus saResultsMenu -from [gi::getWindows 5]]
+[13:49:41.23] /i gi::executeAction menuPreShow -in [gi::getWindows 5]
+[13:49:41.23] /r giMenuAccess db::getNext [gi::getMenus saConsoleSimMenu -from [gi::getWindows 5]]
+[13:49:41.27] /i gi::executeAction menuPreShow -in [gi::getWindows 5]
+[13:49:41.27] /r giMenuAccess db::getNext [gi::getMenus saConsoleOutputsMenu -from [gi::getWindows 5]]
+[13:49:41.31] /i gi::executeAction menuPreShow -in [gi::getWindows 5]
+[13:49:41.31] /r giMenuAccess db::getNext [gi::getMenus saVariablesMenu -from [gi::getWindows 5]]
+[13:49:42.87] /i gi::setCurrentIndex {variablesTable} -index {1,0} -in [gi::getWindows 5]
+[13:49:46.02] /i gi::setActiveWindow 3
+[13:49:46.02] /i gi::setActiveWindow 3 -raise true
+[13:49:46.89] /# gi::executeAction deCanvasZoomInAtPoint -in [gi::getWindows 3]
+[13:49:46.89] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {4.39375 5.8375}
+[13:49:46.89] /o {3.625 4.63125} {8.69375 6.625}
+[13:49:46.95] /# gi::executeAction deCanvasZoomInAtPoint -in [gi::getWindows 3]
+[13:49:46.95] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {4.39375 5.8375}
+[13:49:46.95] /o {4.0125 5.2375} {6.54375 6.23125}
+[13:49:48.21] /# gi::executeAction deCanvasZoomOutAtPoint -in [gi::getWindows 3]
+[13:49:48.21] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {4.39375 5.8375}
+[13:49:48.21] /o {3.625 4.63125} {8.69375 6.625}
+[13:49:48.27] /# gi::executeAction deCanvasZoomOutAtPoint -in [gi::getWindows 3]
+[13:49:48.27] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {4.39375 5.8375}
+[13:49:48.27] /o {2.8625 3.425} {12.99375 7.4125}
+[13:49:50.08] /i gi::setActiveWindow 5
+[13:49:50.08] /i gi::setActiveWindow 5 -raise true
+[13:49:51.67] /i gi::setCurrentIndex {variablesTable} -index {1,1} -in [gi::getWindows 5]
+[13:49:51.67] /i gi::setItemSelection {variablesTable} -index {1,1} -in [gi::getWindows 5]
+[13:49:51.67] /i gi::setItemSelection {variablesTable} -index {1,1} -in [gi::getWindows 5]
+[13:49:53.26] /i gi::setField {variablesTable} -index {1,1} -value {2n} -in [gi::getWindows 5]
+[13:49:53.26] /i gi::setField {variablesTable} -index {1,1} -value {2n} -in [gi::getWindows 5]
+[13:49:54.59] /i gi::setItemSelection {variablesTable} -index {} -in [gi::getWindows 5]
+[13:49:54.59] /i gi::setItemSelection {variablesTable} -index {} -in [gi::getWindows 5]
+[13:49:55.58] /i gi::executeAction menuPreShow -in [gi::getWindows 5]
+[13:49:55.58] /r giMenuAccess db::getNext [gi::getMenus saConsoleSimMenu -from [gi::getWindows 5]]
+[13:49:56.57] /i gi::executeAction menuPreShow -in [gi::getWindows 5]
+[13:49:56.57] /r giMenuAccess db::getNext [gi::getMenus saConsoleOutputsMenu -from [gi::getWindows 5]]
+[13:49:56.87] /i gi::executeAction menuPreShow -in [gi::getWindows 5]
+[13:49:56.87] /r giMenuAccess db::getNext [gi::getMenus saConsoleSimMenu -from [gi::getWindows 5]]
+[13:49:56.93] /i gi::executeAction menuPreShow -in [gi::getWindows 5]
+[13:49:56.93] /r giMenuAccess db::getNext [gi::getMenus saResultsMenu -from [gi::getWindows 5]]
+[13:49:57.27] /i gi::executeAction menuPreShow -in [gi::getWindows 5]
+[13:49:57.27] /r giMenuAccess db::getNext [gi::getMenus saToolsMenu -from [gi::getWindows 5]]
+[13:49:58.19] /# gi::executeAction saParametric -in [gi::getWindows 5]
+[13:49:58.19] /i sa::showParametricAnalyses -parent 5
+[13:49:58.23] /o oa:0x2424aa50
+[13:49:58.29] /i gi::setActiveDialog [gi::getDialogs {saParametricAnalyses} -parent [gi::getWindows 5]]
+[13:49:58.60] /i db::setAttr geometry -of [gi::getDialogs {saParametricAnalyses} -parent [gi::getWindows 5]] -value 750x360+95+160
+[13:49:59.69] /i gi::pressButton {/allSweeps/treeWidgetAdd} -in [gi::getDialogs {saParametricAnalyses} -parent [gi::getWindows 5]]
+[13:49:59.74] /r giDialog gi::setActiveDialog [gi::getDialogs {addNewSweepDialog} -parent [gi::getWindows 5]]
+[13:50:00.02] /r giDialog db::setAttr geometry -of [gi::getDialogs {addNewSweepDialog} -parent [gi::getWindows 5]] -value 345x97+298+291
+[13:50:01.82] /r giDialog gi::setField {/designVar} -value {t_clk} -in [gi::getDialogs {addNewSweepDialog} -parent [gi::getWindows 5]]
+[13:50:02.99] /r giDialog gi::pressButton {/ok} -in [gi::getDialogs {addNewSweepDialog} -parent [gi::getWindows 5]]
+[13:50:02.99] /i gi::setField {/allSweeps/treeWidget} -index {0,1} -value {true} -in [gi::getDialogs {saParametricAnalyses} -parent [gi::getWindows 5]]
+[13:50:03.00] /i gi::setField {/allSweeps/treeWidget} -index {0,2} -value {false} -in [gi::getDialogs {saParametricAnalyses} -parent [gi::getWindows 5]]
+[13:50:03.00] /i gi::setItemSelection {/allSweeps/treeWidget} -index {all} -in [gi::getDialogs {saParametricAnalyses} -parent [gi::getWindows 5]]
+[13:50:03.02] /i gi::setActiveDialog [gi::getDialogs {saParametricAnalyses} -parent [gi::getWindows 5]]
+[13:50:07.77] /i gi::setField {/toplevelgrp/rangeDetailsGroup/rangeValGroup/start} -value {1n} -in [gi::getDialogs {saParametricAnalyses} -parent [gi::getWindows 5]]
+[13:50:11.97] /i gi::setField {/toplevelgrp/rangeDetailsGroup/rangeValGroup/stop} -value {500p} -in [gi::getDialogs {saParametricAnalyses} -parent [gi::getWindows 5]]
+[13:50:12.73] /i gi::setField {/toplevelgrp/stepDetailsGroup/stepValGroup/linearType} -value {Step\ Size} -in [gi::getDialogs {saParametricAnalyses} -parent [gi::getWindows 5]]
+[13:50:16.84] /i gi::setField {/toplevelgrp/stepDetailsGroup/stepValGroup/linearText} -value {-100p} -in [gi::getDialogs {saParametricAnalyses} -parent [gi::getWindows 5]]
+[13:50:17.03] /i gi::pressButton {/ok} -in [gi::getDialogs {saParametricAnalyses} -parent [gi::getWindows 5]]
+[13:50:18.96] /i gi::executeAction menuPreShow -in [gi::getWindows 5]
+[13:50:18.96] /r giMenuAccess db::getNext [gi::getMenus saConsoleOutputsMenu -from [gi::getWindows 5]]
+[13:50:19.66] /# gi::executeAction saSelectInDesign -in [gi::getWindows 5]
+[13:50:19.66] /i sa::selectOutputs -window 5
+[13:50:27.14] /i gi::executeAction giCloseWindow -in [gi::getWindows 4]
+[13:50:34.73] /i gi::executeAction menuPreShow -in [gi::getWindows 5]
+[13:50:34.73] /r giMenuAccess db::getNext [gi::getMenus saConsoleOutputsMenu -from [gi::getWindows 5]]
+[13:50:36.12] /# gi::executeAction saSelectInDesign -in [gi::getWindows 5]
+[13:50:36.12] /i sa::selectOutputs -window 5
+[13:50:39.28] /# gi::executeAction deAddPoint -in [gi::getWindows 3]
+[13:50:39.28] /i de::addPoint {5.5125 6.28125} -context [db::getNext [de::getContexts -window 3]]
+[13:50:40.76] /# gi::executeAction deAddPoint -in [gi::getWindows 3]
+[13:50:40.76] /i de::addPoint {5.51875 5.625} -context [db::getNext [de::getContexts -window 3]]
+[13:50:42.34] /# gi::executeAction deAddPoint -in [gi::getWindows 3]
+[13:50:42.34] /i de::addPoint {7.29375 6.3} -context [db::getNext [de::getContexts -window 3]]
+[13:50:43.64] /# gi::executeAction deAddPoint -in [gi::getWindows 3]
+[13:50:43.64] /i de::addPoint {7.275 5.625} -context [db::getNext [de::getContexts -window 3]]
+[13:50:44.86] /i gi::setActiveWindow 5
+[13:50:44.86] /i gi::setActiveWindow 5 -raise true
+[13:50:49.73] /i gi::executeAction menuPreShow -in [gi::getWindows 5]
+[13:50:49.73] /r giMenuAccess db::getNext [gi::getMenus saResultsMenu -from [gi::getWindows 5]]
+[13:50:50.20] /i gi::executeAction menuPreShow -in [gi::getWindows 5]
+[13:50:50.20] /r giMenuAccess db::getNext [gi::getMenus saConsoleSimMenu -from [gi::getWindows 5]]
+[13:50:51.07] /# gi::executeAction saNetlistAndRun -in [gi::getWindows 5]
+[13:50:51.07] /i isa::netlistAndRun -testbench [sa::findActiveTestbench -window 5] -mode overwrite
+[13:50:51.07] /w Warning: Structural netlist "/home/itsupport/simulation/DOAN,Test_Pulse_FF,config/history_1/netlist/DOAN/Test_Pulse_FF/config/HSPICE/netlist" is missing
+[13:50:51.09] /r giWindowId 6
+[13:50:51.10] /r giWindowGeometry 800x600
+[13:50:51.18] /m Information: "Starting incremental netlisting for design "DOAN/Test_Pulse_FF/config"..." (NETLISTING-010)
+[13:50:51.19] /m Information: 
+[13:50:51.19] /o Checking "DOAN/Test_Pulse_FF/schematic"
+[13:50:51.19] /o No rule violations found in "DOAN/Test_Pulse_FF/schematic"
+[13:50:51.19] /o No Design Integrity rule violations found in "DOAN/Test_Pulse_FF/schematic"
+[13:50:51.20] /m Information: 
+              /c Cross view checking for DOAN/Pulse_FF/symbol with DOAN/Pulse_FF/starrc
+              /c 	[warning] Missing Terminal
+              /c 		Terminal gnd! found in starrc is missing in symbol
+              /c 	[warning] Missing Terminal
+              /c 		Terminal vdd! found in starrc is missing in symbol (DE_EDIT-007)
+[13:50:51.20] /w Warning: "Terminal gnd! found in starrc is missing in symbol" (NETLISTING-003)
+[13:50:51.20] /w Warning: "Terminal vdd! found in starrc is missing in symbol" (NETLISTING-003)
+[13:50:51.21] /e Error: "Cell analogLib/pcapacitor/ivpcell does not contain any of the required views: schematic_hspice_symbol. The following instances of this cell in design DOAN/Pulse_FF/starrc will not be netlistable: 
+              /c Cg1313
+              /c C1312
+              /c C1311
+              /c C1310
+              /c C1309
+              /c C1308
+              /c C1307
+              /c C1306
+              /c C1305
+              /c C1304
+              /c C1303
+              /c C1302
+              /c Cg1301
+              /c C1300
+              /c C1299
+              /c C1298
+              /c C1297
+              /c C1296
+              /c C1295
+              /c C1294
+              /c C1293
+              /c C1292
+              /c C1291
+              /c C1290
+              /c C1289
+              /c Cg1288
+              /c C1287
+              /c C1286
+              /c C1285
+              /c C1284
+              /c C1283
+              /c C1282
+              /c C1281
+              /c C1280
+              /c C1279
+              /c C1278
+              /c C1277
+              /c C1276
+              /c Cg1275
+              /c C1274
+              /c C1273
+              /c C1272
+              /c C1271
+              /c C1270
+              /c C1269
+              /c C1268
+              /c C1267
+              /c C1266
+              /c C1265
+              /c C1264
+              /c C1263
+              /c C1262
+              /c C1261
+              /c C1260
+              /c Cg1259
+              /c C1258
+              /c C1257
+              /c C1256
+              /c C1255
+              /c C1254
+              /c Cg1253
+              /c C1252
+              /c C1251
+              /c C1250
+              /c C1249
+              /c C1248
+              /c C1247
+              /c C1246
+              /c C1245
+              /c C1244
+              /c C1243
+              /c C1242
+              /c C1241
+              /c C1240
+              /c C1239
+              /c C1238
+              /c Cg1237
+              /c C1236
+              /c C1235
+              /c C1234
+              /c C1233
+              /c C1232
+              /c C1231
+              /c C1230
+              /c C1229
+              /c C1228
+              /c Cg1227
+              /c C1226
+              /c C1225
+              /c C1224
+              /c C1223
+              /c C1222
+              /c C1221
+              /c C1220
+              /c C1219
+              /c C1218
+              /c C1217
+              /c C1216
+              /c Cg1215
+              /c C1214
+              /c C1213
+              /c C1212
+              /c C1211
+              /c C1210
+              /c C1209
+              /c C1208
+              /c Cg1207
+              /c C1206
+              /c C1205
+              /c C1204
+              /c C1203
+              /c C1202
+              /c C1201
+              /c C1200
+              /c C1199
+              /c C1198
+              /c C1197
+              /c C1196
+              /c C1195
+              /c C1194
+              /c C1193
+              /c C1192
+              /c C1191
+              /c C1190
+              /c C1189
+              /c C1188
+              /c C1187
+              /c C1186
+              /c C1185
+              /c C1184
+              /c C1183
+              /c C1182
+              /c Cg1181
+              /c C1180
+              /c C1179
+              /c C1178
+              /c C1177
+              /c C1176
+              /c Cg1175
+              /c C1174
+              /c C1173
+              /c C1172
+              /c C1171
+              /c Cg1170
+              /c C1169
+              /c C1168
+              /c C1167
+              /c C1166
+              /c C1165
+              /c C1164
+              /c C1163
+              /c C1162
+              /c C1161
+              /c C1160
+              /c C1159
+              /c C1158
+              /c C1157
+              /c C1156
+              /c C1155
+              /c C1154
+              /c C1153
+              /c Cg1152
+              /c C1151
+              /c C1150
+              /c C1149
+              /c C1148
+              /c C1147
+              /c C1146
+              /c C1145
+              /c C1144
+              /c C1143
+              /c C1142
+              /c C1141
+              /c C1140
+              /c C1139
+              /c C1138
+              /c C1137
+              /c C1136
+              /c C1135
+              /c C1134
+              /c C1133
+              /c Cg1132
+              /c C1131
+              /c C1130
+              /c C1129
+              /c C1128
+              /c C1127
+              /c C1126
+              /c C1125
+              /c C1124
+              /c Cg1123
+              /c C1122
+              /c C1121
+              /c C1120
+              /c C1119
+              /c C1118
+              /c C1117
+              /c C1116
+              /c C1115
+              /c C1114
+              /c C1113
+              /c C1112
+              /c C1111
+              /c C1110
+              /c C1109
+              /c C1108
+              /c Cg1107
+              /c C1106
+              /c C1105
+              /c C1104
+              /c C1103
+              /c C1102
+              /c C1101
+              /c C1100
+              /c C1099
+              /c Cg1098
+              /c C1097
+              /c C1096
+              /c C1095
+              /c C1094
+              /c C1093
+              /c C1092
+              /c C1091
+              /c C1090
+              /c C1089
+              /c C1088
+              /c C1087
+              /c C1086
+              /c C1085
+              /c Cg1084
+              /c C1083
+              /c C1082
+              /c C1081
+              /c C1080
+              /c C1079
+              /c C1078
+              /c C1077
+              /c C1076
+              /c Cg1075
+              /c C1074
+              /c C1073
+              /c C1072
+              /c C1071
+              /c C1070
+              /c C1069
+              /c C1068
+              /c C1067
+              /c C1066
+              /c C1065
+              /c Cg1064
+              /c C1063
+              /c C1062
+              /c C1061
+              /c C1060
+              /c C1059
+              /c C1058
+              /c C1057
+              /c C1056
+              /c C1055
+              /c Cg1054
+              /c C1053
+              /c C1052
+              /c C1051
+              /c C1050
+              /c C1049
+              /c C1048
+              /c C1047
+              /c C1046
+              /c C1045
+              /c C1044
+              /c C1043
+              /c C1042
+              /c C1041
+              /c C1040
+              /c C1039
+              /c C1038
+              /c C1037
+              /c C1036
+              /c C1035
+              /c C1034
+              /c C1033
+              /c Cg1032
+              /c C1031
+              /c C1030
+              /c C1029
+              /c C1028
+              /c C1027
+              /c C1026
+              /c C1025
+              /c C1024
+              /c C1023
+              /c C1022
+              /c C1021
+              /c C1020
+              /c C1019
+              /c C1018
+              /c C1017
+              /c C1016
+              /c C1015
+              /c C1014
+              /c C1013
+              /c C1012
+              /c C1011
+              /c C1010
+              /c C1009
+              /c C1008
+              /c C1007
+              /c Cg1006
+              /c C1005
+              /c C1004
+              /c C1003
+              /c C1002
+              /c C1001
+              /c C1000
+              /c C999
+              /c Cg998
+              /c C997
+              /c C996
+              /c C995
+              /c C994
+              /c C993
+              /c C992
+              /c C991
+              /c C990
+              /c C989
+              /c C988
+              /c C987
+              /c C986
+              /c Cg985
+              /c C984
+              /c C983
+              /c C982
+              /c C981
+              /c Cg980
+              /c C979
+              /c C978
+              /c C977
+              /c C976
+              /c C975
+              /c C974
+              /c Cg973
+              /c C972
+              /c C971
+              /c C970
+              /c C969
+              /c C968
+              /c C967
+              /c C966
+              /c Cg965
+              /c C964
+              /c C963
+              /c C962
+              /c C961
+              /c C960
+              /c C959
+              /c C958
+              /c C957
+              /c C956
+              /c C955
+              /c C954
+              /c C953
+              /c C952
+              /c C951
+              /c C950
+              /c C949
+              /c C948
+              /c C947
+              /c Cg946
+              /c C945
+              /c C944
+              /c C943
+              /c C942
+              /c C941
+              /c C940
+              /c C939
+              /c C938
+              /c C937
+              /c C936
+              /c C935
+              /c C934
+              /c C933
+              /c C932
+              /c C931
+              /c C930
+              /c C929
+              /c C928
+              /c Cg927
+              /c C926
+              /c C925
+              /c C924
+              /c C923
+              /c Cg922
+              /c C921
+              /c C920
+              /c C919
+              /c C918
+              /c Cg917
+              /c C916
+              /c C915
+              /c C914
+              /c C913
+              /c C912
+              /c C911
+              /c C910
+              /c C909
+              /c C908
+              /c C907
+              /c C906
+              /c C905
+              /c C904
+              /c C903
+              /c C902
+              /c C901
+              /c Cg900
+              /c C899
+              /c C898
+              /c C897
+              /c C896
+              /c C895
+              /c C894
+              /c C893
+              /c C892
+              /c C891
+              /c C890
+              /c C889
+              /c C888
+              /c C887
+              /c C886
+              /c C885
+              /c C884
+              /c C883
+              /c C882
+              /c C881
+              /c C880
+              /c C879
+              /c C878
+              /c C877
+              /c C876
+              /c Cg875
+              /c C874
+              /c C873
+              /c C872
+              /c C871
+              /c C870
+              /c C869
+              /c C868
+              /c C867
+              /c C866
+              /c C865
+              /c C864
+              /c C863
+              /c C862
+              /c Cg861
+              /c C860
+              /c C859
+              /c C858
+              /c C857
+              /c C856
+              /c Cg855
+              /c C854
+              /c C853
+              /c C852
+              /c C851
+              /c C850
+              /c C849
+              /c C848
+              /c C847
+              /c C846
+              /c C845
+              /c C844
+              /c C843
+              /c C842
+              /c C841
+              /c C840
+              /c C839
+              /c C838
+              /c C837
+              /c C836
+              /c C835
+              /c C834
+              /c C833
+              /c C832
+              /c C831
+              /c C830
+              /c C829
+              /c C828
+              /c Cg827
+              /c C826
+              /c C825
+              /c C824
+              /c C823
+              /c C822
+              /c C821
+              /c C820
+              /c C819
+              /c C818
+              /c C817
+              /c C816
+              /c C815
+              /c C814
+              /c C813
+              /c C812
+              /c C811
+              /c C810
+              /c Cg809
+              /c C808
+              /c C807
+              /c C806
+              /c C805
+              /c C804
+              /c C803
+              /c C802
+              /c Cg801
+              /c C800
+              /c C799
+              /c C798
+              /c C797
+              /c C796
+              /c C795
+              /c C794
+              /c Cg793
+              /c C792
+              /c C791
+              /c Cg790
+              /c C789
+              /c C788
+              /c C787
+              /c C786
+              /c C785
+              /c C784
+              /c C783
+              /c C782
+              /c C781
+              /c C780
+              /c C779
+              /c C778
+              /c C777
+              /c C776
+              /c C775
+              /c C774
+              /c C773
+              /c Cg772
+              /c C771
+              /c C770
+              /c C769
+              /c C768
+              /c C767
+              /c C766
+              /c C765
+              /c C764
+              /c Cg763
+              /c C762
+              /c C761
+              /c C760
+              /c C759
+              /c C758
+              /c C757
+              /c C756
+              /c C755
+              /c C754
+              /c C753
+              /c Cg752
+              /c C751
+              /c C750
+              /c C749
+              /c Cg748
+              /c C747
+              /c C746
+              /c C745
+              /c C744
+              /c Cg743
+              /c C742
+              /c C741
+              /c C740
+              /c C739
+              /c C738
+              /c C737
+              /c C736
+              /c C735
+              /c Cg734
+              /c C733
+              /c C732
+              /c C731
+              /c C730
+              /c Cg729
+              /c C728
+              /c C727
+              /c C726
+              /c C725
+              /c C724
+              /c C723
+              /c C722
+              /c C721
+              /c Cg720
+              /c C719
+              /c C718
+              /c C717
+              /c Cg716
+              /c C715
+              /c C714
+              /c C713
+              /c C712
+              /c C711
+              /c C710
+              /c C709
+              /c C708
+              /c C707
+              /c C706
+              /c C705
+              /c C704
+              /c Cg703
+              /c C702
+              /c C701
+              /c C700
+              /c C699
+              /c Cg698
+              /c C697
+              /c C696
+              /c C695
+              /c C694
+              /c C693
+              /c C692
+              /c C691
+              /c C690
+              /c C689
+              /c Cg688
+              /c C687
+              /c Cg686
+              /c C685
+              /c C684
+              /c C683
+              /c C682
+              /c C681
+              /c C680
+              /c Cg679
+              /c C678
+              /c C677
+              /c C676
+              /c C675
+              /c C674
+              /c C673
+              /c Cg672
+              /c C671
+              /c C670
+              /c C669
+              /c C668
+              /c C667
+              /c C666
+              /c C665
+              /c C664
+              /c C663
+              /c C662
+              /c C661
+              /c C660
+              /c C659
+              /c C658
+              /c C657
+              /c C656
+              /c C655
+              /c C654
+              /c C653
+              /c C652
+              /c C651
+              /c C650
+              /c C649
+              /c C648
+              /c Cg647
+              /c C646
+              /c C645
+              /c C644
+              /c C643
+              /c C642
+              /c C641
+              /c C640
+              /c C639
+              /c C638
+              /c C637
+              /c C636
+              /c C635
+              /c C634
+              /c Cg633
+              /c C632
+              /c C631
+              /c C630
+              /c C629
+              /c C628
+              /c C627
+              /c C626
+              /c C625
+              /c C624
+              /c C623
+              /c C622
+              /c C621
+              /c C620
+              /c Cg619
+              /c C618
+              /c C617
+              /c C616
+              /c C615
+              /c C614
+              /c C613
+              /c C612
+              /c C611
+              /c C610
+              /c C609
+              /c C608
+              /c Cg607
+              /c C606
+              /c C605
+              /c C604
+              /c C603
+              /c C602
+              /c C601
+              /c C600
+              /c Cg599
+              /c C598
+              /c C597
+              /c C596
+              /c C595
+              /c C594
+              /c C593
+              /c C592
+              /c Cg591
+              /c C590
+              /c C589
+              /c C588
+              /c Cg587
+              /c C586
+              /c C585
+              /c C584
+              /c C583
+              /c Cg582
+              /c C581
+              /c C580
+              /c C579
+              /c Cg578
+              /c C577
+              /c C576
+              /c C575
+              /c C574
+              /c C573
+              /c C572
+              /c C571
+              /c C570
+              /c C569
+              /c C568
+              /c Cg567
+              /c C566
+              /c C565
+              /c C564
+              /c C563
+              /c Cg562
+              /c C561
+              /c C560
+              /c C559
+              /c C558
+              /c C557
+              /c C556
+              /c C555
+              /c Cg554
+              /c C553
+              /c C552
+              /c C551
+              /c C550
+              /c Cg549
+              /c C548
+              /c C547
+              /c Cg546
+              /c C545
+              /c C544
+              /c C543
+              /c C542
+              /c Cg541
+              /c C540
+              /c C539
+              /c C538
+              /c C537
+              /c C536
+              /c C535
+              /c C534
+              /c C533
+              /c C532
+              /c C531
+              /c C530
+              /c C529
+              /c C528
+              /c C527
+              /c Cg526
+              /c C525
+              /c C524
+              /c C523
+              /c Cg522
+              /c C521
+              /c C520
+              /c C519
+              /c C518
+              /c C517
+              /c C516
+              /c C515
+              /c Cg514
+              /c C513
+              /c C512
+              /c C511
+              /c Cg510
+              /c C509
+              /c C508
+              /c C507
+              /c C506
+              /c C505
+              /c C504
+              /c C503
+              /c Cg502
+              /c C501
+              /c C500
+              /c C499
+              /c Cg498
+              /c C497
+              /c C496
+              /c C495
+              /c C494
+              /c C493
+              /c C492
+              /c Cg491
+              /c C490
+              /c C489
+              /c C488
+              /c C487
+              /c C486
+              /c C485
+              /c C484
+              /c C483
+              /c Cg482
+              /c C481
+              /c C480
+              /c C479
+              /c C478
+              /c C477
+              /c C476
+              /c C475
+              /c C474
+              /c C473
+              /c C472
+              /c C471
+              /c Cg470
+              /c C469
+              /c C468
+              /c C467
+              /c C466
+              /c Cg465
+              /c C464
+              /c C463
+              /c C462
+              /c C461
+              /c C460
+              /c C459
+              /c C458
+              /c C457
+              /c Cg456
+              /c C455
+              /c C454
+              /c C453
+              /c C452
+              /c C451
+              /c C450
+              /c Cg449
+              /c C448
+              /c C447
+              /c C446
+              /c C445
+              /c C444
+              /c C443
+              /c C442
+              /c C441
+              /c Cg440
+              /c C439
+              /c C438
+              /c C437
+              /c C436
+              /c C435
+              /c C434
+              /c Cg433
+              /c C432
+              /c C431
+              /c C430
+              /c C429
+              /c C428
+              /c C427
+              /c C426
+              /c C425
+              /c C424
+              /c C423
+              /c C422
+              /c C421
+              /c C420
+              /c C419
+              /c C418
+              /c C417
+              /c C416
+              /c Cg415
+              /c C414
+              /c C413
+              /c C412
+              /c C411
+              /c C410
+              /c C409
+              /c C408
+              /c C407
+              /c C406
+              /c C405
+              /c C404
+              /c C403
+              /c C402
+              /c C401
+              /c C400
+              /c C399
+              /c C398
+              /c C397
+              /c C396
+              /c C395
+              /c C394
+              /c C393
+              /c C392
+              /c C391
+              /c C390
+              /c C389
+              /c C388
+              /c C387
+              /c Cg386
+              /c C385
+              /c C384
+              /c C383
+              /c C382
+              /c C381
+              /c C380
+              /c C379
+              /c C378
+              /c C377
+              /c C376
+              /c C375
+              /c C374
+              /c Cg373
+              /c C372
+              /c C371
+              /c C370
+              /c C369
+              /c Cg368
+              /c C367
+              /c C366
+              /c Cg365
+              /c C364
+              /c C363
+              /c C362
+              /c C361
+              /c Cg360
+              /c C359
+              /c C358
+              /c C357
+              /c C356
+              /c Cg355
+              /c C354
+              /c C353
+              /c C352
+              /c C351
+              /c C350
+              /c C349
+              /c C348
+              /c C347
+              /c C346
+              /c C345
+              /c C344
+              /c C343
+              /c C342
+              /c C341
+              /c C340
+              /c C339
+              /c C338
+              /c Cg337
+              /c C336
+              /c C335
+              /c Cg334
+              /c C333
+              /c Cg332
+              /c C331
+              /c Cg330
+              /c C329
+              /c Cg328
+              /c C327
+              /c Cg326
+              /c C325
+              /c Cg324
+              /c C323
+              /c Cg322
+              /c C321
+              /c C320
+              /c C319
+              /c C318
+              /c C317
+              /c C316
+              /c C315
+              /c Cg314
+              /c C313
+              /c Cg312
+              /c C311
+              /c Cg310
+              /c C309
+              /c C308
+              /c C307
+              /c C306
+              /c C305
+              /c C304
+              /c C303
+              /c Cg302
+              /c C301
+              /c Cg300
+              /c C299
+              /c C298
+              /c Cg297
+              /c C296
+              /c Cg295
+              /c C294
+              /c Cg293
+              /c C292
+              /c Cg291
+              /c C290
+              /c C289
+              /c C288
+              /c Cg287
+              /c C286
+              /c C285
+              /c C284
+              /c C283
+              /c C282
+              /c C281
+              /c C280
+              /c Cg279
+              /c C278
+              /c C277
+              /c C276
+              /c C275
+              /c C274
+              /c Cg273
+              /c C272
+              /c C271
+              /c C270
+              /c C269
+              /c C268
+              /c C267
+              /c C266
+              /c C265
+              /c C264
+              /c Cg263
+              /c C262
+              /c C261
+              /c C260
+              /c C259
+              /c C258
+              /c C257
+              /c C256
+              /c C255
+              /c C254
+              /c C253
+              /c C252
+              /c C251
+              /c Cg250
+              /c C249
+              /c C248
+              /c C247
+              /c C246
+              /c C245
+              /c C244
+              /c C243
+              /c C242
+              /c Cg241
+              /c C240
+              /c C239
+              /c C238
+              /c Cg237
+              /c C236
+              /c C235
+              /c Cg234
+              /c C233
+              /c C232
+              /c C231
+              /c Cg230
+              /c C229
+              /c C228
+              /c C227
+              /c C226
+              /c Cg225
+              /c C224
+              /c C223
+              /c Cg222
+              /c C221
+              /c C220
+              /c C219
+              /c Cg218
+              /c C217
+              /c C216
+              /c Cg215
+              /c C214
+              /c C213
+              /c Cg212
+              /c C211
+              /c C210
+              /c C209
+              /c C208
+              /c C207
+              /c C206
+              /c C205
+              /c C204
+              /c C203
+              /c C202
+              /c C201
+              /c C200
+              /c C199
+              /c Cg198
+              /c C197
+              /c C196
+              /c C195
+              /c Cg194
+              /c C193
+              /c C192
+              /c Cg191
+              /c C190
+              /c C189
+              /c Cg188
+              /c C187
+              /c C186
+              /c C185
+              /c C184
+              /c C183
+              /c C182
+              /c Cg181
+              /c C180
+              /c C179
+              /c Cg178
+              /c C177
+              /c C176
+              /c C175
+              /c C174
+              /c Cg173
+              /c C172
+              /c C171
+              /c Cg170
+              /c C169
+              /c C168
+              /c Cg167
+              /c C166
+              /c C165
+              /c C164
+              /c Cg163
+              /c C162
+              /c C161
+              /c C160
+              /c C159
+              /c Cg158
+              /c C157
+              /c C156
+              /c C155
+              /c Cg154
+              /c C153
+              /c C152
+              /c C151
+              /c Cg150
+              /c C149
+              /c C148
+              /c Cg147
+              /c C146
+              /c C145
+              /c C144
+              /c Cg143
+              /c C142
+              /c C141
+              /c C140
+              /c Cg139
+              /c C138
+              /c C137
+              /c C136
+              /c Cg135
+              /c C134
+              /c Cg133
+              /c C132
+              /c Cg131
+              /c C130
+              /c Cg129
+              /c C128
+              /c Cg127
+              /c C126
+              /c Cg125
+              /c C124
+              /c Cg123
+              /c C122
+              /c Cg121
+              /c C120
+              /c Cg119
+              /c C118
+              /c Cg117
+              /c C116
+              /c Cg115
+              /c C114
+              /c Cg113
+              /c C112
+              /c Cg111
+              /c C110
+              /c Cg109
+              /c C108
+              /c Cg107
+              /c C106
+              /c Cg105
+              /c C104
+              /c Cg103
+              /c C102
+              /c Cg101
+              /c C100
+              /c Cg99
+              /c C98
+              /c C97
+              /c Cg96
+              /c C95
+              /c C94
+              /c Cg93
+              /c C92
+              /c C91
+              /c Cg90
+              /c C89
+              /c Cg88
+              /c C87
+              /c C86
+              /c Cg85
+              /c C84
+              /c C83
+              /c Cg82
+              /c C81
+              /c C80
+              /c Cg79
+              /c C78
+              /c C77
+              /c C76
+              /c Cg75
+              /c C74
+              /c Cg73
+              /c C72
+              /c C71
+              /c Cg70
+              /c C69
+              /c C68
+              /c Cg67
+              /c C66
+              /c C65
+              /c Cg64
+              /c C63
+              /c Cg62
+              /c C61
+              /c C60
+              /c Cg59
+              /c C58
+              /c C57
+              /c Cg56
+              /c C55
+              /c C54
+              /c C53
+              /c C52
+              /c Cg51
+              /c C50
+              /c Cg49
+              /c C48
+              /c Cg47
+              /c Cg46
+              /c Cg45
+              /c C44
+              /c C43
+              /c C42
+              /c C41
+              /c C40
+              /c C39
+              /c C38
+              /c C37
+              /c C36
+              /c C35
+              /c C34
+              /c C33
+              /c C32
+              /c C31
+              /c C30
+              /c C29
+              /c C28
+              /c C27
+              /c C26
+              /c C25
+              /c Cg24
+              /c Cg23
+              /c Cg22
+              /c Cg21
+              /c Cg20
+              /c Cg19
+              /c C18
+              /c Cg17
+              /c Cg16
+              /c C15
+              /c Cg14
+              /c Cg13
+              /c Cg12
+              /c Cg11
+              /c C10
+              /c C9
+              /c Cg8
+              /c Cg7
+              /c Cg6
+              /c Cg5
+              /c Cg4
+              /c Cg3
+              /c Cg2
+              /c Cg1." (NETLISTING-038)
+[13:50:51.21] /e Error: Fatal error occured, netlisting will be terminated. (NETLISTING-001)
+[13:50:51.21] /m Information: "Netlisting design "DOAN/Test_Pulse_FF/config" didn't finish." (NETLISTING-013)
+[13:50:51.22] /o 1
+[13:50:56.59] /i gi::pressButton {ConsoleToggleButton} -in [db::getAttr statusbar -of [gi::getWindows 6]]
+[13:52:02.25] /# gi::executeAction giPostContextMenu -in [gi::getAssistants giConsole -from [gi::getWindows 6]]
+[13:52:03.30] /# gi::executeAction giConsoleAssistantCopy -in [gi::getAssistants giConsole -from [gi::getWindows 6]]
+[13:52:08.89] /i gi::setActiveWindow 3
+[13:52:08.89] /i gi::setActiveWindow 3 -raise true
+[13:52:22.68] /i gi::setActiveWindow 6
+[13:52:22.68] /i gi::setActiveWindow 6 -raise true
+[13:52:23.26] /i gi::setActiveWindow 5
+[13:52:23.26] /i gi::setActiveWindow 5 -raise true
+[13:52:24.57] /i gi::setActiveWindow 3
+[13:52:24.57] /i gi::setActiveWindow 3 -raise true
+[13:52:25.41] /# gi::executeAction deAddPoint -in [gi::getWindows 3]
+[13:52:25.41] /i de::addPoint {6.40625 6.18125} -context [db::getNext [de::getContexts -window 3]]
+[13:52:25.63] /# gi::executeAction deCompleteShape -in [gi::getWindows 3]
+[13:52:25.63] /i de::completeShape -context [db::getNext [de::getContexts -window 3]]
+[13:52:25.63] /# Navigating to DOAN/Pulse_FF/starrc (I8)
+[13:52:25.74] /# de::setActiveLPP [de::getLPPs "exclude blockage" -from [db::getAttr editDesign -of [de::getContexts -window 3]]]
+[13:52:25.93] /# gi::setItemSelection {sets} -index {Valid} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 3]]
+[13:52:26.14] /i db::setAttr dockSize -of [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 3]] -value 200x701
+[13:52:28.21] /# gi::executeAction deAddPoint -in [gi::getWindows 3]
+[13:52:28.21] /i de::addPoint {31.569 -5.342} -context [db::getNext [de::getContexts -window 3]]
+[13:52:34.25] /# gi::executeAction deAddPoint -in [gi::getWindows 3]
+[13:52:34.26] /i de::addPoint {31.29 -5.824} -context [db::getNext [de::getContexts -window 3]]
+[13:52:34.80] /# gi::executeAction deCanvasZoomInAtPoint -in [gi::getWindows 3]
+[13:52:34.80] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {29.32 -6.102}
+[13:52:34.80] /o {21.696 -7.939} {30.589 -4.185}
+[13:52:35.50] /# gi::executeAction deCanvasZoomInAtPoint -in [gi::getWindows 3]
+[13:52:35.50] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {29.165 -6.563}
+[13:52:35.50] /o {25.43 -7.251} {29.877 -5.374}
+[13:52:35.92] /# gi::executeAction deCanvasZoomInAtPoint -in [gi::getWindows 3]
+[13:52:35.92] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {29.165 -6.563}
+[13:52:35.92] /o {27.298 -6.907} {29.521 -5.969}
+[13:52:37.03] /# gi::executeAction deCanvasZoomOutAtPoint -in [gi::getWindows 3]
+[13:52:37.03] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {29.165 -6.563}
+[13:52:37.03] /o {25.43 -7.251} {29.877 -5.374}
+[13:52:37.07] /# gi::executeAction deCanvasZoomOutAtPoint -in [gi::getWindows 3]
+[13:52:37.07] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {29.165 -6.563}
+[13:52:37.07] /o {21.696 -7.939} {30.589 -4.185}
+[13:52:37.12] /# gi::executeAction deCanvasZoomOutAtPoint -in [gi::getWindows 3]
+[13:52:37.12] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {29.159 -6.568}
+[13:52:37.12] /o {14.232 -9.309} {32.019 -1.803}
+[13:52:37.18] /# gi::executeAction deCanvasZoomOutAtPoint -in [gi::getWindows 3]
+[13:52:37.18] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {29.031 -6.514}
+[13:52:37.18] /o {-0.567 -12.105} {35.007 2.909}
+[13:52:37.97] /# gi::executeAction deCanvasZoomInAtPoint -in [gi::getWindows 3]
+[13:52:37.97] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {27.489 -5.144}
+[13:52:37.97] /o {13.461 -8.624} {31.248 -1.118}
+[13:52:39.06] /# gi::executeAction deFitView -in [gi::getWindows 3]
+[13:52:39.06] /i de::fit -window 3 -fitView true
+[13:52:39.06] /o {14.071 -9.775} {31.858 -2.269}
+[13:52:42.22] /i gi::setActiveWindow 5
+[13:52:42.22] /i gi::setActiveWindow 5 -raise true
+[13:52:43.20] /i gi::setActiveWindow 3
+[13:52:43.20] /i gi::setActiveWindow 3 -raise true
+[13:52:44.80] /i gi::executeAction giCloseWindow -in [gi::getWindows 3]
+[13:52:45.92] /i gi::setActiveWindow 2
+[13:52:45.92] /i gi::setActiveWindow 2 -raise true
+[13:52:48.42] /i gi::executeAction dmOpen -in [gi::getWindows 2]
+[13:52:48.44] /r giWindowId 7
+[13:52:48.44] /r giWindowGeometry 1632x818
+[13:52:48.57] /m Information: 
+[13:52:48.57] /o Checking "DOAN/Test_Pulse_FF/schematic"
+[13:52:48.57] /o No rule violations found in "DOAN/Test_Pulse_FF/schematic"
+[13:52:48.57] /m Information: Checking process is completed: marking the design violations
+[13:52:48.57] /m Information: Marking of designs is completed
+[13:52:49.84] /# gi::executeAction deSelectActive -in [gi::getWindows 7]
+[13:52:49.84] /i de::deselectAll [db::getNext [de::getContexts -window 7]]
+[13:52:49.84] /i de::select [de::getActiveFigure [gi::getWindows 7] -point {6.56875 6.25} -index 0 -intent none]
+[13:52:49.84] /o oa:0x1ea8df10
+[13:52:50.05] /# gi::executeAction deDescend -in [gi::getWindows 7]
+[13:52:50.05] /i ide::descend 7 -inPlace false -promptView false -readOnly auto
+[13:52:50.06] /r giWindowId 8
+[13:52:50.07] /r giWindowGeometry 1632x818
+[13:52:50.22] /# Navigating to DOAN/Pulse_FF/starrc (I8)
+[13:52:50.34] /# de::setActiveLPP [de::getLPPs "exclude blockage" -from [db::getAttr editDesign -of [de::getContexts -window 8]]]
+[13:52:50.53] /# gi::setItemSelection {sets} -index {Valid} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 8]]
+[13:52:50.74] /i db::setAttr dockSize -of [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 8]] -value 200x701
+[13:53:36.77] /i gi::setActiveWindow 7
+[13:53:36.77] /i gi::setActiveWindow 7 -raise true
+[13:55:52.42] /i gi::setActiveWindow 2
+[13:55:52.42] /i gi::setActiveWindow 2 -raise true
+[13:56:00.89] /i gi::executeAction dmDeleteCellView -in [gi::getWindows 2]
+[13:56:00.94] /r giDialog gi::setActiveDialog [gi::getDialogs {dmDelete}]
+[13:56:01.21] /r giDialog db::setAttr geometry -of [gi::getDialogs {dmDelete}] -value 354x92+773+396
+[13:56:01.98] /r giDialog gi::pressButton {delete} -in [gi::getDialogs {dmDelete}]
+[13:56:02.00] /# db::destroy [dm::findCellView config -cell [dm::findCell Test\_Pulse\_FF -lib [oa::LibFind [oa::ScalarName [oa::CdbaNS] DOAN ]]]]
+[13:56:02.00] /# gi::setCurrentIndex {views} -index {schematic} -in [gi::getWindows 2]
+[13:56:02.00] /# gi::setItemSelection {views} -index {} -in [gi::getWindows 2]
+[13:56:03.83] /# gi::executeAction dmShowNewCellView -in [gi::getWindows 2]
+[13:56:03.83] /i dm::showNewCellView -parent 2
+[13:56:03.86] /o oa:0x1fcf6b30
+[13:56:03.89] /i gi::setActiveDialog [gi::getDialogs {dmNewCellView} -parent [gi::getWindows 2]]
+[13:56:04.15] /i db::setAttr geometry -of [gi::getDialogs {dmNewCellView} -parent [gi::getWindows 2]] -value 588x285+656+300
+[13:56:08.14] /i gi::setField {cellViewName} -value {config} -in [gi::getDialogs {dmNewCellView} -parent [gi::getWindows 2]]
+[13:56:08.98] /i gi::pressButton {ok} -in [gi::getDialogs {dmNewCellView} -parent [gi::getWindows 2]]
+[13:56:08.98] /# db::getAttr viewType -of [dm::findCellView config -cell [dm::findCell Test\_Pulse\_FF -lib [oa::LibFind [oa::ScalarName [oa::CdbaNS] DOAN]]]]
+[13:56:08.98] /# dm::createCellView config -cell [dm::findCell Test\_Pulse\_FF -lib [ oa::LibFind [oa::ScalarName [oa::CdbaNS] DOAN]]] -viewType config\.xml
+[13:56:08.98] /# de::open [dm::findCellView config -cell [dm::findCell Test\_Pulse\_FF -lib [oa::LibFind [oa::ScalarName [oa::CdbaNS] DOAN]]]] -application heEditor
+[13:56:08.99] /r giWindowId 9
+[13:56:09.00] /r giWindowGeometry 750x750
+[13:56:17.74] /i gi::setField {heTopLCVSelectorView} -value {schematic} -in [gi::getWindows 9]
+[13:56:32.37] /i gi::setField {heViewSearchList} -value {schematic\ hspice\ symbol} -in [gi::getWindows 9]
+[13:56:41.63] /i gi::setField {heViewStopList} -value {symbol} -in [gi::getWindows 9]
+[13:56:45.69] /i gi::setCurrentIndex {heTreeWidget} -index {0.0,2} -in [gi::getWindows 9]
+[13:56:45.69] /i gi::setItemSelection {heTreeWidget} -index {0.0,all} -in [gi::getWindows 9]
+[13:56:52.40] /i gi::setField {heTreeWidget} -value {//starrc} -index {0.0,2} -in [gi::getWindows 9] 
+[13:57:05.74] /i gi::executeAction heFileSave -in [gi::getWindows 9]
+[13:57:06.28] /i gi::setActiveWindow 2
+[13:57:06.28] /i gi::setActiveWindow 2 -raise true
+[13:57:07.42] /i gi::setCurrentIndex {views} -index {config} -in [gi::getWindows 2]
+[13:57:07.42] /i gi::setItemSelection {views} -index {config} -in [gi::getWindows 2]
+[13:57:07.61] /i gi::executeAction dmOpen -in [gi::getWindows 2]
+[13:57:07.61] /# gi::setActiveWindow 9 -raise true
+[13:57:07.61] /# gi::setActiveWindow 9 -raise true
+[13:57:09.09] /i gi::setActiveWindow 2
+[13:57:09.09] /i gi::setActiveWindow 2 -raise true
+[13:57:11.42] /i gi::executeAction dmOpenConfigDesignWrite -in [gi::getWindows 2]
+[13:57:11.43] /r giWindowId 10
+[13:57:11.45] /r giWindowGeometry 1632x818
+[13:57:11.61] /m Information: 
+[13:57:11.61] /o Checking "DOAN/Test_Pulse_FF/schematic"
+[13:57:11.61] /o No rule violations found in "DOAN/Test_Pulse_FF/schematic"
+[13:57:11.61] /m Information: Checking process is completed: marking the design violations
+[13:57:11.61] /m Information: Marking of designs is completed
+[13:57:13.46] /i gi::setActiveWindow 9
+[13:57:13.46] /i gi::setActiveWindow 9 -raise true
+[13:57:14.40] /i gi::setActiveWindow 7
+[13:57:14.40] /i gi::setActiveWindow 7 -raise true
+[13:57:15.42] /i gi::executeAction giCloseWindow -in [gi::getWindows 7]
+[13:57:15.44] /i gi::setActiveWindow 9
+[13:57:15.44] /i gi::setActiveWindow 9 -raise true
+[13:57:17.22] /i gi::executeAction giCloseWindow -in [gi::getWindows 8]
+[13:57:21.66] /i gi::executeAction giCloseWindow -in [gi::getWindows 5]
+[13:57:21.68] /i gi::setActiveWindow 5
+[13:57:21.68] /i gi::setActiveWindow 5 -raise true
+[13:57:21.73] /r giDialog gi::setActiveDialog [gi::getDialogs {giPrompt} -parent [gi::getWindows 5]]
+[13:57:22.01] /r giDialog db::setAttr geometry -of [gi::getDialogs {giPrompt} -parent [gi::getWindows 5]] -value 292x82+814+460
+[13:57:23.16] /r giDialog gi::pressButton {discard} -in [gi::getDialogs {giPrompt} -parent [gi::getWindows 5]]
+[13:57:23.18] /i gi::setActiveWindow 9
+[13:57:23.18] /i gi::setActiveWindow 9 -raise true
+[13:57:24.75] /i gi::setActiveWindow 10
+[13:57:24.75] /i gi::setActiveWindow 10 -raise true
+[13:57:27.76] /i gi::setActiveWindow 9
+[13:57:27.76] /i gi::setActiveWindow 9 -raise true
+[13:57:29.15] /i gi::setActiveWindow 2
+[13:57:29.15] /i gi::setActiveWindow 2 -raise true
+[13:57:29.87] /i gi::setActiveWindow 10
+[13:57:29.87] /i gi::setActiveWindow 10 -raise true
+[13:57:33.73] /# gi::executeAction deSelectActive -in [gi::getWindows 10]
+[13:57:33.73] /i de::cycleActiveFigure [gi::getWindows 10] -direction next
+[13:57:33.73] /o oa:0x1e5167d0
+[13:57:33.91] /# gi::executeAction deDescend -in [gi::getWindows 10]
+[13:57:33.91] /i ide::descend 10 -inPlace false -promptView false -readOnly auto
+[13:57:33.92] /r giWindowId 11
+[13:57:33.92] /r giWindowGeometry 1632x818
+[13:57:34.10] /# Navigating to DOAN/Pulse_FF/starrc (I8)
+[13:57:34.23] /# de::setActiveLPP [de::getLPPs "exclude blockage" -from [db::getAttr editDesign -of [de::getContexts -window 11]]]
+[13:57:34.42] /# gi::setItemSelection {sets} -index {Valid} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 11]]
+[13:57:34.63] /i db::setAttr dockSize -of [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 11]] -value 200x701
+[13:57:36.90] /i gi::setActiveWindow 10
+[13:57:36.90] /i gi::setActiveWindow 10 -raise true
+[13:57:39.90] /# gi::executeAction seShowConsoleForWindow -in [gi::getWindows 10]
+[13:57:39.90] /i sa::showConsole -context [db::getNext [de::getContexts -window 10]]
+[13:57:39.93] /r giWindowId 12
+[13:57:39.94] /r giWindowGeometry 600x500
+[13:57:40.01] /o oa:0x24d12230
+[13:57:40.03] /m Information: Launching Background sae_shell Server Process "cd /home/itsupport/Desktop/DOAN && sae_shell -log sae_shell_session3_job1 -libDefFile /home/itsupport/Desktop/DOAN/lib.defs"
+[13:57:41.52] /i gi::executeAction menuPreShow -in [gi::getWindows 12]
+[13:57:41.52] /r giMenuAccess db::getNext [gi::getMenus saConsoleSetupMenu -from [gi::getWindows 12]]
+[13:57:42.80] /m Information: Received ready-for-commands signal from background job 'sae_shell_session3_job1' after 2 seconds.
+[13:57:44.06] /# gi::executeAction saEditModels -in [gi::getWindows 12]
+[13:57:44.06] /i sa::showModelFiles -parent 12
+[13:57:44.12] /i gi::setActiveDialog [gi::getDialogs {saModelFilesSetup} -parent [gi::getWindows 12]]
+[13:57:44.41] /i db::setAttr geometry -of [gi::getDialogs {saModelFilesSetup} -parent [gi::getWindows 12]] -value 760x500+728+185
+[13:57:45.00] /i gi::setCurrentIndex {modelFilesTable} -index {0,1} -in [gi::getDialogs {saModelFilesSetup} -parent [gi::getWindows 12]]
+[13:57:50.47] /r giFileDialog accept PDK/hspice/reference_models.inc
+[13:57:50.47] /i gi::setField {modelFilesTable} -index {0,1} -value {/home/itsupport/Desktop/DOAN/PDK/hspice/reference_models.inc} -in [gi::getDialogs {saModelFilesSetup} -parent [gi::getWindows 12]]
+[13:57:50.47] /i gi::setField {modelFilesTable} -index {0,1} -value {/home/itsupport/Desktop/DOAN/PDK/hspice/reference_models.inc} -in [gi::getDialogs {saModelFilesSetup} -parent [gi::getWindows 12]]
+[13:57:51.11] /i gi::pressButton {ok} -in [gi::getDialogs {saModelFilesSetup} -parent [gi::getWindows 12]]
+[13:57:52.04] /i gi::executeAction menuPreShow -in [gi::getWindows 12]
+[13:57:52.04] /r giMenuAccess db::getNext [gi::getMenus saConsoleSetupMenu -from [gi::getWindows 12]]
+[13:57:53.42] /# gi::executeAction saShowEditAnalyses -in [gi::getWindows 12]
+[13:57:53.42] /i sa::showEditAnalyses -parent 12 -analysisName "" 
+[13:57:53.53] /o oa:0x23b70ed0
+[13:57:53.60] /i gi::setActiveDialog [gi::getDialogs {saEditAnalysesDialogXsaeSession1} -parent [gi::getWindows 12]]
+[13:57:53.89] /i db::setAttr geometry -of [gi::getDialogs {saEditAnalysesDialogXsaeSession1} -parent [gi::getWindows 12]] -value 633x680+762+257
+[13:57:58.80] /i gi::setField {/analysesGroups/tabGeneral/anaPane/step} -value {100p} -in [gi::getDialogs {saEditAnalysesDialogXsaeSession1} -parent [gi::getWindows 12]]
+[13:58:02.43] /i gi::setField {/analysesGroups/tabGeneral/anaPane/stop} -value {30n} -in [gi::getDialogs {saEditAnalysesDialogXsaeSession1} -parent [gi::getWindows 12]]
+[13:58:02.43] /i gi::pressButton {/ok} -in [gi::getDialogs {saEditAnalysesDialogXsaeSession1} -parent [gi::getWindows 12]]
+[13:58:03.85] /i gi::setCurrentIndex {variablesTable} -index {1,0} -in [gi::getWindows 12]
+[13:58:05.82] /i gi::setField {variablesTable} -index {1,0} -value {t_clk} -in [gi::getWindows 12]
+[13:58:05.82] /i gi::setField {variablesTable} -index {1,0} -value {t_clk} -in [gi::getWindows 12]
+[13:58:06.93] /i gi::setCurrentIndex {variablesTable} -index {1,1} -in [gi::getWindows 12]
+[13:58:06.93] /i gi::setItemSelection {variablesTable} -index {1,1} -in [gi::getWindows 12]
+[13:58:06.93] /i gi::setItemSelection {variablesTable} -index {1,1} -in [gi::getWindows 12]
+[13:58:08.16] /i gi::setField {variablesTable} -index {1,1} -value {2n} -in [gi::getWindows 12]
+[13:58:08.16] /i gi::setField {variablesTable} -index {1,1} -value {2n} -in [gi::getWindows 12]
+[13:58:09.72] /i gi::executeAction menuPreShow -in [gi::getWindows 12]
+[13:58:09.72] /r giMenuAccess db::getNext [gi::getMenus saResultsMenu -from [gi::getWindows 12]]
+[13:58:10.31] /i gi::executeAction menuPreShow -in [gi::getWindows 12]
+[13:58:10.31] /r giMenuAccess db::getNext [gi::getMenus saToolsMenu -from [gi::getWindows 12]]
+[13:58:11.22] /# gi::executeAction saParametric -in [gi::getWindows 12]
+[13:58:11.22] /i sa::showParametricAnalyses -parent 12
+[13:58:11.27] /o oa:0x1fac04e0
+[13:58:11.33] /i gi::setActiveDialog [gi::getDialogs {saParametricAnalyses} -parent [gi::getWindows 12]]
+[13:58:11.62] /i db::setAttr geometry -of [gi::getDialogs {saParametricAnalyses} -parent [gi::getWindows 12]] -value 750x360+95+160
+[13:58:12.73] /i gi::pressButton {/allSweeps/treeWidgetAdd} -in [gi::getDialogs {saParametricAnalyses} -parent [gi::getWindows 12]]
+[13:58:12.79] /r giDialog gi::setActiveDialog [gi::getDialogs {addNewSweepDialog} -parent [gi::getWindows 12]]
+[13:58:13.05] /r giDialog db::setAttr geometry -of [gi::getDialogs {addNewSweepDialog} -parent [gi::getWindows 12]] -value 345x97+298+291
+[13:58:14.10] /r giDialog gi::setField {/designVar} -value {t_clk} -in [gi::getDialogs {addNewSweepDialog} -parent [gi::getWindows 12]]
+[13:58:14.60] /r giDialog gi::pressButton {/ok} -in [gi::getDialogs {addNewSweepDialog} -parent [gi::getWindows 12]]
+[13:58:14.61] /i gi::setField {/allSweeps/treeWidget} -index {0,1} -value {true} -in [gi::getDialogs {saParametricAnalyses} -parent [gi::getWindows 12]]
+[13:58:14.61] /i gi::setField {/allSweeps/treeWidget} -index {0,2} -value {false} -in [gi::getDialogs {saParametricAnalyses} -parent [gi::getWindows 12]]
+[13:58:14.61] /i gi::setItemSelection {/allSweeps/treeWidget} -index {all} -in [gi::getDialogs {saParametricAnalyses} -parent [gi::getWindows 12]]
+[13:58:14.64] /i gi::setActiveDialog [gi::getDialogs {saParametricAnalyses} -parent [gi::getWindows 12]]
+[13:58:17.95] /i gi::setField {/toplevelgrp/rangeDetailsGroup/rangeValGroup/start} -value {1n} -in [gi::getDialogs {saParametricAnalyses} -parent [gi::getWindows 12]]
+[13:58:22.83] /i gi::setField {/toplevelgrp/rangeDetailsGroup/rangeValGroup/stop} -value {100p} -in [gi::getDialogs {saParametricAnalyses} -parent [gi::getWindows 12]]
+[13:58:29.00] /i gi::setField {/toplevelgrp/stepDetailsGroup/stepValGroup/linearText} -value {-100p} -in [gi::getDialogs {saParametricAnalyses} -parent [gi::getWindows 12]]
+[13:58:29.70] /i gi::setField {/toplevelgrp/stepDetailsGroup/stepValGroup/linearType} -value {Step\ Size} -in [gi::getDialogs {saParametricAnalyses} -parent [gi::getWindows 12]]
+[13:58:36.14] /i gi::pressButton {/ok} -in [gi::getDialogs {saParametricAnalyses} -parent [gi::getWindows 12]]
+[13:58:37.83] /i gi::executeAction menuPreShow -in [gi::getWindows 12]
+[13:58:37.83] /r giMenuAccess db::getNext [gi::getMenus saConsoleOutputsMenu -from [gi::getWindows 12]]
+[13:58:38.80] /# gi::executeAction saSelectInDesign -in [gi::getWindows 12]
+[13:58:38.80] /i sa::selectOutputs -window 12
+[13:58:41.10] /i gi::executeAction giCloseWindow -in [gi::getWindows 11]
+[13:58:42.19] /i gi::executeAction menuPreShow -in [gi::getWindows 12]
+[13:58:42.19] /r giMenuAccess db::getNext [gi::getMenus saConsoleOutputsMenu -from [gi::getWindows 12]]
+[13:58:43.07] /# gi::executeAction saSelectInDesign -in [gi::getWindows 12]
+[13:58:43.07] /i sa::selectOutputs -window 12
+[13:58:44.70] /# gi::executeAction deAddPoint -in [gi::getWindows 10]
+[13:58:44.70] /i de::addPoint {4.91875 6.3125} -context [db::getNext [de::getContexts -window 10]]
+[13:58:45.85] /# gi::executeAction deAddPoint -in [gi::getWindows 10]
+[13:58:45.85] /i de::addPoint {5.46875 5.59375} -context [db::getNext [de::getContexts -window 10]]
+[13:58:47.17] /# gi::executeAction deAddPoint -in [gi::getWindows 10]
+[13:58:47.17] /i de::addPoint {7.275 6.3} -context [db::getNext [de::getContexts -window 10]]
+[13:58:48.09] /# gi::executeAction deAddPoint -in [gi::getWindows 10]
+[13:58:48.09] /i de::addPoint {7.325 5.60625} -context [db::getNext [de::getContexts -window 10]]
+[13:58:49.13] /i gi::setActiveWindow 12
+[13:58:49.13] /i gi::setActiveWindow 12 -raise true
+[13:58:50.69] /i gi::executeAction menuPreShow -in [gi::getWindows 12]
+[13:58:50.69] /r giMenuAccess db::getNext [gi::getMenus saConsoleSimMenu -from [gi::getWindows 12]]
+[13:58:51.37] /# gi::executeAction saNetlistAndRun -in [gi::getWindows 12]
+[13:58:51.37] /i isa::netlistAndRun -testbench [sa::findActiveTestbench -window 12] -mode overwrite
+[13:58:51.38] /w Warning: Structural netlist "/home/itsupport/simulation/DOAN,Test_Pulse_FF,config/history_1/netlist/DOAN/Test_Pulse_FF/config/HSPICE/netlist" is missing
+[13:58:51.47] /m Information: "Starting incremental netlisting for design "DOAN/Test_Pulse_FF/config"..." (NETLISTING-010)
+[13:58:51.49] /m Information: 
+[13:58:51.49] /o Checking "DOAN/Test_Pulse_FF/schematic"
+[13:58:51.49] /o No rule violations found in "DOAN/Test_Pulse_FF/schematic"
+[13:58:51.49] /o No Design Integrity rule violations found in "DOAN/Test_Pulse_FF/schematic"
+[13:58:51.49] /m Information: 
+              /c Cross view checking for DOAN/Pulse_FF/symbol with DOAN/Pulse_FF/starrc
+              /c 	[warning] Missing Terminal
+              /c 		Terminal gnd! found in starrc is missing in symbol
+              /c 	[warning] Missing Terminal
+              /c 		Terminal vdd! found in starrc is missing in symbol (DE_EDIT-007)
+[13:58:51.49] /w Warning: "Terminal gnd! found in starrc is missing in symbol" (NETLISTING-003)
+[13:58:51.49] /w Warning: "Terminal vdd! found in starrc is missing in symbol" (NETLISTING-003)
+[13:58:51.58] /m Information: 
+              /c Cross view checking for reference90RF/n_4t/ivpcell with reference90RF/n_4t/hspice
+              /c 	[warning] Missing Terminal
+              /c 		Terminal D found in hspice is missing in ivpcell
+              /c 	[warning] Missing Terminal
+              /c 		Terminal G found in hspice is missing in ivpcell
+              /c 	[warning] Missing Terminal
+              /c 		Terminal S found in hspice is missing in ivpcell
+              /c 	[warning] Missing Terminal
+              /c 		Terminal B found in hspice is missing in ivpcell (DE_EDIT-007)
+[13:58:51.59] /w Warning: "Terminal D found in hspice is missing in ivpcell" (NETLISTING-003)
+[13:58:51.59] /w Warning: "Terminal G found in hspice is missing in ivpcell" (NETLISTING-003)
+[13:58:51.59] /w Warning: "Terminal S found in hspice is missing in ivpcell" (NETLISTING-003)
+[13:58:51.59] /w Warning: "Terminal B found in hspice is missing in ivpcell" (NETLISTING-003)
+[13:58:52.46] /m Information: "DOAN Pulse_FF starrc" renetlisted. (NETLISTING-056)
+[13:58:52.48] /m Information: "DOAN Test_Pulse_FF schematic" renetlisted. (NETLISTING-056)
+[13:58:52.52] /m Information: "Netlisting design "DOAN/Test_Pulse_FF/config" finished successfully." (NETLISTING-012)
+[13:58:52.54] /m Information: "Composing simulator input file for design "DOAN/Test_Pulse_FF/config"..."
+[13:58:52.57] /m Information: "Simulator input file composed successfully for design "DOAN/Test_Pulse_FF/config""
+[13:58:52.80] /m Information: "Composing simulator input file for design "DOAN/Test_Pulse_FF/config" for 10 iterations..."
+[13:58:52.96] /m Information: "Simulator input file composed successfully for design "DOAN/Test_Pulse_FF/config""
+[13:58:53.02] /m Information: "Starting 10 HSPICE simulations for design: DOAN/Test_Pulse_FF/config"
+[13:58:53.02] /# gi::collapse {jobMonitorTable} -index {0.0,0} -in [gi::getWindows 6]
+[13:58:53.05] /# gi::collapse {jobMonitorTable} -index {0.0.0.0,0} -in [gi::getWindows 6]
+[13:58:53.08] /m Information: "Simulations launched successfully for design: DOAN/Test_Pulse_FF/config"
+[13:58:53.09] /o 1
+[13:58:55.12] /m Information: "Simulation completed successfully for design: DOAN/Test_Pulse_FF/config point: t_clk=0.900000n"
+[13:58:55.23] /m Information: "Simulation completed successfully for design: DOAN/Test_Pulse_FF/config point: t_clk=0.800000n"
+[13:58:55.34] /m Information: "Simulation completed successfully for design: DOAN/Test_Pulse_FF/config point: t_clk=1.00000n"
+[13:58:57.25] /m Information: "Simulation completed successfully for design: DOAN/Test_Pulse_FF/config point: t_clk=0.700000n"
+[13:58:57.76] /m Information: "Simulation completed successfully for design: DOAN/Test_Pulse_FF/config point: t_clk=0.600000n"
+[13:58:59.03] /m Information: "Simulation completed successfully for design: DOAN/Test_Pulse_FF/config point: t_clk=0.500000n"
+[13:59:01.50] /m Information: "Simulation completed successfully for design: DOAN/Test_Pulse_FF/config point: t_clk=0.400000n"
+[13:59:01.60] /m Information: "Simulation completed successfully for design: DOAN/Test_Pulse_FF/config point: t_clk=0.300000n"
+[13:59:03.43] /m Information: "Simulation completed successfully for design: DOAN/Test_Pulse_FF/config point: t_clk=0.200000n"
+[13:59:08.84] /m Information: "Simulation completed successfully for design: DOAN/Test_Pulse_FF/config point: t_clk=0.100000n"
+[13:59:09.01] /m Information: Launching Background sae_shell Server Process "cd /home/itsupport/Desktop/DOAN && sae_shell -log sae_shell_session3_job2 -libDefFile /home/itsupport/Desktop/DOAN/lib.defs"
+[13:59:09.02] /m Information: "Evaluating and plotting outputs..."
+[13:59:09.04] /m Information: Started sharing "Custom WaveView" license. (WAVEFORM-110)
+[13:59:10.33] /m Information: Launching Waveform Viewer "cd /home/itsupport/simulation/DOAN,Test_Pulse_FF,config/history_1/simulation/default/HSPICE/parametric/results &&  wv -k -cdesigner -spxkey /usr/synopsys/customcompiler/N-2017.12-SP1-2/auxx/waveform/sae.spxkey -spxrc /tmp/sae_spxrc_qLt2Oc -unique_string 9e69bec295103a2269aa7f613a217c24125e8d2b0833b894ed40d2f5efbf27a2fb0c0fc5bd6190663a93cc93ac0f3a890b7f5010ba4aacc9 -lic_type 1    > /home/itsupport/simulation/DOAN,Test_Pulse_FF,config/history_1/simulation/default/HSPICE/parametric/results/viewer.log 2>&1"
+[13:59:10.33] /i gi::collapse {jobMonitorTable} -index {0.0,0} -in [gi::getWindows 6]
+[13:59:10.92] /m Information: Measurement calculations completed for testbench: default in 1s
+[13:59:11.85] /m Information: Received ready-for-commands signal from background job 'sae_shell_session3_job2' after 2 seconds.
+[13:59:11.85] /j ::wf::WaveView::plotSuccess WaveView_1 {} {_6895ee0_void_pp {_6b16e30_void_pp _6b16ef8_void_pp _6b16fc0_void_pp _6b17088_void_pp _6b17150_void_pp _6b17218_void_pp _6b172e0_void_pp _6b173a8_void_pp _6b17470_void_pp _6b17538_void_pp}} 
+[13:59:11.90] /j ::wf::WaveView::plotSuccess WaveView_1 {} {_6895ee0_void_pp {_6b17600_void_pp _6b176c8_void_pp _6b17790_void_pp _6b17858_void_pp _6b17920_void_pp _6b179e8_void_pp _6b17ab0_void_pp _6b17b78_void_pp _6b17c40_void_pp _6b17d08_void_pp}} 
+[13:59:11.94] /j ::wf::WaveView::plotSuccess WaveView_1 {} {_6895ee0_void_pp {_6b17dd0_void_pp _6b17e98_void_pp _6b17f60_void_pp _6b18028_void_pp _6b180f0_void_pp _6b181b8_void_pp _6b18280_void_pp _6b18348_void_pp _6b18410_void_pp _6b184d8_void_pp}} 
+[13:59:12.00] /j ::wf::WaveView::plotSuccess WaveView_1 {} {_6895ee0_void_pp {_6b185a0_void_pp _6b18668_void_pp _6b18730_void_pp _6b187f8_void_pp _6b188c0_void_pp _6b18988_void_pp _6b18a50_void_pp _6b18b18_void_pp _6b18be0_void_pp _6b18ca8_void_pp}} 
+[13:59:49.82] /i gi::setActiveWindow 9
+[13:59:49.82] /i gi::setActiveWindow 9 -raise true
+[13:59:50.90] /i gi::setActiveWindow 12
+[13:59:50.90] /i gi::setActiveWindow 12 -raise true
+[13:59:53.01] /i gi::executeAction menuPreShow -in [gi::getWindows 12]
+[13:59:53.01] /r giMenuAccess db::getNext [gi::getMenus saResultsMenu -from [gi::getWindows 12]]
+[13:59:53.50] /i gi::executeAction menuPreShow -in [gi::getWindows 12]
+[13:59:53.50] /r giMenuAccess db::getNext [gi::getMenus saConsoleSimMenu -from [gi::getWindows 12]]
+[13:59:53.75] /i gi::executeAction menuPreShow -in [gi::getWindows 12]
+[13:59:53.75] /r giMenuAccess db::getNext [gi::getMenus saResultsMenu -from [gi::getWindows 12]]
+[13:59:53.80] /i gi::executeAction menuPreShow -in [gi::getWindows 12]
+[13:59:53.80] /r giMenuAccess db::getNext [gi::getMenus saToolsMenu -from [gi::getWindows 12]]
+[13:59:54.93] /# gi::executeAction saParametric -in [gi::getWindows 12]
+[13:59:54.93] /i sa::showParametricAnalyses -parent 12
+[13:59:54.95] /o oa:0x1fc3e0c0
+[13:59:55.01] /i gi::setActiveDialog [gi::getDialogs {saParametricAnalyses} -parent [gi::getWindows 12]]
+[13:59:55.32] /i db::setAttr geometry -of [gi::getDialogs {saParametricAnalyses} -parent [gi::getWindows 12]] -value 750x360+95+160
+[14:00:01.93] /i gi::setField {/toplevelgrp/rangeDetailsGroup/rangeValGroup/start} -value {100p} -in [gi::getDialogs {saParametricAnalyses} -parent [gi::getWindows 12]]
+[14:00:07.56] /i gi::setField {/toplevelgrp/rangeDetailsGroup/rangeValGroup/stop} -value {50p} -in [gi::getDialogs {saParametricAnalyses} -parent [gi::getWindows 12]]
+[14:00:11.48] /i gi::setField {/toplevelgrp/stepDetailsGroup/stepValGroup/linearText} -value {-10p} -in [gi::getDialogs {saParametricAnalyses} -parent [gi::getWindows 12]]
+[14:00:11.63] /i gi::pressButton {/ok} -in [gi::getDialogs {saParametricAnalyses} -parent [gi::getWindows 12]]
+[14:00:13.31] /i gi::executeAction menuPreShow -in [gi::getWindows 12]
+[14:00:13.31] /r giMenuAccess db::getNext [gi::getMenus saConsoleSimMenu -from [gi::getWindows 12]]
+[14:00:14.15] /# gi::executeAction saNetlistAndRun -in [gi::getWindows 12]
+[14:00:14.15] /i isa::netlistAndRun -testbench [sa::findActiveTestbench -window 12] -mode overwrite
+[14:00:14.25] /m Information: "Starting incremental netlisting for design "DOAN/Test_Pulse_FF/config"..." (NETLISTING-010)
+[14:00:14.27] /m Information: 
+[14:00:14.27] /o Checking "DOAN/Test_Pulse_FF/schematic"
+[14:00:14.28] /o No rule violations found in "DOAN/Test_Pulse_FF/schematic"
+[14:00:14.28] /o No Design Integrity rule violations found in "DOAN/Test_Pulse_FF/schematic"
+[14:00:14.28] /m Information: 
+              /c Cross view checking for DOAN/Pulse_FF/symbol with DOAN/Pulse_FF/starrc
+              /c 	[warning] Missing Terminal
+              /c 		Terminal gnd! found in starrc is missing in symbol
+              /c 	[warning] Missing Terminal
+              /c 		Terminal vdd! found in starrc is missing in symbol (DE_EDIT-007)
+[14:00:14.28] /w Warning: "Terminal gnd! found in starrc is missing in symbol" (NETLISTING-003)
+[14:00:14.28] /w Warning: "Terminal vdd! found in starrc is missing in symbol" (NETLISTING-003)
+[14:00:14.31] /m Information: 
+              /c Cross view checking for reference90RF/n_4t/ivpcell with reference90RF/n_4t/hspice
+              /c 	[warning] Missing Terminal
+              /c 		Terminal D found in hspice is missing in ivpcell
+              /c 	[warning] Missing Terminal
+              /c 		Terminal G found in hspice is missing in ivpcell
+              /c 	[warning] Missing Terminal
+              /c 		Terminal S found in hspice is missing in ivpcell
+              /c 	[warning] Missing Terminal
+              /c 		Terminal B found in hspice is missing in ivpcell (DE_EDIT-007)
+[14:00:14.31] /w Warning: "Terminal D found in hspice is missing in ivpcell" (NETLISTING-003)
+[14:00:14.31] /w Warning: "Terminal G found in hspice is missing in ivpcell" (NETLISTING-003)
+[14:00:14.31] /w Warning: "Terminal S found in hspice is missing in ivpcell" (NETLISTING-003)
+[14:00:14.31] /w Warning: "Terminal B found in hspice is missing in ivpcell" (NETLISTING-003)
+[14:00:14.46] /m Information: "Netlisting design "DOAN/Test_Pulse_FF/config" finished successfully." (NETLISTING-012)
+[14:00:14.46] /m Information: "Composing simulator input file for design "DOAN/Test_Pulse_FF/config"..."
+[14:00:14.49] /m Information: "Simulator input file composed successfully for design "DOAN/Test_Pulse_FF/config""
+[14:00:14.70] /m Information: "Composing simulator input file for design "DOAN/Test_Pulse_FF/config" for 6 iterations..."
+[14:00:14.81] /m Information: "Simulator input file composed successfully for design "DOAN/Test_Pulse_FF/config""
+[14:00:14.88] /m Information: "Starting 6 HSPICE simulations for design: DOAN/Test_Pulse_FF/config"
+[14:00:14.89] /# gi::collapse {jobMonitorTable} -index {0.0.0.0,0} -in [gi::getWindows 6]
+[14:00:14.91] /# gi::collapse {jobMonitorTable} -index {0.0.0.0,0} -in [gi::getWindows 6]
+[14:00:14.93] /m Information: "Simulations launched successfully for design: DOAN/Test_Pulse_FF/config"
+[14:00:14.93] /o 1
+[14:00:22.74] /m Information: "Simulation completed successfully for design: DOAN/Test_Pulse_FF/config point: t_clk=0.100000n"
+[14:00:23.57] /m Information: "Simulation completed successfully for design: DOAN/Test_Pulse_FF/config point: t_clk=90.0000p"
+[14:00:23.61] /m Information: "Simulation completed successfully for design: DOAN/Test_Pulse_FF/config point: t_clk=80.0000p"
+[14:00:33.33] /m Information: "Simulation completed successfully for design: DOAN/Test_Pulse_FF/config point: t_clk=70.0000p"
+[14:00:34.23] /m Information: "Simulation completed successfully for design: DOAN/Test_Pulse_FF/config point: t_clk=60.0000p"
+[14:00:36.93] /m Information: "Simulation completed successfully for design: DOAN/Test_Pulse_FF/config point: t_clk=50.0000p"
+[14:00:37.14] /m Information: "Evaluating and plotting outputs..."
+[14:00:37.48] /j ::wf::WaveView::plotSuccess WaveView_1 {} {_6f22c40_void_pp {_6b18ca8_void_pp _6b18be0_void_pp _6b18b18_void_pp _6b18a50_void_pp _6b184d8_void_pp _6b18410_void_pp}} 
+[14:00:37.56] /j ::wf::WaveView::plotSuccess WaveView_1 {} {_6f22c40_void_pp {_6b17218_void_pp _6b17150_void_pp _6b17088_void_pp _6b16fc0_void_pp _6b16ef8_void_pp _6b16e30_void_pp}} 
+[14:00:37.60] /j ::wf::WaveView::plotSuccess WaveView_1 {} {_6f22c40_void_pp {_6b179e8_void_pp _6b17920_void_pp _6b17858_void_pp _6b17790_void_pp _6b176c8_void_pp _6b17600_void_pp}} 
+[14:00:37.72] /j ::wf::WaveView::plotSuccess WaveView_1 {} {_6f22c40_void_pp {_6b181b8_void_pp _6b180f0_void_pp _6b18028_void_pp _6b17f60_void_pp _6b17e98_void_pp _6b17dd0_void_pp}} 
+[14:00:37.84] /m Information: Measurement calculations completed for testbench: default in 0s
+[14:05:12.13] /i gi::setActiveWindow 9
+[14:05:12.13] /i gi::setActiveWindow 9 -raise true
+[14:05:13.33] /i gi::setActiveWindow 12
+[14:05:13.33] /i gi::setActiveWindow 12 -raise true
+[14:05:15.18] /i gi::setActiveWindow 10
+[14:05:15.18] /i gi::setActiveWindow 10 -raise true
+[14:05:16.72] /# gi::executeAction deSelectActive -in [gi::getWindows 10]
+[14:05:16.72] /i de::cycleActiveFigure [gi::getWindows 10] -direction next
+[14:05:16.72] /o oa:0x246de0b0
+[14:05:16.92] /# gi::executeAction deDescend -in [gi::getWindows 10]
+[14:05:16.92] /i ide::descend 10 -inPlace false -promptView false -readOnly auto
+[14:05:16.93] /r giWindowId 13
+[14:05:16.94] /r giWindowGeometry 1632x818
+[14:05:17.09] /# Navigating to DOAN/Pulse_FF/starrc (I8)
+[14:05:17.24] /# de::setActiveLPP [de::getLPPs "exclude blockage" -from [db::getAttr editDesign -of [de::getContexts -window 13]]]
+[14:05:17.47] /# gi::setItemSelection {sets} -index {Valid} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 13]]
+[14:05:17.73] /i db::setAttr dockSize -of [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 13]] -value 200x701
+[14:05:42.91] /m Information: Stopped sharing "Custom WaveView" license. (WAVEFORM-111)
+[14:06:44.23] /i gi::setActiveWindow 10
+[14:06:44.23] /i gi::setActiveWindow 10 -raise true
+[14:06:47.21] /i gi::setActiveWindow 2
+[14:06:47.21] /i gi::setActiveWindow 2 -raise true
+[14:06:49.37] /i gi::setActiveWindow 13
+[14:06:49.37] /i gi::setActiveWindow 13 -raise true
+[14:06:49.85] /i gi::setActiveWindow 12
+[14:06:49.85] /i gi::setActiveWindow 12 -raise true
+[14:06:59.92] /i gi::executeAction menuPreShow -in [gi::getWindows 12]
+[14:06:59.93] /r giMenuAccess db::getNext [gi::getMenus saToolsMenu -from [gi::getWindows 12]]
+[14:07:01.44] /# gi::executeAction saParametric -in [gi::getWindows 12]
+[14:07:01.44] /i sa::showParametricAnalyses -parent 12
+[14:07:01.47] /o oa:0x1e9dbbb0
+[14:07:01.53] /i gi::setActiveDialog [gi::getDialogs {saParametricAnalyses} -parent [gi::getWindows 12]]
+[14:07:01.81] /i db::setAttr geometry -of [gi::getDialogs {saParametricAnalyses} -parent [gi::getWindows 12]] -value 750x360+95+160
+[14:07:18.27] /i gi::setField {/toplevelgrp/rangeDetailsGroup/rangeValGroup/start} -value {1n} -in [gi::getDialogs {saParametricAnalyses} -parent [gi::getWindows 12]]
+[14:07:29.00] /i gi::setField {/toplevelgrp/rangeDetailsGroup/rangeValGroup/start} -value {2n} -in [gi::getDialogs {saParametricAnalyses} -parent [gi::getWindows 12]]
+[14:07:32.64] /i gi::setField {/toplevelgrp/rangeDetailsGroup/rangeValGroup/stop} -value {1n} -in [gi::getDialogs {saParametricAnalyses} -parent [gi::getWindows 12]]
+[14:07:33.42] /i gi::setField {/toplevelgrp/stepDetailsGroup/stepValGroup/linearType} -value {Total\ Points} -in [gi::getDialogs {saParametricAnalyses} -parent [gi::getWindows 12]]
+[14:07:38.90] /i gi::setField {/toplevelgrp/stepDetailsGroup/stepValGroup/linearText} -value {p} -in [gi::getDialogs {saParametricAnalyses} -parent [gi::getWindows 12]]
+[14:07:51.07] /i gi::setField {/toplevelgrp/stepDetailsGroup/stepValGroup/linearText} -value {-1n} -in [gi::getDialogs {saParametricAnalyses} -parent [gi::getWindows 12]]
+[14:07:51.20] /i gi::pressButton {/ok} -in [gi::getDialogs {saParametricAnalyses} -parent [gi::getWindows 12]]
+[14:07:51.20] /e Error: Parametric Analyses dialog error: 'Incorrect sweeps in the list of sweeps: 
+              /c 0 - Number of points must be a positive integer'. (OPAL-006)
+[14:07:51.20] /e Error: The requested action could not be completed because one or more inputs are incomplete or invalid. (CUSTOM_WIDGETS-001)
+[14:07:51.20] /o Parametric Analyses dialog error: 'Incorrect sweeps in the list of sweeps: 
+              /c 0 - Number of points must be a positive integer'.
+[14:07:58.56] /i gi::pressButton {ConsoleToggleButton} -in [db::getAttr statusbar -of [gi::getWindows 12]]
+[14:08:02.43] /i gi::pressButton {ConsoleToggleButton} -in [db::getAttr statusbar -of [gi::getWindows 12]]
+[14:08:16.53] /i gi::setField {/toplevelgrp/stepDetailsGroup/stepValGroup/linearText} -value {-500p} -in [gi::getDialogs {saParametricAnalyses} -parent [gi::getWindows 12]]
+[14:08:16.65] /i gi::pressButton {/ok} -in [gi::getDialogs {saParametricAnalyses} -parent [gi::getWindows 12]]
+[14:08:16.65] /e Error: Parametric Analyses dialog error: 'Incorrect sweeps in the list of sweeps: 
+              /c 0 - Number of points must be a positive integer'. (OPAL-006)
+[14:08:16.65] /e Error: The requested action could not be completed because one or more inputs are incomplete or invalid. (CUSTOM_WIDGETS-001)
+[14:08:16.65] /o Parametric Analyses dialog error: 'Incorrect sweeps in the list of sweeps: 
+              /c 0 - Number of points must be a positive integer'.
+[14:08:19.31] /i gi::pressButton {ConsoleToggleButton} -in [db::getAttr statusbar -of [gi::getWindows 12]]
+[14:08:19.96] /i gi::pressButton {ConsoleToggleButton} -in [db::getAttr statusbar -of [gi::getWindows 12]]
+[14:08:24.93] /i gi::setField {/toplevelgrp/rangeDetailsGroup/rangeValGroup/start} -value {1n} -in [gi::getDialogs {saParametricAnalyses} -parent [gi::getWindows 12]]
+[14:08:28.08] /i gi::setField {/toplevelgrp/rangeDetailsGroup/rangeValGroup/stop} -value {2n} -in [gi::getDialogs {saParametricAnalyses} -parent [gi::getWindows 12]]
+[14:08:31.50] /i gi::setField {/toplevelgrp/stepDetailsGroup/stepValGroup/linearText} -value {500p} -in [gi::getDialogs {saParametricAnalyses} -parent [gi::getWindows 12]]
+[14:08:32.44] /i gi::setField {/toplevelgrp/stepDetailsGroup/stepValGroup/linearType} -value {Step\ Size} -in [gi::getDialogs {saParametricAnalyses} -parent [gi::getWindows 12]]
+[14:08:38.98] /i gi::setField {/toplevelgrp/stepDetailsGroup/stepValGroup/linearText} -value {-500p} -in [gi::getDialogs {saParametricAnalyses} -parent [gi::getWindows 12]]
+[14:08:43.51] /i gi::setField {/toplevelgrp/rangeDetailsGroup/rangeValGroup/start} -value {2n} -in [gi::getDialogs {saParametricAnalyses} -parent [gi::getWindows 12]]
+[14:08:44.83] /i gi::setField {/toplevelgrp/rangeDetailsGroup/rangeValGroup/stop} -value {1n} -in [gi::getDialogs {saParametricAnalyses} -parent [gi::getWindows 12]]
+[14:08:44.83] /i gi::pressButton {/ok} -in [gi::getDialogs {saParametricAnalyses} -parent [gi::getWindows 12]]
+[14:08:46.58] /i gi::executeAction menuPreShow -in [gi::getWindows 12]
+[14:08:46.58] /r giMenuAccess db::getNext [gi::getMenus saConsoleSimMenu -from [gi::getWindows 12]]
+[14:08:47.32] /# gi::executeAction saNetlistAndRun -in [gi::getWindows 12]
+[14:08:47.32] /i isa::netlistAndRun -testbench [sa::findActiveTestbench -window 12] -mode overwrite
+[14:08:47.41] /m Information: "Starting incremental netlisting for design "DOAN/Test_Pulse_FF/config"..." (NETLISTING-010)
+[14:08:47.43] /m Information: 
+[14:08:47.43] /o Checking "DOAN/Test_Pulse_FF/schematic"
+[14:08:47.43] /o No rule violations found in "DOAN/Test_Pulse_FF/schematic"
+[14:08:47.43] /o No Design Integrity rule violations found in "DOAN/Test_Pulse_FF/schematic"
+[14:08:47.43] /m Information: 
+              /c Cross view checking for DOAN/Pulse_FF/symbol with DOAN/Pulse_FF/starrc
+              /c 	[warning] Missing Terminal
+              /c 		Terminal gnd! found in starrc is missing in symbol
+              /c 	[warning] Missing Terminal
+              /c 		Terminal vdd! found in starrc is missing in symbol (DE_EDIT-007)
+[14:08:47.43] /w Warning: "Terminal gnd! found in starrc is missing in symbol" (NETLISTING-003)
+[14:08:47.43] /w Warning: "Terminal vdd! found in starrc is missing in symbol" (NETLISTING-003)
+[14:08:47.46] /m Information: 
+              /c Cross view checking for reference90RF/n_4t/ivpcell with reference90RF/n_4t/hspice
+              /c 	[warning] Missing Terminal
+              /c 		Terminal D found in hspice is missing in ivpcell
+              /c 	[warning] Missing Terminal
+              /c 		Terminal G found in hspice is missing in ivpcell
+              /c 	[warning] Missing Terminal
+              /c 		Terminal S found in hspice is missing in ivpcell
+              /c 	[warning] Missing Terminal
+              /c 		Terminal B found in hspice is missing in ivpcell (DE_EDIT-007)
+[14:08:47.46] /w Warning: "Terminal D found in hspice is missing in ivpcell" (NETLISTING-003)
+[14:08:47.46] /w Warning: "Terminal G found in hspice is missing in ivpcell" (NETLISTING-003)
+[14:08:47.47] /w Warning: "Terminal S found in hspice is missing in ivpcell" (NETLISTING-003)
+[14:08:47.47] /w Warning: "Terminal B found in hspice is missing in ivpcell" (NETLISTING-003)
+[14:08:47.62] /m Information: "Netlisting design "DOAN/Test_Pulse_FF/config" finished successfully." (NETLISTING-012)
+[14:08:47.63] /m Information: "Composing simulator input file for design "DOAN/Test_Pulse_FF/config"..."
+[14:08:47.66] /m Information: "Simulator input file composed successfully for design "DOAN/Test_Pulse_FF/config""
+[14:08:47.89] /m Information: "Composing simulator input file for design "DOAN/Test_Pulse_FF/config" for 3 iterations..."
+[14:08:47.94] /m Information: "Simulator input file composed successfully for design "DOAN/Test_Pulse_FF/config""
+[14:08:48.02] /m Information: "Starting 3 HSPICE simulations for design: DOAN/Test_Pulse_FF/config"
+[14:08:48.02] /# gi::collapse {jobMonitorTable} -index {0.0.0.0,0} -in [gi::getWindows 6]
+[14:08:48.07] /m Information: "Simulations launched successfully for design: DOAN/Test_Pulse_FF/config"
+[14:08:48.08] /o 1
+[14:08:50.05] /m Information: "Simulation completed successfully for design: DOAN/Test_Pulse_FF/config point: t_clk=2.00000n"
+[14:08:50.15] /m Information: "Simulation completed successfully for design: DOAN/Test_Pulse_FF/config point: t_clk=1.50000n"
+[14:08:50.17] /m Information: "Simulation completed successfully for design: DOAN/Test_Pulse_FF/config point: t_clk=1.00000n"
+[14:08:50.39] /m Information: "Evaluating and plotting outputs..."
+[14:08:50.40] /m Information: Started sharing "Custom WaveView" license. (WAVEFORM-110)
+[14:08:50.51] /j ::wf::WaveView::plotSuccess WaveView_1 {} {_6ebfcd0_void_pp {_6b17dd0_void_pp _6b17e98_void_pp _6b17f60_void_pp}} 
+[14:08:50.52] /j ::wf::WaveView::plotSuccess WaveView_1 {} {_6ebfcd0_void_pp {_6b18b18_void_pp _6b18be0_void_pp _6b18ca8_void_pp}} 
+[14:08:50.54] /j ::wf::WaveView::plotSuccess WaveView_1 {} {_6ebfcd0_void_pp {_6b17088_void_pp _6b17150_void_pp _6b17218_void_pp}} 
+[14:08:50.57] /j ::wf::WaveView::plotSuccess WaveView_1 {} {_6ebfcd0_void_pp {_6b17858_void_pp _6b17920_void_pp _6b179e8_void_pp}} 
+[14:08:50.82] /m Information: Measurement calculations completed for testbench: default in 0s
+[14:10:03.03] /i gi::executeAction giCloseWindow -in [gi::getWindows 6]
+[14:10:03.05] /i gi::setActiveWindow 12
+[14:10:03.05] /i gi::setActiveWindow 12 -raise true
+[14:10:04.14] /i gi::setActiveWindow 9
+[14:10:04.15] /i gi::setActiveWindow 9 -raise true
+[14:10:06.03] /i gi::executeAction giCloseWindow -in [gi::getWindows 9]
+[14:10:06.04] /i gi::setActiveWindow 12
+[14:10:06.04] /i gi::setActiveWindow 12 -raise true
+[14:10:07.65] /i gi::setActiveWindow 13
+[14:10:07.65] /i gi::setActiveWindow 13 -raise true
+[14:12:33.07] /i gi::setActiveWindow 10
+[14:12:33.07] /i gi::setActiveWindow 10 -raise true
+[14:12:34.83] /i gi::setActiveWindow 12
+[14:12:34.83] /i gi::setActiveWindow 12 -raise true
+[14:12:35.83] /i gi::setActiveWindow 13
+[14:12:35.83] /i gi::setActiveWindow 13 -raise true
+[14:13:09.86] /i gi::setActiveWindow 12
+[14:13:09.86] /i gi::setActiveWindow 12 -raise true
+[14:13:10.98] /i gi::setActiveWindow 13
+[14:13:10.98] /i gi::setActiveWindow 13 -raise true
+[14:13:11.48] /i gi::setActiveWindow 10
+[14:13:11.48] /i gi::setActiveWindow 10 -raise true
+[14:13:12.33] /i gi::setActiveWindow 13
+[14:13:12.33] /i gi::setActiveWindow 13 -raise true
+[14:13:40.96] /# gi::executeAction deCanvasZoomInAtPoint -in [gi::getWindows 13]
+[14:13:40.96] /i de::zoom -window [gi::getWindows 13] -factor 2.0 -center {21.567 -6.338}
+[14:13:40.96] /o {17.819 -8.057} {26.712 -4.303}
+[14:13:41.03] /# gi::executeAction deCanvasZoomInAtPoint -in [gi::getWindows 13]
+[14:13:41.03] /i de::zoom -window [gi::getWindows 13] -factor 2.0 -center {21.556 -6.37}
+[14:13:41.03] /o {19.688 -7.213} {24.134 -5.337}
+[14:13:41.07] /# gi::executeAction deCanvasZoomInAtPoint -in [gi::getWindows 13]
+[14:13:41.07] /i de::zoom -window [gi::getWindows 13] -factor 2.0 -center {21.556 -6.37}
+[14:13:41.07] /o {20.622 -6.792} {22.845 -5.853}
+[14:13:41.85] /# gi::executeAction deCanvasZoomOutAtPoint -in [gi::getWindows 13]
+[14:13:41.85] /i de::zoom -window [gi::getWindows 13] -factor 0.5 -center {21.338 -5.994}
+[14:13:41.85] /o {19.906 -7.589} {24.352 -5.713}
+[14:13:41.91] /# gi::executeAction deCanvasZoomOutAtPoint -in [gi::getWindows 13]
+[14:13:41.91] /i de::zoom -window [gi::getWindows 13] -factor 0.5 -center {21.279 -5.994}
+[14:13:41.91] /o {18.532 -9.185} {27.425 -5.431}
+[14:13:42.03] /# gi::executeAction deCanvasZoomOutAtPoint -in [gi::getWindows 13]
+[14:13:42.03] /i de::zoom -window [gi::getWindows 13] -factor 0.5 -center {20.952 -5.892}
+[14:13:42.03] /o {16.112 -12.477} {33.899 -4.971}
+[14:13:42.34] /# gi::executeAction deCanvasZoomInAtPoint -in [gi::getWindows 13]
+[14:13:42.34] /i de::zoom -window [gi::getWindows 13] -factor 2.0 -center {20.963 -5.667}
+[14:13:42.34] /o {18.538 -9.072} {27.431 -5.319}
+[14:13:43.51] /# gi::executeAction deCanvasZoomInAtPoint -in [gi::getWindows 13]
+[14:13:43.51] /i de::zoom -window [gi::getWindows 13] -factor 2.0 -center {20.781 -5.367}
+[14:13:43.51] /o {19.659 -7.22} {24.106 -5.343}
+[14:13:43.70] /# gi::executeAction deCanvasZoomInAtPoint -in [gi::getWindows 13]
+[14:13:43.70] /i de::zoom -window [gi::getWindows 13] -factor 2.0 -center {20.784 -5.375}
+[14:13:43.70] /o {20.222 -6.297} {22.445 -5.359}
+[14:13:44.27] /# gi::executeAction deCanvasZoomInAtPoint -in [gi::getWindows 13]
+[14:13:44.27] /i de::zoom -window [gi::getWindows 13] -factor 2.0 -center {20.797 -5.366}
+[14:13:44.27] /o {20.509 -5.832} {21.621 -5.362}
+[14:13:44.35] /# gi::executeAction deCanvasZoomInAtPoint -in [gi::getWindows 13]
+[14:13:44.35] /i de::zoom -window [gi::getWindows 13] -factor 2.0 -center {20.8 -5.365}
+[14:13:44.35] /o {20.655 -5.598} {21.21 -5.364}
+[14:13:45.17] /# gi::executeAction deCanvasZoomOutAtPoint -in [gi::getWindows 13]
+[14:13:45.17] /i de::zoom -window [gi::getWindows 13] -factor 0.5 -center {21.101 -5.437}
+[14:13:45.17] /o {20.208 -5.76} {21.32 -5.29}
+[14:13:45.44] /# gi::executeAction deCanvasZoomOutAtPoint -in [gi::getWindows 13]
+[14:13:45.44] /i de::zoom -window [gi::getWindows 13] -factor 0.5 -center {21.131 -5.437}
+[14:13:45.44] /o {19.286 -6.082} {21.509 -5.144}
+[14:13:46.03] /# gi::executeAction deCanvasZoomInAtPoint -in [gi::getWindows 13]
+[14:13:46.03] /i de::zoom -window [gi::getWindows 13] -factor 2.0 -center {21.346 -5.417}
+[14:13:46.03] /o {20.316 -5.75} {21.427 -5.28}
+[14:13:46.24] /# gi::executeAction deCanvasZoomInAtPoint -in [gi::getWindows 13]
+[14:13:46.24] /i de::zoom -window [gi::getWindows 13] -factor 2.0 -center {21.345 -5.41}
+[14:13:46.25] /o {20.83 -5.58} {21.386 -5.345}
+[14:13:49.31] /# gi::executeAction deCanvasZoomOutAtPoint -in [gi::getWindows 13]
+[14:13:49.31] /i de::zoom -window [gi::getWindows 13] -factor 0.5 -center {21.213 -5.403}
+[14:13:49.31] /o {20.448 -5.757} {21.559 -5.287}
+[14:13:49.34] /# gi::executeAction deCanvasZoomOutAtPoint -in [gi::getWindows 13]
+[14:13:49.34] /i de::zoom -window [gi::getWindows 13] -factor 0.5 -center {21.213 -5.403}
+[14:13:49.34] /o {19.683 -6.11} {21.906 -5.172}
+[14:13:49.40] /# gi::executeAction deCanvasZoomOutAtPoint -in [gi::getWindows 13]
+[14:13:49.40] /i de::zoom -window [gi::getWindows 13] -factor 0.5 -center {21.215 -5.406}
+[14:13:49.40] /o {18.15 -6.815} {22.597 -4.938}
+[14:13:50.74] /# gi::executeAction deCanvasZoomOutAtPoint -in [gi::getWindows 13]
+[14:13:50.74] /i de::zoom -window [gi::getWindows 13] -factor 0.5 -center {19.716 -5.353}
+[14:13:50.74] /o {16.585 -8.276} {25.478 -4.523}
+[14:13:50.84] /# gi::executeAction deCanvasZoomOutAtPoint -in [gi::getWindows 13]
+[14:13:50.84] /i de::zoom -window [gi::getWindows 13] -factor 0.5 -center {19.69 -5.353}
+[14:13:50.84] /o {13.479 -11.199} {31.266 -3.693}
+[14:13:52.13] /# gi::executeAction deCanvasZoomInAtPoint -in [gi::getWindows 13]
+[14:13:52.13] /i de::zoom -window [gi::getWindows 13] -factor 2.0 -center {17.484 -5.46}
+[14:13:52.14] /o {15.482 -8.33} {24.375 -4.576}
+[14:13:52.20] /# gi::executeAction deCanvasZoomInAtPoint -in [gi::getWindows 13]
+[14:13:52.20] /i de::zoom -window [gi::getWindows 13] -factor 2.0 -center {17.473 -5.444}
+[14:13:52.20] /o {16.477 -6.887} {20.924 -5.01}
+[14:13:52.30] /# gi::executeAction deCanvasZoomInAtPoint -in [gi::getWindows 13]
+[14:13:52.30] /i de::zoom -window [gi::getWindows 13] -factor 2.0 -center {17.473 -5.444}
+[14:13:52.30] /o {16.975 -6.165} {19.198 -5.227}
+[14:13:52.72] /# gi::executeAction deCanvasZoomInAtPoint -in [gi::getWindows 13]
+[14:13:52.72] /i de::zoom -window [gi::getWindows 13] -factor 2.0 -center {17.496 -5.441}
+[14:13:52.72] /o {17.236 -5.803} {18.347 -5.334}
+[14:13:52.81] /# gi::executeAction deCanvasZoomInAtPoint -in [gi::getWindows 13]
+[14:13:52.81] /i de::zoom -window [gi::getWindows 13] -factor 2.0 -center {17.496 -5.441}
+[14:13:52.81] /o {17.366 -5.622} {17.922 -5.388}
+[14:13:55.92] /m Information: Stopped sharing "Custom WaveView" license. (WAVEFORM-111)
+[14:13:56.87] /# gi::executeAction deCanvasZoomOutAtPoint -in [gi::getWindows 13]
+[14:13:56.87] /i de::zoom -window [gi::getWindows 13] -factor 0.5 -center {17.514 -5.444}
+[14:13:56.87] /o {17.218 -5.8} {18.329 -5.331}
+[14:13:56.91] /# gi::executeAction deCanvasZoomOutAtPoint -in [gi::getWindows 13]
+[14:13:56.91] /i de::zoom -window [gi::getWindows 13] -factor 0.5 -center {17.513 -5.444}
+[14:13:56.91] /o {16.922 -6.156} {19.145 -5.218}
+[14:13:57.45] /# gi::executeAction deCanvasZoomOutAtPoint -in [gi::getWindows 13]
+[14:13:57.45] /i de::zoom -window [gi::getWindows 13] -factor 0.5 -center {17.529 -5.44}
+[14:13:57.45] /o {16.315 -6.873} {20.762 -4.996}
+[14:13:57.53] /# gi::executeAction deCanvasZoomOutAtPoint -in [gi::getWindows 13]
+[14:13:57.53] /i de::zoom -window [gi::getWindows 13] -factor 0.5 -center {17.528 -5.441}
+[14:13:57.53] /o {15.103 -8.305} {23.996 -4.551}
+[14:14:01.78] /# gi::executeAction deCanvasZoomInAtPoint -in [gi::getWindows 13]
+[14:14:01.78] /i de::zoom -window [gi::getWindows 13] -factor 2.0 -center {17.362 -5.44}
+[14:14:01.78] /o {16.232 -6.872} {20.679 -4.996}
+[14:14:01.82] /# gi::executeAction deCanvasZoomInAtPoint -in [gi::getWindows 13]
+[14:14:01.82] /i de::zoom -window [gi::getWindows 13] -factor 2.0 -center {17.362 -5.451}
+[14:14:01.82] /o {16.797 -6.162} {19.02 -5.223}
+[14:14:06.05] /# gi::executeAction deCanvasZoomOutAtPoint -in [gi::getWindows 13]
+[14:14:06.05] /i de::zoom -window [gi::getWindows 13] -factor 0.5 -center {17.525 -5.503}
+[14:14:06.05] /o {16.069 -6.82} {20.516 -4.944}
+[14:14:06.45] /# gi::executeAction deCanvasZoomInAtPoint -in [gi::getWindows 13]
+[14:14:06.45] /i de::zoom -window [gi::getWindows 13] -factor 2.0 -center {17.405 -5.648}
+[14:14:06.46] /o {16.737 -6.234} {18.96 -5.296}
+[14:14:06.49] /# gi::executeAction deCanvasZoomInAtPoint -in [gi::getWindows 13]
+[14:14:06.49] /i de::zoom -window [gi::getWindows 13] -factor 2.0 -center {17.405 -5.648}
+[14:14:06.49] /o {17.071 -5.941} {18.183 -5.472}
+[14:14:07.05] /# gi::executeAction deCanvasZoomInAtPoint -in [gi::getWindows 13]
+[14:14:07.05] /i de::zoom -window [gi::getWindows 13] -factor 2.0 -center {17.414 -5.645}
+[14:14:07.05] /o {17.243 -5.793} {17.798 -5.558}
+[14:14:07.09] /# gi::executeAction deCanvasZoomInAtPoint -in [gi::getWindows 13]
+[14:14:07.09] /i de::zoom -window [gi::getWindows 13] -factor 2.0 -center {17.414 -5.645}
+[14:14:07.10] /o {17.328 -5.719} {17.606 -5.602}
+[14:14:07.90] /# gi::executeAction deCanvasZoomOutAtPoint -in [gi::getWindows 13]
+[14:14:07.90] /i de::zoom -window [gi::getWindows 13] -factor 0.5 -center {17.414 -5.645}
+[14:14:07.90] /o {17.243 -5.793} {17.798 -5.558}
+[14:14:07.99] /# gi::executeAction deCanvasZoomOutAtPoint -in [gi::getWindows 13]
+[14:14:07.99] /i de::zoom -window [gi::getWindows 13] -factor 0.5 -center {17.414 -5.645}
+[14:14:07.99] /o {17.071 -5.941} {18.183 -5.472}
+[14:14:08.10] /# gi::executeAction deCanvasZoomOutAtPoint -in [gi::getWindows 13]
+[14:14:08.10] /i de::zoom -window [gi::getWindows 13] -factor 0.5 -center {17.414 -5.645}
+[14:14:08.10] /o {16.728 -6.237} {18.951 -5.299}
+[14:14:09.00] /# gi::executeAction deCanvasZoomInAtPoint -in [gi::getWindows 13]
+[14:14:09.00] /i de::zoom -window [gi::getWindows 13] -factor 2.0 -center {17.377 -5.592}
+[14:14:09.00] /o {17.053 -5.915} {18.164 -5.445}
+[14:14:09.50] /# gi::executeAction deCanvasZoomInAtPoint -in [gi::getWindows 13]
+[14:14:09.50] /i de::zoom -window [gi::getWindows 13] -factor 2.0 -center {17.422 -5.589}
+[14:14:09.50] /o {17.237 -5.752} {17.793 -5.517}
+[14:14:09.56] /# gi::executeAction deCanvasZoomInAtPoint -in [gi::getWindows 13]
+[14:14:09.56] /i de::zoom -window [gi::getWindows 13] -factor 2.0 -center {17.422 -5.589}
+[14:14:09.56] /o {17.33 -5.67} {17.608 -5.553}
+[14:14:11.29] /# gi::executeAction deCanvasZoomOutAtPoint -in [gi::getWindows 13]
+[14:14:11.29] /i de::zoom -window [gi::getWindows 13] -factor 0.5 -center {17.424 -5.589}
+[14:14:11.29] /o {17.235 -5.752} {17.791 -5.517}
+[14:14:11.32] /# gi::executeAction deCanvasZoomOutAtPoint -in [gi::getWindows 13]
+[14:14:11.32] /i de::zoom -window [gi::getWindows 13] -factor 0.5 -center {17.424 -5.588}
+[14:14:11.32] /o {17.047 -5.916} {18.158 -5.446}
+[14:14:11.35] /# gi::executeAction deCanvasZoomOutAtPoint -in [gi::getWindows 13]
+[14:14:11.35] /i de::zoom -window [gi::getWindows 13] -factor 0.5 -center {17.424 -5.59}
+[14:14:11.35] /o {16.669 -6.241} {18.892 -5.303}
+[14:14:11.38] /# gi::executeAction deCanvasZoomOutAtPoint -in [gi::getWindows 13]
+[14:14:11.38] /i de::zoom -window [gi::getWindows 13] -factor 0.5 -center {17.424 -5.589}
+[14:14:11.39] /o {15.914 -6.893} {20.361 -5.017}
+[14:14:12.26] /# gi::executeAction deCanvasZoomOutAtPoint -in [gi::getWindows 13]
+[14:14:12.26] /i de::zoom -window [gi::getWindows 13] -factor 0.5 -center {17.462 -5.603}
+[14:14:12.27] /o {14.367 -8.184} {23.26 -4.43}
+[14:14:12.30] /# gi::executeAction deCanvasZoomOutAtPoint -in [gi::getWindows 13]
+[14:14:12.30] /i de::zoom -window [gi::getWindows 13] -factor 0.5 -center {17.461 -5.603}
+[14:14:12.30] /o {11.272 -10.764} {29.059 -3.258}
+[14:14:12.34] /# gi::executeAction deCanvasZoomOutAtPoint -in [gi::getWindows 13]
+[14:14:12.34] /i de::zoom -window [gi::getWindows 13] -factor 0.5 -center {17.462 -5.603}
+[14:14:12.34] /o {5.082 -15.926} {40.656 -0.912}
+[14:14:12.97] /# gi::executeAction deCanvasZoomInAtPoint -in [gi::getWindows 13]
+[14:14:12.97] /i de::zoom -window [gi::getWindows 13] -factor 2.0 -center {17.483 -5.645}
+[14:14:12.97] /o {11.283 -10.785} {29.069 -3.279}
+[14:14:13.04] /# gi::executeAction deCanvasZoomInAtPoint -in [gi::getWindows 13]
+[14:14:13.04] /i de::zoom -window [gi::getWindows 13] -factor 2.0 -center {17.643 -5.645}
+[14:14:13.05] /o {14.463 -8.215} {23.356 -4.462}
+[14:14:14.68] /# gi::executeAction deCanvasZoomInAtPoint -in [gi::getWindows 13]
+[14:14:14.68] /i de::zoom -window [gi::getWindows 13] -factor 2.0 -center {19.78 -7.471}
+[14:14:14.68] /o {17.121 -7.843} {21.568 -5.966}
+[14:14:14.77] /# gi::executeAction deCanvasZoomInAtPoint -in [gi::getWindows 13]
+[14:14:14.77] /i de::zoom -window [gi::getWindows 13] -factor 2.0 -center {19.729 -7.46}
+[14:14:14.77] /o {18.425 -7.652} {20.649 -6.713}
+[14:14:15.38] /# gi::executeAction deCanvasZoomInAtPoint -in [gi::getWindows 13]
+[14:14:15.38] /i de::zoom -window [gi::getWindows 13] -factor 2.0 -center {19.219 -7.184}
+[14:14:15.38] /o {18.822 -7.418} {19.934 -6.949}
+[14:14:16.00] /# gi::executeAction deCanvasZoomInAtPoint -in [gi::getWindows 13]
+[14:14:16.00] /i de::zoom -window [gi::getWindows 13] -factor 2.0 -center {19.38 -7.127}
+[14:14:16.00] /o {19.101 -7.272} {19.657 -7.038}
+[14:14:18.11] /# gi::executeAction deCanvasZoomOutAtPoint -in [gi::getWindows 13]
+[14:14:18.11] /i de::zoom -window [gi::getWindows 13] -factor 0.5 -center {19.361 -7.127}
+[14:14:18.11] /o {18.841 -7.418} {19.953 -6.949}
+[14:14:18.23] /# gi::executeAction deCanvasZoomOutAtPoint -in [gi::getWindows 13]
+[14:14:18.23] /i de::zoom -window [gi::getWindows 13] -factor 0.5 -center {19.344 -7.128}
+[14:14:18.23] /o {18.338 -7.708} {20.562 -6.769}
+[14:14:18.40] /# gi::executeAction deCanvasZoomOutAtPoint -in [gi::getWindows 13]
+[14:14:18.40] /i de::zoom -window [gi::getWindows 13] -factor 0.5 -center {19.231 -7.121}
+[14:14:18.40] /o {17.445 -8.294} {21.892 -6.417}
+[14:14:19.28] /# gi::executeAction deCanvasZoomInAtPoint -in [gi::getWindows 13]
+[14:14:19.28] /i de::zoom -window [gi::getWindows 13] -factor 2.0 -center {18.366 -7.13}
+[14:14:19.29] /o {17.906 -7.712} {20.129 -6.774}
+[14:14:19.36] /# gi::executeAction deCanvasZoomInAtPoint -in [gi::getWindows 13]
+[14:14:19.36] /i de::zoom -window [gi::getWindows 13] -factor 2.0 -center {18.366 -7.127}
+[14:14:19.36] /o {18.136 -7.42} {19.248 -6.95}
+[14:14:19.74] /# gi::executeAction deCanvasZoomInAtPoint -in [gi::getWindows 13]
+[14:14:19.74] /i de::zoom -window [gi::getWindows 13] -factor 2.0 -center {18.479 -7.136}
+[14:14:19.74] /o {18.307 -7.278} {18.863 -7.043}
+[14:14:19.78] /# gi::executeAction deCanvasZoomInAtPoint -in [gi::getWindows 13]
+[14:14:19.78] /i de::zoom -window [gi::getWindows 13] -factor 2.0 -center {18.478 -7.136}
+[14:14:19.78] /o {18.393 -7.207} {18.671 -7.09}
+[14:14:22.92] /# gi::executeAction deCanvasZoomOutAtPoint -in [gi::getWindows 13]
+[14:14:22.92] /i de::zoom -window [gi::getWindows 13] -factor 0.5 -center {18.486 -7.135}
+[14:14:22.92] /o {18.299 -7.279} {18.855 -7.044}
+[14:14:22.97] /# gi::executeAction deCanvasZoomOutAtPoint -in [gi::getWindows 13]
+[14:14:22.97] /i de::zoom -window [gi::getWindows 13] -factor 0.5 -center {18.487 -7.136}
+[14:14:22.98] /o {18.112 -7.422} {19.224 -6.952}
+[14:14:23.65] /# gi::executeAction deCanvasZoomInAtPoint -in [gi::getWindows 13]
+[14:14:23.65] /i de::zoom -window [gi::getWindows 13] -factor 2.0 -center {18.516 -7.092}
+[14:14:23.66] /o {18.314 -7.257} {18.87 -7.022}
+[14:14:23.69] /# gi::executeAction deCanvasZoomInAtPoint -in [gi::getWindows 13]
+[14:14:23.69] /i de::zoom -window [gi::getWindows 13] -factor 2.0 -center {18.517 -7.09}
+[14:14:23.69] /o {18.415 -7.173} {18.693 -7.056}
+[14:14:23.94] /# gi::executeAction deCanvasZoomInAtPoint -in [gi::getWindows 13]
+[14:14:23.94] /i de::zoom -window [gi::getWindows 13] -factor 2.0 -center {18.524 -7.088}
+[14:14:23.94] /o {18.47 -7.131} {18.609 -7.072}
+[14:14:24.09] /# gi::executeAction deCanvasZoomInAtPoint -in [gi::getWindows 13]
+[14:14:24.09] /i de::zoom -window [gi::getWindows 13] -factor 2.0 -center {18.53 -7.088}
+[14:14:24.09] /o {18.5 -7.109} {18.569 -7.08}
+[14:14:24.45] /# gi::executeAction deCanvasZoomOutAtPoint -in [gi::getWindows 13]
+[14:14:24.45] /i de::zoom -window [gi::getWindows 13] -factor 0.5 -center {18.53 -7.088}
+[14:14:24.45] /o {18.47 -7.131} {18.609 -7.072}
+[14:14:24.49] /# gi::executeAction deCanvasZoomOutAtPoint -in [gi::getWindows 13]
+[14:14:24.50] /i de::zoom -window [gi::getWindows 13] -factor 0.5 -center {18.53 -7.089}
+[14:14:24.50] /o {18.409 -7.172} {18.687 -7.055}
+[14:14:24.53] /# gi::executeAction deCanvasZoomOutAtPoint -in [gi::getWindows 13]
+[14:14:24.53] /i de::zoom -window [gi::getWindows 13] -factor 0.5 -center {18.53 -7.089}
+[14:14:24.54] /o {18.289 -7.256} {18.845 -7.021}
+[14:14:24.55] /# gi::executeAction deCanvasZoomOutAtPoint -in [gi::getWindows 13]
+[14:14:24.55] /i de::zoom -window [gi::getWindows 13] -factor 0.5 -center {18.531 -7.089}
+[14:14:24.55] /o {18.047 -7.423} {19.159 -6.953}
+[14:14:24.60] /# gi::executeAction deCanvasZoomOutAtPoint -in [gi::getWindows 13]
+[14:14:24.60] /i de::zoom -window [gi::getWindows 13] -factor 0.5 -center {18.531 -7.09}
+[14:14:24.60] /o {17.563 -7.755} {19.786 -6.817}
+[14:14:25.14] /# gi::executeAction deCanvasZoomOutAtPoint -in [gi::getWindows 13]
+[14:14:25.14] /i de::zoom -window [gi::getWindows 13] -factor 0.5 -center {18.184 -6.996}
+[14:14:25.14] /o {16.941 -8.514} {21.388 -6.637}
+[14:14:25.20] /# gi::executeAction deCanvasZoomOutAtPoint -in [gi::getWindows 13]
+[14:14:25.20] /i de::zoom -window [gi::getWindows 13] -factor 0.5 -center {18.181 -6.996}
+[14:14:25.20] /o {15.702 -10.032} {24.595 -6.279}
+[14:14:25.29] /# gi::executeAction deCanvasZoomOutAtPoint -in [gi::getWindows 13]
+[14:14:25.29] /i de::zoom -window [gi::getWindows 13] -factor 0.5 -center {18.165 -7.002}
+[14:14:25.29] /o {13.239 -13.062} {31.025 -5.556}
+[14:14:26.96] /# gi::executeAction deCanvasZoomInAtPoint -in [gi::getWindows 13]
+[14:14:26.96] /i de::zoom -window [gi::getWindows 13] -factor 2.0 -center {17.404 -9.325}
+[14:14:26.96] /o {15.321 -11.194} {24.215 -7.44}
+[14:14:27.03] /# gi::executeAction deCanvasZoomInAtPoint -in [gi::getWindows 13]
+[14:14:27.03] /i de::zoom -window [gi::getWindows 13] -factor 2.0 -center {17.404 -9.325}
+[14:14:27.03] /o {16.363 -10.259} {20.809 -8.383}
+[14:14:27.36] /# gi::executeAction deCanvasZoomInAtPoint -in [gi::getWindows 13]
+[14:14:27.36] /i de::zoom -window [gi::getWindows 13] -factor 2.0 -center {17.417 -9.167}
+[14:14:27.36] /o {16.89 -9.713} {19.113 -8.775}
+[14:14:27.39] /# gi::executeAction deCanvasZoomInAtPoint -in [gi::getWindows 13]
+[14:14:27.39] /i de::zoom -window [gi::getWindows 13] -factor 2.0 -center {17.417 -9.166}
+[14:14:27.39] /o {17.153 -9.44} {18.265 -8.97}
+[14:14:29.35] /# gi::executeAction deCanvasZoomOutAtPoint -in [gi::getWindows 13]
+[14:14:29.35] /i de::zoom -window [gi::getWindows 13] -factor 0.5 -center {17.417 -9.154}
+[14:14:29.35] /o {16.89 -9.725} {19.113 -8.787}
+[14:14:29.38] /# gi::executeAction deCanvasZoomOutAtPoint -in [gi::getWindows 13]
+[14:14:29.39] /i de::zoom -window [gi::getWindows 13] -factor 0.5 -center {17.417 -9.154}
+[14:14:29.39] /o {16.363 -10.296} {20.809 -8.42}
+[14:14:29.44] /# gi::executeAction deCanvasZoomOutAtPoint -in [gi::getWindows 13]
+[14:14:29.44] /i de::zoom -window [gi::getWindows 13] -factor 0.5 -center {17.417 -9.153}
+[14:14:29.44] /o {15.308 -11.44} {24.202 -7.686}
+[14:14:29.49] /# gi::executeAction deCanvasZoomOutAtPoint -in [gi::getWindows 13]
+[14:14:29.49] /i de::zoom -window [gi::getWindows 13] -factor 0.5 -center {17.418 -9.153}
+[14:14:29.49] /o {13.199 -13.726} {30.985 -6.22}
+[14:14:32.09] /# gi::executeAction deFitView -in [gi::getWindows 13]
+[14:14:32.09] /i de::fit -window 13 -fitView true
+[14:14:32.09] /o {14.071 -9.775} {31.858 -2.269}
+[14:14:39.33] /i gi::setActiveWindow 12
+[14:14:39.33] /i gi::setActiveWindow 12 -raise true
+[14:14:43.84] /r giDialog gi::setActiveDialog [gi::getDialogs {giCloseFrame}]
+[14:14:44.11] /r giDialog db::setAttr geometry -of [gi::getDialogs {giCloseFrame}] -value 299x108+811+447
+[14:14:46.15] /r giDialog gi::pressButton {giCloseTabsButton} -in [gi::getDialogs {giCloseFrame}]
+[14:14:46.17] /i exit
+[14:14:46.25] /r giDialog gi::setActiveDialog [gi::getDialogs {deExitDialog}]
+[14:14:46.55] /r giDialog db::setAttr geometry -of [gi::getDialogs {deExitDialog}] -value 419x181+741+352
+[14:14:47.41] /r giDialog gi::pressButton {ok} -in [gi::getDialogs {deExitDialog}]
+[14:14:47.51] /r giDialog gi::setActiveDialog [gi::getDialogs {giPrompt} -parent [gi::getWindows 12]]
+[14:14:47.80] /r giDialog db::setAttr geometry -of [gi::getDialogs {giPrompt} -parent [gi::getWindows 12]] -value 292x82+814+460
+[14:14:48.87] /r giDialog gi::pressButton {discard} -in [gi::getDialogs {giPrompt} -parent [gi::getWindows 12]]
+[14:14:48.88] /i gi::setActiveWindow 13
+[14:14:48.88] /i gi::setActiveWindow 13 -raise true
+[14:14:48.95] /i gi::setActiveWindow 13
+[14:14:48.95] /i gi::setActiveWindow 13 -raise true
+[14:14:49.06] /i gi::setActiveWindow 2
+[14:14:49.06] /i gi::setActiveWindow 2 -raise true
+[14:14:49.12] /i gi::setActiveWindow 1
+[14:14:49.12] /i gi::setActiveWindow 1 -raise true
+[14:14:49.29] /o Shutdown time: Tue Apr 28 14:14:49 2026
+[14:14:49.29] /o Elapsed session real time: 26.38 minutes
+[14:14:49.29] /o Session terminated. Log is at /home/itsupport/Desktop/DOAN/synopsys_custom/logs/ccompiler.itsupport.2026_4_28_134824_3235.log
+[14:14:49.59] /m Information: License 'SAE' checked in. (LICENSE-004)
+[14:14:49.60] /e Error: "Following error happened during execution of ::layout_editor::_impl::ADV_checked_in procedure during TCL callback invalid command name "::layout_editor::_impl::ADV_checked_in"" (POSTMAN-005)
+[14:14:49.60] /e Error: "Following error happened during execution of ::xt::physicalVerification::_private::onPostFeatureReleased procedure during TCL callback invalid command name "::xt::physicalVerification::_private::onPostFeatureReleased"" (POSTMAN-005)
+[14:14:49.60] /e Error: "Following error happened during execution of ::vdrc::voltage_annotation::_private::_onPostFeatureReleasedProc procedure during TCL callback invalid command name "::vdrc::voltage_annotation::_private::_onPostFeatureReleasedProc"" (POSTMAN-005)
+[14:14:49.60] /e Error: "Following error happened during execution of ::lx::_impl::onPostFeatureReleased procedure during TCL callback invalid command name "::lx::_impl::onPostFeatureReleased"" (POSTMAN-005)

@@ -1,0 +1,49 @@
+{NETLIST Pulse_FF
+{VERSION 1 0 0}
+
+{CELL Pulse_FF
+    {PORT clk_in Q_N gnd! vdd! Q D }
+    {INST XI0/XI17/MM8=P {PROP n="pulse/NAND/P" Length=0.2 Width=1.8 Mult=1 }
+	{PIN clk_in=GATE vdd!=SRC XI0/net45=DRN }}
+    {INST XI1/MM1=N {PROP n="DA/N" Length=0.2 Width=0.36 Mult=1 }
+	{PIN net6=GATE XI1/net12=SRC XI1/net19=DRN }}
+    {INST XI0/XI17/MM9=P {PROP n="pulse/NAND/P" Length=0.2 Width=1.8 Mult=1 }
+	{PIN XI0/net44=GATE vdd!=SRC XI0/net45=DRN }}
+    {INST XI1/MM0=N {PROP n="DA/N" Length=0.2 Width=0.36 Mult=1 }
+	{PIN D=GATE gnd!=SRC XI1/net12=DRN }}
+    {INST XI0/XI17/MM11=N {PROP n="pulse/NAND/N" Length=0.2 Width=0.72 Mult=1 }
+	{PIN XI0/net44=GATE gnd!=SRC XI0/XI17/net2=DRN }}
+    {INST XI1/MM10=P {PROP n="DA/P" Length=0.2 Width=1.44 Mult=1 }
+	{PIN Q_N=GATE vdd!=SRC Q=DRN }}
+    {INST XI0/XI17/MM10=N {PROP n="pulse/NAND/N" Length=0.2 Width=0.72 Mult=1 }
+	{PIN clk_in=GATE XI0/XI17/net2=SRC XI0/net45=DRN }}
+    {INST XI1/MM8=P {PROP n="DA/P" Length=0.2 Width=1.44 Mult=1 }
+	{PIN XI1/net29=GATE vdd!=SRC Q_N=DRN }}
+    {INST XI0/XI14/MM0=N {PROP n="pulse/NOT/N" Length=0.2 Width=0.48 Mult=1 }
+	{PIN clk_in=GATE gnd!=SRC XI0/net36=DRN }}
+    {INST XI0/XI16/MM0=N {PROP n="pulse/NOT/N" Length=0.2 Width=0.48 Mult=1 }
+	{PIN XI0/net38=GATE gnd!=SRC XI0/net44=DRN }}
+    {INST XI0/XI18/MM0=N {PROP n="pulse/NOT/N" Length=0.2 Width=0.48 Mult=1 }
+	{PIN XI0/net45=GATE gnd!=SRC net6=DRN }}
+    {INST XI0/XI15/MM0=N {PROP n="pulse/NOT/N" Length=0.2 Width=0.48 Mult=1 }
+	{PIN XI0/net36=GATE gnd!=SRC XI0/net38=DRN }}
+    {INST XI1/MM4=P {PROP n="DA/P" Length=0.2 Width=1.44 Mult=1 }
+	{PIN D=GATE vdd!=SRC XI1/net19=DRN }}
+    {INST XI1/MM9=N {PROP n="DA/N" Length=0.2 Width=0.36 Mult=1 }
+	{PIN Q_N=GATE gnd!=SRC Q=DRN }}
+    {INST XI0/XI14/MM1=P {PROP n="pulse/NOT/P" Length=0.2 Width=1.92 Mult=1 }
+	{PIN clk_in=GATE vdd!=SRC XI0/net36=DRN }}
+    {INST XI0/XI16/MM1=P {PROP n="pulse/NOT/P" Length=0.2 Width=1.92 Mult=1 }
+	{PIN XI0/net38=GATE vdd!=SRC XI0/net44=DRN }}
+    {INST XI0/XI18/MM1=P {PROP n="pulse/NOT/P" Length=0.2 Width=1.92 Mult=1 }
+	{PIN XI0/net45=GATE vdd!=SRC net6=DRN }}
+    {INST XI0/XI15/MM1=P {PROP n="pulse/NOT/P" Length=0.2 Width=1.92 Mult=1 }
+	{PIN XI0/net36=GATE vdd!=SRC XI0/net38=DRN }}
+    {INST XI1/MM3=P {PROP n="DA/P" Length=0.2 Width=1.44 Mult=1 }
+	{PIN XI1/net19=GATE vdd!=SRC XI1/net29=DRN }}
+    {INST XI1/MM7=N {PROP n="DA/N" Length=0.2 Width=0.36 Mult=1 }
+	{PIN XI1/net29=GATE gnd!=SRC Q_N=DRN }}
+    {INST XI1/MM2=N {PROP n="DA/N" Length=0.2 Width=0.36 Mult=1 }
+	{PIN XI1/net12=GATE gnd!=SRC XI1/net29=DRN }}
+}
+}

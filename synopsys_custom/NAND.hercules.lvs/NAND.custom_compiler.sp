@@ -1,0 +1,22 @@
+*Custom Compiler Version N-2017.12-SP1-2
+*Mon Apr 27 23:45:55 2026
+
+*.SCALE METER
+*.LDD
+.GLOBAL gnd! vdd!
+********************************************************************************
+* Library          : DOAN
+* Cell             : NAND
+* View             : schematic
+* View Search List : auCdl schematic symbol
+* View Stop List   : auCdl
+********************************************************************************
+.subckt NAND A B Y
+*.PININFO A:I B:I Y:O
+MM8 Y A vdd! vdd! P w=1.8u l=0.2u nf=1 m=1
+MM9 Y B vdd! vdd! P w=1.8u l=0.2u nf=1 m=1
+MM11 net2 B gnd! gnd! N w=0.72u l=0.2u nf=1 m=1
+MM10 Y A net2 net2 N w=0.72u l=0.2u nf=1 m=1
+.ends NAND
+
+

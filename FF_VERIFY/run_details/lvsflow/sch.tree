@@ -1,0 +1,27 @@
+Pulse_FF Level=0 Count=1
+   DA Level=1 Count=1
+   pulse Level=1 Count=1
+      NOT Level=2 Count=4
+      NAND Level=2 Count=1
+
+
+		CELL STATISTICS
+
+
+TOP CELL = Pulse_FF
+	Ports                =	6
+
+CELL = NOT
+	Flat Placements      =	4
+
+CELL = Pulse_FF
+	Flat Placements      =	0
+
+CELL = DA
+	Flat Placements      =	1
+
+CELL = pulse
+	Flat Placements      =	1
+
+CELL = NAND
+	Flat Placements      =	1

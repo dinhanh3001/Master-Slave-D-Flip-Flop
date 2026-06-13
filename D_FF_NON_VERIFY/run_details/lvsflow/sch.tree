@@ -1,0 +1,19 @@
+dff_nonoverlap Level=0 Count=1
+   tranmision Level=1 Count=4
+   not Level=1 Count=6
+
+
+		CELL STATISTICS
+
+
+TOP CELL = dff_nonoverlap
+	Ports                =	7
+
+CELL = tranmision
+	Flat Placements      =	4
+
+CELL = not
+	Flat Placements      =	6
+
+CELL = dff_nonoverlap
+	Flat Placements      =	0

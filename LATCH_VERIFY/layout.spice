@@ -1,0 +1,21 @@
+* SPICE INPUT		Mon Apr 27 23:46:49 2026	DA
+* EV_NETLIST Version AMD.64 Release B-2008.09.SP5.26005 2012/07/14
+*
+*The following line needed for Star-CR:
+*CRU_OPT (KEEP_ELEMENTS "^[CR]D")
+*
+*The following line needed for CDL:
+*.BIPOLAR
+
+* Top of hierarchy  cell=DA
+.subckt DA gnd! vdd! D C Q_N Q
+M_MM7 gnd! net29 Q_N ln_N_103 N  l=0.200u w=0.360u
+M_MM9 gnd! Q_N Q ln_N_103 N  l=0.200u w=0.360u
+M_MM1 net12 C net19 ln_N_103 N  l=0.200u w=0.360u
+M_MM0 net12 D gnd! ln_N_103 N  l=0.200u w=0.360u
+M_MM2 gnd! net12 net29 ln_N_103 N  l=0.200u w=0.360u
+M_MM10 vdd! Q_N Q ln_N_111 P  l=0.200u w=1.440u
+M_MM4 net19 D vdd! ln_N_110 P  l=0.200u w=1.440u
+M_MM3 vdd! net19 net29 ln_N_109 P  l=0.200u w=1.440u
+M_MM8 vdd! net29 Q_N ln_N_108 P  l=0.200u w=1.440u
+.ends DA

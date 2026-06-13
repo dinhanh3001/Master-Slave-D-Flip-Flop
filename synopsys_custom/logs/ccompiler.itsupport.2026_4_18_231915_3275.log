@@ -1,0 +1,169 @@
+[23:19:17.87] /r giWindowId 0
+[23:19:17.87] /r giWindowGeometry 600x300
+[23:19:17.88] /o 
+              /c                                 Custom Compiler 
+              /c 
+              /c               Version N-2017.12-SP1-2 for linux64 - May 16, 2018 
+              /c 
+              /c                     Copyright (c) 2004 - 2018 Synopsys, Inc.
+              /c    This software and the associated documentation are proprietary to Synopsys,
+              /c  Inc. This software may only be used in accordance with the terms and conditions
+              /c  of a written license agreement with Synopsys, Inc. All other use, reproduction,
+              /c             or distribution of this software is strictly prohibited.
+              /c 
+              /c Build  (OPT) Config 4182185 compiled on Wed May 16 15:20:56 2018 for RHEL64 6.6
+              /c Invocation: /usr/synopsys/customcompiler/N-2017.12-SP1-2/linux64/platform/bin/cdesigner
+              /c Execution time: Sat Apr 18 23:19:15 2026
+              /c Host: localhost.localdomain
+              /c Working directory: /home/itsupport/Desktop/DOAN
+              /c 
+[23:19:19.81] /r giShowFrameTabs true
+[23:19:19.81] /r giWindowId 1
+[23:19:19.81] /r giWindowGeometry 1040x800
+[23:19:22.57] /# gi::pressButton {/scroll/scrollArea/scrollAreaInnerWidget/applications/dmLibraryManager} -in [gi::getWindows 1]
+[23:19:22.57] /# 
+[23:19:22.57] /i dm::openLibraryManager
+[23:19:22.57] /r giWindowId 2
+[23:19:22.58] /r giWindowGeometry 660x600+50+78
+[23:19:22.61] /o oa:0x17c9e0b0
+[23:19:24.20] /i db::setAttr maximized -of [gi::getFrames 1] -value true
+[23:19:24.54] /i db::setAttr geometry -of [gi::getFrames 1] -value 1910x876+5+56
+[23:19:26.47] /i gi::setCurrentIndex {libs} -index {analogLib} -in [gi::getWindows 2]
+[23:19:26.47] /# gi::executeAction dmShowNewLibrary -in [gi::getWindows 2]
+[23:19:26.47] /i dm::showNewLibrary -parent 2
+[23:19:26.49] /o oa:0x1da359f0
+[23:19:26.55] /i gi::setActiveDialog [gi::getDialogs {dmNewLibrary} -parent [gi::getWindows 2]]
+[23:19:26.81] /i db::setAttr geometry -of [gi::getDialogs {dmNewLibrary} -parent [gi::getWindows 2]] -value 458x467+721+209
+[23:19:29.91] /i gi::setField {libName} -value {DOAN} -in [gi::getDialogs {dmNewLibrary} -parent [gi::getWindows 2]]
+[23:19:30.87] /i gi::pressButton {ok} -in [gi::getDialogs {dmNewLibrary} -parent [gi::getWindows 2]]
+[23:19:30.92] /# dm::createLib DOAN -path {./DOAN} -dmSystem oaDMFileSys
+[23:19:30.93] /# db::importTechFile /usr/synopsys/customcompiler/N-2017.12-SP1-2/auxx/tech/cdesigner_1.0.tf -lib [oa::LibFind [oa::ScalarName [oa::CdbaNS] DOAN]]; oa::save [oa::TechFind [oa::ScalarName [oa::CdbaNS] DOAN]]
+[23:19:30.94] /m Information: set default manufacturing grid to the default value 0.005um for the imported technology library DOAN. (TECH_IO-098)
+[23:19:30.95] /m Information: Technology file /usr/synopsys/customcompiler/N-2017.12-SP1-2/auxx/tech/cdesigner_1.0.tf is successfully imported into lib DOAN. (TECH_IO-099)
+[23:19:30.96] /# oa::close [oa::TechFind [oa::ScalarName [oa::CdbaNS] DOAN]]
+[23:19:32.13] /i gi::setCurrentIndex {libs} -index {DOAN} -in [gi::getWindows 2]
+[23:19:32.13] /i gi::setItemSelection {libs} -index {DOAN} -in [gi::getWindows 2]
+[23:19:34.05] /# gi::executeAction dbShowTechnologyManager -in [gi::getWindows 2]
+[23:19:34.05] /i db::showManageTechnology
+[23:19:34.05] /r giWindowId 3
+[23:19:34.05] /r giWindowGeometry 350x400
+[23:19:34.18] /w Warning: Preference 'leActiveLPP' is deprecated and scheduled for removal in a future release with no replacement. For migration assistance, see the Custom Compiler Tcl Reference Manual. (PREFERENCE-058)
+[23:19:34.18] /o 	#######################################
+[23:19:34.18] /o 	PDK Library Name	: reference90RF
+[23:19:34.18] /o 	PDK Version		: 2.0
+[23:19:34.18] /o 	PDK Release Date	: 25-March-2010 
+[23:19:34.18] /o 	#######################################
+[23:19:34.18] /o 
+[23:19:34.19] /# gi::setItemSelection {techTechnologyManagerLibWidget} -index {{DOAN}} -in [gi::getWindows 3]
+[23:19:34.20] /o oa:0x17c2c3c0
+[23:19:40.40] /i gi::setCurrentIndex {techTechnologyManagerLibWidget} -index {DOAN , Attachment} -in [gi::getWindows 3]
+[23:19:41.96] /i gi::setField {techTechnologyManagerLibWidget} -value {DOAN} -index {DOAN,Attachment} -in [gi::getWindows 3]
+[23:19:47.99] /i gi::setActiveWindow 2
+[23:19:47.99] /i gi::setActiveWindow 2 -raise true
+[23:19:49.20] /i gi::executeAction giCloseWindow -in [gi::getWindows 3]
+[23:19:52.05] /# gi::executeAction dmShowNewCell -in [gi::getWindows 2]
+[23:19:52.05] /i dm::showNewCell -parent 2
+[23:19:52.08] /o oa:0x19299c40
+[23:19:52.11] /i gi::setActiveDialog [gi::getDialogs {dmNewCell} -parent [gi::getWindows 2]]
+[23:19:52.36] /i db::setAttr geometry -of [gi::getDialogs {dmNewCell} -parent [gi::getWindows 2]] -value 448x227+726+329
+[23:20:02.23] /i gi::setField {cellName} -value {DA} -in [gi::getDialogs {dmNewCell} -parent [gi::getWindows 2]]
+[23:20:02.35] /i gi::pressButton {ok} -in [gi::getDialogs {dmNewCell} -parent [gi::getWindows 2]]
+[23:20:02.35] /# dm::createCell DA -lib [ oa::LibFind [oa::ScalarName [oa::CdbaNS] DOAN]]
+[23:20:02.36] /# gi::setItemSelection {cells} -index {DA} -in [gi::getDialogs {dmNewCell} -parent [gi::getWindows 2]]
+[23:20:03.35] /i gi::setCurrentIndex {cells} -index {DA} -in [gi::getWindows 2]
+[23:20:03.35] /i gi::setItemSelection {cells} -index {DA} -in [gi::getWindows 2]
+[23:20:05.78] /# gi::executeAction dmShowNewCellView -in [gi::getWindows 2]
+[23:20:05.78] /i dm::showNewCellView -parent 2
+[23:20:05.80] /o oa:0x1af348a0
+[23:20:05.84] /i gi::setActiveDialog [gi::getDialogs {dmNewCellView} -parent [gi::getWindows 2]]
+[23:20:06.11] /i db::setAttr geometry -of [gi::getDialogs {dmNewCellView} -parent [gi::getWindows 2]] -value 588x285+656+300
+[23:20:36.36] /i gi::pressButton {ok} -in [gi::getDialogs {dmNewCellView} -parent [gi::getWindows 2]]
+[23:20:36.37] /# db::getAttr viewType -of [dm::findCellView schematic -cell [dm::findCell DA -lib [oa::LibFind [oa::ScalarName [oa::CdbaNS] DOAN]]]]
+[23:20:36.37] /# dm::createCellView schematic -cell [dm::findCell DA -lib [ oa::LibFind [oa::ScalarName [oa::CdbaNS] DOAN]]] -viewType schematic
+[23:20:36.37] /# de::open [dm::findCellView schematic -cell [dm::findCell DA -lib [oa::LibFind [oa::ScalarName [oa::CdbaNS] DOAN]]]] -application seSchematic
+[23:20:36.37] /m Information: License 'Schematic' checked out. (LICENSE-003)
+[23:20:36.41] /r giWindowId 4
+[23:20:36.42] /r giWindowGeometry 1632x818
+[23:20:36.61] /m Information: 
+[23:20:36.61] /o Checking "DOAN/DA/schematic"
+[23:20:36.61] /o No rule violations found in "DOAN/DA/schematic"
+[23:20:36.61] /m Information: Checking process is completed: marking the design violations
+[23:20:36.61] /m Information: Marking of designs is completed
+[23:20:37.55] /# gi::executeAction deSelectActive -in [gi::getWindows 4]
+[23:20:37.55] /i de::deselectAllLogic -context [db::getNext [de::getContexts -window 4]]
+[23:21:24.72] /# gi::executeAction seCreateInst -in [gi::getWindows 4]
+[23:21:24.72] /i ise::createInst
+[23:21:24.76] /# gi::executeAction seCreateInst -in [gi::getWindows 4]
+[23:21:24.76] /i ise::createInst
+[23:21:25.03] /i db::setAttr geometry -of [gi::getDialogs {seCreateInst}] -value 359x337+0+65
+[23:21:26.04] /i gi::setActiveDialog [gi::getDialogs {seCreateInst} -parent [gi::getWindows 4]]
+[23:21:28.18] /i gi::setField {instMasterLib} -value {reference90RF} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 4]]
+[23:21:28.51] /i db::setAttr geometry -of [gi::getDialogs {seCreateInst}] -value 359x337+0+65
+[23:21:50.87] /i gi::setField {instMasterCell} -value {n_4t} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 4]]
+[23:21:51.21] /i db::setAttr geometry -of [gi::getDialogs {seCreateInst}] -value 359x581+0+65
+[23:21:53.75] /i gi::setField {instMasterCell} -value {n} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 4]]
+[23:21:53.89] /e Error: The requested action could not be completed because one or more inputs are incomplete or invalid. (CUSTOM_WIDGETS-001)
+[23:21:54.04] /i db::setAttr geometry -of [gi::getDialogs {seCreateInst}] -value 359x337+0+65
+[23:21:59.16] /i gi::setField {instMasterCell} -value {n_4t} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 4]]
+[23:21:59.58] /i db::setAttr geometry -of [gi::getDialogs {seCreateInst}] -value 359x581+0+65
+[23:22:00.99] /i gi::pressButton {ConsoleToggleButton} -in [db::getAttr statusbar -of [gi::getWindows 4]]
+[23:22:02.08] /i gi::pressButton {ConsoleToggleButton} -in [db::getAttr statusbar -of [gi::getWindows 4]]
+[23:22:03.33] /i gi::setItemSelection {parameters} -index {l,all} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 4]]
+[23:22:03.34] /i gi::setCurrentIndex {parameters} -index {l,Value} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 4]]
+[23:22:07.40] /i gi::setField {parameters} -value {0.18u} -index {l,Value} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 4]]
+[23:22:07.40] /i gi::setItemSelection {parameters} -index {w,all} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 4]]
+[23:22:07.40] /i gi::setCurrentIndex {parameters} -index {w,Value} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 4]]
+[23:22:21.56] /i gi::setField {parameters} -value {0.36u} -index {w,Value} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 4]]
+[23:22:21.57] /i gi::setItemSelection {parameters} -index {wtot,all} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 4]]
+[23:22:21.58] /i gi::setCurrentIndex {parameters} -index {wtot,Value} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 4]]
+[23:22:23.98] /i gi::setItemSelection {parameters} -index {l,all} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 4]]
+[23:22:23.99] /i gi::setCurrentIndex {parameters} -index {l,Value} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 4]]
+[23:22:29.81] /# gi::executeAction deAddPoint -in [gi::getWindows 4]
+[23:22:29.81] /i de::addPoint {3.2 1.2875} -context [db::getNext [de::getContexts -window 4]]
+[23:22:31.85] /# gi::executeAction deAddPoint -in [gi::getWindows 4]
+[23:22:31.85] /i de::addPoint {3.15 2.2125} -context [db::getNext [de::getContexts -window 4]]
+[23:22:35.30] /# gi::executeAction deAddPoint -in [gi::getWindows 4]
+[23:22:35.30] /i de::addPoint {4.53125 1.69375} -context [db::getNext [de::getContexts -window 4]]
+[23:22:40.75] /i gi::setField {instMasterCell} -value {p_4t} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 4]]
+[23:22:41.11] /i db::setAttr geometry -of [gi::getDialogs {seCreateInst}] -value 359x581+0+65
+[23:22:42.10] /i gi::setItemSelection {parameters} -index {l,all} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 4]]
+[23:22:42.10] /i gi::setCurrentIndex {parameters} -index {l,Value} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 4]]
+[23:22:46.77] /i gi::setField {parameters} -value {0.18u} -index {l,Value} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 4]]
+[23:22:46.77] /i gi::setItemSelection {parameters} -index {w,all} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 4]]
+[23:22:46.78] /i gi::setCurrentIndex {parameters} -index {w,Value} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 4]]
+[23:32:35.87] /i gi::closeWindows [gi::getDialogs {seCreateInst} -parent [gi::getWindows 4]]
+[23:32:37.51] /# gi::executeAction seSchCheckAndSave -in [gi::getWindows 4]
+[23:32:37.51] /i ise::check
+[23:32:37.51] /m Information: 
+[23:32:37.51] /o Checking "DOAN/DA/schematic"
+[23:32:37.51] /o 	[warning] Floating I/O Instance Pins
+[23:32:37.52] /o 		I/O pin 'B' of instance 'M0' is floating
+[23:32:37.52] /o 		I/O pin 'B' of instance 'M1' is floating
+[23:32:37.52] /o 		I/O pin 'B' of instance 'M2' is floating
+[23:32:37.52] /o 		I/O pin 'D' of instance 'M0' is floating
+[23:32:37.52] /o 		I/O pin 'D' of instance 'M1' is floating
+[23:32:37.52] /o 		I/O pin 'D' of instance 'M2' is floating
+[23:32:37.52] /o 		I/O pin 'G' of instance 'M0' is floating
+[23:32:37.52] /o 		I/O pin 'G' of instance 'M1' is floating
+[23:32:37.52] /o 		I/O pin 'G' of instance 'M2' is floating
+[23:32:37.52] /o 		I/O pin 'S' of instance 'M0' is floating
+[23:32:37.52] /o 		I/O pin 'S' of instance 'M1' is floating
+[23:32:37.52] /o 		I/O pin 'S' of instance 'M2' is floating
+[23:32:37.52] /o 0 Error(s),12 Warning(s),0 Message(s) found   in "DOAN/DA/schematic"
+[23:32:37.52] /m Information: Checking process is completed: marking the design violations
+[23:32:37.53] /m Information: Marking of designs is completed
+[23:32:37.53] /o true
+[23:32:39.56] /r giDialog gi::setActiveDialog [gi::getDialogs {giCloseFrame}]
+[23:32:39.83] /r giDialog db::setAttr geometry -of [gi::getDialogs {giCloseFrame}] -value 299x108+811+447
+[23:32:40.82] /r giDialog gi::pressButton {giCloseTabsButton} -in [gi::getDialogs {giCloseFrame}]
+[23:32:40.83] /i exit
+[23:32:40.93] /r giDialog gi::setActiveDialog [gi::getDialogs {deExitDialog}]
+[23:32:41.13] /r giDialog db::setAttr geometry -of [gi::getDialogs {deExitDialog}] -value 419x181+741+352
+[23:32:42.65] /r giDialog gi::pressButton {ok} -in [gi::getDialogs {deExitDialog}]
+[23:32:42.67] /i gi::setActiveWindow 2
+[23:32:42.67] /i gi::setActiveWindow 2 -raise true
+[23:32:42.72] /i gi::setActiveWindow 1
+[23:32:42.72] /i gi::setActiveWindow 1 -raise true
+[23:32:42.81] /o Shutdown time: Sat Apr 18 23:32:42 2026
+[23:32:42.81] /o Elapsed session real time: 13.41 minutes
+[23:32:42.81] /o Session terminated. Log is at /home/itsupport/Desktop/DOAN/synopsys_custom/logs/ccompiler.itsupport.2026_4_18_231915_3275.log

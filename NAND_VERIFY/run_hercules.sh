@@ -1,0 +1,2 @@
+#!/bin/sh
+cd /home/itsupport/Desktop/DOAN/NAND_VERIFY; unset TCLLIBPATH; unset TCL_LIBRARY; exec-oa22.04.hercules hercules_oa -f openaccess -i DOAN -b NAND -p . -O gdsii -o NAND_result.gds -s /home/itsupport/Desktop/DOAN/synopsys_custom/NAND.hercules.lvs/NAND.custom_compiler.sp -sf CDL -stb NAND /home/itsupport/Desktop/DOAN/NAND_VERIFY/reference_lvs.lvs.evx > /home/itsupport/Desktop/DOAN/NAND_VERIFY/stdout.lvs.log 2>&1

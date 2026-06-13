@@ -1,0 +1,47 @@
+{NETLIST dff_nonoverlap
+{VERSION 1 0 0}
+
+{CELL dff_nonoverlap
+    {PORT Q_N vdd! gnd! clk1 Q clk2 D }
+    {INST XI3/MM0=N {PROP n="tranmision/N" Length=0.2 Width=0.36 Mult=1 }
+	{PIN clk1_bar=GATE net1=SRC Q_N=DRN }}
+    {INST XI2/MM0=N {PROP n="tranmision/N" Length=0.2 Width=0.36 Mult=1 }
+	{PIN clk2_bar=GATE net4=SRC net3=DRN }}
+    {INST XI1/MM0=N {PROP n="tranmision/N" Length=0.2 Width=0.36 Mult=1 }
+	{PIN clk1=GATE net2=SRC net1=DRN }}
+    {INST XI0/MM0=N {PROP n="tranmision/N" Length=0.2 Width=0.36 Mult=1 }
+	{PIN clk2=GATE D=SRC net4=DRN }}
+    {INST XI9/MM0=N {PROP n="not/N" Length=0.2 Width=0.36 Mult=1 }
+	{PIN clk2=GATE gnd!=SRC clk2_bar=DRN }}
+    {INST XI8/MM0=N {PROP n="not/N" Length=0.2 Width=0.36 Mult=1 }
+	{PIN clk1=GATE gnd!=SRC clk1_bar=DRN }}
+    {INST XI7/MM0=N {PROP n="not/N" Length=0.2 Width=0.36 Mult=1 }
+	{PIN Q=GATE gnd!=SRC Q_N=DRN }}
+    {INST XI6/MM0=N {PROP n="not/N" Length=0.2 Width=0.36 Mult=1 }
+	{PIN net1=GATE gnd!=SRC Q=DRN }}
+    {INST XI5/MM0=N {PROP n="not/N" Length=0.2 Width=0.36 Mult=1 }
+	{PIN net2=GATE gnd!=SRC net3=DRN }}
+    {INST XI4/MM0=N {PROP n="not/N" Length=0.2 Width=0.36 Mult=1 }
+	{PIN net4=GATE gnd!=SRC net2=DRN }}
+    {INST XI3/MM1=P {PROP n="tranmision/P" Length=0.2 Width=1.44 Mult=1 }
+	{PIN clk1=GATE net1=SRC Q_N=DRN }}
+    {INST XI2/MM1=P {PROP n="tranmision/P" Length=0.2 Width=1.44 Mult=1 }
+	{PIN clk2=GATE net4=SRC net3=DRN }}
+    {INST XI1/MM1=P {PROP n="tranmision/P" Length=0.2 Width=1.44 Mult=1 }
+	{PIN clk1_bar=GATE net2=SRC net1=DRN }}
+    {INST XI0/MM1=P {PROP n="tranmision/P" Length=0.2 Width=1.44 Mult=1 }
+	{PIN clk2_bar=GATE D=SRC net4=DRN }}
+    {INST XI9/MM1=P {PROP n="not/P" Length=0.2 Width=1.44 Mult=1 }
+	{PIN clk2=GATE vdd!=SRC clk2_bar=DRN }}
+    {INST XI8/MM1=P {PROP n="not/P" Length=0.2 Width=1.44 Mult=1 }
+	{PIN clk1=GATE vdd!=SRC clk1_bar=DRN }}
+    {INST XI7/MM1=P {PROP n="not/P" Length=0.2 Width=1.44 Mult=1 }
+	{PIN Q=GATE vdd!=SRC Q_N=DRN }}
+    {INST XI6/MM1=P {PROP n="not/P" Length=0.2 Width=1.44 Mult=1 }
+	{PIN net1=GATE vdd!=SRC Q=DRN }}
+    {INST XI5/MM1=P {PROP n="not/P" Length=0.2 Width=1.44 Mult=1 }
+	{PIN net2=GATE vdd!=SRC net3=DRN }}
+    {INST XI4/MM1=P {PROP n="not/P" Length=0.2 Width=1.44 Mult=1 }
+	{PIN net4=GATE vdd!=SRC net2=DRN }}
+}
+}

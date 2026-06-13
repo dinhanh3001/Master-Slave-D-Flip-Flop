@@ -1,0 +1,22 @@
+[22:36:18.85] /r giWindowId 0
+[22:36:18.85] /r giWindowGeometry 600x300
+[22:36:18.86] /o 
+              /c                                 Custom Compiler 
+              /c 
+              /c               Version N-2017.12-SP1-2 for linux64 - May 16, 2018 
+              /c 
+              /c                     Copyright (c) 2004 - 2018 Synopsys, Inc.
+              /c    This software and the associated documentation are proprietary to Synopsys,
+              /c  Inc. This software may only be used in accordance with the terms and conditions
+              /c  of a written license agreement with Synopsys, Inc. All other use, reproduction,
+              /c             or distribution of this software is strictly prohibited.
+              /c 
+              /c Build  (OPT) Config 4182185 compiled on Wed May 16 15:20:56 2018 for RHEL64 6.6
+              /c Invocation: /usr/synopsys/customcompiler/N-2017.12-SP1-2/linux64/platform/bin/cdesigner
+              /c Execution time: Sat Apr 25 22:36:16 2026
+              /c Host: localhost.localdomain
+              /c Working directory: /home/itsupport/Desktop/DOAN
+              /c 
+[22:36:32.97] /o Shutdown time: Sat Apr 25 22:36:32 2026
+[22:36:32.97] /o Elapsed session real time: 0.23 minutes
+[22:36:32.97] /o Session terminated. Log is at /home/itsupport/Desktop/DOAN/synopsys_custom/logs/ccompiler.itsupport.2026_4_25_223616_3465.log

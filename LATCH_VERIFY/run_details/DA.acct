@@ -1,0 +1,8 @@
+DA
+	Cell Level Device Counts
+		NMOS[N] = 5
+		PMOS[P] = 4
+
+********  DEVICE EXTRACTION STATS    TOPBLOCK = DA  *******
+		NMOS[N] = 5
+		PMOS[P] = 4

@@ -1,0 +1,280 @@
+{netlist dff_nonoverlap.sch_out
+{version 1 1 0 }
+/* nettran: AMD.64 Release B-2008.09.SP5.26004 2012/07/19 */ 
+/* Created:  5/10/2026  17:56   */
+/* Options: -cdl /home/itsupport/Desktop/DOAN/synopsys_custom/dff_nonoverlap.hercules.lvs/dff_nonoverlap.custom_compiler.sp -sp /home/itsupport/Desktop/DOAN/PDK/hercules/lvs/empty.subckt -cdl-a -cdl-p -mprop -slash -logFile /home/itsupport/Desktop/DOAN/D_FF_NON_VERIFY/run_details/nettran.log -outName dff_nonoverlap.sch_out  */
+
+{net_global vdd! gnd! }
+{cell not
+{port in out}
+{inst MM1=P
+{prop M=1 NF=1 L=0.2 W=1.44}
+{pin out=DRN in=GATE vdd!=SRC vdd!=BULK}}
+{inst MM0=N
+{prop M=1 NF=1 L=0.2 W=0.36}
+{pin out=DRN in=GATE gnd!=SRC gnd!=BULK}}
+}
+
+{cell tranmision
+{port in n out p}
+{inst MM1=P
+{prop M=1 NF=1 L=0.2 W=1.44}
+{pin out=DRN p=GATE in=SRC in=BULK}}
+{inst MM0=N
+{prop M=1 NF=1 L=0.2 W=0.36}
+{pin out=DRN n=GATE in=SRC in=BULK}}
+}
+
+{cell MOSVAR_1V2
+{port PLUS MINUS BULK}
+}
+
+{cell NDN25
+{port DRN GATE SRC PW PSUB DNW}
+{inst q2=DNWPNP
+{pin PW=COLL PSUB=BASE DNW=EMIT}}
+{inst m1=N25
+{pin D=DRN G=GATE S=SRC PW=BULK}}
+}
+
+{cell NDN
+{port DRN GATE SRC PW PSUB DNW}
+{inst q2=DNWPNP
+{pin PW=COLL PSUB=BASE DNW=EMIT}}
+{inst m1=N
+{pin D=DRN G=GATE S=SRC PW=BULK}}
+}
+
+{cell INDSYMCT
+{port PLUS MINUS CTAP BULK}
+}
+
+{cell INDSYM
+{port PLUS MINUS BULK}
+}
+
+{cell SYNSTD
+{port PLUS MINUS BULK}
+}
+
+{cell VARDIO
+{port PLUS MINUS}
+}
+
+{cell XJVAR
+{port PLUS MINUS BULK}
+}
+
+{cell PVAR2
+{port PLUS MINUS}
+}
+
+{cell PVAR1
+{port PLUS MINUS}
+}
+
+{cell NVAR2
+{port PLUS MINUS}
+}
+
+{cell NVAR1
+{port PLUS MINUS}
+}
+
+{cell DNWDIODE
+{port PW DNW PSUB}
+}
+
+{cell cmom
+{port PLUS MINUS BULK}
+}
+
+{cell cmim_3t
+{port PLUS MINUS BULK}
+}
+
+{cell cmim_2t
+{port PLUS MINUS}
+}
+
+{cell rpolyhc
+{port PLUS MINUS BULK}
+}
+
+{cell rpolyc
+{port PLUS MINUS BULK}
+}
+
+{cell rpolyhrf
+{port PLUS MINUS}
+}
+
+{cell rpolyrf
+{port PLUS MINUS}
+}
+
+{cell rpolyh
+{port PLUS MINUS}
+}
+
+{cell rpoly
+{port PLUS MINUS}
+}
+
+{cell rmt
+{port PLUS MINUS}
+}
+
+{cell rm8
+{port PLUS MINUS}
+}
+
+{cell rm7
+{port PLUS MINUS}
+}
+
+{cell rm6
+{port PLUS MINUS}
+}
+
+{cell rm5
+{port PLUS MINUS}
+}
+
+{cell rm4
+{port PLUS MINUS}
+}
+
+{cell rm3
+{port PLUS MINUS}
+}
+
+{cell rm2
+{port PLUS MINUS}
+}
+
+{cell rm1
+{port PLUS MINUS}
+}
+
+{cell hrppoly_3t
+{port PLUS MINUS BULK}
+}
+
+{cell hrnpoly_3t
+{port PLUS MINUS BULK}
+}
+
+{cell hrppoly
+{port PLUS MINUS}
+}
+
+{cell hrnpoly
+{port PLUS MINUS}
+}
+
+{cell rnwdiff_3t
+{port PLUS MINUS BULK}
+}
+
+{cell rnwell_3t
+{port PLUS MINUS BULK}
+}
+
+{cell rnwdiff
+{port PLUS MINUS}
+}
+
+{cell rnwell
+{port PLUS MINUS}
+}
+
+{cell rpdiffS_3t
+{port PLUS MINUS BULK}
+}
+
+{cell rndiffS_3t
+{port PLUS MINUS BULK}
+}
+
+{cell rpdiff_3t
+{port PLUS MINUS BULK}
+}
+
+{cell rndiff_3t
+{port PLUS MINUS BULK}
+}
+
+{cell rppolyS_3t
+{port PLUS MINUS BULK}
+}
+
+{cell rnpolyS_3t
+{port PLUS MINUS BULK}
+}
+
+{cell rppoly_3t
+{port PLUS MINUS BULK}
+}
+
+{cell rnpoly_3t
+{port PLUS MINUS BULK}
+}
+
+{cell rpdiffS
+{port PLUS MINUS}
+}
+
+{cell rndiffS
+{port PLUS MINUS}
+}
+
+{cell rpdiff
+{port PLUS MINUS}
+}
+
+{cell rndiff
+{port PLUS MINUS}
+}
+
+{cell rppolyS
+{port PLUS MINUS}
+}
+
+{cell rnpolyS
+{port PLUS MINUS}
+}
+
+{cell rppoly
+{port PLUS MINUS}
+}
+
+{cell rnpoly
+{port PLUS MINUS}
+}
+
+{cell dff_nonoverlap
+{port D Q Q_N clk1 clk2}
+{inst XI4=not
+{pin net4=in net2=out}}
+{inst XI5=not
+{pin net2=in net3=out}}
+{inst XI6=not
+{pin net1=in Q=out}}
+{inst XI7=not
+{pin Q=in Q_N=out}}
+{inst XI8=not
+{pin clk1=in clk1_bar=out}}
+{inst XI9=not
+{pin clk2=in clk2_bar=out}}
+{inst XI0=tranmision
+{pin D=in clk2=n net4=out clk2_bar=p}}
+{inst XI1=tranmision
+{pin net2=in clk1=n net1=out clk1_bar=p}}
+{inst XI2=tranmision
+{pin net4=in clk2_bar=n net3=out clk2=p}}
+{inst XI3=tranmision
+{pin net1=in clk1_bar=n Q_N=out clk1=p}}
+}
+
+}

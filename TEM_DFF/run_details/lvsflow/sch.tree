@@ -1,0 +1,19 @@
+dff_temp Level=0 Count=1
+   tranmision Level=1 Count=4
+   not Level=1 Count=6
+
+
+		CELL STATISTICS
+
+
+TOP CELL = dff_temp
+	Ports                =	7
+
+CELL = tranmision
+	Flat Placements      =	4
+
+CELL = dff_temp
+	Flat Placements      =	0
+
+CELL = not
+	Flat Placements      =	6

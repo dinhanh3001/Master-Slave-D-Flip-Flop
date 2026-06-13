@@ -1,0 +1,28 @@
+{NETLIST DA
+{VERSION 1 0 0}
+
+/* Level 0 */
+
+{CELL DA
+	{PORT gnd! vdd! D C Q_N Q}
+	{PROP top=1.835000 bottom=-4.780000 left=1.455000 right=7.605000}
+	{INST M1=N {PROP x=5.360 y=-3.185  l=0.200 w=0.360}
+		{PIN N_4=GATE Q_N=SRC gnd!=DRN N_103=BULK }}
+	{INST M2=N {PROP x=7.035 y=-3.185  l=0.200 w=0.360}
+		{PIN Q_N=GATE Q=SRC gnd!=DRN N_103=BULK }}
+	{INST M3=N {PROP x=2.005 y=-3.200  l=0.200 w=0.360}
+		{PIN C=GATE N_5=SRC N_2=DRN N_103=BULK }}
+	{INST M4=N {PROP x=2.455 y=-3.200  l=0.200 w=0.360}
+		{PIN D=GATE gnd!=SRC N_2=DRN N_103=BULK }}
+	{INST M5=N {PROP x=2.905 y=-3.200  l=0.200 w=0.360}
+		{PIN N_2=GATE N_4=SRC gnd!=DRN N_103=BULK }}
+	{INST M6=P {PROP x=7.035 y=-0.755  l=0.200 w=1.440}
+		{PIN Q_N=GATE Q=SRC vdd!=DRN N_111=BULK }}
+	{INST M7=P {PROP x=2.005 y=-0.770  l=0.200 w=1.440}
+		{PIN D=GATE vdd!=SRC N_5=DRN N_110=BULK }}
+	{INST M8=P {PROP x=3.685 y=-0.770  l=0.200 w=1.440}
+		{PIN N_5=GATE N_4=SRC vdd!=DRN N_109=BULK }}
+	{INST M9=P {PROP x=5.360 y=-0.755  l=0.200 w=1.440}
+		{PIN N_4=GATE Q_N=SRC vdd!=DRN N_108=BULK }}
+}
+}

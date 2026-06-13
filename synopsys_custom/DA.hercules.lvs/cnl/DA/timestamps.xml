@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!--Created by Custom Compiler (TM), build , on Mon Apr 27 23:46:46 2026-->
+<file-format name="netlisting-timestamps" version="1.0">
+<module contextID="switched: DOAN DA schematic vl: auCdl schematic symbol sl: auCdl" viewStopList="auCdl" isSubcircuit="1" viewSearchList="auCdl schematic symbol" timestamp="3429">
+<parameterizedConnections>
+<connectDefs timestamp="0"/>
+<oaAssignments timestamp="0"/>
+<dbAssignValue timestamp="0"/>
+<dbAssignAssignment timestamp="0"/>
+</parameterizedConnections>
+<parameters timestamp="3"/>
+<lib_parameters timestamp="1"/>
+<LineageParams/>
+<ParentParams/>
+<Terms timestamp="2133"/>
+<PortOrder><![CDATA[CDQQ_N]]></PortOrder>
+</module>
+</file-format>

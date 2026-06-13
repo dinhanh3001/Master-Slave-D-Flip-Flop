@@ -1,0 +1,11 @@
+NOT Level=0 Count=1
+
+
+		CELL STATISTICS
+
+
+TOP CELL = NOT
+	Ports                =	4
+
+CELL = NOT
+	Flat Placements      =	0

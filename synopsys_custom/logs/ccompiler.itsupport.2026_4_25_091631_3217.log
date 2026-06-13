@@ -1,0 +1,1277 @@
+[09:16:33.98] /r giWindowId 0
+[09:16:33.98] /r giWindowGeometry 600x300
+[09:16:33.99] /o 
+              /c                                 Custom Compiler 
+              /c 
+              /c               Version N-2017.12-SP1-2 for linux64 - May 16, 2018 
+              /c 
+              /c                     Copyright (c) 2004 - 2018 Synopsys, Inc.
+              /c    This software and the associated documentation are proprietary to Synopsys,
+              /c  Inc. This software may only be used in accordance with the terms and conditions
+              /c  of a written license agreement with Synopsys, Inc. All other use, reproduction,
+              /c             or distribution of this software is strictly prohibited.
+              /c 
+              /c Build  (OPT) Config 4182185 compiled on Wed May 16 15:20:56 2018 for RHEL64 6.6
+              /c Invocation: /usr/synopsys/customcompiler/N-2017.12-SP1-2/linux64/platform/bin/cdesigner
+              /c Execution time: Sat Apr 25 09:16:31 2026
+              /c Host: localhost.localdomain
+              /c Working directory: /home/itsupport/Desktop/DOAN
+              /c 
+[09:16:36.29] /r giShowFrameTabs true
+[09:16:36.29] /r giWindowId 1
+[09:16:36.29] /r giWindowGeometry 1040x800
+[09:16:39.95] /# gi::pressButton {/scroll/scrollArea/scrollAreaInnerWidget/applications/dmLibraryManager} -in [gi::getWindows 1]
+[09:16:39.96] /# 
+[09:16:39.96] /i dm::openLibraryManager
+[09:16:39.96] /r giWindowId 2
+[09:16:39.96] /r giWindowGeometry 660x600+50+78
+[09:16:39.99] /o oa:0x17e38ae0
+[09:16:40.03] /i gi::setCurrentIndex {libs} -index {snpsDefTechLib} -in [gi::getWindows 2]
+[09:16:40.04] /i gi::setItemSelection {libs} -index {snpsDefTechLib} -in [gi::getWindows 2]
+[09:16:40.06] /i gi::setSectionSizes {libs} -values {249} -in [gi::getWindows 2]
+[09:16:41.28] /i gi::setCurrentIndex {libs} -index {DOAN} -in [gi::getWindows 2]
+[09:16:41.28] /i gi::setItemSelection {libs} -index {DOAN} -in [gi::getWindows 2]
+[09:16:46.24] /i gi::setCurrentIndex {cells} -index {Pulse_FF} -in [gi::getWindows 2]
+[09:16:46.25] /i gi::setItemSelection {cells} -index {Pulse_FF} -in [gi::getWindows 2]
+[09:16:47.49] /i gi::setCurrentIndex {views} -index {schematic} -in [gi::getWindows 2]
+[09:16:47.49] /i gi::setItemSelection {views} -index {schematic} -in [gi::getWindows 2]
+[09:16:47.69] /i gi::executeAction dmOpen -in [gi::getWindows 2]
+[09:16:47.71] /w Warning: Preference 'leActiveLPP' is deprecated and scheduled for removal in a future release with no replacement. For migration assistance, see the Custom Compiler Tcl Reference Manual. (PREFERENCE-058)
+[09:16:47.72] /o 	#######################################
+[09:16:47.72] /o 	PDK Library Name	: reference90RF
+[09:16:47.72] /o 	PDK Version		: 2.0
+[09:16:47.72] /o 	PDK Release Date	: 25-March-2010 
+[09:16:47.72] /o 	#######################################
+[09:16:47.72] /o 
+[09:16:47.74] /m Information: License 'Schematic' checked out. (LICENSE-003)
+[09:16:47.82] /r giWindowId 3
+[09:16:47.83] /r giWindowGeometry 1632x818
+[09:16:48.00] /m Information: 
+[09:16:48.00] /o Checking "DOAN/Pulse_FF/schematic"
+[09:16:48.00] /o No rule violations found in "DOAN/Pulse_FF/schematic"
+[09:16:48.00] /m Information: Checking process is completed: marking the design violations
+[09:16:48.00] /m Information: Marking of designs is completed
+[09:16:51.28] /i db::setAttr maximized -of [gi::getFrames 1] -value true
+[09:16:51.63] /i db::setAttr dockSize -of [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]] -value 290x735
+[09:16:51.64] /i db::setAttr geometry -of [gi::getFrames 1] -value 1910x876+5+56
+[09:16:52.95] /# gi::executeAction deFitEdit -in [gi::getWindows 3]
+[09:16:52.95] /i de::fit -window 3 -fitEdit true
+[09:16:52.95] /o {0.2625 0.85} {6.15625 3.6125}
+[09:17:09.02] /# gi::executeAction deSelectActive -in [gi::getWindows 3]
+[09:17:09.02] /i de::deselectAll [db::getNext [de::getContexts -window 3]]
+[09:17:09.02] /i de::select [de::getActiveFigure [gi::getWindows 3] -point {1.65 2.08125} -index 0 -intent none]
+[09:17:09.02] /o oa:0x1dffb1f0
+[09:17:10.53] /i gi::setItemSelection {parameters} -index {pw,all} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[09:17:10.53] /i gi::setCurrentIndex {parameters} -index {pw,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[09:17:26.67] /i gi::setField {parameters} -value {2n} -index {pw,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[09:17:26.67] /i gi::executeAction dePropertyEditorApplyChanges -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[09:17:28.37] /i gi::setItemSelection {parameters} -index {per,all} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[09:17:28.38] /i gi::setCurrentIndex {parameters} -index {per,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[09:17:33.26] /i gi::setField {parameters} -value {4n} -index {per,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[09:17:33.26] /i gi::executeAction dePropertyEditorApplyChanges -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[09:17:34.94] /# gi::executeAction deSelectActive -in [gi::getWindows 3]
+[09:17:34.94] /i de::deselectAll [db::getNext [de::getContexts -window 3]]
+[09:17:34.94] /i de::deselectAllLogic -context [db::getNext [de::getContexts -window 3]]
+[09:17:34.98] /# gi::executeAction deSelectActive -in [gi::getWindows 3]
+[09:17:34.98] /i de::deselectAllLogic -context [db::getNext [de::getContexts -window 3]]
+[09:17:43.17] /i gi::executeAction deSaveDesign -in [gi::getWindows 3]
+[09:17:43.17] /m Information: Saving design 'DOAN Pulse_FF schematic'. (DESIGN_WINDOW-004)
+[09:17:44.83] /# gi::executeAction seShowConsoleForWindow -in [gi::getWindows 3]
+[09:17:44.83] /i sa::showConsole -context [db::getNext [de::getContexts -window 3]]
+[09:17:46.85] /m Information: License 'SAE' checked out. (LICENSE-003)
+[09:17:46.88] /r giWindowId 4
+[09:17:46.88] /r giWindowGeometry 600x500
+[09:17:46.99] /o oa:0x2312a690
+[09:17:47.04] /m Information: Launching Background sae_shell Server Process "cd /home/itsupport/Desktop/DOAN && sae_shell -log sae_shell_session0_job1 -libDefFile /home/itsupport/Desktop/DOAN/lib.defs"
+[09:17:49.41] /i gi::executeAction menuPreShow -in [gi::getWindows 4]
+[09:17:49.41] /r giMenuAccess db::getNext [gi::getMenus saVariablesMenu -from [gi::getWindows 4]]
+[09:17:51.45] /m Information: Received ready-for-commands signal from background job 'sae_shell_session0_job1' after 4 seconds.
+[09:17:51.90] /i gi::executeAction menuPreShow -in [gi::getWindows 4]
+[09:17:51.90] /r giMenuAccess db::getNext [gi::getMenus saConsoleSetupMenu -from [gi::getWindows 4]]
+[09:17:53.98] /# gi::executeAction saEditModels -in [gi::getWindows 4]
+[09:17:53.98] /i sa::showModelFiles -parent 4
+[09:17:54.06] /i gi::setActiveDialog [gi::getDialogs {saModelFilesSetup} -parent [gi::getWindows 4]]
+[09:17:54.33] /i db::setAttr geometry -of [gi::getDialogs {saModelFilesSetup} -parent [gi::getWindows 4]] -value 760x500+728+185
+[09:17:54.80] /i gi::setCurrentIndex {modelFilesTable} -index {0,1} -in [gi::getDialogs {saModelFilesSetup} -parent [gi::getWindows 4]]
+[09:18:00.77] /r giFileDialog accept PDK/hspice/reference_models.inc
+[09:18:00.77] /i gi::setField {modelFilesTable} -index {0,1} -value {/home/itsupport/Desktop/DOAN/PDK/hspice/reference_models.inc} -in [gi::getDialogs {saModelFilesSetup} -parent [gi::getWindows 4]]
+[09:18:00.78] /i gi::setField {modelFilesTable} -index {0,1} -value {/home/itsupport/Desktop/DOAN/PDK/hspice/reference_models.inc} -in [gi::getDialogs {saModelFilesSetup} -parent [gi::getWindows 4]]
+[09:18:01.44] /i gi::pressButton {ok} -in [gi::getDialogs {saModelFilesSetup} -parent [gi::getWindows 4]]
+[09:18:02.56] /i gi::executeAction menuPreShow -in [gi::getWindows 4]
+[09:18:02.56] /r giMenuAccess db::getNext [gi::getMenus saConsoleSetupMenu -from [gi::getWindows 4]]
+[09:18:03.82] /# gi::executeAction saShowEditAnalyses -in [gi::getWindows 4]
+[09:18:03.82] /i sa::showEditAnalyses -parent 4 -analysisName "" 
+[09:18:03.92] /o oa:0x235399c0
+[09:18:03.98] /i gi::setActiveDialog [gi::getDialogs {saEditAnalysesDialogXsaeSession0} -parent [gi::getWindows 4]]
+[09:18:04.25] /i db::setAttr geometry -of [gi::getDialogs {saEditAnalysesDialogXsaeSession0} -parent [gi::getWindows 4]] -value 633x680+762+257
+[09:18:08.95] /i gi::setField {/analysesGroups/tabGeneral/anaPane/step} -value {100p} -in [gi::getDialogs {saEditAnalysesDialogXsaeSession0} -parent [gi::getWindows 4]]
+[09:18:11.52] /i gi::setField {/analysesGroups/tabGeneral/anaPane/stop} -value {20n} -in [gi::getDialogs {saEditAnalysesDialogXsaeSession0} -parent [gi::getWindows 4]]
+[09:18:11.52] /i gi::pressButton {/ok} -in [gi::getDialogs {saEditAnalysesDialogXsaeSession0} -parent [gi::getWindows 4]]
+[09:18:14.32] /i gi::setCurrentIndex {variablesTable} -index {1,0} -in [gi::getWindows 4]
+[09:18:19.74] /i gi::setField {variablesTable} -index {1,0} -value {t_clk} -in [gi::getWindows 4]
+[09:18:20.87] /i gi::setCurrentIndex {variablesTable} -index {1,1} -in [gi::getWindows 4]
+[09:18:20.87] /i gi::setItemSelection {variablesTable} -index {1,1} -in [gi::getWindows 4]
+[09:18:20.87] /i gi::setItemSelection {variablesTable} -index {1,1} -in [gi::getWindows 4]
+[09:18:39.38] /i gi::setField {variablesTable} -index {1,1} -value {2n} -in [gi::getWindows 4]
+[09:18:39.38] /i gi::setField {variablesTable} -index {1,1} -value {2n} -in [gi::getWindows 4]
+[09:18:41.07] /i gi::setItemSelection {variablesTable} -index {} -in [gi::getWindows 4]
+[09:18:41.07] /i gi::setItemSelection {variablesTable} -index {} -in [gi::getWindows 4]
+[09:18:42.26] /i gi::executeAction menuPreShow -in [gi::getWindows 4]
+[09:18:42.26] /r giMenuAccess db::getNext [gi::getMenus saConsoleSimMenu -from [gi::getWindows 4]]
+[09:18:42.95] /i gi::executeAction menuPreShow -in [gi::getWindows 4]
+[09:18:42.95] /r giMenuAccess db::getNext [gi::getMenus saResultsMenu -from [gi::getWindows 4]]
+[09:18:44.72] /i gi::setItemSelection {variablesTable} -index {1,1} -in [gi::getWindows 4]
+[09:18:44.72] /i gi::setItemSelection {variablesTable} -index {1,1} -in [gi::getWindows 4]
+[09:18:51.21] /i gi::setActiveWindow 3
+[09:18:51.21] /i gi::setActiveWindow 3 -raise true
+[09:18:56.63] /# gi::executeAction deSelectActive -in [gi::getWindows 3]
+[09:18:56.63] /i de::deselectAll [db::getNext [de::getContexts -window 3]]
+[09:18:56.63] /i de::select [de::getActiveFigure [gi::getWindows 3] -point {2.39375 2.0125} -index 0 -intent none]
+[09:18:56.63] /o oa:0x23ad3c20
+[09:19:04.23] /i gi::setItemSelection {parameters} -index {per,all} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[09:19:04.23] /i gi::setCurrentIndex {parameters} -index {per,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[09:19:11.44] /i gi::setField {parameters} -value {t_clk } -index {per,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[09:19:11.44] /i gi::setItemSelection {parameters} -index {pw,all} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[09:19:11.44] /i gi::setCurrentIndex {parameters} -index {pw,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[09:19:15.87] /i gi::setField {parameters} -value {t_clk/2} -index {pw,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[09:19:15.87] /i gi::executeAction dePropertyEditorApplyChanges -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[09:19:17.17] /# gi::executeAction deSelectActive -in [gi::getWindows 3]
+[09:19:17.17] /i de::deselectAll [db::getNext [de::getContexts -window 3]]
+[09:19:17.17] /i de::deselectAllLogic -context [db::getNext [de::getContexts -window 3]]
+[09:19:20.87] /i gi::setActiveWindow 4
+[09:19:20.87] /i gi::setActiveWindow 4 -raise true
+[09:19:24.04] /i gi::setItemSelection {variablesTable} -index {} -in [gi::getWindows 4]
+[09:19:24.04] /i gi::setItemSelection {variablesTable} -index {} -in [gi::getWindows 4]
+[09:19:25.75] /i gi::executeAction menuPreShow -in [gi::getWindows 4]
+[09:19:25.75] /r giMenuAccess db::getNext [gi::getMenus saConsoleSimMenu -from [gi::getWindows 4]]
+[09:19:26.42] /# gi::executeAction saNetlistAndRun -in [gi::getWindows 4]
+[09:19:26.42] /i isa::netlistAndRun -testbench [sa::findActiveTestbench -window 4] -mode overwrite
+[09:19:26.49] /r giDialog gi::setActiveDialog [gi::getDialogs {xtShowDesignsPrompt}]
+[09:19:26.49] /r giDialog gi::setCurrentIndex {target} -index {0,0} -in [gi::getDialogs {xtShowDesignsPrompt}]
+[09:19:26.74] /r giDialog db::setAttr geometry -of [gi::getDialogs {xtShowDesignsPrompt}] -value 649x290+626+297
+[09:19:28.14] /r giDialog gi::closeWindows [gi::getDialogs {xtShowDesignsPrompt}]
+[09:19:28.15] /r giWindowId 5
+[09:19:28.16] /r giWindowGeometry 800x600
+[09:19:28.24] /m Information: "Starting incremental netlisting for design "DOAN/Pulse_FF/schematic"..." (NETLISTING-010)
+[09:19:28.26] /m Information: 
+[09:19:28.26] /o Checking "DOAN/Pulse_FF/schematic"
+[09:19:28.26] /o No rule violations found in "DOAN/Pulse_FF/schematic"
+[09:19:28.26] /o No Design Integrity rule violations found in "DOAN/Pulse_FF/schematic"
+[09:19:28.31] /m Information: 
+[09:19:28.31] /o Checking "DOAN/NAND/schematic"
+[09:19:28.31] /o No rule violations found in "DOAN/NAND/schematic"
+[09:19:28.33] /m Information: 
+[09:19:28.33] /o Checking "DOAN/NOT/schematic"
+[09:19:28.33] /o No rule violations found in "DOAN/NOT/schematic"
+[09:19:28.33] /m Information: 
+[09:19:28.33] /o Checking "DOAN/DA/schematic"
+[09:19:28.33] /o No rule violations found in "DOAN/DA/schematic"
+[09:19:28.38] /m Information: "DOAN Pulse_FF schematic" renetlisted. (NETLISTING-056)
+[09:19:28.39] /m Information: "Netlisting design "DOAN/Pulse_FF/schematic" finished successfully." (NETLISTING-012)
+[09:19:28.40] /m Information: "Composing simulator input file for design "DOAN/Pulse_FF/schematic"..."
+[09:19:28.43] /m Information: "Simulator input file composed successfully for design "DOAN/Pulse_FF/schematic""
+[09:19:28.66] /m Information: "Starting HSPICE simulation for design: DOAN/Pulse_FF/schematic"
+[09:19:28.67] /# gi::collapse {jobMonitorTable} -index {0.0.0.0,0} -in [gi::getWindows 5]
+[09:19:28.70] /o 1
+[09:19:29.05] /i gi::setActiveWindow 4
+[09:19:29.06] /i gi::setActiveWindow 4 -raise true
+[09:19:29.56] /m Information: "Simulation completed successfully for design: DOAN/Pulse_FF/schematic "
+[09:19:29.78] /m Information: Launching Background sae_shell Server Process "cd /home/itsupport/Desktop/DOAN && sae_shell -log sae_shell_session0_job2 -libDefFile /home/itsupport/Desktop/DOAN/lib.defs"
+[09:19:30.13] /m Information: Measurement calculations completed for testbench: default in 1s
+[09:19:30.40] /i gi::executeAction giCloseWindow -in [gi::getWindows 5]
+[09:19:31.66] /i gi::setActiveWindow 3
+[09:19:31.66] /i gi::setActiveWindow 3 -raise true
+[09:19:32.98] /m Information: Received ready-for-commands signal from background job 'sae_shell_session0_job2' after 3 seconds.
+[09:19:33.00] /i gi::executeAction deSaveDesign -in [gi::getWindows 3]
+[09:19:33.00] /m Information: Saving design 'DOAN Pulse_FF schematic'. (DESIGN_WINDOW-004)
+[09:19:34.16] /i gi::setActiveWindow 4
+[09:19:34.16] /i gi::setActiveWindow 4 -raise true
+[09:19:35.77] /i gi::executeAction menuPreShow -in [gi::getWindows 4]
+[09:19:35.77] /r giMenuAccess db::getNext [gi::getMenus saConsoleOutputsMenu -from [gi::getWindows 4]]
+[09:19:36.71] /# gi::executeAction saSelectInDesign -in [gi::getWindows 4]
+[09:19:36.71] /i sa::selectOutputs -window 4
+[09:19:38.32] /# gi::executeAction deAddPoint -in [gi::getWindows 3]
+[09:19:38.32] /i de::addPoint {2.83125 2.7875} -context [db::getNext [de::getContexts -window 3]]
+[09:19:39.64] /# gi::executeAction deAddPoint -in [gi::getWindows 3]
+[09:19:39.64] /i de::addPoint {2.775 2.375} -context [db::getNext [de::getContexts -window 3]]
+[09:19:40.62] /# gi::executeAction deAddPoint -in [gi::getWindows 3]
+[09:19:40.62] /i de::addPoint {4.1625 2.3625} -context [db::getNext [de::getContexts -window 3]]
+[09:19:41.63] /# gi::executeAction deAddPoint -in [gi::getWindows 3]
+[09:19:41.63] /i de::addPoint {5.28125 2.80625} -context [db::getNext [de::getContexts -window 3]]
+[09:19:42.69] /# gi::executeAction deAddPoint -in [gi::getWindows 3]
+[09:19:42.69] /i de::addPoint {5.325 2.3625} -context [db::getNext [de::getContexts -window 3]]
+[09:19:43.91] /i gi::setActiveWindow 4
+[09:19:43.92] /i gi::setActiveWindow 4 -raise true
+[09:19:45.06] /i gi::executeAction menuPreShow -in [gi::getWindows 4]
+[09:19:45.06] /r giMenuAccess db::getNext [gi::getMenus saConsoleSimMenu -from [gi::getWindows 4]]
+[09:19:46.09] /i gi::executeAction menuPreShow -in [gi::getWindows 4]
+[09:19:46.09] /r giMenuAccess db::getNext [gi::getMenus saResultsMenu -from [gi::getWindows 4]]
+[09:19:46.46] /i gi::executeAction menuPreShow -in [gi::getWindows 4]
+[09:19:46.46] /r giMenuAccess db::getNext [gi::getMenus saConsoleSimMenu -from [gi::getWindows 4]]
+[09:19:46.95] /i gi::executeAction menuPreShow -in [gi::getWindows 4]
+[09:19:46.95] /r giMenuAccess db::getNext [gi::getMenus saResultsMenu -from [gi::getWindows 4]]
+[09:19:47.16] /i gi::executeAction menuPreShow -in [gi::getWindows 4]
+[09:19:47.16] /r giMenuAccess db::getNext [gi::getMenus saToolsMenu -from [gi::getWindows 4]]
+[09:19:48.04] /# gi::executeAction saParametric -in [gi::getWindows 4]
+[09:19:48.04] /i sa::showParametricAnalyses -parent 4
+[09:19:48.08] /o oa:0x246103b0
+[09:19:48.16] /i gi::setActiveDialog [gi::getDialogs {saParametricAnalyses} -parent [gi::getWindows 4]]
+[09:19:48.44] /i db::setAttr geometry -of [gi::getDialogs {saParametricAnalyses} -parent [gi::getWindows 4]] -value 750x360+95+160
+[09:19:50.01] /i gi::pressButton {/allSweeps/treeWidgetAdd} -in [gi::getDialogs {saParametricAnalyses} -parent [gi::getWindows 4]]
+[09:19:50.08] /r giDialog gi::setActiveDialog [gi::getDialogs {addNewSweepDialog} -parent [gi::getWindows 4]]
+[09:19:50.34] /r giDialog db::setAttr geometry -of [gi::getDialogs {addNewSweepDialog} -parent [gi::getWindows 4]] -value 345x97+298+291
+[09:19:52.85] /r giDialog gi::setField {/designVar} -value {t_clk} -in [gi::getDialogs {addNewSweepDialog} -parent [gi::getWindows 4]]
+[09:19:53.99] /r giDialog gi::pressButton {/ok} -in [gi::getDialogs {addNewSweepDialog} -parent [gi::getWindows 4]]
+[09:19:53.99] /i gi::setField {/allSweeps/treeWidget} -index {0,1} -value {true} -in [gi::getDialogs {saParametricAnalyses} -parent [gi::getWindows 4]]
+[09:19:54.00] /i gi::setField {/allSweeps/treeWidget} -index {0,2} -value {false} -in [gi::getDialogs {saParametricAnalyses} -parent [gi::getWindows 4]]
+[09:19:54.00] /i gi::setItemSelection {/allSweeps/treeWidget} -index {all} -in [gi::getDialogs {saParametricAnalyses} -parent [gi::getWindows 4]]
+[09:19:54.02] /i gi::setActiveDialog [gi::getDialogs {saParametricAnalyses} -parent [gi::getWindows 4]]
+[09:19:57.95] /i gi::setField {/toplevelgrp/rangeDetailsGroup/rangeValGroup/start} -value {2n} -in [gi::getDialogs {saParametricAnalyses} -parent [gi::getWindows 4]]
+[09:20:03.87] /i gi::setField {/toplevelgrp/rangeDetailsGroup/rangeValGroup/stop} -value {100p} -in [gi::getDialogs {saParametricAnalyses} -parent [gi::getWindows 4]]
+[09:20:04.64] /i gi::setField {/toplevelgrp/stepDetailsGroup/stepValGroup/linearType} -value {Step\ Size} -in [gi::getDialogs {saParametricAnalyses} -parent [gi::getWindows 4]]
+[09:20:09.30] /i gi::setField {/toplevelgrp/stepDetailsGroup/stepValGroup/linearText} -value {-200p} -in [gi::getDialogs {saParametricAnalyses} -parent [gi::getWindows 4]]
+[09:20:09.30] /i gi::pressButton {/ok} -in [gi::getDialogs {saParametricAnalyses} -parent [gi::getWindows 4]]
+[09:20:12.45] /i gi::executeAction menuPreShow -in [gi::getWindows 4]
+[09:20:12.45] /r giMenuAccess db::getNext [gi::getMenus saConsoleSimMenu -from [gi::getWindows 4]]
+[09:20:13.15] /# gi::executeAction saNetlistAndRun -in [gi::getWindows 4]
+[09:20:13.15] /i isa::netlistAndRun -testbench [sa::findActiveTestbench -window 4] -mode overwrite
+[09:20:13.17] /r giWindowId 6
+[09:20:13.18] /r giWindowGeometry 800x600
+[09:20:13.25] /m Information: "Starting incremental netlisting for design "DOAN/Pulse_FF/schematic"..." (NETLISTING-010)
+[09:20:13.27] /m Information: 
+[09:20:13.27] /o Checking "DOAN/Pulse_FF/schematic"
+[09:20:13.27] /o No rule violations found in "DOAN/Pulse_FF/schematic"
+[09:20:13.27] /o No Design Integrity rule violations found in "DOAN/Pulse_FF/schematic"
+[09:20:13.28] /m Information: 
+[09:20:13.28] /o Checking "DOAN/NAND/schematic"
+[09:20:13.28] /o No rule violations found in "DOAN/NAND/schematic"
+[09:20:13.28] /m Information: 
+[09:20:13.28] /o Checking "DOAN/NOT/schematic"
+[09:20:13.28] /o No rule violations found in "DOAN/NOT/schematic"
+[09:20:13.28] /m Information: 
+[09:20:13.28] /o Checking "DOAN/DA/schematic"
+[09:20:13.28] /o No rule violations found in "DOAN/DA/schematic"
+[09:20:13.31] /m Information: "Netlisting design "DOAN/Pulse_FF/schematic" finished successfully." (NETLISTING-012)
+[09:20:13.32] /m Information: "Composing simulator input file for design "DOAN/Pulse_FF/schematic"..."
+[09:20:13.35] /m Information: "Simulator input file composed successfully for design "DOAN/Pulse_FF/schematic""
+[09:20:13.55] /m Information: "Composing simulator input file for design "DOAN/Pulse_FF/schematic" for 10 iterations..."
+[09:20:13.74] /m Information: "Simulator input file composed successfully for design "DOAN/Pulse_FF/schematic""
+[09:20:13.80] /m Information: "Starting 10 HSPICE simulations for design: DOAN/Pulse_FF/schematic"
+[09:20:13.80] /# gi::collapse {jobMonitorTable} -index {0.0.1.0,0} -in [gi::getWindows 6]
+[09:20:13.86] /m Information: "Simulations launched successfully for design: DOAN/Pulse_FF/schematic"
+[09:20:13.87] /o 1
+[09:20:14.37] /m Information: "Simulation completed successfully for design: DOAN/Pulse_FF/schematic point: t_clk=1.60000n"
+[09:20:14.47] /m Information: "Simulation completed successfully for design: DOAN/Pulse_FF/schematic point: t_clk=2.00000n"
+[09:20:14.64] /m Information: "Simulation completed successfully for design: DOAN/Pulse_FF/schematic point: t_clk=1.80000n"
+[09:20:15.03] /m Information: "Simulation completed successfully for design: DOAN/Pulse_FF/schematic point: t_clk=1.40000n"
+[09:20:15.07] /m Information: "Simulation completed successfully for design: DOAN/Pulse_FF/schematic point: t_clk=1.20000n"
+[09:20:15.13] /m Information: "Simulation completed successfully for design: DOAN/Pulse_FF/schematic point: t_clk=1.00000n"
+[09:20:15.42] /m Information: "Simulation completed successfully for design: DOAN/Pulse_FF/schematic point: t_clk=0.800000n"
+[09:20:15.67] /m Information: "Simulation completed successfully for design: DOAN/Pulse_FF/schematic point: t_clk=0.600000n"
+[09:20:16.13] /m Information: "Simulation completed successfully for design: DOAN/Pulse_FF/schematic point: t_clk=0.400000n"
+[09:20:16.44] /m Information: "Simulation completed successfully for design: DOAN/Pulse_FF/schematic point: t_clk=0.200000n"
+[09:20:16.70] /m Information: "Evaluating and plotting outputs..."
+[09:20:16.71] /m Information: Started sharing "Custom WaveView" license. (WAVEFORM-110)
+[09:20:18.05] /m Information: Launching Waveform Viewer "cd /home/itsupport/simulation/DOAN,Pulse_FF,schematic/history_1/simulation/default/HSPICE/parametric/results &&  wv -k -cdesigner -spxkey /usr/synopsys/customcompiler/N-2017.12-SP1-2/auxx/waveform/sae.spxkey -spxrc /tmp/sae_spxrc_VCzJms -unique_string 6e26531ff480247a69aa7f613a217c24125e8d2b0833b894ed40d2f5efbf27a2fb0c0fc5bd61906659599a19d06654b26649df0220ee50f7 -lic_type 1    > /home/itsupport/simulation/DOAN,Pulse_FF,schematic/history_1/simulation/default/HSPICE/parametric/results/viewer.log 2>&1"
+[09:20:18.05] /i gi::collapse {jobMonitorTable} -index {0.0,0} -in [gi::getWindows 6]
+[09:20:18.67] /m Information: Measurement calculations completed for testbench: default in 2s
+[09:20:19.63] /j ::wf::WaveView::plotSuccess WaveView_1 {} {_5ce4960_void_pp {_5e09a60_void_pp _5e09b28_void_pp _5e09bf0_void_pp _5e09cb8_void_pp _5e09d80_void_pp _5e09e48_void_pp _5e09f10_void_pp _5e09fd8_void_pp _5e0a0a0_void_pp _5e0a168_void_pp}} 
+[09:20:19.66] /j ::wf::WaveView::plotSuccess WaveView_1 {} {_5ce4960_void_pp {_5e0a230_void_pp _5e0a2f8_void_pp _5e0a3c0_void_pp _5e0a488_void_pp _5e0a550_void_pp _5e0a618_void_pp _5e0a6e0_void_pp _5e0a7a8_void_pp _5e0a870_void_pp _5e0a938_void_pp}} 
+[09:20:19.69] /j ::wf::WaveView::plotSuccess WaveView_1 {} {_5ce4960_void_pp {_5e0aa00_void_pp _5e0aac8_void_pp _5e0ab90_void_pp _5e0ac58_void_pp _5e0ad20_void_pp _5e0ade8_void_pp _5e0aeb0_void_pp _5e0af78_void_pp _5e0b040_void_pp _5e0b108_void_pp}} 
+[09:20:19.73] /j ::wf::WaveView::plotSuccess WaveView_1 {} {_5ce4960_void_pp {_5e0b1d0_void_pp _5e0b298_void_pp _5e0b360_void_pp _5e0b428_void_pp _5e0b4f0_void_pp _5e0b5b8_void_pp _5e0b680_void_pp _5e0b748_void_pp _5e0b810_void_pp _5e0b8d8_void_pp}} 
+[09:20:19.79] /j ::wf::WaveView::plotSuccess WaveView_1 {} {_5ce4960_void_pp {_5e0b9a0_void_pp _5e0ba68_void_pp _5e0bb30_void_pp _5e0bbf8_void_pp _5e0bcc0_void_pp _5e0bd88_void_pp _5e0be50_void_pp _5e0bf18_void_pp _5e0bfe0_void_pp _5e0c0a8_void_pp}} 
+[09:21:04.97] /i gi::setActiveWindow 4
+[09:21:04.97] /i gi::setActiveWindow 4 -raise true
+[09:21:09.53] /i gi::executeAction menuPreShow -in [gi::getWindows 4]
+[09:21:09.53] /r giMenuAccess db::getNext [gi::getMenus saConsoleSimMenu -from [gi::getWindows 4]]
+[09:21:10.83] /i gi::executeAction menuPreShow -in [gi::getWindows 4]
+[09:21:10.84] /r giMenuAccess db::getNext [gi::getMenus saToolsMenu -from [gi::getWindows 4]]
+[09:21:10.97] /i gi::executeAction menuPreShow -in [gi::getWindows 4]
+[09:21:10.97] /r giMenuAccess db::getNext [gi::getMenus saResultsMenu -from [gi::getWindows 4]]
+[09:21:11.05] /i gi::executeAction menuPreShow -in [gi::getWindows 4]
+[09:21:11.05] /r giMenuAccess db::getNext [gi::getMenus saConsoleSimMenu -from [gi::getWindows 4]]
+[09:21:11.18] /i gi::executeAction menuPreShow -in [gi::getWindows 4]
+[09:21:11.18] /r giMenuAccess db::getNext [gi::getMenus saResultsMenu -from [gi::getWindows 4]]
+[09:21:11.63] /i gi::executeAction menuPreShow -in [gi::getWindows 4]
+[09:21:11.63] /r giMenuAccess db::getNext [gi::getMenus saToolsMenu -from [gi::getWindows 4]]
+[09:21:12.48] /# gi::executeAction saParametric -in [gi::getWindows 4]
+[09:21:12.48] /i sa::showParametricAnalyses -parent 4
+[09:21:12.52] /o oa:0x2496e830
+[09:21:12.57] /i gi::setActiveDialog [gi::getDialogs {saParametricAnalyses} -parent [gi::getWindows 4]]
+[09:21:12.85] /i db::setAttr geometry -of [gi::getDialogs {saParametricAnalyses} -parent [gi::getWindows 4]] -value 750x360+95+160
+[09:21:24.35] /i gi::setField {/toplevelgrp/stepDetailsGroup/stepValGroup/linearText} -value {-500p} -in [gi::getDialogs {saParametricAnalyses} -parent [gi::getWindows 4]]
+[09:21:24.36] /i gi::pressButton {/ok} -in [gi::getDialogs {saParametricAnalyses} -parent [gi::getWindows 4]]
+[09:21:26.34] /i gi::executeAction menuPreShow -in [gi::getWindows 4]
+[09:21:26.34] /r giMenuAccess db::getNext [gi::getMenus saConsoleSimMenu -from [gi::getWindows 4]]
+[09:21:26.95] /# gi::executeAction saNetlistAndRun -in [gi::getWindows 4]
+[09:21:26.95] /i isa::netlistAndRun -testbench [sa::findActiveTestbench -window 4] -mode overwrite
+[09:21:27.03] /m Information: "Starting incremental netlisting for design "DOAN/Pulse_FF/schematic"..." (NETLISTING-010)
+[09:21:27.06] /m Information: 
+[09:21:27.06] /o Checking "DOAN/Pulse_FF/schematic"
+[09:21:27.06] /o No rule violations found in "DOAN/Pulse_FF/schematic"
+[09:21:27.06] /o No Design Integrity rule violations found in "DOAN/Pulse_FF/schematic"
+[09:21:27.07] /m Information: 
+[09:21:27.07] /o Checking "DOAN/NAND/schematic"
+[09:21:27.07] /o No rule violations found in "DOAN/NAND/schematic"
+[09:21:27.07] /m Information: 
+[09:21:27.07] /o Checking "DOAN/NOT/schematic"
+[09:21:27.07] /o No rule violations found in "DOAN/NOT/schematic"
+[09:21:27.08] /m Information: 
+[09:21:27.08] /o Checking "DOAN/DA/schematic"
+[09:21:27.08] /o No rule violations found in "DOAN/DA/schematic"
+[09:21:27.11] /m Information: "Netlisting design "DOAN/Pulse_FF/schematic" finished successfully." (NETLISTING-012)
+[09:21:27.12] /m Information: "Composing simulator input file for design "DOAN/Pulse_FF/schematic"..."
+[09:21:27.15] /m Information: "Simulator input file composed successfully for design "DOAN/Pulse_FF/schematic""
+[09:21:27.36] /m Information: "Composing simulator input file for design "DOAN/Pulse_FF/schematic" for 4 iterations..."
+[09:21:27.44] /m Information: "Simulator input file composed successfully for design "DOAN/Pulse_FF/schematic""
+[09:21:27.51] /m Information: "Starting 4 HSPICE simulations for design: DOAN/Pulse_FF/schematic"
+[09:21:27.51] /# gi::collapse {jobMonitorTable} -index {0.0.1.0,0} -in [gi::getWindows 6]
+[09:21:27.58] /m Information: "Simulations launched successfully for design: DOAN/Pulse_FF/schematic"
+[09:21:27.58] /o 1
+[09:21:29.94] /m Information: "Simulation completed successfully for design: DOAN/Pulse_FF/schematic point: t_clk=2.00000n"
+[09:21:30.03] /m Information: "Simulation completed successfully for design: DOAN/Pulse_FF/schematic point: t_clk=1.50000n"
+[09:21:30.09] /m Information: "Simulation completed successfully for design: DOAN/Pulse_FF/schematic point: t_clk=1.00000n"
+[09:21:31.08] /m Information: "Simulation completed successfully for design: DOAN/Pulse_FF/schematic point: t_clk=0.500000n"
+[09:21:31.47] /m Information: "Evaluating and plotting outputs..."
+[09:21:31.68] /j ::wf::WaveView::plotSuccess WaveView_1 {} {_5f8e2d0_void_pp {_5e0c0a8_void_pp _5e0bfe0_void_pp _5e0bf18_void_pp _5e0be50_void_pp}} 
+[09:21:31.72] /j ::wf::WaveView::plotSuccess WaveView_1 {} {_5f8e2d0_void_pp {_5e09cb8_void_pp _5e09bf0_void_pp _5e09b28_void_pp _5e09a60_void_pp}} 
+[09:21:31.75] /j ::wf::WaveView::plotSuccess WaveView_1 {} {_5f8e2d0_void_pp {_5e0a488_void_pp _5e0a3c0_void_pp _5e0a2f8_void_pp _5e0a230_void_pp}} 
+[09:21:31.80] /j ::wf::WaveView::plotSuccess WaveView_1 {} {_5f8e2d0_void_pp {_5e0ac58_void_pp _5e0ab90_void_pp _5e0aac8_void_pp _5e0aa00_void_pp}} 
+[09:21:31.85] /j ::wf::WaveView::plotSuccess WaveView_1 {} {_5f8e2d0_void_pp {_5e0b428_void_pp _5e0b360_void_pp _5e0b298_void_pp _5e0b1d0_void_pp}} 
+[09:21:32.45] /m Information: Measurement calculations completed for testbench: default in 1s
+[09:26:36.64] /m Information: Stopped sharing "Custom WaveView" license. (WAVEFORM-111)
+[09:31:05.79] /i gi::setActiveWindow 4
+[09:31:05.79] /i gi::setActiveWindow 4 -raise true
+[09:31:06.75] /i gi::setActiveWindow 3
+[09:31:06.75] /i gi::setActiveWindow 3 -raise true
+[09:31:10.25] /i gi::setActiveWindow 4
+[09:31:10.25] /i gi::setActiveWindow 4 -raise true
+[09:31:13.97] /i gi::executeAction menuPreShow -in [gi::getWindows 4]
+[09:31:13.97] /r giMenuAccess db::getNext [gi::getMenus saConsoleSimMenu -from [gi::getWindows 4]]
+[09:31:14.21] /i gi::executeAction menuPreShow -in [gi::getWindows 4]
+[09:31:14.21] /r giMenuAccess db::getNext [gi::getMenus saResultsMenu -from [gi::getWindows 4]]
+[09:31:14.82] /i gi::executeAction menuPreShow -in [gi::getWindows 4]
+[09:31:14.82] /r giMenuAccess db::getNext [gi::getMenus saToolsMenu -from [gi::getWindows 4]]
+[09:31:15.96] /i gi::executeAction menuPreShow -in [gi::getWindows 4]
+[09:31:15.96] /r giMenuAccess db::getNext [gi::getMenus saToolsMenu -from [gi::getWindows 4]]
+[09:31:16.90] /# gi::executeAction saParametric -in [gi::getWindows 4]
+[09:31:16.90] /i sa::showParametricAnalyses -parent 4
+[09:31:16.93] /o oa:0x1f0ebe70
+[09:31:16.99] /i gi::setActiveDialog [gi::getDialogs {saParametricAnalyses} -parent [gi::getWindows 4]]
+[09:31:17.27] /i db::setAttr geometry -of [gi::getDialogs {saParametricAnalyses} -parent [gi::getWindows 4]] -value 750x360+95+160
+[09:31:27.66] /i gi::setField {/toplevelgrp/rangeDetailsGroup/rangeValGroup/start} -value {100p} -in [gi::getDialogs {saParametricAnalyses} -parent [gi::getWindows 4]]
+[09:31:28.53] /i gi::setField {/toplevelgrp/rangeDetailsGroup/rangeValGroup/stop} -value {100p} -in [gi::getDialogs {saParametricAnalyses} -parent [gi::getWindows 4]]
+[09:31:45.83] /i gi::setField {/toplevelgrp/rangeDetailsGroup/rangeValGroup/start} -value {500p} -in [gi::getDialogs {saParametricAnalyses} -parent [gi::getWindows 4]]
+[09:31:51.73] /i gi::setField {/toplevelgrp/stepDetailsGroup/stepValGroup/linearText} -value {-100p} -in [gi::getDialogs {saParametricAnalyses} -parent [gi::getWindows 4]]
+[09:31:51.73] /i gi::pressButton {/ok} -in [gi::getDialogs {saParametricAnalyses} -parent [gi::getWindows 4]]
+[09:31:53.66] /i gi::executeAction menuPreShow -in [gi::getWindows 4]
+[09:31:53.66] /r giMenuAccess db::getNext [gi::getMenus saConsoleSimMenu -from [gi::getWindows 4]]
+[09:31:54.55] /# gi::executeAction saNetlistAndRun -in [gi::getWindows 4]
+[09:31:54.55] /i isa::netlistAndRun -testbench [sa::findActiveTestbench -window 4] -mode overwrite
+[09:31:54.62] /m Information: "Starting incremental netlisting for design "DOAN/Pulse_FF/schematic"..." (NETLISTING-010)
+[09:31:54.64] /m Information: 
+[09:31:54.64] /o Checking "DOAN/Pulse_FF/schematic"
+[09:31:54.64] /o No rule violations found in "DOAN/Pulse_FF/schematic"
+[09:31:54.64] /o No Design Integrity rule violations found in "DOAN/Pulse_FF/schematic"
+[09:31:54.65] /m Information: 
+[09:31:54.65] /o Checking "DOAN/NAND/schematic"
+[09:31:54.65] /o No rule violations found in "DOAN/NAND/schematic"
+[09:31:54.65] /m Information: 
+[09:31:54.65] /o Checking "DOAN/NOT/schematic"
+[09:31:54.65] /o No rule violations found in "DOAN/NOT/schematic"
+[09:31:54.66] /m Information: 
+[09:31:54.66] /o Checking "DOAN/DA/schematic"
+[09:31:54.66] /o No rule violations found in "DOAN/DA/schematic"
+[09:31:54.67] /m Information: "Netlisting design "DOAN/Pulse_FF/schematic" finished successfully." (NETLISTING-012)
+[09:31:54.68] /m Information: "Composing simulator input file for design "DOAN/Pulse_FF/schematic"..."
+[09:31:54.71] /m Information: "Simulator input file composed successfully for design "DOAN/Pulse_FF/schematic""
+[09:31:54.93] /m Information: "Composing simulator input file for design "DOAN/Pulse_FF/schematic" for 5 iterations..."
+[09:31:55.01] /m Information: "Simulator input file composed successfully for design "DOAN/Pulse_FF/schematic""
+[09:31:55.08] /m Information: "Starting 5 HSPICE simulations for design: DOAN/Pulse_FF/schematic"
+[09:31:55.08] /# gi::collapse {jobMonitorTable} -index {0.0.1.0,0} -in [gi::getWindows 6]
+[09:31:55.11] /m Information: "Simulations launched successfully for design: DOAN/Pulse_FF/schematic"
+[09:31:55.12] /o 1
+[09:31:56.08] /m Information: "Simulation completed successfully for design: DOAN/Pulse_FF/schematic point: t_clk=0.300000n"
+[09:31:56.17] /m Information: "Simulation completed successfully for design: DOAN/Pulse_FF/schematic point: t_clk=0.500000n"
+[09:31:56.65] /m Information: "Simulation completed successfully for design: DOAN/Pulse_FF/schematic point: t_clk=0.400000n"
+[09:31:57.15] /m Information: "Simulation completed successfully for design: DOAN/Pulse_FF/schematic point: t_clk=0.200000n"
+[09:31:57.25] /m Information: "Simulation completed successfully for design: DOAN/Pulse_FF/schematic point: t_clk=100.000p"
+[09:31:57.48] /m Information: "Evaluating and plotting outputs..."
+[09:31:57.49] /m Information: Started sharing "Custom WaveView" license. (WAVEFORM-110)
+[09:31:57.69] /j ::wf::WaveView::plotSuccess WaveView_1 {} {_5f80160_void_pp {_5e0bcc0_void_pp _5e0b8d8_void_pp _5e0b810_void_pp _5e0b748_void_pp _5e0b680_void_pp}} 
+[09:31:57.73] /j ::wf::WaveView::plotSuccess WaveView_1 {} {_5f80160_void_pp {_5e0bbf8_void_pp _5e0be50_void_pp _5e0bf18_void_pp _5e0bfe0_void_pp _5e0c0a8_void_pp}} 
+[09:31:57.75] /j ::wf::WaveView::plotSuccess WaveView_1 {} {_5f80160_void_pp {_5e0bb30_void_pp _5e09a60_void_pp _5e09b28_void_pp _5e09bf0_void_pp _5e09cb8_void_pp}} 
+[09:31:57.77] /j ::wf::WaveView::plotSuccess WaveView_1 {} {_5f80160_void_pp {_5e0ba68_void_pp _5e0a230_void_pp _5e0a2f8_void_pp _5e0a3c0_void_pp _5e0a488_void_pp}} 
+[09:31:57.81] /j ::wf::WaveView::plotSuccess WaveView_1 {} {_5f80160_void_pp {_5e0b9a0_void_pp _5e0aa00_void_pp _5e0aac8_void_pp _5e0ab90_void_pp _5e0ac58_void_pp}} 
+[09:31:58.06] /m Information: Measurement calculations completed for testbench: default in 1s
+[09:33:17.58] /i gi::setActiveWindow 4
+[09:33:17.58] /i gi::setActiveWindow 4 -raise true
+[09:33:19.02] /i gi::setActiveWindow 3
+[09:33:19.02] /i gi::setActiveWindow 3 -raise true
+[09:33:21.60] /i gi::setActiveWindow 2
+[09:33:21.60] /i gi::setActiveWindow 2 -raise true
+[09:33:26.21] /i gi::setCurrentIndex {cells} -index {pulse} -in [gi::getWindows 2]
+[09:33:26.22] /i gi::setItemSelection {cells} -index {pulse} -in [gi::getWindows 2]
+[09:33:27.95] /i gi::setCurrentIndex {views} -index {schematic} -in [gi::getWindows 2]
+[09:33:27.95] /i gi::setItemSelection {views} -index {schematic} -in [gi::getWindows 2]
+[09:33:27.99] /i gi::executeAction dmOpen -in [gi::getWindows 2]
+[09:33:28.02] /r giWindowId 7
+[09:33:28.03] /r giWindowGeometry 1632x818
+[09:33:28.18] /o "DOAN/pulse/schematic" design does not need checking
+[09:33:32.45] /# gi::executeAction deSelectActive -in [gi::getWindows 7]
+[09:33:32.45] /i de::deselectAll [db::getNext [de::getContexts -window 7]]
+[09:33:32.45] /i de::select [de::getActiveFigure [gi::getWindows 7] -point {5.84375 2.5625} -index 0 -intent none]
+[09:33:32.45] /o oa:0x24928240
+[09:33:32.49] /# gi::executeAction deDescend -in [gi::getWindows 7]
+[09:33:32.49] /i ide::descend 7 -inPlace false -promptView false -readOnly auto
+[09:33:32.50] /# Navigating to DOAN/NOT/schematic (I15)
+[09:33:32.54] /o true
+[09:33:39.51] /i gi::executeAction giCloseWindow -in [gi::getWindows 7]
+[09:33:39.53] /i gi::setActiveWindow 2
+[09:33:39.53] /i gi::setActiveWindow 2 -raise true
+[09:33:42.57] /i gi::executeAction dmOpen -in [gi::getWindows 2]
+[09:33:42.58] /r giWindowId 8
+[09:33:42.59] /r giWindowGeometry 1632x818
+[09:33:42.73] /o "DOAN/pulse/schematic" design does not need checking
+[09:33:47.15] /# gi::executeAction giPostContextMenu -in [gi::getWindows 8]
+[09:33:47.16] /i gi::executeAction menuPreShow -in [gi::getWindows 8]
+[09:33:47.16] /r giMenuAccess db::getNext [gi::getMenus seSchInstLabelContextMenu]
+[09:33:48.76] /# gi::executeAction giPostContextMenu -in [gi::getWindows 8]
+[09:33:48.77] /i gi::executeAction menuPreShow -in [gi::getWindows 8]
+[09:33:48.77] /r giMenuAccess db::getNext [gi::getMenus seSchInstanceContextMenu]
+[09:33:52.21] /# gi::executeAction seCreateInst -in [gi::getWindows 8]
+[09:33:52.22] /i ise::createInst
+[09:33:52.27] /i gi::setActiveDialog [gi::getDialogs {seCreateInst} -parent [gi::getWindows 8]]
+[09:33:52.54] /i db::setAttr geometry -of [gi::getDialogs {seCreateInst}] -value 359x337+0+65
+[09:33:54.66] /i gi::setField {instMasterLib} -value {DOAN} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 8]]
+[09:33:54.96] /i db::setAttr geometry -of [gi::getDialogs {seCreateInst}] -value 359x337+0+65
+[09:33:56.76] /i gi::setField {instMasterCell} -value {NOT} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 8]]
+[09:33:57.12] /i db::setAttr geometry -of [gi::getDialogs {seCreateInst}] -value 359x337+0+65
+[09:34:09.77] /# gi::executeAction deAddPoint -in [gi::getWindows 8]
+[09:34:09.77] /i de::addPoint {4.15625 1.09375} -context [db::getNext [de::getContexts -window 8]]
+[09:34:11.99] /# gi::executeAction deAddPoint -in [gi::getWindows 8]
+[09:34:11.99] /i de::addPoint {7.13125 1.0375} -context [db::getNext [de::getContexts -window 8]]
+[09:34:12.31] /# gi::executeAction deAbortCommand -in [gi::getWindows 8]
+[09:34:12.31] /i de::abortCommand -context [db::getNext [de::getContexts -window 8]]
+[09:34:18.55] /# gi::executeAction seButton1DragStart -in [gi::getWindows 8]
+[09:34:18.55] /i ise::stretch -object [de::getActiveFigure [gi::getWindows 8] -point {9.15 1.94375} -index 0 -intent none] -point {9.125 1.9375}
+[09:34:19.55] /# gi::executeAction deEndDrag -in [gi::getWindows 8]
+[09:34:19.55] /i de::endDrag {5.58125 1.35} -context [db::getNext [de::getContexts -window 8]]
+[09:34:21.48] /i gi::executeAction deCanvasDragSelect -in [gi::getWindows 8]
+[09:34:21.48] /r deCanvasDragStart 7.8125 3.5125
+[09:34:23.14] /# gi::executeAction deCanvasDragEnd -in [gi::getWindows 8]
+[09:34:23.14] /i gi::executeAction deCanvasDragEnd -in [gi::getWindows 8]
+[09:34:23.14] /r deCanvasDragEnd 10.7688 2.16875
+[09:34:24.18] /# gi::executeAction deSelectActive -in [gi::getWindows 8]
+[09:34:24.18] /i de::deselectAll [db::getNext [de::getContexts -window 8]]
+[09:34:24.18] /i de::deselectAllLogic -context [db::getNext [de::getContexts -window 8]]
+[09:34:25.26] /i ise::move -object [de::getActiveFigure [gi::getWindows 8] -point {9.475 2.73125} -index 0 -intent none] -point {9.5 2.75}
+[09:34:26.69] /# gi::executeAction deEndDrag -in [gi::getWindows 8]
+[09:34:26.69] /i de::endDrag {9.49375 2.7125} -context [db::getNext [de::getContexts -window 8]]
+[09:34:27.75] /# gi::executeAction deUndo -in [gi::getWindows 8]
+[09:34:27.75] /i de::undoTransaction -design [db::getAttr editDesign -of [db::getNext [de::getContexts -window 8]]]
+[09:34:29.09] /i gi::executeAction deCanvasDragSelect -in [gi::getWindows 8]
+[09:34:29.09] /r deCanvasDragStart 7.64375 3.68125
+[09:34:30.32] /# gi::executeAction deCanvasDragEnd -in [gi::getWindows 8]
+[09:34:30.32] /i gi::executeAction deCanvasDragEnd -in [gi::getWindows 8]
+[09:34:30.33] /r deCanvasDragEnd 10.7937 1.9875
+[09:34:31.45] /# gi::executeAction seStretch -in [gi::getWindows 8]
+[09:34:31.45] /i ise::stretch
+[09:34:31.88] /# gi::executeAction deAddPoint -in [gi::getWindows 8]
+[09:34:31.88] /i de::addPoint {8.6625 2.73125} -context [db::getNext [de::getContexts -window 8]]
+[09:34:33.78] /# gi::executeAction deCanvasZoomOutAtPoint -in [gi::getWindows 8]
+[09:34:33.78] /i de::zoom -window [gi::getWindows 8] -factor 0.5 -center {9.7375 2.75}
+[09:34:33.78] /o {-2.4625 -0.7625} {12.2875 6.1375}
+[09:34:37.10] /# gi::executeAction deAddPoint -in [gi::getWindows 8]
+[09:34:37.10] /i de::addPoint {10.7 2.75} -context [db::getNext [de::getContexts -window 8]]
+[09:34:37.89] /# gi::executeAction deSelectActive -in [gi::getWindows 8]
+[09:34:37.89] /i de::deselectAll [db::getNext [de::getContexts -window 8]]
+[09:34:37.89] /i de::deselectAllLogic -context [db::getNext [de::getContexts -window 8]]
+[09:34:38.44] /i gi::executeAction deCanvasDragCancel -in [gi::getWindows 8]
+[09:34:40.00] /# gi::executeAction deSelectActive -in [gi::getWindows 8]
+[09:34:40.00] /i de::deselectAll [db::getNext [de::getContexts -window 8]]
+[09:34:40.00] /i de::select [de::getActiveFigure [gi::getWindows 8] -point {8.1875 2.54375} -index 0 -intent none]
+[09:34:40.00] /o oa:0x257f0300
+[09:34:41.89] /# gi::executeAction seDelete -in [gi::getWindows 8]
+[09:34:41.89] /i ise::delete
+[09:34:43.36] /# gi::executeAction deSelectActive -in [gi::getWindows 8]
+[09:34:43.37] /i de::deselectAll [db::getNext [de::getContexts -window 8]]
+[09:34:43.37] /i de::select [de::getActiveFigure [gi::getWindows 8] -point {5.9875 1.93125} -index 0 -intent none]
+[09:34:43.37] /o oa:0x231080a0
+[09:34:44.05] /# gi::executeAction seButton1DragStart -in [gi::getWindows 8]
+[09:34:44.05] /i ise::stretch -point {6 1.9375}
+[09:34:46.55] /# gi::executeAction deEndDrag -in [gi::getWindows 8]
+[09:34:46.55] /i de::endDrag {7.99375 2.45625} -context [db::getNext [de::getContexts -window 8]]
+[09:34:48.12] /# gi::executeAction seButton1DragStart -in [gi::getWindows 8]
+[09:34:48.12] /i ise::stretch -object [de::getActiveFigure [gi::getWindows 8] -point {5.275 1.35625} -index 0 -intent none] -point {5.25 1.375}
+[09:34:51.47] /# gi::executeAction deEndDrag -in [gi::getWindows 8]
+[09:34:51.47] /i de::endDrag {8.86875 2.4875} -context [db::getNext [de::getContexts -window 8]]
+[09:34:52.63] /# gi::executeAction deFitEdit -in [gi::getWindows 8]
+[09:34:52.63] /i de::fit -window 8 -fitEdit true
+[09:34:52.63] /o {3.525 0.475} {13.125 4.9625}
+[09:34:54.82] /# gi::executeAction seSchCreateWire -in [gi::getWindows 8]
+[09:34:54.82] /i ise::createWire
+[09:34:56.21] /# gi::executeAction deAddPoint -in [gi::getWindows 8]
+[09:34:56.21] /i de::addPoint {7.51875 2.55625} -context [db::getNext [de::getContexts -window 8]]
+[09:34:56.31] /i de::setCursor -point {7.5625 2.5625 }
+[09:34:57.32] /# gi::executeAction deAddPoint -in [gi::getWindows 8]
+[09:34:57.32] /i de::addPoint {7.7625 2.5625} -context [db::getNext [de::getContexts -window 8]]
+[09:34:58.66] /# gi::executeAction deAddPoint -in [gi::getWindows 8]
+[09:34:58.66] /i de::addPoint {8.5875 2.54375} -context [db::getNext [de::getContexts -window 8]]
+[09:35:00.21] /# gi::executeAction deAddPoint -in [gi::getWindows 8]
+[09:35:00.21] /i de::addPoint {8.75 2.55625} -context [db::getNext [de::getContexts -window 8]]
+[09:35:01.84] /# gi::executeAction deAddPoint -in [gi::getWindows 8]
+[09:35:01.84] /i de::addPoint {9.55625 2.5375} -context [db::getNext [de::getContexts -window 8]]
+[09:35:02.81] /# gi::executeAction deAddPoint -in [gi::getWindows 8]
+[09:35:02.82] /i de::addPoint {9.68125 2.54375} -context [db::getNext [de::getContexts -window 8]]
+[09:35:05.20] /i gi::executeAction deSaveDesign -in [gi::getWindows 8]
+[09:35:05.20] /m Information: Saving design 'DOAN pulse schematic'. (DESIGN_WINDOW-004)
+[09:35:05.26] /i gi::executeAction deSaveDesign -in [gi::getWindows 8]
+[09:35:05.26] /m Information: Saving design 'DOAN pulse schematic'. (DESIGN_WINDOW-004)
+[09:35:08.54] /i gi::setActiveWindow 4
+[09:35:08.55] /i gi::setActiveWindow 4 -raise true
+[09:35:10.26] /i gi::executeAction menuPreShow -in [gi::getWindows 4]
+[09:35:10.26] /r giMenuAccess db::getNext [gi::getMenus saToolsMenu -from [gi::getWindows 4]]
+[09:35:11.18] /i gi::executeAction menuPreShow -in [gi::getWindows 4]
+[09:35:11.18] /r giMenuAccess db::getNext [gi::getMenus saResultsMenu -from [gi::getWindows 4]]
+[09:35:11.20] /i gi::executeAction menuPreShow -in [gi::getWindows 4]
+[09:35:11.20] /r giMenuAccess db::getNext [gi::getMenus saConsoleSimMenu -from [gi::getWindows 4]]
+[09:35:12.07] /# gi::executeAction saNetlistAndRun -in [gi::getWindows 4]
+[09:35:12.07] /i isa::netlistAndRun -testbench [sa::findActiveTestbench -window 4] -mode overwrite
+[09:35:12.15] /m Information: "Starting incremental netlisting for design "DOAN/Pulse_FF/schematic"..." (NETLISTING-010)
+[09:35:12.17] /m Information: 
+[09:35:12.17] /o Checking "DOAN/Pulse_FF/schematic"
+[09:35:12.17] /o No rule violations found in "DOAN/Pulse_FF/schematic"
+[09:35:12.17] /o No Design Integrity rule violations found in "DOAN/Pulse_FF/schematic"
+[09:35:12.17] /m Information: 
+[09:35:12.17] /o Checking "DOAN/pulse/schematic"
+[09:35:12.17] /o No rule violations found in "DOAN/pulse/schematic"
+[09:35:12.19] /m Information: 
+[09:35:12.19] /o Checking "DOAN/NAND/schematic"
+[09:35:12.19] /o No rule violations found in "DOAN/NAND/schematic"
+[09:35:12.21] /m Information: 
+[09:35:12.21] /o Checking "DOAN/NOT/schematic"
+[09:35:12.21] /o No rule violations found in "DOAN/NOT/schematic"
+[09:35:12.21] /m Information: 
+[09:35:12.21] /o Checking "DOAN/DA/schematic"
+[09:35:12.21] /o No rule violations found in "DOAN/DA/schematic"
+[09:35:12.22] /m Information: "DOAN pulse schematic" renetlisted. (NETLISTING-056)
+[09:35:12.23] /m Information: "Netlisting design "DOAN/Pulse_FF/schematic" finished successfully." (NETLISTING-012)
+[09:35:12.24] /m Information: "Composing simulator input file for design "DOAN/Pulse_FF/schematic"..."
+[09:35:12.27] /m Information: "Simulator input file composed successfully for design "DOAN/Pulse_FF/schematic""
+[09:35:12.44] /m Information: "Composing simulator input file for design "DOAN/Pulse_FF/schematic" for 5 iterations..."
+[09:35:12.55] /m Information: "Simulator input file composed successfully for design "DOAN/Pulse_FF/schematic""
+[09:35:12.62] /m Information: "Starting 5 HSPICE simulations for design: DOAN/Pulse_FF/schematic"
+[09:35:12.62] /# gi::collapse {jobMonitorTable} -index {0.0.1.0,0} -in [gi::getWindows 6]
+[09:35:12.66] /m Information: "Simulations launched successfully for design: DOAN/Pulse_FF/schematic"
+[09:35:12.67] /o 1
+[09:35:13.75] /m Information: "Simulation completed successfully for design: DOAN/Pulse_FF/schematic point: t_clk=0.500000n"
+[09:35:13.79] /m Information: "Simulation completed successfully for design: DOAN/Pulse_FF/schematic point: t_clk=0.400000n"
+[09:35:13.84] /m Information: "Simulation completed successfully for design: DOAN/Pulse_FF/schematic point: t_clk=0.300000n"
+[09:35:14.65] /m Information: "Simulation completed successfully for design: DOAN/Pulse_FF/schematic point: t_clk=0.200000n"
+[09:35:15.26] /m Information: "Simulation completed successfully for design: DOAN/Pulse_FF/schematic point: t_clk=100.000p"
+[09:35:15.50] /m Information: "Evaluating and plotting outputs..."
+[09:35:15.67] /j ::wf::WaveView::plotSuccess WaveView_1 {} {_5ce4960_void_pp {_5e0bd88_void_pp _5e0b1d0_void_pp _5e0b298_void_pp _5e0b360_void_pp _5e0b428_void_pp}} 
+[09:35:15.71] /j ::wf::WaveView::plotSuccess WaveView_1 {} {_5ce4960_void_pp {_5e0b680_void_pp _5e0b748_void_pp _5e0b810_void_pp _5e0b8d8_void_pp _5e0bcc0_void_pp}} 
+[09:35:15.72] /j ::wf::WaveView::plotSuccess WaveView_1 {} {_5ce4960_void_pp {_5e0c0a8_void_pp _5e0bfe0_void_pp _5e0bf18_void_pp _5e0be50_void_pp _5e0bbf8_void_pp}} 
+[09:35:15.75] /j ::wf::WaveView::plotSuccess WaveView_1 {} {_5ce4960_void_pp {_5e09cb8_void_pp _5e09bf0_void_pp _5e09b28_void_pp _5e09a60_void_pp _5e0bb30_void_pp}} 
+[09:35:15.78] /j ::wf::WaveView::plotSuccess WaveView_1 {} {_5ce4960_void_pp {_5e0a488_void_pp _5e0a3c0_void_pp _5e0a2f8_void_pp _5e0a230_void_pp _5e0ba68_void_pp}} 
+[09:35:16.14] /m Information: Measurement calculations completed for testbench: default in 1s
+[09:39:34.01] /i gi::setActiveWindow 4
+[09:39:34.02] /i gi::setActiveWindow 4 -raise true
+[09:39:35.53] /i gi::setActiveWindow 6
+[09:39:35.53] /i gi::setActiveWindow 6 -raise true
+[09:40:03.77] /i gi::setActiveWindow 4
+[09:40:03.77] /i gi::setActiveWindow 4 -raise true
+[09:40:06.90] /i gi::executeAction menuPreShow -in [gi::getWindows 4]
+[09:40:06.90] /r giMenuAccess db::getNext [gi::getMenus saResultsMenu -from [gi::getWindows 4]]
+[09:40:08.09] /i gi::executeAction menuPreShow -in [gi::getWindows 4]
+[09:40:08.09] /r giMenuAccess db::getAttr menu -of [db::getNext [gi::getActions saPlotSignalCascade -from [db::getNext [gi::getMenus saResultsMenu -from [gi::getWindows 4]]]]]
+[09:40:09.96] /i gi::executeAction menuPreShow -in [gi::getWindows 4]
+[09:40:09.96] /r giMenuAccess db::getNext [gi::getMenus saConsoleSimMenu -from [gi::getWindows 4]]
+[09:40:12.33] /i gi::executeAction menuPreShow -in [gi::getWindows 4]
+[09:40:12.33] /r giMenuAccess db::getNext [gi::getMenus saToolsMenu -from [gi::getWindows 4]]
+[09:40:12.36] /i gi::executeAction menuPreShow -in [gi::getWindows 4]
+[09:40:12.36] /r giMenuAccess db::getNext [gi::getMenus saResultsMenu -from [gi::getWindows 4]]
+[09:40:12.74] /i gi::executeAction menuPreShow -in [gi::getWindows 4]
+[09:40:12.74] /r giMenuAccess db::getNext [gi::getMenus saToolsMenu -from [gi::getWindows 4]]
+[09:40:13.25] /i gi::executeAction menuPreShow -in [gi::getWindows 4]
+[09:40:13.25] /r giMenuAccess db::getNext [gi::getMenus saToolsMenu -from [gi::getWindows 4]]
+[09:40:14.06] /# gi::executeAction saParametric -in [gi::getWindows 4]
+[09:40:14.06] /i sa::showParametricAnalyses -parent 4
+[09:40:14.10] /o oa:0x1eb573d0
+[09:40:14.17] /i gi::setActiveDialog [gi::getDialogs {saParametricAnalyses} -parent [gi::getWindows 4]]
+[09:40:14.44] /i db::setAttr geometry -of [gi::getDialogs {saParametricAnalyses} -parent [gi::getWindows 4]] -value 750x360+95+160
+[09:40:17.85] /i gi::setField {/toplevelgrp/stepDetailsGroup/stepValGroup/linearText} -value {-100p} -in [gi::getDialogs {saParametricAnalyses} -parent [gi::getWindows 4]]
+[09:40:20.64] /m Information: Stopped sharing "Custom WaveView" license. (WAVEFORM-111)
+[09:40:22.63] /i gi::setField {/toplevelgrp/rangeDetailsGroup/rangeValGroup/start} -value {200p} -in [gi::getDialogs {saParametricAnalyses} -parent [gi::getWindows 4]]
+[09:40:30.13] /i gi::setField {/toplevelgrp/stepDetailsGroup/stepValGroup/linearText} -value {-50p} -in [gi::getDialogs {saParametricAnalyses} -parent [gi::getWindows 4]]
+[09:40:30.13] /i gi::pressButton {/ok} -in [gi::getDialogs {saParametricAnalyses} -parent [gi::getWindows 4]]
+[09:40:32.57] /i gi::executeAction menuPreShow -in [gi::getWindows 4]
+[09:40:32.57] /r giMenuAccess db::getNext [gi::getMenus saResultsMenu -from [gi::getWindows 4]]
+[09:40:33.28] /i gi::executeAction menuPreShow -in [gi::getWindows 4]
+[09:40:33.28] /r giMenuAccess db::getNext [gi::getMenus saResultsMenu -from [gi::getWindows 4]]
+[09:40:35.07] /i gi::executeAction menuPreShow -in [gi::getWindows 4]
+[09:40:35.07] /r giMenuAccess db::getNext [gi::getMenus saToolsMenu -from [gi::getWindows 4]]
+[09:40:35.11] /i gi::executeAction menuPreShow -in [gi::getWindows 4]
+[09:40:35.11] /r giMenuAccess db::getNext [gi::getMenus saResultsMenu -from [gi::getWindows 4]]
+[09:40:35.41] /i gi::executeAction menuPreShow -in [gi::getWindows 4]
+[09:40:35.41] /r giMenuAccess db::getNext [gi::getMenus saConsoleSimMenu -from [gi::getWindows 4]]
+[09:40:36.44] /# gi::executeAction saNetlistAndRun -in [gi::getWindows 4]
+[09:40:36.44] /i isa::netlistAndRun -testbench [sa::findActiveTestbench -window 4] -mode overwrite
+[09:40:36.52] /m Information: "Starting incremental netlisting for design "DOAN/Pulse_FF/schematic"..." (NETLISTING-010)
+[09:40:36.53] /m Information: 
+[09:40:36.53] /o Checking "DOAN/Pulse_FF/schematic"
+[09:40:36.54] /o No rule violations found in "DOAN/Pulse_FF/schematic"
+[09:40:36.54] /o No Design Integrity rule violations found in "DOAN/Pulse_FF/schematic"
+[09:40:36.54] /m Information: 
+[09:40:36.54] /o Checking "DOAN/pulse/schematic"
+[09:40:36.54] /o No rule violations found in "DOAN/pulse/schematic"
+[09:40:36.54] /m Information: 
+[09:40:36.54] /o Checking "DOAN/NAND/schematic"
+[09:40:36.54] /o No rule violations found in "DOAN/NAND/schematic"
+[09:40:36.54] /m Information: 
+[09:40:36.54] /o Checking "DOAN/NOT/schematic"
+[09:40:36.55] /o No rule violations found in "DOAN/NOT/schematic"
+[09:40:36.55] /m Information: 
+[09:40:36.55] /o Checking "DOAN/DA/schematic"
+[09:40:36.55] /o No rule violations found in "DOAN/DA/schematic"
+[09:40:36.57] /m Information: "Netlisting design "DOAN/Pulse_FF/schematic" finished successfully." (NETLISTING-012)
+[09:40:36.58] /m Information: "Composing simulator input file for design "DOAN/Pulse_FF/schematic"..."
+[09:40:36.61] /m Information: "Simulator input file composed successfully for design "DOAN/Pulse_FF/schematic""
+[09:40:36.78] /m Information: "Composing simulator input file for design "DOAN/Pulse_FF/schematic" for 3 iterations..."
+[09:40:36.86] /m Information: "Simulator input file composed successfully for design "DOAN/Pulse_FF/schematic""
+[09:40:36.93] /m Information: "Starting 3 HSPICE simulations for design: DOAN/Pulse_FF/schematic"
+[09:40:36.93] /# gi::collapse {jobMonitorTable} -index {0.0.1.0,0} -in [gi::getWindows 6]
+[09:40:36.96] /m Information: "Simulations launched successfully for design: DOAN/Pulse_FF/schematic"
+[09:40:36.97] /o 1
+[09:40:38.53] /m Information: "Simulation completed successfully for design: DOAN/Pulse_FF/schematic point: t_clk=0.200000n"
+[09:40:38.65] /m Information: "Simulation completed successfully for design: DOAN/Pulse_FF/schematic point: t_clk=100.000p"
+[09:40:38.74] /m Information: "Simulation completed successfully for design: DOAN/Pulse_FF/schematic point: t_clk=0.150000n"
+[09:40:39.00] /m Information: "Evaluating and plotting outputs..."
+[09:40:39.01] /m Information: Started sharing "Custom WaveView" license. (WAVEFORM-110)
+[09:40:39.14] /j ::wf::WaveView::plotSuccess WaveView_1 {} {_5e1fd80_void_pp {_5e0ba68_void_pp _5e0a230_void_pp _5e0bb30_void_pp}} 
+[09:40:39.17] /j ::wf::WaveView::plotSuccess WaveView_1 {} {_5e1fd80_void_pp {_5e0b298_void_pp _5e0b1d0_void_pp _5e0bd88_void_pp}} 
+[09:40:39.20] /j ::wf::WaveView::plotSuccess WaveView_1 {} {_5e1fd80_void_pp {_5e0b810_void_pp _5e0b748_void_pp _5e0b680_void_pp}} 
+[09:40:39.22] /j ::wf::WaveView::plotSuccess WaveView_1 {} {_5e1fd80_void_pp {_5e0bf18_void_pp _5e0bfe0_void_pp _5e0c0a8_void_pp}} 
+[09:40:39.25] /j ::wf::WaveView::plotSuccess WaveView_1 {} {_5e1fd80_void_pp {_5e09b28_void_pp _5e09bf0_void_pp _5e09cb8_void_pp}} 
+[09:40:39.43] /m Information: Measurement calculations completed for testbench: default in 0s
+[09:45:21.08] /i gi::setActiveWindow 3
+[09:45:21.08] /i gi::setActiveWindow 3 -raise true
+[09:45:21.72] /i gi::setActiveWindow 4
+[09:45:21.72] /i gi::setActiveWindow 4 -raise true
+[09:45:24.06] /i gi::executeAction menuPreShow -in [gi::getWindows 4]
+[09:45:24.06] /r giMenuAccess db::getNext [gi::getMenus saToolsMenu -from [gi::getWindows 4]]
+[09:45:24.80] /# gi::executeAction saParametric -in [gi::getWindows 4]
+[09:45:24.80] /i sa::showParametricAnalyses -parent 4
+[09:45:24.83] /o oa:0x1e7122e0
+[09:45:24.91] /i gi::setActiveDialog [gi::getDialogs {saParametricAnalyses} -parent [gi::getWindows 4]]
+[09:45:25.22] /i db::setAttr geometry -of [gi::getDialogs {saParametricAnalyses} -parent [gi::getWindows 4]] -value 750x360+95+160
+[09:45:33.11] /i gi::setField {/toplevelgrp/rangeDetailsGroup/rangeValGroup/start} -value {100p} -in [gi::getDialogs {saParametricAnalyses} -parent [gi::getWindows 4]]
+[09:45:39.21] /i gi::setField {/toplevelgrp/rangeDetailsGroup/rangeValGroup/stop} -value {10p} -in [gi::getDialogs {saParametricAnalyses} -parent [gi::getWindows 4]]
+[09:45:42.71] /i gi::setField {/toplevelgrp/stepDetailsGroup/stepValGroup/linearText} -value {-20p} -in [gi::getDialogs {saParametricAnalyses} -parent [gi::getWindows 4]]
+[09:45:42.71] /i gi::pressButton {/ok} -in [gi::getDialogs {saParametricAnalyses} -parent [gi::getWindows 4]]
+[09:45:44.22] /i gi::executeAction menuPreShow -in [gi::getWindows 4]
+[09:45:44.22] /r giMenuAccess db::getNext [gi::getMenus saToolsMenu -from [gi::getWindows 4]]
+[09:45:44.64] /m Information: Stopped sharing "Custom WaveView" license. (WAVEFORM-111)
+[09:45:50.42] /# gi::executeAction saParametric -in [gi::getWindows 4]
+[09:45:50.42] /i sa::showParametricAnalyses -parent 4
+[09:45:50.45] /o oa:0x25273720
+[09:45:50.53] /i gi::setActiveDialog [gi::getDialogs {saParametricAnalyses} -parent [gi::getWindows 4]]
+[09:45:50.84] /i db::setAttr geometry -of [gi::getDialogs {saParametricAnalyses} -parent [gi::getWindows 4]] -value 750x360+95+160
+[09:45:54.87] /i gi::closeWindows [gi::getDialogs {saParametricAnalyses} -parent [gi::getWindows 4]]
+[09:45:56.39] /i gi::executeAction menuPreShow -in [gi::getWindows 4]
+[09:45:56.39] /r giMenuAccess db::getNext [gi::getMenus saToolsMenu -from [gi::getWindows 4]]
+[09:46:00.75] /i gi::executeAction menuPreShow -in [gi::getWindows 4]
+[09:46:00.75] /r giMenuAccess db::getNext [gi::getMenus saToolsMenu -from [gi::getWindows 4]]
+[09:46:02.09] /# gi::executeAction saParametric -in [gi::getWindows 4]
+[09:46:02.09] /i sa::showParametricAnalyses -parent 4
+[09:46:02.12] /o oa:0x23b66010
+[09:46:02.18] /i gi::setActiveDialog [gi::getDialogs {saParametricAnalyses} -parent [gi::getWindows 4]]
+[09:46:02.46] /i db::setAttr geometry -of [gi::getDialogs {saParametricAnalyses} -parent [gi::getWindows 4]] -value 750x360+95+160
+[09:46:08.72] /i gi::setField {/toplevelgrp/rangeDetailsGroup/rangeValGroup/start} -value {150p} -in [gi::getDialogs {saParametricAnalyses} -parent [gi::getWindows 4]]
+[09:46:11.20] /i gi::setField {/toplevelgrp/rangeDetailsGroup/rangeValGroup/stop} -value {100p} -in [gi::getDialogs {saParametricAnalyses} -parent [gi::getWindows 4]]
+[09:46:13.84] /i gi::setField {/toplevelgrp/stepDetailsGroup/stepValGroup/linearText} -value {-10p} -in [gi::getDialogs {saParametricAnalyses} -parent [gi::getWindows 4]]
+[09:46:13.84] /i gi::pressButton {/ok} -in [gi::getDialogs {saParametricAnalyses} -parent [gi::getWindows 4]]
+[09:46:16.51] /i gi::executeAction menuPreShow -in [gi::getWindows 4]
+[09:46:16.51] /r giMenuAccess db::getNext [gi::getMenus saConsoleSimMenu -from [gi::getWindows 4]]
+[09:46:17.28] /# gi::executeAction saNetlistAndRun -in [gi::getWindows 4]
+[09:46:17.28] /i isa::netlistAndRun -testbench [sa::findActiveTestbench -window 4] -mode overwrite
+[09:46:17.35] /m Information: "Starting incremental netlisting for design "DOAN/Pulse_FF/schematic"..." (NETLISTING-010)
+[09:46:17.37] /m Information: 
+[09:46:17.37] /o Checking "DOAN/Pulse_FF/schematic"
+[09:46:17.37] /o No rule violations found in "DOAN/Pulse_FF/schematic"
+[09:46:17.37] /o No Design Integrity rule violations found in "DOAN/Pulse_FF/schematic"
+[09:46:17.37] /m Information: 
+[09:46:17.37] /o Checking "DOAN/pulse/schematic"
+[09:46:17.37] /o No rule violations found in "DOAN/pulse/schematic"
+[09:46:17.37] /m Information: 
+[09:46:17.37] /o Checking "DOAN/NAND/schematic"
+[09:46:17.37] /o No rule violations found in "DOAN/NAND/schematic"
+[09:46:17.37] /m Information: 
+[09:46:17.37] /o Checking "DOAN/NOT/schematic"
+[09:46:17.37] /o No rule violations found in "DOAN/NOT/schematic"
+[09:46:17.38] /m Information: 
+[09:46:17.38] /o Checking "DOAN/DA/schematic"
+[09:46:17.38] /o No rule violations found in "DOAN/DA/schematic"
+[09:46:17.40] /m Information: "Netlisting design "DOAN/Pulse_FF/schematic" finished successfully." (NETLISTING-012)
+[09:46:17.41] /m Information: "Composing simulator input file for design "DOAN/Pulse_FF/schematic"..."
+[09:46:17.44] /m Information: "Simulator input file composed successfully for design "DOAN/Pulse_FF/schematic""
+[09:46:17.63] /m Information: "Composing simulator input file for design "DOAN/Pulse_FF/schematic" for 6 iterations..."
+[09:46:17.75] /m Information: "Simulator input file composed successfully for design "DOAN/Pulse_FF/schematic""
+[09:46:17.82] /m Information: "Starting 6 HSPICE simulations for design: DOAN/Pulse_FF/schematic"
+[09:46:17.83] /# gi::collapse {jobMonitorTable} -index {0.0.1.0,0} -in [gi::getWindows 6]
+[09:46:17.86] /m Information: "Simulations launched successfully for design: DOAN/Pulse_FF/schematic"
+[09:46:17.87] /o 1
+[09:46:19.20] /m Information: "Simulation completed successfully for design: DOAN/Pulse_FF/schematic point: t_clk=0.140000n"
+[09:46:19.25] /m Information: "Simulation completed successfully for design: DOAN/Pulse_FF/schematic point: t_clk=0.130000n"
+[09:46:20.18] /m Information: "Simulation completed successfully for design: DOAN/Pulse_FF/schematic point: t_clk=0.150000n"
+[09:46:20.22] /m Information: "Simulation completed successfully for design: DOAN/Pulse_FF/schematic point: t_clk=0.120000n"
+[09:46:21.16] /m Information: "Simulation completed successfully for design: DOAN/Pulse_FF/schematic point: t_clk=0.110000n"
+[09:46:21.36] /m Information: "Simulation completed successfully for design: DOAN/Pulse_FF/schematic point: t_clk=0.100000n"
+[09:46:21.59] /m Information: "Evaluating and plotting outputs..."
+[09:46:21.59] /m Information: Started sharing "Custom WaveView" license. (WAVEFORM-110)
+[09:46:21.78] /j ::wf::WaveView::plotSuccess WaveView_1 {} {_5e16be0_void_pp {_5e0b5b8_void_pp _5e0b4f0_void_pp _5e0b108_void_pp _5e0b040_void_pp _5e0af78_void_pp _5e0aeb0_void_pp}} 
+[09:46:21.83] /j ::wf::WaveView::plotSuccess WaveView_1 {} {_5e16be0_void_pp {_5e0a488_void_pp _5e0a3c0_void_pp _5e0a2f8_void_pp _5e0bb30_void_pp _5e0a230_void_pp _5e0ba68_void_pp}} 
+[09:46:21.87] /j ::wf::WaveView::plotSuccess WaveView_1 {} {_5e16be0_void_pp {_5e0be50_void_pp _5e0bbf8_void_pp _5e09a60_void_pp _5e0bd88_void_pp _5e0b1d0_void_pp _5e0b298_void_pp}} 
+[09:46:21.91] /j ::wf::WaveView::plotSuccess WaveView_1 {} {_5e16be0_void_pp {_5e0b428_void_pp _5e0b8d8_void_pp _5e0bcc0_void_pp _5e0b680_void_pp _5e0b748_void_pp _5e0b810_void_pp}} 
+[09:46:21.95] /j ::wf::WaveView::plotSuccess WaveView_1 {} {_5e16be0_void_pp {_5e0ab90_void_pp _5e0ac58_void_pp _5e0b360_void_pp _5e0c0a8_void_pp _5e0bfe0_void_pp _5e0bf18_void_pp}} 
+[09:46:22.26] /m Information: Measurement calculations completed for testbench: default in 1s
+[09:46:47.45] /i gi::setActiveWindow 4
+[09:46:47.45] /i gi::setActiveWindow 4 -raise true
+[09:46:49.14] /i gi::executeAction menuPreShow -in [gi::getWindows 4]
+[09:46:49.14] /r giMenuAccess db::getNext [gi::getMenus saResultsMenu -from [gi::getWindows 4]]
+[09:46:50.32] /i gi::executeAction menuPreShow -in [gi::getWindows 4]
+[09:46:50.32] /r giMenuAccess db::getNext [gi::getMenus saConsoleSimMenu -from [gi::getWindows 4]]
+[09:46:51.57] /i gi::executeAction menuPreShow -in [gi::getWindows 4]
+[09:46:51.57] /r giMenuAccess db::getNext [gi::getMenus saResultsMenu -from [gi::getWindows 4]]
+[09:46:51.59] /i gi::executeAction menuPreShow -in [gi::getWindows 4]
+[09:46:51.59] /r giMenuAccess db::getNext [gi::getMenus saToolsMenu -from [gi::getWindows 4]]
+[09:46:52.60] /# gi::executeAction saParametric -in [gi::getWindows 4]
+[09:46:52.60] /i sa::showParametricAnalyses -parent 4
+[09:46:52.63] /o oa:0x1e6e0e40
+[09:46:52.67] /i gi::setActiveDialog [gi::getDialogs {saParametricAnalyses} -parent [gi::getWindows 4]]
+[09:46:52.95] /i db::setAttr geometry -of [gi::getDialogs {saParametricAnalyses} -parent [gi::getWindows 4]] -value 750x360+95+160
+[09:47:01.16] /i gi::setField {/toplevelgrp/rangeDetailsGroup/rangeValGroup/start} -value {200p} -in [gi::getDialogs {saParametricAnalyses} -parent [gi::getWindows 4]]
+[09:47:13.56] /i gi::setField {/toplevelgrp/stepDetailsGroup/stepValGroup/linearText} -value {-20p} -in [gi::getDialogs {saParametricAnalyses} -parent [gi::getWindows 4]]
+[09:47:13.56] /i gi::pressButton {/ok} -in [gi::getDialogs {saParametricAnalyses} -parent [gi::getWindows 4]]
+[09:47:14.90] /i gi::executeAction menuPreShow -in [gi::getWindows 4]
+[09:47:14.90] /r giMenuAccess db::getNext [gi::getMenus saConsoleSimMenu -from [gi::getWindows 4]]
+[09:47:15.78] /# gi::executeAction saNetlistAndRun -in [gi::getWindows 4]
+[09:47:15.78] /i isa::netlistAndRun -testbench [sa::findActiveTestbench -window 4] -mode overwrite
+[09:47:15.85] /m Information: "Starting incremental netlisting for design "DOAN/Pulse_FF/schematic"..." (NETLISTING-010)
+[09:47:15.87] /m Information: 
+[09:47:15.87] /o Checking "DOAN/Pulse_FF/schematic"
+[09:47:15.87] /o No rule violations found in "DOAN/Pulse_FF/schematic"
+[09:47:15.87] /o No Design Integrity rule violations found in "DOAN/Pulse_FF/schematic"
+[09:47:15.87] /m Information: 
+[09:47:15.87] /o Checking "DOAN/pulse/schematic"
+[09:47:15.87] /o No rule violations found in "DOAN/pulse/schematic"
+[09:47:15.88] /m Information: 
+[09:47:15.88] /o Checking "DOAN/NAND/schematic"
+[09:47:15.88] /o No rule violations found in "DOAN/NAND/schematic"
+[09:47:15.88] /m Information: 
+[09:47:15.88] /o Checking "DOAN/NOT/schematic"
+[09:47:15.88] /o No rule violations found in "DOAN/NOT/schematic"
+[09:47:15.88] /m Information: 
+[09:47:15.88] /o Checking "DOAN/DA/schematic"
+[09:47:15.88] /o No rule violations found in "DOAN/DA/schematic"
+[09:47:15.91] /m Information: "Netlisting design "DOAN/Pulse_FF/schematic" finished successfully." (NETLISTING-012)
+[09:47:15.92] /m Information: "Composing simulator input file for design "DOAN/Pulse_FF/schematic"..."
+[09:47:15.95] /m Information: "Simulator input file composed successfully for design "DOAN/Pulse_FF/schematic""
+[09:47:16.11] /m Information: "Composing simulator input file for design "DOAN/Pulse_FF/schematic" for 6 iterations..."
+[09:47:16.23] /m Information: "Simulator input file composed successfully for design "DOAN/Pulse_FF/schematic""
+[09:47:16.31] /m Information: "Starting 6 HSPICE simulations for design: DOAN/Pulse_FF/schematic"
+[09:47:16.31] /# gi::collapse {jobMonitorTable} -index {0.0.1.0,0} -in [gi::getWindows 6]
+[09:47:16.35] /m Information: "Simulations launched successfully for design: DOAN/Pulse_FF/schematic"
+[09:47:16.36] /o 1
+[09:47:17.65] /m Information: "Simulation completed successfully for design: DOAN/Pulse_FF/schematic point: t_clk=0.200000n"
+[09:47:17.70] /m Information: "Simulation completed successfully for design: DOAN/Pulse_FF/schematic point: t_clk=0.180000n"
+[09:47:18.82] /m Information: "Simulation completed successfully for design: DOAN/Pulse_FF/schematic point: t_clk=0.160000n"
+[09:47:18.93] /m Information: "Simulation completed successfully for design: DOAN/Pulse_FF/schematic point: t_clk=0.140000n"
+[09:47:19.04] /m Information: "Simulation completed successfully for design: DOAN/Pulse_FF/schematic point: t_clk=0.120000n"
+[09:47:20.06] /m Information: "Simulation completed successfully for design: DOAN/Pulse_FF/schematic point: t_clk=100.000p"
+[09:47:20.29] /m Information: "Evaluating and plotting outputs..."
+[09:47:20.48] /j ::wf::WaveView::plotSuccess WaveView_1 {} {_5e6e130_void_pp {_5e0b9a0_void_pp _5e0aa00_void_pp _5e0aac8_void_pp _5e09cb8_void_pp _5e09bf0_void_pp _5e09b28_void_pp}} 
+[09:47:20.52] /j ::wf::WaveView::plotSuccess WaveView_1 {} {_5e6e130_void_pp {_5e0aeb0_void_pp _5e0af78_void_pp _5e0b040_void_pp _5e0b108_void_pp _5e0b4f0_void_pp _5e0b5b8_void_pp}} 
+[09:47:20.58] /j ::wf::WaveView::plotSuccess WaveView_1 {} {_5e6e130_void_pp {_5e0ba68_void_pp _5e0a230_void_pp _5e0bb30_void_pp _5e0a2f8_void_pp _5e0a3c0_void_pp _5e0a488_void_pp}} 
+[09:47:20.60] /j ::wf::WaveView::plotSuccess WaveView_1 {} {_5e6e130_void_pp {_5e0b298_void_pp _5e0b1d0_void_pp _5e0bd88_void_pp _5e09a60_void_pp _5e0bbf8_void_pp _5e0be50_void_pp}} 
+[09:47:20.64] /j ::wf::WaveView::plotSuccess WaveView_1 {} {_5e6e130_void_pp {_5e0b810_void_pp _5e0b748_void_pp _5e0b680_void_pp _5e0bcc0_void_pp _5e0b8d8_void_pp _5e0b428_void_pp}} 
+[09:47:20.87] /m Information: Measurement calculations completed for testbench: default in 0s
+[09:47:56.68] /i gi::setActiveWindow 4
+[09:47:56.68] /i gi::setActiveWindow 4 -raise true
+[09:47:58.96] /i gi::executeAction menuPreShow -in [gi::getWindows 4]
+[09:47:58.96] /r giMenuAccess db::getNext [gi::getMenus saConsoleSimMenu -from [gi::getWindows 4]]
+[09:47:59.61] /i gi::executeAction menuPreShow -in [gi::getWindows 4]
+[09:47:59.61] /r giMenuAccess db::getNext [gi::getMenus saResultsMenu -from [gi::getWindows 4]]
+[09:47:59.67] /i gi::executeAction menuPreShow -in [gi::getWindows 4]
+[09:47:59.67] /r giMenuAccess db::getNext [gi::getMenus saToolsMenu -from [gi::getWindows 4]]
+[09:48:00.55] /# gi::executeAction saParametric -in [gi::getWindows 4]
+[09:48:00.55] /i sa::showParametricAnalyses -parent 4
+[09:48:00.59] /o oa:0x256fdfd0
+[09:48:00.66] /i gi::setActiveDialog [gi::getDialogs {saParametricAnalyses} -parent [gi::getWindows 4]]
+[09:48:00.94] /i db::setAttr geometry -of [gi::getDialogs {saParametricAnalyses} -parent [gi::getWindows 4]] -value 750x360+95+160
+[09:48:09.23] /i gi::setField {/toplevelgrp/rangeDetailsGroup/rangeValGroup/stop} -value {150p} -in [gi::getDialogs {saParametricAnalyses} -parent [gi::getWindows 4]]
+[09:48:12.58] /i gi::setField {/toplevelgrp/stepDetailsGroup/stepValGroup/linearText} -value {-10p} -in [gi::getDialogs {saParametricAnalyses} -parent [gi::getWindows 4]]
+[09:48:12.70] /i gi::pressButton {/ok} -in [gi::getDialogs {saParametricAnalyses} -parent [gi::getWindows 4]]
+[09:48:15.27] /i gi::executeAction menuPreShow -in [gi::getWindows 4]
+[09:48:15.27] /r giMenuAccess db::getNext [gi::getMenus saConsoleSimMenu -from [gi::getWindows 4]]
+[09:48:15.96] /# gi::executeAction saNetlistAndRun -in [gi::getWindows 4]
+[09:48:15.96] /i isa::netlistAndRun -testbench [sa::findActiveTestbench -window 4] -mode overwrite
+[09:48:16.05] /m Information: "Starting incremental netlisting for design "DOAN/Pulse_FF/schematic"..." (NETLISTING-010)
+[09:48:16.07] /m Information: 
+[09:48:16.07] /o Checking "DOAN/Pulse_FF/schematic"
+[09:48:16.07] /o No rule violations found in "DOAN/Pulse_FF/schematic"
+[09:48:16.07] /o No Design Integrity rule violations found in "DOAN/Pulse_FF/schematic"
+[09:48:16.07] /m Information: 
+[09:48:16.07] /o Checking "DOAN/pulse/schematic"
+[09:48:16.07] /o No rule violations found in "DOAN/pulse/schematic"
+[09:48:16.09] /m Information: 
+[09:48:16.09] /o Checking "DOAN/NAND/schematic"
+[09:48:16.09] /o No rule violations found in "DOAN/NAND/schematic"
+[09:48:16.09] /m Information: 
+[09:48:16.09] /o Checking "DOAN/NOT/schematic"
+[09:48:16.09] /o No rule violations found in "DOAN/NOT/schematic"
+[09:48:16.10] /m Information: 
+[09:48:16.10] /o Checking "DOAN/DA/schematic"
+[09:48:16.10] /o No rule violations found in "DOAN/DA/schematic"
+[09:48:16.12] /m Information: "Netlisting design "DOAN/Pulse_FF/schematic" finished successfully." (NETLISTING-012)
+[09:48:16.13] /m Information: "Composing simulator input file for design "DOAN/Pulse_FF/schematic"..."
+[09:48:16.16] /m Information: "Simulator input file composed successfully for design "DOAN/Pulse_FF/schematic""
+[09:48:16.35] /m Information: "Composing simulator input file for design "DOAN/Pulse_FF/schematic" for 6 iterations..."
+[09:48:16.48] /m Information: "Simulator input file composed successfully for design "DOAN/Pulse_FF/schematic""
+[09:48:16.55] /m Information: "Starting 6 HSPICE simulations for design: DOAN/Pulse_FF/schematic"
+[09:48:16.56] /# gi::collapse {jobMonitorTable} -index {0.0.1.0,0} -in [gi::getWindows 6]
+[09:48:16.60] /m Information: "Simulations launched successfully for design: DOAN/Pulse_FF/schematic"
+[09:48:16.61] /o 1
+[09:48:18.04] /m Information: "Simulation completed successfully for design: DOAN/Pulse_FF/schematic point: t_clk=0.200000n"
+[09:48:18.08] /m Information: "Simulation completed successfully for design: DOAN/Pulse_FF/schematic point: t_clk=0.190000n"
+[09:48:18.14] /m Information: "Simulation completed successfully for design: DOAN/Pulse_FF/schematic point: t_clk=0.180000n"
+[09:48:19.50] /m Information: "Simulation completed successfully for design: DOAN/Pulse_FF/schematic point: t_clk=0.170000n"
+[09:48:19.61] /m Information: "Simulation completed successfully for design: DOAN/Pulse_FF/schematic point: t_clk=0.160000n"
+[09:48:19.73] /m Information: "Simulation completed successfully for design: DOAN/Pulse_FF/schematic point: t_clk=0.150000n"
+[09:48:19.95] /m Information: "Evaluating and plotting outputs..."
+[09:48:20.13] /j ::wf::WaveView::plotSuccess WaveView_1 {} {_5dbc5a0_void_pp {_5e0bf18_void_pp _5e0bfe0_void_pp _5e0c0a8_void_pp _5e0b360_void_pp _5e0ac58_void_pp _5e0ab90_void_pp}} 
+[09:48:20.17] /j ::wf::WaveView::plotSuccess WaveView_1 {} {_5dbc5a0_void_pp {_5e09b28_void_pp _5e09bf0_void_pp _5e09cb8_void_pp _5e0aac8_void_pp _5e0aa00_void_pp _5e0b9a0_void_pp}} 
+[09:48:20.21] /j ::wf::WaveView::plotSuccess WaveView_1 {} {_5dbc5a0_void_pp {_5e0b5b8_void_pp _5e0b4f0_void_pp _5e0b108_void_pp _5e0b040_void_pp _5e0af78_void_pp _5e0aeb0_void_pp}} 
+[09:48:20.23] /j ::wf::WaveView::plotSuccess WaveView_1 {} {_5dbc5a0_void_pp {_5e0a488_void_pp _5e0a3c0_void_pp _5e0a2f8_void_pp _5e0bb30_void_pp _5e0a230_void_pp _5e0ba68_void_pp}} 
+[09:48:20.27] /j ::wf::WaveView::plotSuccess WaveView_1 {} {_5dbc5a0_void_pp {_5e0be50_void_pp _5e0bbf8_void_pp _5e09a60_void_pp _5e0bd88_void_pp _5e0b1d0_void_pp _5e0b298_void_pp}} 
+[09:48:20.55] /m Information: Measurement calculations completed for testbench: default in 0s
+[09:52:20.18] /i gi::setActiveWindow 8
+[09:52:20.18] /i gi::setActiveWindow 8 -raise true
+[09:52:20.69] /i gi::setActiveWindow 2
+[09:52:20.69] /i gi::setActiveWindow 2 -raise true
+[09:52:22.89] /i gi::setCurrentIndex {cells} -index {NAND} -in [gi::getWindows 2]
+[09:52:22.89] /i gi::setItemSelection {cells} -index {NAND} -in [gi::getWindows 2]
+[09:52:23.62] /i gi::setCurrentIndex {cells} -index {DA} -in [gi::getWindows 2]
+[09:52:23.62] /i gi::setItemSelection {cells} -index {DA} -in [gi::getWindows 2]
+[09:52:28.55] /i gi::setCurrentIndex {cells} -index {NOT} -in [gi::getWindows 2]
+[09:52:28.55] /i gi::setItemSelection {cells} -index {NOT} -in [gi::getWindows 2]
+[09:52:29.83] /i gi::setCurrentIndex {cells} -index {NAND} -in [gi::getWindows 2]
+[09:52:29.83] /i gi::setItemSelection {cells} -index {NAND} -in [gi::getWindows 2]
+[09:52:34.18] /i gi::setCurrentIndex {cells} -index {DA} -in [gi::getWindows 2]
+[09:52:34.18] /i gi::setItemSelection {cells} -index {DA} -in [gi::getWindows 2]
+[09:52:37.88] /i gi::setCurrentIndex {views} -index {schematic} -in [gi::getWindows 2]
+[09:52:37.88] /i gi::setItemSelection {views} -index {schematic} -in [gi::getWindows 2]
+[09:52:38.07] /i gi::executeAction dmOpen -in [gi::getWindows 2]
+[09:52:38.10] /r giWindowId 9
+[09:52:38.11] /r giWindowGeometry 1632x818
+[09:52:38.26] /m Information: 
+[09:52:38.26] /o Checking "DOAN/DA/schematic"
+[09:52:38.26] /o No rule violations found in "DOAN/DA/schematic"
+[09:52:38.26] /m Information: Checking process is completed: marking the design violations
+[09:52:38.26] /m Information: Marking of designs is completed
+[09:53:25.64] /m Information: Stopped sharing "Custom WaveView" license. (WAVEFORM-111)
+[09:55:42.20] /i gi::setActiveWindow 3
+[09:55:42.20] /i gi::setActiveWindow 3 -raise true
+[09:55:44.54] /# gi::executeAction deSelectActive -in [gi::getWindows 3]
+[09:55:44.54] /i de::deselectAll [db::getNext [de::getContexts -window 3]]
+[09:55:44.54] /i de::select [de::getActiveFigure [gi::getWindows 3] -point {2.325 2.0875} -index 0 -intent none]
+[09:55:44.54] /o oa:0x254207e0
+[09:55:47.11] /i gi::setItemSelection {parameters} -index {tr,all} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[09:55:47.11] /i gi::setCurrentIndex {parameters} -index {tr,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[09:55:52.77] /i gi::setField {parameters} -value {0.01p} -index {tr,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[09:55:52.77] /i gi::setItemSelection {parameters} -index {tf,all} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[09:55:52.77] /i gi::setCurrentIndex {parameters} -index {tf,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[09:55:55.71] /i gi::setField {parameters} -value {0.01p} -index {tf,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[09:55:56.17] /# gi::executeAction deSelectActive -in [gi::getWindows 3]
+[09:55:56.17] /i de::deselectAll [db::getNext [de::getContexts -window 3]]
+[09:55:56.24] /r giDialog gi::setActiveDialog [gi::getDialogs {dbSelectionChange} -parent [gi::getWindows 3]]
+[09:55:56.54] /r giDialog db::setAttr geometry -of [gi::getDialogs {dbSelectionChange} -parent [gi::getWindows 3]] -value 432x82+744+460
+[09:55:57.61] /r giDialog gi::pressButton {apply} -in [gi::getDialogs {dbSelectionChange} -parent [gi::getWindows 3]]
+[09:55:57.63] /i de::deselectAllLogic -context [db::getNext [de::getContexts -window 3]]
+[09:55:58.69] /# gi::executeAction deSelectActive -in [gi::getWindows 3]
+[09:55:58.69] /i de::deselectAll [db::getNext [de::getContexts -window 3]]
+[09:55:58.69] /i de::select [de::getActiveFigure [gi::getWindows 3] -point {1.65625 2.025} -index 0 -intent none]
+[09:55:58.69] /o oa:0x2659a690
+[09:56:00.46] /i gi::setItemSelection {parameters} -index {tr,all} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[09:56:00.46] /i gi::setCurrentIndex {parameters} -index {tr,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[09:56:02.71] /i gi::setField {parameters} -value {0.01p} -index {tr,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[09:56:02.71] /i gi::executeAction dePropertyEditorApplyChanges -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[09:56:04.57] /i gi::setItemSelection {parameters} -index {tf,all} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[09:56:04.57] /i gi::setCurrentIndex {parameters} -index {tf,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[09:56:06.89] /i gi::setField {parameters} -value {0.01p} -index {tf,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[09:56:06.89] /i gi::executeAction dePropertyEditorApplyChanges -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[09:56:09.51] /# gi::executeAction seSchCheckAndSave -in [gi::getWindows 3]
+[09:56:09.51] /i ise::check
+[09:56:09.52] /m Information: 
+[09:56:09.52] /o Checking "DOAN/Pulse_FF/schematic"
+[09:56:09.52] /o 	[warning] Solder on Crossing Wires
+[09:56:09.52] /o 		Solder dot on crossing wires
+[09:56:09.52] /o 0 Error(s),1 Warning(s),0 Message(s) found   in "DOAN/Pulse_FF/schematic"
+[09:56:09.52] /m Information: Checking process is completed: marking the design violations
+[09:56:09.54] /m Information: Marking of designs is completed
+[09:56:09.54] /o true
+[09:56:10.72] /i gi::setActiveWindow 4
+[09:56:10.72] /i gi::setActiveWindow 4 -raise true
+[09:56:11.90] /i gi::executeAction menuPreShow -in [gi::getWindows 4]
+[09:56:11.90] /r giMenuAccess db::getNext [gi::getMenus saConsoleSimMenu -from [gi::getWindows 4]]
+[09:56:12.49] /# gi::executeAction saNetlistAndRun -in [gi::getWindows 4]
+[09:56:12.49] /i isa::netlistAndRun -testbench [sa::findActiveTestbench -window 4] -mode overwrite
+[09:56:12.59] /m Information: "Starting incremental netlisting for design "DOAN/Pulse_FF/schematic"..." (NETLISTING-010)
+[09:56:12.62] /o No Design Integrity rule violations found in "DOAN/Pulse_FF/schematic"
+[09:56:12.62] /m Information: 
+[09:56:12.62] /o Checking "DOAN/pulse/schematic"
+[09:56:12.62] /o No rule violations found in "DOAN/pulse/schematic"
+[09:56:12.64] /m Information: 
+[09:56:12.64] /o Checking "DOAN/NAND/schematic"
+[09:56:12.64] /o No rule violations found in "DOAN/NAND/schematic"
+[09:56:12.66] /m Information: 
+[09:56:12.66] /o Checking "DOAN/NOT/schematic"
+[09:56:12.66] /o No rule violations found in "DOAN/NOT/schematic"
+[09:56:12.66] /m Information: 
+[09:56:12.66] /o Checking "DOAN/DA/schematic"
+[09:56:12.66] /o No rule violations found in "DOAN/DA/schematic"
+[09:56:12.71] /m Information: "DOAN Pulse_FF schematic" renetlisted. (NETLISTING-056)
+[09:56:12.72] /m Information: "Netlisting design "DOAN/Pulse_FF/schematic" finished successfully." (NETLISTING-012)
+[09:56:12.74] /m Information: "Composing simulator input file for design "DOAN/Pulse_FF/schematic"..."
+[09:56:12.78] /m Information: "Simulator input file composed successfully for design "DOAN/Pulse_FF/schematic""
+[09:56:12.95] /m Information: "Composing simulator input file for design "DOAN/Pulse_FF/schematic" for 6 iterations..."
+[09:56:13.07] /m Information: "Simulator input file composed successfully for design "DOAN/Pulse_FF/schematic""
+[09:56:13.13] /m Information: "Starting 6 HSPICE simulations for design: DOAN/Pulse_FF/schematic"
+[09:56:13.13] /# gi::collapse {jobMonitorTable} -index {0.0.1.0,0} -in [gi::getWindows 6]
+[09:56:13.17] /m Information: "Simulations launched successfully for design: DOAN/Pulse_FF/schematic"
+[09:56:13.18] /o 1
+[09:56:14.61] /m Information: "Simulation completed successfully for design: DOAN/Pulse_FF/schematic point: t_clk=0.190000n"
+[09:56:15.33] /m Information: "Simulation completed successfully for design: DOAN/Pulse_FF/schematic point: t_clk=0.200000n"
+[09:56:15.39] /m Information: "Simulation completed successfully for design: DOAN/Pulse_FF/schematic point: t_clk=0.180000n"
+[09:56:16.81] /m Information: "Simulation completed successfully for design: DOAN/Pulse_FF/schematic point: t_clk=0.170000n"
+[09:56:17.00] /m Information: "Simulation completed successfully for design: DOAN/Pulse_FF/schematic point: t_clk=0.150000n"
+[09:56:17.09] /m Information: "Simulation completed successfully for design: DOAN/Pulse_FF/schematic point: t_clk=0.160000n"
+[09:56:17.32] /m Information: "Evaluating and plotting outputs..."
+[09:56:17.33] /m Information: Started sharing "Custom WaveView" license. (WAVEFORM-110)
+[09:56:17.55] /j ::wf::WaveView::plotSuccess WaveView_1 {} {_5e72c70_void_pp {_5e0b428_void_pp _5e0b8d8_void_pp _5e0bcc0_void_pp _5e0b680_void_pp _5e0b748_void_pp _5e0b810_void_pp}} 
+[09:56:17.58] /j ::wf::WaveView::plotSuccess WaveView_1 {} {_5e72c70_void_pp {_5e0ab90_void_pp _5e0ac58_void_pp _5e0b360_void_pp _5e0c0a8_void_pp _5e0bfe0_void_pp _5e0bf18_void_pp}} 
+[09:56:17.64] /j ::wf::WaveView::plotSuccess WaveView_1 {} {_5e72c70_void_pp {_5e0b9a0_void_pp _5e0aa00_void_pp _5e0aac8_void_pp _5e09cb8_void_pp _5e09bf0_void_pp _5e09b28_void_pp}} 
+[09:56:17.68] /j ::wf::WaveView::plotSuccess WaveView_1 {} {_5e72c70_void_pp {_5e0aeb0_void_pp _5e0af78_void_pp _5e0b040_void_pp _5e0b108_void_pp _5e0b4f0_void_pp _5e0b5b8_void_pp}} 
+[09:56:17.72] /j ::wf::WaveView::plotSuccess WaveView_1 {} {_5e72c70_void_pp {_5e0ba68_void_pp _5e0a230_void_pp _5e0bb30_void_pp _5e0a2f8_void_pp _5e0a3c0_void_pp _5e0a488_void_pp}} 
+[09:56:17.95] /m Information: Measurement calculations completed for testbench: default in 0s
+[09:56:57.90] /i gi::setActiveWindow 8
+[09:56:57.90] /i gi::setActiveWindow 8 -raise true
+[09:57:02.61] /# gi::executeAction deAddPoint -in [gi::getWindows 8]
+[09:57:02.61] /i de::addPoint {9.35625 1.675} -context [db::getNext [de::getContexts -window 8]]
+[09:57:03.43] /i de::setCursor -point {9.375 1.75 }
+[09:57:05.73] /# gi::executeAction deAbortCommand -in [gi::getWindows 8]
+[09:57:05.73] /i de::abortCommand -context [db::getNext [de::getContexts -window 8]]
+[09:57:08.50] /i gi::executeAction deCanvasDragCancel -in [gi::getWindows 8]
+[09:57:09.72] /# gi::executeAction deSelectActive -in [gi::getWindows 8]
+[09:57:09.72] /i de::deselectAll [db::getNext [de::getContexts -window 8]]
+[09:57:09.72] /i de::deselectAllLogic -context [db::getNext [de::getContexts -window 8]]
+[09:57:15.81] /i gi::setActiveWindow 3
+[09:57:15.81] /i gi::setActiveWindow 3 -raise true
+[09:57:19.31] /i gi::setActiveWindow 4
+[09:57:19.31] /i gi::setActiveWindow 4 -raise true
+[10:01:22.64] /m Information: Stopped sharing "Custom WaveView" license. (WAVEFORM-111)
+[10:05:22.56] /i db::setAttr iconified -of [gi::getFrames 1] -value true
+[10:05:25.44] /i db::setAttr maximized -of [gi::getFrames 1] -value true
+[10:05:25.44] /i db::setAttr iconified -of [gi::getFrames 1] -value false
+[10:05:25.49] /i db::setAttr iconified -of [gi::getFrames 1] -value true
+[10:05:26.84] /i db::setAttr maximized -of [gi::getFrames 1] -value true
+[10:05:26.84] /i db::setAttr iconified -of [gi::getFrames 1] -value false
+[10:05:29.14] /i gi::setActiveWindow 3
+[10:05:29.14] /i gi::setActiveWindow 3 -raise true
+[10:05:30.76] /i gi::setActiveWindow 8
+[10:05:30.76] /i gi::setActiveWindow 8 -raise true
+[10:10:38.30] /# gi::executeAction deSelectActive -in [gi::getWindows 8]
+[10:10:38.30] /i de::deselectAllLogic -context [db::getNext [de::getContexts -window 8]]
+[10:10:39.35] /# gi::executeAction deUndo -in [gi::getWindows 8]
+[10:10:39.35] /i de::undoTransaction -design [db::getAttr editDesign -of [db::getNext [de::getContexts -window 8]]]
+[10:10:39.86] /# gi::executeAction deUndo -in [gi::getWindows 8]
+[10:10:39.86] /i de::undoTransaction -design [db::getAttr editDesign -of [db::getNext [de::getContexts -window 8]]]
+[10:10:40.07] /# gi::executeAction deUndo -in [gi::getWindows 8]
+[10:10:40.07] /i de::undoTransaction -design [db::getAttr editDesign -of [db::getNext [de::getContexts -window 8]]]
+[10:10:40.23] /# gi::executeAction deUndo -in [gi::getWindows 8]
+[10:10:40.23] /i de::undoTransaction -design [db::getAttr editDesign -of [db::getNext [de::getContexts -window 8]]]
+[10:10:40.51] /# gi::executeAction deUndo -in [gi::getWindows 8]
+[10:10:40.51] /i de::undoTransaction -design [db::getAttr editDesign -of [db::getNext [de::getContexts -window 8]]]
+[10:10:40.84] /# gi::executeAction deUndo -in [gi::getWindows 8]
+[10:10:40.84] /i de::undoTransaction -design [db::getAttr editDesign -of [db::getNext [de::getContexts -window 8]]]
+[10:10:41.63] /# gi::executeAction deUndo -in [gi::getWindows 8]
+[10:10:41.63] /i de::undoTransaction -design [db::getAttr editDesign -of [db::getNext [de::getContexts -window 8]]]
+[10:10:42.94] /# gi::executeAction deUndo -in [gi::getWindows 8]
+[10:10:42.94] /i de::undoTransaction -design [db::getAttr editDesign -of [db::getNext [de::getContexts -window 8]]]
+[10:10:43.46] /# gi::executeAction deUndo -in [gi::getWindows 8]
+[10:10:43.46] /i de::undoTransaction -design [db::getAttr editDesign -of [db::getNext [de::getContexts -window 8]]]
+[10:10:43.89] /# gi::executeAction deUndo -in [gi::getWindows 8]
+[10:10:43.89] /i de::undoTransaction -design [db::getAttr editDesign -of [db::getNext [de::getContexts -window 8]]]
+[10:10:46.00] /i gi::executeAction deSaveDesign -in [gi::getWindows 8]
+[10:10:46.00] /m Information: Saving design 'DOAN pulse schematic'. (DESIGN_WINDOW-004)
+[10:10:48.04] /i gi::setActiveWindow 4
+[10:10:48.04] /i gi::setActiveWindow 4 -raise true
+[10:10:49.74] /i gi::executeAction menuPreShow -in [gi::getWindows 4]
+[10:10:49.74] /r giMenuAccess db::getNext [gi::getMenus saConsoleSimMenu -from [gi::getWindows 4]]
+[10:10:50.44] /# gi::executeAction saNetlistAndRun -in [gi::getWindows 4]
+[10:10:50.44] /i isa::netlistAndRun -testbench [sa::findActiveTestbench -window 4] -mode overwrite
+[10:10:50.55] /m Information: "Starting incremental netlisting for design "DOAN/Pulse_FF/schematic"..." (NETLISTING-010)
+[10:10:50.57] /o No Design Integrity rule violations found in "DOAN/Pulse_FF/schematic"
+[10:10:50.58] /m Information: 
+[10:10:50.58] /o Checking "DOAN/NAND/schematic"
+[10:10:50.58] /o No rule violations found in "DOAN/NAND/schematic"
+[10:10:50.58] /m Information: 
+[10:10:50.58] /o Checking "DOAN/NOT/schematic"
+[10:10:50.58] /o No rule violations found in "DOAN/NOT/schematic"
+[10:10:50.58] /m Information: 
+[10:10:50.58] /o Checking "DOAN/DA/schematic"
+[10:10:50.58] /o No rule violations found in "DOAN/DA/schematic"
+[10:10:50.60] /m Information: "DOAN pulse schematic" renetlisted. (NETLISTING-056)
+[10:10:50.61] /m Information: "Netlisting design "DOAN/Pulse_FF/schematic" finished successfully." (NETLISTING-012)
+[10:10:50.62] /m Information: "Composing simulator input file for design "DOAN/Pulse_FF/schematic"..."
+[10:10:50.65] /m Information: "Simulator input file composed successfully for design "DOAN/Pulse_FF/schematic""
+[10:10:50.87] /m Information: "Composing simulator input file for design "DOAN/Pulse_FF/schematic" for 6 iterations..."
+[10:10:51.01] /m Information: "Simulator input file composed successfully for design "DOAN/Pulse_FF/schematic""
+[10:10:51.09] /m Information: "Starting 6 HSPICE simulations for design: DOAN/Pulse_FF/schematic"
+[10:10:51.09] /# gi::collapse {jobMonitorTable} -index {0.0.1.0,0} -in [gi::getWindows 6]
+[10:10:51.13] /m Information: "Simulations launched successfully for design: DOAN/Pulse_FF/schematic"
+[10:10:51.14] /o 1
+[10:10:52.63] /m Information: "Simulation completed successfully for design: DOAN/Pulse_FF/schematic point: t_clk=0.180000n"
+[10:10:53.88] /m Information: "Simulation completed successfully for design: DOAN/Pulse_FF/schematic point: t_clk=0.190000n"
+[10:10:54.00] /m Information: "Simulation completed successfully for design: DOAN/Pulse_FF/schematic point: t_clk=0.200000n"
+[10:10:54.34] /m Information: "Simulation completed successfully for design: DOAN/Pulse_FF/schematic point: t_clk=0.170000n"
+[10:10:55.08] /m Information: "Simulation completed successfully for design: DOAN/Pulse_FF/schematic point: t_clk=0.160000n"
+[10:10:55.76] /m Information: "Simulation completed successfully for design: DOAN/Pulse_FF/schematic point: t_clk=0.150000n"
+[10:10:55.99] /m Information: "Evaluating and plotting outputs..."
+[10:10:56.00] /m Information: Started sharing "Custom WaveView" license. (WAVEFORM-110)
+[10:10:56.23] /j ::wf::WaveView::plotSuccess WaveView_1 {} {_5dc3740_void_pp {_5e0b298_void_pp _5e0b1d0_void_pp _5e0bd88_void_pp _5e09a60_void_pp _5e0bbf8_void_pp _5e0be50_void_pp}} 
+[10:10:56.26] /j ::wf::WaveView::plotSuccess WaveView_1 {} {_5dc3740_void_pp {_5e0b810_void_pp _5e0b748_void_pp _5e0b680_void_pp _5e0bcc0_void_pp _5e0b8d8_void_pp _5e0b428_void_pp}} 
+[10:10:56.31] /j ::wf::WaveView::plotSuccess WaveView_1 {} {_5dc3740_void_pp {_5e0bf18_void_pp _5e0bfe0_void_pp _5e0c0a8_void_pp _5e0b360_void_pp _5e0ac58_void_pp _5e0ab90_void_pp}} 
+[10:10:56.34] /j ::wf::WaveView::plotSuccess WaveView_1 {} {_5dc3740_void_pp {_5e09b28_void_pp _5e09bf0_void_pp _5e09cb8_void_pp _5e0aac8_void_pp _5e0aa00_void_pp _5e0b9a0_void_pp}} 
+[10:10:56.38] /j ::wf::WaveView::plotSuccess WaveView_1 {} {_5dc3740_void_pp {_5e0b5b8_void_pp _5e0b4f0_void_pp _5e0b108_void_pp _5e0b040_void_pp _5e0af78_void_pp _5e0aeb0_void_pp}} 
+[10:10:56.64] /m Information: Measurement calculations completed for testbench: default in 0s
+[10:11:18.71] /i gi::setActiveWindow 4
+[10:11:18.71] /i gi::setActiveWindow 4 -raise true
+[10:11:20.95] /i gi::executeAction menuPreShow -in [gi::getWindows 4]
+[10:11:20.95] /r giMenuAccess db::getNext [gi::getMenus saConsoleSimMenu -from [gi::getWindows 4]]
+[10:11:21.89] /i gi::executeAction menuPreShow -in [gi::getWindows 4]
+[10:11:21.89] /r giMenuAccess db::getNext [gi::getMenus saConsoleSimMenu -from [gi::getWindows 4]]
+[10:11:22.62] /i gi::executeAction menuPreShow -in [gi::getWindows 4]
+[10:11:22.62] /r giMenuAccess db::getNext [gi::getMenus saResultsMenu -from [gi::getWindows 4]]
+[10:11:22.97] /i gi::executeAction menuPreShow -in [gi::getWindows 4]
+[10:11:22.98] /r giMenuAccess db::getNext [gi::getMenus saToolsMenu -from [gi::getWindows 4]]
+[10:11:23.86] /i gi::executeAction menuPreShow -in [gi::getWindows 4]
+[10:11:23.86] /r giMenuAccess db::getNext [gi::getMenus saToolsMenu -from [gi::getWindows 4]]
+[10:11:24.85] /# gi::executeAction saParametric -in [gi::getWindows 4]
+[10:11:24.85] /i sa::showParametricAnalyses -parent 4
+[10:11:24.88] /o oa:0x2443dac0
+[10:11:24.96] /i gi::setActiveDialog [gi::getDialogs {saParametricAnalyses} -parent [gi::getWindows 4]]
+[10:11:25.24] /i db::setAttr geometry -of [gi::getDialogs {saParametricAnalyses} -parent [gi::getWindows 4]] -value 750x360+95+160
+[10:11:35.42] /i gi::setField {/toplevelgrp/rangeDetailsGroup/rangeValGroup/start} -value {150p} -in [gi::getDialogs {saParametricAnalyses} -parent [gi::getWindows 4]]
+[10:11:38.56] /i gi::setField {/toplevelgrp/rangeDetailsGroup/rangeValGroup/stop} -value {100p} -in [gi::getDialogs {saParametricAnalyses} -parent [gi::getWindows 4]]
+[10:11:38.56] /i gi::pressButton {/ok} -in [gi::getDialogs {saParametricAnalyses} -parent [gi::getWindows 4]]
+[10:11:40.46] /i gi::executeAction menuPreShow -in [gi::getWindows 4]
+[10:11:40.46] /r giMenuAccess db::getNext [gi::getMenus saConsoleSimMenu -from [gi::getWindows 4]]
+[10:11:41.43] /# gi::executeAction saNetlistAndRun -in [gi::getWindows 4]
+[10:11:41.43] /i isa::netlistAndRun -testbench [sa::findActiveTestbench -window 4] -mode overwrite
+[10:11:41.51] /m Information: "Starting incremental netlisting for design "DOAN/Pulse_FF/schematic"..." (NETLISTING-010)
+[10:11:41.54] /o No Design Integrity rule violations found in "DOAN/Pulse_FF/schematic"
+[10:11:41.54] /m Information: 
+[10:11:41.54] /o Checking "DOAN/NAND/schematic"
+[10:11:41.54] /o No rule violations found in "DOAN/NAND/schematic"
+[10:11:41.55] /m Information: 
+[10:11:41.55] /o Checking "DOAN/NOT/schematic"
+[10:11:41.55] /o No rule violations found in "DOAN/NOT/schematic"
+[10:11:41.55] /m Information: 
+[10:11:41.55] /o Checking "DOAN/DA/schematic"
+[10:11:41.55] /o No rule violations found in "DOAN/DA/schematic"
+[10:11:41.57] /m Information: "Netlisting design "DOAN/Pulse_FF/schematic" finished successfully." (NETLISTING-012)
+[10:11:41.58] /m Information: "Composing simulator input file for design "DOAN/Pulse_FF/schematic"..."
+[10:11:41.61] /m Information: "Simulator input file composed successfully for design "DOAN/Pulse_FF/schematic""
+[10:11:41.77] /m Information: "Composing simulator input file for design "DOAN/Pulse_FF/schematic" for 6 iterations..."
+[10:11:41.90] /m Information: "Simulator input file composed successfully for design "DOAN/Pulse_FF/schematic""
+[10:11:41.97] /m Information: "Starting 6 HSPICE simulations for design: DOAN/Pulse_FF/schematic"
+[10:11:41.97] /# gi::collapse {jobMonitorTable} -index {0.0.1.0,0} -in [gi::getWindows 6]
+[10:11:42.00] /m Information: "Simulations launched successfully for design: DOAN/Pulse_FF/schematic"
+[10:11:42.01] /o 1
+[10:11:43.42] /m Information: "Simulation completed successfully for design: DOAN/Pulse_FF/schematic point: t_clk=0.140000n"
+[10:11:43.68] /m Information: "Simulation completed successfully for design: DOAN/Pulse_FF/schematic point: t_clk=0.130000n"
+[10:11:44.99] /m Information: "Simulation completed successfully for design: DOAN/Pulse_FF/schematic point: t_clk=0.150000n"
+[10:11:45.07] /m Information: "Simulation completed successfully for design: DOAN/Pulse_FF/schematic point: t_clk=0.120000n"
+[10:11:45.65] /m Information: "Simulation completed successfully for design: DOAN/Pulse_FF/schematic point: t_clk=0.110000n"
+[10:11:46.78] /m Information: "Simulation completed successfully for design: DOAN/Pulse_FF/schematic point: t_clk=0.100000n"
+[10:11:47.24] /m Information: "Evaluating and plotting outputs..."
+[10:11:47.64] /j ::wf::WaveView::plotSuccess WaveView_1 {} {_5fd4520_void_pp {_5e0a488_void_pp _5e0a3c0_void_pp _5e0a2f8_void_pp _5e0bb30_void_pp _5e0a230_void_pp _5e0ba68_void_pp}} 
+[10:11:47.69] /j ::wf::WaveView::plotSuccess WaveView_1 {} {_5fd4520_void_pp {_5e0be50_void_pp _5e0bbf8_void_pp _5e09a60_void_pp _5e0bd88_void_pp _5e0b1d0_void_pp _5e0b298_void_pp}} 
+[10:11:47.78] /j ::wf::WaveView::plotSuccess WaveView_1 {} {_5fd4520_void_pp {_5e0b428_void_pp _5e0b8d8_void_pp _5e0bcc0_void_pp _5e0b680_void_pp _5e0b748_void_pp _5e0b810_void_pp}} 
+[10:11:47.82] /j ::wf::WaveView::plotSuccess WaveView_1 {} {_5fd4520_void_pp {_5e0ab90_void_pp _5e0ac58_void_pp _5e0b360_void_pp _5e0c0a8_void_pp _5e0bfe0_void_pp _5e0bf18_void_pp}} 
+[10:11:47.90] /j ::wf::WaveView::plotSuccess WaveView_1 {} {_5fd4520_void_pp {_5e0b9a0_void_pp _5e0aa00_void_pp _5e0aac8_void_pp _5e09cb8_void_pp _5e09bf0_void_pp _5e09b28_void_pp}} 
+[10:11:48.15] /m Information: Measurement calculations completed for testbench: default in 1s
+[10:16:17.13] /m Information: Waveform viewer exited normally.
+[10:16:20.14] /i gi::setActiveWindow 4
+[10:16:20.14] /i gi::setActiveWindow 4 -raise true
+[10:16:21.61] /i gi::setActiveWindow 6
+[10:16:21.61] /i gi::setActiveWindow 6 -raise true
+[10:16:23.50] /i gi::executeAction giCloseWindow -in [gi::getWindows 6]
+[10:16:23.51] /i gi::setActiveWindow 4
+[10:16:23.51] /i gi::setActiveWindow 4 -raise true
+[10:16:24.70] /i gi::setActiveWindow 3
+[10:16:24.70] /i gi::setActiveWindow 3 -raise true
+[10:16:44.11] /i gi::setActiveWindow 8
+[10:16:44.11] /i gi::setActiveWindow 8 -raise true
+[10:16:45.79] /i gi::setActiveWindow 9
+[10:16:45.79] /i gi::setActiveWindow 9 -raise true
+[10:16:47.10] /# gi::executeAction deSelectActive -in [gi::getWindows 9]
+[10:16:47.10] /i de::deselectAllLogic -context [db::getNext [de::getContexts -window 9]]
+[10:16:52.65] /m Information: Stopped sharing "Custom WaveView" license. (WAVEFORM-111)
+[10:17:46.60] /i gi::setActiveWindow 4
+[10:17:46.60] /i gi::setActiveWindow 4 -raise true
+[10:17:47.77] /i gi::setActiveWindow 3
+[10:17:47.77] /i gi::setActiveWindow 3 -raise true
+[10:17:49.54] /i gi::setActiveWindow 8
+[10:17:49.54] /i gi::setActiveWindow 8 -raise true
+[10:17:51.23] /i gi::setActiveWindow 9
+[10:17:51.23] /i gi::setActiveWindow 9 -raise true
+[10:17:56.85] /# gi::executeAction deSelectActive -in [gi::getWindows 9]
+[10:17:56.85] /i de::deselectAllLogic -context [db::getNext [de::getContexts -window 9]]
+[10:25:21.08] /i gi::setActiveWindow 8
+[10:25:21.08] /i gi::setActiveWindow 8 -raise true
+[10:25:23.00] /i gi::setActiveWindow 3
+[10:25:23.00] /i gi::setActiveWindow 3 -raise true
+[10:25:24.82] /i gi::setActiveWindow 4
+[10:25:24.82] /i gi::setActiveWindow 4 -raise true
+[10:25:25.84] /i gi::setActiveWindow 3
+[10:25:25.84] /i gi::setActiveWindow 3 -raise true
+[10:25:54.29] /i gi::setActiveWindow 4
+[10:25:54.29] /i gi::setActiveWindow 4 -raise true
+[10:25:57.46] /i gi::executeAction menuPreShow -in [gi::getWindows 4]
+[10:25:57.46] /r giMenuAccess db::getNext [gi::getMenus saConsoleSimMenu -from [gi::getWindows 4]]
+[10:25:58.18] /# gi::executeAction saNetlistAndRun -in [gi::getWindows 4]
+[10:25:58.18] /i isa::netlistAndRun -testbench [sa::findActiveTestbench -window 4] -mode overwrite
+[10:25:58.19] /r giWindowId 10
+[10:25:58.21] /r giWindowGeometry 800x600
+[10:25:58.31] /m Information: "Starting incremental netlisting for design "DOAN/Pulse_FF/schematic"..." (NETLISTING-010)
+[10:25:58.32] /o No Design Integrity rule violations found in "DOAN/Pulse_FF/schematic"
+[10:25:58.33] /m Information: 
+[10:25:58.33] /o Checking "DOAN/NAND/schematic"
+[10:25:58.33] /o No rule violations found in "DOAN/NAND/schematic"
+[10:25:58.34] /m Information: 
+[10:25:58.34] /o Checking "DOAN/NOT/schematic"
+[10:25:58.34] /o No rule violations found in "DOAN/NOT/schematic"
+[10:25:58.34] /m Information: 
+[10:25:58.34] /o Checking "DOAN/DA/schematic"
+[10:25:58.34] /o No rule violations found in "DOAN/DA/schematic"
+[10:25:58.36] /m Information: "Netlisting design "DOAN/Pulse_FF/schematic" finished successfully." (NETLISTING-012)
+[10:25:58.37] /m Information: "Composing simulator input file for design "DOAN/Pulse_FF/schematic"..."
+[10:25:58.40] /m Information: "Simulator input file composed successfully for design "DOAN/Pulse_FF/schematic""
+[10:25:58.58] /m Information: "Composing simulator input file for design "DOAN/Pulse_FF/schematic" for 6 iterations..."
+[10:25:58.72] /m Information: "Simulator input file composed successfully for design "DOAN/Pulse_FF/schematic""
+[10:25:58.79] /m Information: "Starting 6 HSPICE simulations for design: DOAN/Pulse_FF/schematic"
+[10:25:58.79] /# gi::collapse {jobMonitorTable} -index {0.0.1.0,0} -in [gi::getWindows 10]
+[10:25:58.83] /m Information: "Simulations launched successfully for design: DOAN/Pulse_FF/schematic"
+[10:25:58.84] /o 1
+[10:26:00.39] /m Information: "Simulation completed successfully for design: DOAN/Pulse_FF/schematic point: t_clk=0.140000n"
+[10:26:00.68] /m Information: "Simulation completed successfully for design: DOAN/Pulse_FF/schematic point: t_clk=0.150000n"
+[10:26:00.72] /m Information: "Simulation completed successfully for design: DOAN/Pulse_FF/schematic point: t_clk=0.130000n"
+[10:26:02.21] /m Information: "Simulation completed successfully for design: DOAN/Pulse_FF/schematic point: t_clk=0.120000n"
+[10:26:03.07] /m Information: "Simulation completed successfully for design: DOAN/Pulse_FF/schematic point: t_clk=0.100000n"
+[10:26:03.16] /m Information: "Simulation completed successfully for design: DOAN/Pulse_FF/schematic point: t_clk=0.110000n"
+[10:26:03.51] /m Information: "Evaluating and plotting outputs..."
+[10:26:03.52] /m Information: Started sharing "Custom WaveView" license. (WAVEFORM-110)
+[10:26:03.54] /m Information: Launching Waveform Viewer "cd /home/itsupport/simulation/DOAN,Pulse_FF,schematic/history_1/simulation/default/HSPICE/parametric/results &&  wv -k -cdesigner -spxkey /usr/synopsys/customcompiler/N-2017.12-SP1-2/auxx/waveform/sae.spxkey -spxrc /tmp/sae_spxrc_eqYZzt -unique_string 6e26531ff480247a69aa7f613a217c24125e8d2b0833b894ed40d2f5efbf27a2fb0c0fc5bd619066fa0610e49f7d505bd02c8cb703bdbf34 -lic_type 1    > /home/itsupport/simulation/DOAN,Pulse_FF,schematic/history_1/simulation/default/HSPICE/parametric/results/viewer.log 2>&1"
+[10:26:03.54] /i gi::collapse {jobMonitorTable} -index {0.0,0} -in [gi::getWindows 10]
+[10:26:04.15] /m Information: Measurement calculations completed for testbench: default in 1s
+[10:26:04.51] /j ::wf::WaveView::plotSuccess WaveView_2 {} {_5cf6f00_void_pp {_5f0a230_void_pp _5f0a2f8_void_pp _5f0a3c0_void_pp _5f0a488_void_pp _5f0a550_void_pp _5f0a618_void_pp}} 
+[10:26:04.65] /j ::wf::WaveView::plotSuccess WaveView_2 {} {_5cf6f00_void_pp {_5f0a6e0_void_pp _5f0a7a8_void_pp _5f0a870_void_pp _5f0a938_void_pp _5f0aa00_void_pp _5f0aac8_void_pp}} 
+[10:26:04.75] /j ::wf::WaveView::plotSuccess WaveView_2 {} {_5cf6f00_void_pp {_5f0ab90_void_pp _5f0ac58_void_pp _5f0ad20_void_pp _5f0ade8_void_pp _5f0aeb0_void_pp _5f0af78_void_pp}} 
+[10:26:04.91] /j ::wf::WaveView::plotSuccess WaveView_2 {} {_5cf6f00_void_pp {_5f0b040_void_pp _5f0b108_void_pp _5f0b1d0_void_pp _5f0b298_void_pp _5f0b360_void_pp _5f0b428_void_pp}} 
+[10:26:04.96] /j ::wf::WaveView::plotSuccess WaveView_2 {} {_5cf6f00_void_pp {_5f0b4f0_void_pp _5f0b5b8_void_pp _5f0b680_void_pp _5f0b748_void_pp _5f0b810_void_pp _5f0b8d8_void_pp}} 
+[10:26:42.17] /m Information: Waveform viewer exited normally.
+[10:26:45.64] /i gi::setActiveWindow 8
+[10:26:45.64] /i gi::setActiveWindow 8 -raise true
+[10:26:46.86] /i gi::setActiveWindow 9
+[10:26:46.86] /i gi::setActiveWindow 9 -raise true
+[10:31:09.64] /m Information: Stopped sharing "Custom WaveView" license. (WAVEFORM-111)
+[10:32:54.73] /# gi::executeAction deSelectActive -in [gi::getWindows 9]
+[10:32:54.73] /i de::deselectAllLogic -context [db::getNext [de::getContexts -window 9]]
+[10:37:06.54] /i gi::setActiveWindow 4
+[10:37:06.54] /i gi::setActiveWindow 4 -raise true
+[10:37:22.55] /i gi::executeAction menuPreShow -in [gi::getWindows 4]
+[10:37:22.56] /r giMenuAccess db::getNext [gi::getMenus saConsoleSimMenu -from [gi::getWindows 4]]
+[10:37:24.25] /# gi::executeAction saNetlistAndRun -in [gi::getWindows 4]
+[10:37:24.25] /i isa::netlistAndRun -testbench [sa::findActiveTestbench -window 4] -mode overwrite
+[10:37:24.33] /m Information: "Starting incremental netlisting for design "DOAN/Pulse_FF/schematic"..." (NETLISTING-010)
+[10:37:24.35] /o No Design Integrity rule violations found in "DOAN/Pulse_FF/schematic"
+[10:37:24.37] /m Information: 
+[10:37:24.37] /o Checking "DOAN/NAND/schematic"
+[10:37:24.37] /o No rule violations found in "DOAN/NAND/schematic"
+[10:37:24.38] /m Information: 
+[10:37:24.38] /o Checking "DOAN/NOT/schematic"
+[10:37:24.38] /o No rule violations found in "DOAN/NOT/schematic"
+[10:37:24.38] /m Information: 
+[10:37:24.38] /o Checking "DOAN/DA/schematic"
+[10:37:24.38] /o No rule violations found in "DOAN/DA/schematic"
+[10:37:24.40] /m Information: "Netlisting design "DOAN/Pulse_FF/schematic" finished successfully." (NETLISTING-012)
+[10:37:24.41] /m Information: "Composing simulator input file for design "DOAN/Pulse_FF/schematic"..."
+[10:37:24.44] /m Information: "Simulator input file composed successfully for design "DOAN/Pulse_FF/schematic""
+[10:37:24.63] /m Information: "Composing simulator input file for design "DOAN/Pulse_FF/schematic" for 6 iterations..."
+[10:37:24.79] /m Information: "Simulator input file composed successfully for design "DOAN/Pulse_FF/schematic""
+[10:37:24.86] /m Information: "Starting 6 HSPICE simulations for design: DOAN/Pulse_FF/schematic"
+[10:37:24.87] /# gi::collapse {jobMonitorTable} -index {0.0.1.0,0} -in [gi::getWindows 10]
+[10:37:24.90] /m Information: "Simulations launched successfully for design: DOAN/Pulse_FF/schematic"
+[10:37:24.91] /o 1
+[10:37:26.55] /m Information: "Simulation completed successfully for design: DOAN/Pulse_FF/schematic point: t_clk=0.130000n"
+[10:37:26.88] /m Information: "Simulation completed successfully for design: DOAN/Pulse_FF/schematic point: t_clk=0.150000n"
+[10:37:26.93] /m Information: "Simulation completed successfully for design: DOAN/Pulse_FF/schematic point: t_clk=0.140000n"
+[10:37:28.48] /m Information: "Simulation completed successfully for design: DOAN/Pulse_FF/schematic point: t_clk=0.120000n"
+[10:37:28.87] /m Information: "Simulation completed successfully for design: DOAN/Pulse_FF/schematic point: t_clk=0.110000n"
+[10:37:28.89] /m Information: "Simulation completed successfully for design: DOAN/Pulse_FF/schematic point: t_clk=0.100000n"
+[10:37:29.12] /m Information: "Evaluating and plotting outputs..."
+[10:37:29.13] /m Information: Started sharing "Custom WaveView" license. (WAVEFORM-110)
+[10:37:29.14] /m Information: Launching Waveform Viewer "cd /home/itsupport/simulation/DOAN,Pulse_FF,schematic/history_1/simulation/default/HSPICE/parametric/results &&  wv -k -cdesigner -spxkey /usr/synopsys/customcompiler/N-2017.12-SP1-2/auxx/waveform/sae.spxkey -spxrc /tmp/sae_spxrc_tIAUzP -unique_string 6e26531ff480247a69aa7f613a217c24125e8d2b0833b894ed40d2f5efbf27a2fb0c0fc5bd61906631efe632285c8c8b1e23af16026175d4 -lic_type 1    > /home/itsupport/simulation/DOAN,Pulse_FF,schematic/history_1/simulation/default/HSPICE/parametric/results/viewer.log 2>&1"
+[10:37:29.15] /i gi::collapse {jobMonitorTable} -index {0.0,0} -in [gi::getWindows 10]
+[10:37:29.76] /m Information: Measurement calculations completed for testbench: default in 0s
+[10:37:30.09] /j ::wf::WaveView::plotSuccess WaveView_3 {} {_5bb5660_void_pp {_5dc9190_void_pp _5dc9258_void_pp _5dc9320_void_pp _5dc93e8_void_pp _5dc94b0_void_pp _5dc9578_void_pp}} 
+[10:37:30.21] /j ::wf::WaveView::plotSuccess WaveView_3 {} {_5bb5660_void_pp {_5dc9640_void_pp _5dc9708_void_pp _5dc97d0_void_pp _5dc9898_void_pp _5dc9960_void_pp _5dc9a28_void_pp}} 
+[10:37:30.39] /j ::wf::WaveView::plotSuccess WaveView_3 {} {_5bb5660_void_pp {_5dc9af0_void_pp _5dc9bb8_void_pp _5dc9c80_void_pp _5dc9d48_void_pp _5dc9e10_void_pp _5dc9ed8_void_pp}} 
+[10:37:30.54] /j ::wf::WaveView::plotSuccess WaveView_3 {} {_5bb5660_void_pp {_5dc9fa0_void_pp _5dca068_void_pp _5dca130_void_pp _5dca1f8_void_pp _5dca2c0_void_pp _5dca388_void_pp}} 
+[10:37:30.59] /j ::wf::WaveView::plotSuccess WaveView_3 {} {_5bb5660_void_pp {_5dca450_void_pp _5dca518_void_pp _5dca5e0_void_pp _5dca6a8_void_pp _5dca770_void_pp _5dca838_void_pp}} 
+[10:39:25.95] /m Information: Waveform viewer exited normally.
+[10:39:27.09] /i gi::setActiveWindow 3
+[10:39:27.09] /i gi::setActiveWindow 3 -raise true
+[10:39:28.44] /# gi::executeAction deSelectActive -in [gi::getWindows 3]
+[10:39:28.44] /i de::deselectAll [db::getNext [de::getContexts -window 3]]
+[10:39:28.44] /i de::deselectAllLogic -context [db::getNext [de::getContexts -window 3]]
+[10:39:43.51] /r giDialog gi::setActiveDialog [gi::getDialogs {giCloseFrame}]
+[10:39:43.78] /r giDialog db::setAttr geometry -of [gi::getDialogs {giCloseFrame}] -value 299x108+811+447
+[10:39:47.12] /r giDialog gi::pressButton {giCloseTabsButton} -in [gi::getDialogs {giCloseFrame}]
+[10:39:47.14] /i exit
+[10:39:47.23] /r giDialog gi::setActiveDialog [gi::getDialogs {deExitDialog}]
+[10:39:47.44] /r giDialog db::setAttr geometry -of [gi::getDialogs {deExitDialog}] -value 419x181+741+352
+[10:39:48.86] /r giDialog gi::pressButton {ok} -in [gi::getDialogs {deExitDialog}]
+[10:39:48.90] /i gi::setActiveWindow 10
+[10:39:48.90] /i gi::setActiveWindow 10 -raise true
+[10:39:48.99] /i gi::setActiveWindow 4
+[10:39:48.99] /i gi::setActiveWindow 4 -raise true
+[10:39:49.11] /r giDialog gi::setActiveDialog [gi::getDialogs {giPrompt} -parent [gi::getWindows 4]]
+[10:39:49.37] /r giDialog db::setAttr geometry -of [gi::getDialogs {giPrompt} -parent [gi::getWindows 4]] -value 292x82+814+460
+[10:39:52.04] /r giDialog gi::pressButton {discard} -in [gi::getDialogs {giPrompt} -parent [gi::getWindows 4]]
+[10:39:52.06] /i gi::setActiveWindow 9
+[10:39:52.06] /i gi::setActiveWindow 9 -raise true
+[10:39:52.12] /m Information: License 'SAE' checked in. (LICENSE-004)
+[10:39:52.15] /i gi::setActiveWindow 8
+[10:39:52.15] /i gi::setActiveWindow 8 -raise true
+[10:39:52.20] /i gi::setActiveWindow 2
+[10:39:52.20] /i gi::setActiveWindow 2 -raise true
+[10:39:52.24] /i gi::setActiveWindow 1
+[10:39:52.24] /i gi::setActiveWindow 1 -raise true
+[10:39:52.40] /o Shutdown time: Sat Apr 25 10:39:52 2026
+[10:39:52.40] /o Elapsed session real time: 1 hour 23.31 minutes
+[10:39:52.40] /o Session terminated. Log is at /home/itsupport/Desktop/DOAN/synopsys_custom/logs/ccompiler.itsupport.2026_4_25_091631_3217.log

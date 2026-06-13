@@ -1,0 +1,31 @@
+[16:26:17.46] /m Information: License 'SAE' checked out. (LICENSE-003)
+[16:26:18.72] /o sae_shell Version Custom Compiler N-2017.12-SP1-2
+              /c Build  (OPT) compiled on Wed May 16 15:20:56 2018 for RHEL64 6.6
+              /c Execution time: Sat May  9 16:26:16 2026
+              /c Host: localhost.localdomain
+              /c 
+              /c Copyright © 2004-2018 Synopsys, Inc.
+              /c This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, or distribution of this software is strictly prohibited.
+              /c 
+              /c 
+[16:26:18.73] /w Warning: Preference 'leActiveLPP' is deprecated and scheduled for removal in a future release with no replacement. For migration assistance, see the Custom Compiler Tcl Reference Manual. (PREFERENCE-058)
+[16:26:18.73] /o 	#######################################
+[16:26:18.73] /o 	PDK Library Name	: reference90RF
+[16:26:18.73] /o 	PDK Version		: 2.0
+[16:26:18.73] /o 	PDK Release Date	: 25-March-2010 
+[16:26:18.73] /o 	#######################################
+[16:26:18.73] /o 
+[16:26:18.74] /i ::sa::_backgroundSaeShell::signalProcessReady 1778318776
+[16:26:18.74] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::processReady 2
+[16:31:19.74] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[16:31:19.76] /i ::sa::_backgroundSaeShell::parentRunning
+[16:31:19.76] /o 1778319079
+[16:36:20.74] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[16:36:20.75] /i ::sa::_backgroundSaeShell::parentRunning
+[16:36:20.75] /o 1778319380
+[16:41:21.75] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[16:41:21.86] /i ::sa::_backgroundSaeShell::parentRunning
+[16:41:21.86] /o 1778319681
+[16:43:13.35] /i ::wf::viewerExited
+[16:43:18.44] /i ::sa::_backgroundSaeShell::exit
+[16:43:18.44] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::childFormallyExiting

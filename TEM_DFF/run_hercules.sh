@@ -1,0 +1,2 @@
+#!/bin/sh
+cd /home/itsupport/Desktop/DOAN/TEM_DFF; unset TCLLIBPATH; unset TCL_LIBRARY; exec-oa22.04.hercules hercules_oa -f openaccess -i D_FF -b dff_temp -p . -O gdsii -o dff_temp_result.gds -s /home/itsupport/Desktop/DOAN/synopsys_custom/dff_temp.hercules.lvs/dff_temp.custom_compiler.sp -sf CDL -stb dff_temp /home/itsupport/Desktop/DOAN/TEM_DFF/reference_lvs.lvs.evx > /home/itsupport/Desktop/DOAN/TEM_DFF/stdout.lvs.log 2>&1

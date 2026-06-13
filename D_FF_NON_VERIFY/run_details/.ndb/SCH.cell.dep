@@ -1,0 +1,3 @@
+tranmision { }
+dff_nonoverlap { not tranmision }
+not { }

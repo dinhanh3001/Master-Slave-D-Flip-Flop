@@ -1,0 +1,2 @@
+#!/bin/sh
+cd /home/itsupport/Desktop/DOAN/FF_VERIFY; unset TCLLIBPATH; unset TCL_LIBRARY; exec-oa22.04.hercules hercules_oa -f openaccess -i DOAN -b Pulse_FF -p . -O gdsii -o Pulse_FF_result.gds -s /home/itsupport/Desktop/DOAN/synopsys_custom/Pulse_FF.hercules.lvs/Pulse_FF.custom_compiler.sp -sf CDL -stb Pulse_FF /home/itsupport/Desktop/DOAN/FF_VERIFY/reference_lvs.lvs.evx > /home/itsupport/Desktop/DOAN/FF_VERIFY/stdout.lvs.log 2>&1

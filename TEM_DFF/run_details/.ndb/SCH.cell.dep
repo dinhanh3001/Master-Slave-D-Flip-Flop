@@ -1,0 +1,3 @@
+tranmision { }
+not { }
+dff_temp { not tranmision }

@@ -1,0 +1,55 @@
+[10:09:35.12] /m Information: License 'SAE' checked out. (LICENSE-003)
+[10:09:36.64] /o sae_shell Version Custom Compiler N-2017.12-SP1-2
+              /c Build  (OPT) compiled on Wed May 16 15:20:56 2018 for RHEL64 6.6
+              /c Execution time: Tue May  5 10:09:33 2026
+              /c Host: localhost.localdomain
+              /c 
+              /c Copyright © 2004-2018 Synopsys, Inc.
+              /c This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, or distribution of this software is strictly prohibited.
+              /c 
+              /c 
+[10:09:36.69] /w Warning: Preference 'leActiveLPP' is deprecated and scheduled for removal in a future release with no replacement. For migration assistance, see the Custom Compiler Tcl Reference Manual. (PREFERENCE-058)
+[10:09:36.71] /o 	#######################################
+[10:09:36.71] /o 	PDK Library Name	: reference90RF
+[10:09:36.71] /o 	PDK Version		: 2.0
+[10:09:36.71] /o 	PDK Release Date	: 25-March-2010 
+[10:09:36.71] /o 	#######################################
+[10:09:36.71] /o 
+[10:09:36.71] /i ::sa::_backgroundSaeShell::signalProcessReady 1777950571
+[10:09:36.71] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::processReady 5
+[10:10:17.95] /i ::sa::_backgroundSaeShell::runScript /home/itsupport/simulation/D_FF,tranmision_test,schematic/history_1/simulation/default/HSPICE/nominal/.bg_measurement_script.tcl sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession0 testbenchName default resultsDir /home/itsupport/simulation/D_FF,tranmision_test,schematic/history_1/simulation/default/HSPICE/nominal/results testSuiteDir /home/itsupport/simulation/D_FF,tranmision_test,schematic/history_1/simulation/default/HSPICE/nominal databaseName /home/itsupport/simulation/D_FF,tranmision_test,schematic/history_1/simulation/default/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[10:10:18.17] /m Information: Expression 'v(/net5)' did not evaluate: No results found.
+[10:10:18.17] /m Information: Expression 'v(/net10)' did not evaluate: No results found.
+[10:10:18.17] /m Information: Expression 'v(/net7)' did not evaluate: No results found.
+[10:10:18.17] /m Information: Expression 'v(/out)' did not evaluate: No results found.
+[10:10:18.26] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::scriptFinished 0.3 {} sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession0 testbenchName default resultsDir /home/itsupport/simulation/D_FF,tranmision_test,schematic/history_1/simulation/default/HSPICE/nominal/results testSuiteDir /home/itsupport/simulation/D_FF,tranmision_test,schematic/history_1/simulation/default/HSPICE/nominal databaseName /home/itsupport/simulation/D_FF,tranmision_test,schematic/history_1/simulation/default/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[10:10:18.26] /o false
+[10:10:48.99] /i ::sa::_backgroundSaeShell::runScript /home/itsupport/simulation/D_FF,tranmision_test,schematic/history_1/simulation/default/HSPICE/nominal/.bg_measurement_script.tcl sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession0 testbenchName default resultsDir /home/itsupport/simulation/D_FF,tranmision_test,schematic/history_1/simulation/default/HSPICE/nominal/results testSuiteDir /home/itsupport/simulation/D_FF,tranmision_test,schematic/history_1/simulation/default/HSPICE/nominal databaseName /home/itsupport/simulation/D_FF,tranmision_test,schematic/history_1/simulation/default/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[10:10:50.22] /m Information: Started sharing "Custom WaveView" license. (WAVEFORM-110)
+[10:10:50.32] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::scriptFinished 1.3 {} sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession0 testbenchName default resultsDir /home/itsupport/simulation/D_FF,tranmision_test,schematic/history_1/simulation/default/HSPICE/nominal/results testSuiteDir /home/itsupport/simulation/D_FF,tranmision_test,schematic/history_1/simulation/default/HSPICE/nominal databaseName /home/itsupport/simulation/D_FF,tranmision_test,schematic/history_1/simulation/default/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[10:10:50.32] /o false
+[10:15:51.73] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[10:15:51.77] /i ::sa::_backgroundSaeShell::parentRunning
+[10:15:51.77] /o 1777950951
+[10:15:55.66] /m Information: Stopped sharing "Custom WaveView" license. (WAVEFORM-111)
+[10:16:03.69] /i ::sa::_backgroundSaeShell::runScript /home/itsupport/simulation/D_FF,tranmision_test,schematic/history_1/simulation/default/HSPICE/nominal/.bg_measurement_script.tcl sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession0 testbenchName default resultsDir /home/itsupport/simulation/D_FF,tranmision_test,schematic/history_1/simulation/default/HSPICE/nominal/results testSuiteDir /home/itsupport/simulation/D_FF,tranmision_test,schematic/history_1/simulation/default/HSPICE/nominal databaseName /home/itsupport/simulation/D_FF,tranmision_test,schematic/history_1/simulation/default/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[10:16:04.11] /m Information: Started sharing "Custom WaveView" license. (WAVEFORM-110)
+[10:16:04.35] /e Error: Evaluating 'v(/net7)': "Could not find net named: net7" (HIERARCHY_COMMANDS-007)
+[10:16:04.46] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::scriptFinished 0.7 {} sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession0 testbenchName default resultsDir /home/itsupport/simulation/D_FF,tranmision_test,schematic/history_1/simulation/default/HSPICE/nominal/results testSuiteDir /home/itsupport/simulation/D_FF,tranmision_test,schematic/history_1/simulation/default/HSPICE/nominal databaseName /home/itsupport/simulation/D_FF,tranmision_test,schematic/history_1/simulation/default/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[10:16:04.46] /o false
+[10:16:40.19] /i ::sa::_backgroundSaeShell::runScript /home/itsupport/simulation/D_FF,tranmision_test,schematic/history_1/simulation/default/HSPICE/nominal/.bg_measurement_script.tcl sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession0 testbenchName default resultsDir /home/itsupport/simulation/D_FF,tranmision_test,schematic/history_1/simulation/default/HSPICE/nominal/results testSuiteDir /home/itsupport/simulation/D_FF,tranmision_test,schematic/history_1/simulation/default/HSPICE/nominal databaseName /home/itsupport/simulation/D_FF,tranmision_test,schematic/history_1/simulation/default/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[10:16:40.48] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::scriptFinished 0.2 {} sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession0 testbenchName default resultsDir /home/itsupport/simulation/D_FF,tranmision_test,schematic/history_1/simulation/default/HSPICE/nominal/results testSuiteDir /home/itsupport/simulation/D_FF,tranmision_test,schematic/history_1/simulation/default/HSPICE/nominal databaseName /home/itsupport/simulation/D_FF,tranmision_test,schematic/history_1/simulation/default/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[10:16:40.48] /o false
+[10:16:58.57] /i ::wf::viewerExited
+[10:17:15.70] /i ::sa::_backgroundSaeShell::runScript /home/itsupport/simulation/D_FF,tranmision_test,schematic/history_1/simulation/default/HSPICE/nominal/.bg_measurement_script.tcl sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession0 testbenchName default resultsDir /home/itsupport/simulation/D_FF,tranmision_test,schematic/history_1/simulation/default/HSPICE/nominal/results testSuiteDir /home/itsupport/simulation/D_FF,tranmision_test,schematic/history_1/simulation/default/HSPICE/nominal databaseName /home/itsupport/simulation/D_FF,tranmision_test,schematic/history_1/simulation/default/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[10:17:16.20] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::scriptFinished 0.4 {} sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession0 testbenchName default resultsDir /home/itsupport/simulation/D_FF,tranmision_test,schematic/history_1/simulation/default/HSPICE/nominal/results testSuiteDir /home/itsupport/simulation/D_FF,tranmision_test,schematic/history_1/simulation/default/HSPICE/nominal databaseName /home/itsupport/simulation/D_FF,tranmision_test,schematic/history_1/simulation/default/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[10:17:16.20] /o false
+[10:20:30.99] /i ::sa::_backgroundSaeShell::runScript /home/itsupport/simulation/D_FF,tranmision_test,schematic/history_1/simulation/default/HSPICE/nominal/.bg_measurement_script.tcl sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession0 testbenchName default resultsDir /home/itsupport/simulation/D_FF,tranmision_test,schematic/history_1/simulation/default/HSPICE/nominal/results testSuiteDir /home/itsupport/simulation/D_FF,tranmision_test,schematic/history_1/simulation/default/HSPICE/nominal databaseName /home/itsupport/simulation/D_FF,tranmision_test,schematic/history_1/simulation/default/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[10:20:31.29] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::scriptFinished 0.2 {} sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession0 testbenchName default resultsDir /home/itsupport/simulation/D_FF,tranmision_test,schematic/history_1/simulation/default/HSPICE/nominal/results testSuiteDir /home/itsupport/simulation/D_FF,tranmision_test,schematic/history_1/simulation/default/HSPICE/nominal databaseName /home/itsupport/simulation/D_FF,tranmision_test,schematic/history_1/simulation/default/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[10:20:31.29] /o false
+[10:24:03.19] /i ::wf::viewerExited
+[10:25:32.76] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[10:25:32.77] /i ::sa::_backgroundSaeShell::parentRunning
+[10:25:32.77] /o 1777951532
+[10:25:33.77] /i ::sa::_backgroundSaeShell::exit
+[10:25:33.77] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::childFormallyExiting
